@@ -1,5 +1,5 @@
 before_install:
-  - "sudo apt-get update > /dev/null && sudo apt-get install --no-install-recommends texlive-latex-recommended dvipng poppler-utils > /dev/null"
+  - "#sudo apt-get update > /dev/null && sudo apt-get install --no-install-recommends texlive-latex-recommended dvipng poppler-utils > /dev/null"
 script:
   - #bin/test.sh
   - echo Success anyway!
