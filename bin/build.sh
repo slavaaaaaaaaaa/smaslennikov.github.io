@@ -9,11 +9,14 @@ fi
 
 echo "Building your haikus..."
 cd haiku/
-rm index.html
+tmpfile=$(mktemp)
 while read -r line; do
     if [ ! "$line" == "index.html" ]; then
         name=$(echo $line | sed -e 's/.txt//')
         author=$(git show --format="%aN" $(git blame $line | head -n1 | cut -d" " -f 1) | head -n1)
-        echo -e "<h3>$name by $author</h3><embed src=\"$line\" height="70">" >> index.html
+        date=$(git show --format="%ai" $(git blame $line | head -n1 | cut -d" " -f 1) | head -n1 | cut -d" " -f 1,2 | sed -e 's/ /T/')
+        echo -e "hello the pizza is ready $date<h4>$name by $author on $date</h4><embed src=\"$line\" height="70">" >> $tmpfile
     fi
-done <<< "$(while read file; do echo $(git log --pretty=format:%ad -n 1 --date=raw -- $file) $file; done < <(git ls-tree -r --name-only HEAD) | sort -k1 -r | cut -d" " -f 3)"
+done <<< "$(while read file; do echo $(git log --pretty=format:%ad -n 1 --date=raw -- $file) $file; done < <(git ls-tree -r --name-only HEAD) | cut -d" " -f 3)"
+
+sort -k6 -r $tmpfile | sed -e 's/^.*<h4>/<h4>/g' | sed -e 's/\(....-..-..\)T\(.*\)/\1 \2/' -e 's/Z$//' > index.html
