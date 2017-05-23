@@ -1,0 +1,3 @@
+docker works on macs
+docker works as well as ducks
+bash scripts work better
