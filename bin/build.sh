@@ -15,7 +15,7 @@ while read -r line; do
         name=$(echo $line | sed -e 's/.txt//')
         author=$(git show --format="%aN" $(git blame $line | head -n1 | cut -d" " -f 1) | head -n1)
         date=$(git show --format="%ai" $(git blame $line | head -n1 | cut -d" " -f 1) | head -n1 | cut -d" " -f 1,2 | sed -e 's/ /T/')
-        echo -e "hello the pizza is ready $date<h4>$name by $author on $date</h4><embed src=\"$line\" height="70">" >> $tmpfile
+        echo -e "hello the pizza is ready $date<h4>$name by $author on $date</h4><embed src=\"$line\" height="$(echo "$(cat $line | wc -l)*26" | bc)">" >> $tmpfile
     fi
 done <<< "$(while read file; do echo $(git log --pretty=format:%ad -n 1 --date=raw -- $file) $file; done < <(git ls-tree -r --name-only HEAD) | cut -d" " -f 3)"
 
