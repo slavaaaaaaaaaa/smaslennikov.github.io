@@ -11,7 +11,7 @@ echo "Building your haikus..."
 cd haiku/
 tmpfile=$(mktemp)
 while read -r line; do
-    if [ ! "$line" == "index.html" ]; then
+    if [[ "$line" == *".txt" ]]; then
         name=$(echo $line | sed -e 's/.txt//')
         author=$(git show --format="%aN" $(git blame $line | head -n1 | cut -d" " -f 1) | head -n1)
         date=$(git show --format="%ai" $(git blame $line | head -n1 | cut -d" " -f 1) | head -n1 | cut -d" " -f 1,2 | sed -e 's/ /T/')
