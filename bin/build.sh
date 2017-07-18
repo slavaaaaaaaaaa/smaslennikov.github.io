@@ -8,7 +8,7 @@ if [ $(which pdflatex) ]; then
 fi
 
 echo "Building your haikus..."
-cd haiku/
+cd rhymes/
 tmpfile=$(mktemp)
 while read -r line; do
     if [[ "$line" == *".txt" ]]; then
