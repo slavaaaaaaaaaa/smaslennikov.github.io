@@ -1,5 +1,29 @@
-[user]
-	email = slobber@slob.pinchesarbol.es
-	name = slobber
 [push]
 	default = matching
+[user]
+	signingkey = 0xE540F5AE106445F5
+	email = slava.maslennikov@grindr.com
+	name = Slava Maslennikov
+[alias]
+	co = checkout
+[apply]
+	whitespace = nowarn
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[commit]
+	gpgsign = true
