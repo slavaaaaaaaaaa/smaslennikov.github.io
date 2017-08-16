@@ -1,0 +1,14 @@
+bindkey "^[Od" prev  # change window with ctrl-left
+bindkey "^[Oc" next  # change window with ctrl-right
+
+termcapinfo rxvt* ti@:te@
+urxvt*font:    xft:Bitstream Vera Sans Mono:size=11:autohinting=true
+shelltitle '$ |bash'
+
+altscreen on
+
+backtick 0 30 30 sh -c 'screen -ls | grep --color=no -o "$PPID[^[:space:]]*"'
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{= KW} %H [%`] %{= Kw}|%{-} %-Lw%{= bW}%n%f %t%{-}%+Lw %=%c:%s %Y-%M-%d"

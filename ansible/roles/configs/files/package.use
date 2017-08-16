@@ -1,0 +1,2 @@
+mail-client/mutt berkdb crypt debug doc gdbm gnutls gpg idn imap kerberos mbox nls nntp pop qdbm sasl selinux sidebar slang smime smtp ssl tokyocabinet
+media-sound/mpd alsa bzip2 curl ffmpeg fifo id3tag ipv6 mad network systemd tcpd unicode -adplug -ao -cdio -debug -faad -fluidsynth -gme -inotify -jack -libav -libmpdclient -libsamplerate -mikmod -mms -modplug -mpg123 -musepack -ogg -openal -opus -oss -pipe -pulseaudio -recorder soundcloud audiofile flac lame twolame vorbis

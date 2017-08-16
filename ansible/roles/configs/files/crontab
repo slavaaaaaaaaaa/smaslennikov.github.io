@@ -1,0 +1,16 @@
+# for cronie
+# $Id$
+
+# Global variables
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+HOME=/
+
+# check scripts in cron.hourly, cron.daily, cron.weekly and cron.monthly
+59  *  * * *	root	rm -f /var/spool/cron/lastrun/cron.hourly
+9  3  * * *	root	rm -f /var/spool/cron/lastrun/cron.daily
+19 4  * * 6	root	rm -f /var/spool/cron/lastrun/cron.weekly
+29 5  1 * *	root	rm -f /var/spool/cron/lastrun/cron.monthly
+*/10  *  * * *	root	test -x /usr/sbin/run-crons && /usr/sbin/run-crons
+#00 23  * * *   root    /etc/cron.others/confsync.sh > /var/log/confsync.log 2>&1; rsync /var/log/confsync.log /usr/backups/; cat /var/log/confsync.log | /usr/bin/logger -t confsync.sh

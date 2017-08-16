@@ -1,0 +1,31 @@
+---
+- name: Create wheel group
+  group:
+    name: wheel
+    state: present
+
+- name: Create slava user
+  user:
+    name: slava
+    comment: "Slava Maslennikov"
+    groups: wheel
+    generate_ssh_key: yes
+    ssh_key_bits: 4096
+    ssh_key_type: rsa
+    ssh_key_file: .ssh/id_rsa
+    ssh_key_passphrase: "{{ ssh_key_passphrase }}"
+    password: "{{ vps_slava_password }}"
+
+- name: Add our pubkeys
+  authorized_key:
+    user: slava
+    state: present
+    key: https://github.com/smaslennikov.keys
+
+- name: Allow %wheel sudo
+  lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: '^%wheel'
+    line: '%wheel ALL=(ALL) ALL'
+

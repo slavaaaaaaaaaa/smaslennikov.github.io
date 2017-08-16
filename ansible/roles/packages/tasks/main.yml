@@ -1,0 +1,34 @@
+---
+- name: Install epel
+  yum:
+    name: epel-release
+    state: latest
+
+- name: Install packages
+  yum: name={{ item }} state=latest update_cache=true
+  with_items:
+    #- mpc
+    #- ncmpcpp
+    - ansible
+    - bitlbee
+    - cowsay
+    - cronie
+    - fail2ban
+    - fortune-mod
+    - git
+    - htop
+    - lsof
+    - mosh
+    - mutt
+    - ncurses
+    - nmap
+    - python-pip
+    - rancid
+    - reptyr
+    - screen
+    - sqlite
+    - sudo
+    - tcpdump
+    - traceroute
+    - vim
+    - weechat

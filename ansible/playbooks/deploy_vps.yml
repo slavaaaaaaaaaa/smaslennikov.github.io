@@ -1,0 +1,16 @@
+---
+- name: Configure a personal VPS with all the usual things
+  hosts: all
+  become: true
+  serial: 100%
+
+  roles:
+   - accounts
+   - dotfiles
+   - packages
+   - configs
+   - clone_my_repos
+   - gpg-keys
+   - mutt
+   - weechat_personal
+   - weechat_work

@@ -1,0 +1,5 @@
+[user]
+	email = slobber@slob.pinchesarbol.es
+	name = slobber
+[push]
+	default = matching
