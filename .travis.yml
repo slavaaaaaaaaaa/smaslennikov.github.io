@@ -1,11 +1,21 @@
+---
+language: python
+python:
+  - '2.7'
+  - '3.5'
+
 before_install:
   - "#sudo apt-get update > /dev/null && sudo apt-get install --no-install-recommends texlive-latex-recommended dvipng poppler-utils > /dev/null"
+
+cache:
+  pip: true
+
+install:
   - pip install ansible
 
 script:
   - #bin/test.sh
   - echo Success anyway!
-  - exit 0
   - |
     find playbooks/ -type f \( -iname '*.yml' -or -iname '*.yaml' \) | while read playbook ; do
       ansible-playbook -i inventory/test.ini $playbook --syntax-check
