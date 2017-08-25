@@ -34,4 +34,4 @@
     - "{{ role_path }}/files/script"
 
 - name: run weechat_work in a screen
-  command: "(screen -ls | grep pizzadough) && (screen -S pizzadough -X screen -t workchat -dm weechat -d /home/slava/.weechat_work) || (screen -S pizzadough -t workchat -A -d -m weechat -d /home/slava/.weechat_work)"
+  shell: "(! (ps -ef | grep -q weechat_work | grep -v grep) && (screen -ls | grep pizzadough) ) && (screen -S pizzadough -X screen -t workchat -dm weechat -d /home/slava/.weechat_work) || (screen -S pizzadough -t workchat -A -d -m weechat -d /home/slava/.weechat_work)"

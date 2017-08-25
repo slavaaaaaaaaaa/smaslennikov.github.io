@@ -22,7 +22,6 @@ function _foreground_calc {
 }
 
 export TERMINFO=/etc/terminfo
-export TERM=linux
 
 ARCH='x64'
 PATH="$PATH:/sbin:/usr/sbin/:/home/slobber/bin"
