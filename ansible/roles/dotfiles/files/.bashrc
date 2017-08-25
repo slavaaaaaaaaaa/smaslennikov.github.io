@@ -8,9 +8,11 @@ if [[ $- != *i* ]] ; then
 fi
 
 function _foreground_calc {
+    # thanks centos
+    shasum_cmd=$(which shasum || echo sha1sum)
     # reject these colors for being too dark
     local reject=([0]=a [16]=a [17]=a [18]=a [19]=a [232]=a [233]=a [234]=a [235]=a [236]=a [237]=a [238]=a)
-    echo "$1" | shasum | while read -n2 num; do
+    echo "$1" | $shasum_cmd | while read -n2 num; do
     local num=$((16#$num))
     if [ -z "${reject[$num]}" ]; then
         echo $num
@@ -18,6 +20,9 @@ function _foreground_calc {
     fi
     done
 }
+
+export TERMINFO=/etc/terminfo
+export TERM=linux
 
 ARCH='x64'
 PATH="$PATH:/sbin:/usr/sbin/:/home/slobber/bin"

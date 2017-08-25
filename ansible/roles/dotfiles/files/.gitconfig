@@ -2,7 +2,7 @@
 	default = matching
 [user]
 	signingkey = 0xE540F5AE106445F5
-	email = slava.maslennikov@grindr.com
+	email = me@smaslennikov.com
 	name = Slava Maslennikov
 [alias]
 	co = checkout

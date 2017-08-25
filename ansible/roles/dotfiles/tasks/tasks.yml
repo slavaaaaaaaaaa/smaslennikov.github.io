@@ -1,0 +1,9 @@
+---
+- name: install the beloved dotfiles
+  copy:
+    src: "{{ item }}"
+    dest: '/home/slava/'
+    owner: slava
+    group: slava
+  with_fileglob:
+    - "{{ role_path }}/files/.*"
