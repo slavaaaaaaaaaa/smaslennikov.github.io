@@ -6,6 +6,7 @@ urxvt*font:    xft:Bitstream Vera Sans Mono:size=11:autohinting=true
 shelltitle '$ |bash'
 
 altscreen on
+term screen-256color
 
 backtick 0 30 30 sh -c 'screen -ls | grep --color=no -o "$PPID[^[:space:]]*"'
 
