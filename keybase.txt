@@ -1,11 +1,11 @@
 ==================================================================
-https://keybase.io/slobber
+https://keybase.io/smaslennikov
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of http://smaslennikov.com
-  * I am slobber (https://keybase.io/slobber) on keybase.
+  * I am smaslennikov (https://keybase.io/smaslennikov) on keybase.
   * I have a public key with fingerprint 1093 2C55 A4BE 1E34 84F3  74D9 E540 F5AE 1064 45F5
 
 To do so, I am signing this object:
@@ -13,13 +13,13 @@ To do so, I am signing this object:
 {
   "body": {
     "key": {
-      "eldest_kid": "0101fa6ac31f6f517133cdbbea5bcc9fa1418f92de85d6c751dd3a582b63a4bece140a",
+      "eldest_kid": "01209c653ab7dec16af6eef7ba87099217a680dcbc71356caf0d4007be29056dae900a",
       "fingerprint": "10932c55a4be1e3484f374d9e540f5ae106445f5",
       "host": "keybase.io",
       "key_id": "e540f5ae106445f5",
       "kid": "0101fa6ac31f6f517133cdbbea5bcc9fa1418f92de85d6c751dd3a582b63a4bece140a",
-      "uid": "03150ff442389bc8441607933925d719",
-      "username": "slobber"
+      "uid": "810c3bf13e9f8bdeaadcca3cb9361d19",
+      "username": "smaslennikov"
     },
     "service": {
       "hostname": "smaslennikov.com",
@@ -28,10 +28,10 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1503966753,
+  "ctime": 1505240912,
   "expire_in": 157680000,
-  "prev": "a896bd623034c1d768270533424d3055cbaf3af98f8edc7f8dead214a42b70be",
-  "seqno": 7,
+  "prev": "2cf7bfcf59fd36fa73a11c024408ec6651e61c474f3a992b74c3c8a747ce858e",
+  "seqno": 12,
   "tag": "signature"
 }
 
@@ -39,34 +39,35 @@ which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owGtkm1QFVUYxy8YYVdgkJSiAZJ1hoFkbHfPvt6Bq5gYSGWTeEfRvLO75yws3Lt7
-uXu5IIpvQKGGgpYm1S1ExzGJwWFC48UpYDJpeHHKkQhHahSiNCaaQcmSdi2/9bHz
-5cx5zu//f/7PmVMbPs9iDcroYI52L07vCvp6UrRsOtmWuh0TNbgNs23HCtHDDbkg
-0n3OQgViNgwncEIWGEEChMzINMESAEhQFJFAi5LEywJBEZzMkxBxNGQkliYgBALN
-kSIDBEpEEiIoXMBSMFlR85DX41VUn2FL4DwgJZo2EQIBiqNkwFKQRzSFy7SACJyh
-KFqmDWG+ppsKI5wo6Gi5ohk14+B8GO8/+P85d/E/doCgcVmmKBJwvChxFEUwOMsD
-wJM0ZAneBHXkVQU3MmjdpRmdvFh5CmYU/YqEzHc1B3kEuAXdhVRVKdT8yyXNbcg9
-Xs2nSZrLuM33+Tw2U+zb5jHpEiQ6//VxiooKjZc0BH7k1RVNxWyEQUo+xTQ2QgKe
-YVgapGCo1KN4kVMxCZplONxYZhvkNywFjmfEXMiQAAeUREDjnmRxGgCKpCDAaVoS
-BRkIMs/JHIISK3MQCZAkKIEiRRYXEWaOVqRqmI01cgp55lBKnir4ir0IK7fuC459
-zBJktTweEmz+MYv1ichHH284ONLy0a0K0hEWE93Zd2DHoB0lN7clji/buco9/rG9
-uXr9sTJ72MvtvV8OutYOvXf6XW0zu7kpLW7a3/J7put6vDL1TckkTBjd+tZw2VMb
-CCWqtbOrNGTiTmq2f/pm9Ll5U/LsSO7b/ItbnPfWwCltNNA6esrxU9937FhcXUFn
-2tN4c+mqoK8yH6Q3edw3N/w1fq3+WeHq6nu765YErrfVc4sKmvlf1bOOkbIM0Ge7
-n5EQcTDefVl4EGorSK2iOwaq53O70iscxQujF87c1oYvXto/V5kzV/CDmv5nHDd5
-JScqzcp9kTx9wBO5xtHQH7ogJcGXuCICPhdXcWlj+7k9lu4bZP/pYWx19tJ9LD0/
-ufrMXI7vYMwzDv3HT0v6kzOjRi4Wdr9RY//lzYmfM4LL/tg6UBSoWTnTHlaz4p0b
-SdTn2vfns3b2V7eOfAt7dldp9spIyUXdPQ7xrJlPiLHSq72lr9/qjOg95J0ND0gX
-2qqS1jt3lidcyW1qoBfcGV45+2TLdDe/N2Rdy9ArPVXWhvLG9K6+JfEvnS9Km30/
-uyagRa8dG0prtF9ISo6tHzsUrk248y9/ljjY1Xg3ddmu2N+O1O5Yus5PHD9xRP/g
-cFXl4p5FmyLO3v6wNvDamSygP3/icKHSErgfM7s3ovzVo/mnMvbYQrfE14Wd1Iui
-BwY77NcKgjcGHXsh5W8=
-=Y6YB
+owFtUm1QVFUY3gXB5CORtELYwotiBsE9e793dWRlaMadgUnUFKaCc889F27A7rZf
+tDJLiSbiVDINaChONjQjWmDCOjEYoJCZg6ONqciH5JBTYAUFyYhKdC+T/zx/zpzz
+Pu/zPu/7vNWRwbowfcYZ9kD3MkuHvndM1OW0rc4uI0S75CNMZUQRnr9wsYRd7rwi
+RSJMBAmMpIBYhoIiJ2EEWCizGMucCHmOFAQj4CDLkxISEQcohkVQJiWaJDkRGwWS
+YSWIBZKERDIhK7YC7HQ4FZtbpQWkQBkRw0BaxABTNE/LFEdLAmZoUmYgBiRL04zM
+qImFdpeWoYoToQunKHb1T33kzct7Av6xbhLIkIWIAjIrM0BVRyFJFDFkRIQEGQIa
+8LJglDDPSCziGCBJFGR4o8hSmiiEAT2v2zNPxwMSUaIMKCzIvChhCCWEIIVEgWKB
+BAQN6MJOGyzBKtpVAl3F2GZTiuxewp9MqBGvgrA2XK2bJ6BSkL1E5XA47W47sher
+0UK322HSkt0+h4YuxWLe/zx5omKT1HGqCV7sdCl2G2ECKhK5FY0YMCRjpEkBGJMJ
+/K5DceI8RUMwnOqUerQy2KtS5huRaqSMZEaQJYqVIUdBABBppGmSx4hlGYBZgGhO
+NQeqXoscjSjEQ47mkDo2HhNaa+/Y7Cq5WssNC7SulAIbdHucmPCHVQXFLdDpw3Sh
+IUHapunCFkU9Xj9hPEo3/P2eoWx36oD1RcZPlg1UGZzTzQuaBuID3vZBimu7snLL
+1qQ7XXPlHb9ZAn/VlmIrG15Z/gzuz/L3x4yHO60oTRj5vPre1FcR/jWbvzW3rsqC
+6ftaWyK+qa73RLes+ihGn7MrzFdT0Pph393313uO93ljjmc+OuFsXFtz+Or4XH7D
+UPnD4ZHs2KIu87FfI9Mv39y15k7ywgrLG3O+p0ta3rKsdB+pfakp/ae6E8GpD6TX
+/y6O3vucb4w82vKxYdn0ucI3DWPtDxhT4rULIRtXfHKV3PRvV2eHfXZJhadkNOeI
+uf+D/Lgd07qjr6UE1W0wnz9zanNdLhHd90/uj2PhFjFj4+7eddsDsYmV0QendGVi
+1DSzNXXHzt09jeu2DUo9kc31WRteyV16PyOowrJ2YHh88mbEsxdvdR48sGgiITY+
+ceZk6f71DZfK/ac/HfoiOva7Jst5w2jkqXjjodBfelMfcrOThrT3Qvl9CZuSAr7Z
+xXWNSkW3wVo/cs465a30N89MEttWmEO6qqi+R58t3XPS2hGTfvF0TdC9w5YbQzGl
+y4OvXFpiGv3BORXnuUCML668cX3hq6ndv1+bZO4eC9l/OXxne4Tjy6duZ/Yk1LS9
+sO7lBnfj24nFwxPLzw7OBH526lZviTgU0KHcED1+Pv7Ps7fmHOakP8zbv67LrJ24
+DdD1zvtoOo3Q/wc=
+=3VRO
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/slobber
+View my publicly-auditable identity here: https://keybase.io/smaslennikov
 
 ==================================================================
