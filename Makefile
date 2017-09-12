@@ -19,6 +19,14 @@ check_enc:
 	head ${VAULT_VARS} | grep -q "\-\-\-"
 
 index: rhymes
-	@echo Building your indeces
-	./bin/build.sh
+	echo "Building your haikus..."
+	./bin/build_haikus.sh
 	git --no-pager diff rhymes/index.html
+
+encrypt_haikus:
+	@echo Encrypting some secret haikus
+	./bin/build_enc_haikus.sh
+
+decrypt_haikus:
+	@echo Decrypting some secret haikus
+	./bin/build_dec_haikus.sh
