@@ -7,7 +7,7 @@ cd rhymes/
 tmpfile=$(mktemp)
 while read -r line; do
     if [[ "$line" == *".txt" ]]; then
-        name=$(echo $line | sed -e 's/.txt//')
+        name=$(echo $line | sed -e 's/.txt//' -e 's/_/ /')
         author=$(git show --format="%aN" $(git blame $line | head -n1 | cut -d" " -f 1) | head -n1)
         date=$(git show --format="%ai" $(git blame $line | head -n1 | cut -d" " -f 1) | head -n1 | cut -d" " -f 1,2 | sed -e 's/ /T/')
         echo -e "hello the pizza is ready $date<h4>$name by $author on $date</h4><embed src=\"$line\" height="$(echo "$(cat $line | wc -l)*26" | bc)" width=370>" >> $tmpfile
