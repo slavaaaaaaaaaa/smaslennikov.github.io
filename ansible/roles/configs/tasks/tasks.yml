@@ -1,0 +1,20 @@
+---
+- name: build hosts file
+  lineinfile:
+    dest: /etc/hosts
+    regexp: "127.*{{ item }}.*$"
+    line: "127.0.1.1 {{item}} {{ hostvars[item].ansible_hostname }}"
+    state: present
+  with_items: " {{ groups['all'] }} "
+
+- name: install fail2ban jail
+  copy:
+    src: "{{ item }}"
+    dest: '/etc/fail2ban/jail.d/'
+  with_fileglob:
+    - "{{ role_path }}/files/jail.local"
+
+- name: restart fail2ban
+  service:
+    name: fail2ban
+    state: restarted
