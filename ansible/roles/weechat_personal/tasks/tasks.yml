@@ -1,0 +1,51 @@
+---
+- name: create weechat conf dir
+  file:
+    path: /home/slava/.weechat_personal
+    owner: slava
+    group: slava
+    state: directory
+
+- name: install weechat irc config
+  template:
+    src: "{{ role_path }}/files/irc.conf.j2"
+    dest: "/home/slava/.weechat_personal/irc.conf"
+    owner: slava
+    group: slava
+
+- name: install weechat plugins config
+  template:
+    src: "{{ role_path }}/files/plugins.conf.j2"
+    dest: "/home/slava/.weechat_personal/plugins.conf"
+    owner: slava
+    group: slava
+
+- name: install weechat relay config
+  template:
+    src: "{{ role_path }}/files/relay.conf.j2"
+    dest: "/home/slava/.weechat_personal/relay.conf"
+    owner: slava
+    group: slava
+
+- name: install the rest of weechat configs
+  copy:
+    src: "{{ item }}"
+    dest: /home/slava/.weechat_personal/
+    owner: slava
+    group: slava
+  with_fileglob:
+    - "{{ role_path }}/files/*conf"
+
+- name: install the rest of weechat conf dirs
+  copy:
+    src: "{{ item }}"
+    dest: /home/slava/.weechat_personal/
+    owner: slava
+    group: slava
+  with_items:
+    - "{{ role_path }}/files/perl"
+    - "{{ role_path }}/files/python"
+    - "{{ role_path }}/files/script"
+
+- name: run weechat_personal in a screen
+  shell: "(! (ps -ef | grep -q weechat_personal | grep -v grep) && (screen -ls | grep pizzadough) ) && (screen -S pizzadough -X screen -t weechat -dm weechat -d /home/slava/.weechat_personal) || (screen -S pizzadough -t weechat -A -d -m weechat -d /home/slava/.weechat_personal)"

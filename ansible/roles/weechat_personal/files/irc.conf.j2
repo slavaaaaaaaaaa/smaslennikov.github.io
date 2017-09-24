@@ -1,0 +1,420 @@
+#
+# weechat -- irc.conf
+#
+
+[look]
+buffer_open_before_autojoin = on
+buffer_open_before_join = off
+buffer_switch_autojoin = on
+buffer_switch_join = on
+color_nicks_in_names = off
+color_nicks_in_nicklist = on
+color_nicks_in_server_messages = on
+color_pv_nick_like_channel = on
+ctcp_time_format = "%a, %d %b %Y %T %z"
+display_away = local
+display_ctcp_blocked = on
+display_ctcp_reply = on
+display_ctcp_unknown = on
+display_host_join = on
+display_host_join_local = on
+display_host_quit = on
+display_join_message = "329,332,333,366"
+display_old_topic = on
+display_pv_away_once = on
+display_pv_back = on
+highlight_channel = "$nick"
+highlight_pv = "$nick"
+highlight_server = "$nick"
+highlight_tags_restrict = "irc_privmsg,irc_notice"
+item_away_message = on
+item_channel_modes_hide_args = "k"
+item_display_server = buffer_plugin
+item_nick_modes = on
+item_nick_prefix = on
+join_auto_add_chantype = off
+msgbuffer_fallback = current
+new_channel_position = none
+new_pv_position = none
+nick_color_force = ""
+nick_color_hash = sum
+nick_color_stop_chars = "_|["
+nick_completion_smart = speakers
+nick_mode = prefix
+nick_mode_empty = off
+nicks_hide_password = "nickserv"
+notice_as_pv = auto
+notice_welcome_redirect = on
+notice_welcome_tags = ""
+notify_tags_ison = "notify_message"
+notify_tags_whois = "notify_message"
+part_closes_buffer = off
+pv_buffer = independent
+pv_tags = "notify_private"
+raw_messages = 256
+server_buffer = merge_with_core
+smart_filter = on
+smart_filter_delay = 5
+smart_filter_join = on
+smart_filter_join_unmask = 30
+smart_filter_mode = "ovh"
+smart_filter_nick = on
+smart_filter_quit = on
+temporary_servers = off
+topic_strip_colors = off
+
+[color]
+input_nick = lightcyan
+item_away = yellow
+item_channel_modes = default
+item_lag_counting = default
+item_lag_finished = yellow
+item_nick_modes = default
+message_join = green
+message_quit = red
+mirc_remap = "1,-1:darkgray"
+nick_prefixes = "q:lightred;a:lightcyan;o:lightgreen;h:lightmagenta;v:yellow;*:lightblue"
+notice = green
+reason_quit = default
+topic_current = default
+topic_new = white
+topic_old = default
+
+[network]
+autoreconnect_delay_growing = 2
+autoreconnect_delay_max = 1800
+ban_mask_default = "*!$user@$host"
+channel_encode = off
+colors_receive = on
+colors_send = on
+lag_check = 60
+lag_max = 1800
+lag_min_show = 500
+lag_reconnect = 0
+lag_refresh_interval = 1
+notify_check_ison = 1
+notify_check_whois = 5
+send_unknown_commands = off
+whois_double_nick = on
+
+[msgbuffer]
+
+[ctcp]
+
+[ignore]
+
+[server_default]
+addresses = ""
+anti_flood_prio_high = 2
+anti_flood_prio_low = 2
+autoconnect = off
+autojoin = ""
+autoreconnect = on
+autoreconnect_delay = 10
+autorejoin = off
+autorejoin_delay = 30
+away_check = 0
+away_check_max_nicks = 25
+capabilities = ""
+command = ""
+command_delay = 0
+connection_timeout = 60
+default_msg_kick = ""
+default_msg_part = "WeeChat %v"
+default_msg_quit = "WeeChat %v"
+ipv6 = on
+local_hostname = ""
+nicks = "slobber,slobberin,slobberini"
+nicks_alternate = on
+notify = ""
+password = ""
+proxy = ""
+realname = ""
+sasl_fail = continue
+sasl_key = ""
+sasl_mechanism = plain
+sasl_password = ""
+sasl_timeout = 15
+sasl_username = ""
+ssl = off
+ssl_cert = ""
+ssl_dhkey_size = 2048
+ssl_fingerprint = ""
+ssl_priorities = "NORMAL:-VERS-SSL3.0"
+ssl_verify = on
+username = "slobber"
+
+[server]
+freenode.addresses = "chat.freenode.net/7000"
+freenode.proxy
+freenode.ipv6
+freenode.ssl = on
+freenode.ssl_cert
+freenode.ssl_priorities
+freenode.ssl_dhkey_size
+freenode.ssl_fingerprint
+freenode.ssl_verify
+freenode.password
+freenode.capabilities
+freenode.sasl_mechanism
+freenode.sasl_username = "linkxs"
+freenode.sasl_password = "{{ freenode_sasl_password }}"
+freenode.sasl_key
+freenode.sasl_timeout
+freenode.sasl_fail
+freenode.autoconnect = on
+freenode.autoreconnect
+freenode.autoreconnect_delay
+freenode.nicks
+freenode.nicks_alternate
+freenode.username
+freenode.realname = "slobber"
+freenode.local_hostname
+freenode.command = "/msg -server freenode nickserv identify {{ freenode_sasl_password }}"; "/msg -server freenode chanserv invite #iwdsa-ebored"; "/j -server freenode #iwdsa-ebored"
+freenode.command_delay = 5
+freenode.autojoin = "#iwdsa,##nightmares"
+freenode.autorejoin
+freenode.autorejoin_delay
+freenode.connection_timeout
+freenode.anti_flood_prio_high = 0
+freenode.anti_flood_prio_low
+freenode.away_check
+freenode.away_check_max_nicks
+freenode.default_msg_kick
+freenode.default_msg_part
+freenode.default_msg_quit
+freenode.notify
+p.addresses = "{{ one_secret_irc_host }}"
+p.proxy
+p.ipv6
+p.ssl = on
+p.ssl_cert
+p.ssl_priorities
+p.ssl_dhkey_size
+p.ssl_fingerprint
+p.ssl_verify
+p.password
+p.capabilities
+p.sasl_mechanism
+p.sasl_username
+p.sasl_password
+p.sasl_key
+p.sasl_timeout
+p.sasl_fail
+p.autoconnect = on
+p.autoreconnect = on
+p.autoreconnect_delay
+p.nicks
+p.nicks_alternate
+p.username = "slobber"
+p.realname
+p.local_hostname
+p.command = "/msg -server p nickserv identify {{ one_secret_irc_pass }}"
+p.command_delay = 5
+p.autojoin = "#asylum"
+p.autorejoin
+p.autorejoin_delay
+p.connection_timeout
+p.anti_flood_prio_high
+p.anti_flood_prio_low
+p.away_check
+p.away_check_max_nicks
+p.default_msg_kick
+p.default_msg_part
+p.default_msg_quit
+p.notify
+efnet.addresses = "irc.mzima.net"
+efnet.proxy
+efnet.ipv6
+efnet.ssl
+efnet.ssl_cert
+efnet.ssl_priorities
+efnet.ssl_dhkey_size
+efnet.ssl_fingerprint
+efnet.ssl_verify
+efnet.password
+efnet.capabilities
+efnet.sasl_mechanism
+efnet.sasl_username
+efnet.sasl_password
+efnet.sasl_key
+efnet.sasl_timeout
+efnet.sasl_fail
+efnet.autoconnect = on
+efnet.autoreconnect
+efnet.autoreconnect_delay
+efnet.nicks
+efnet.nicks_alternate
+efnet.username
+efnet.realname
+efnet.local_hostname
+efnet.command
+efnet.command_delay
+efnet.autojoin = "#nsl"
+efnet.autorejoin
+efnet.autorejoin_delay
+efnet.connection_timeout
+efnet.anti_flood_prio_high
+efnet.anti_flood_prio_low
+efnet.away_check
+efnet.away_check_max_nicks
+efnet.default_msg_kick
+efnet.default_msg_part
+efnet.default_msg_quit
+efnet.notify
+h.addresses = "{{ two_secret_irc_host }}"
+h.proxy
+h.ipv6
+h.ssl = on
+h.ssl_cert
+h.ssl_priorities
+h.ssl_dhkey_size
+h.ssl_fingerprint
+h.ssl_verify
+h.password
+h.capabilities
+h.sasl_mechanism
+h.sasl_username
+h.sasl_password
+h.sasl_key
+h.sasl_timeout
+h.sasl_fail
+h.autoconnect = on
+h.autoreconnect
+h.autoreconnect_delay
+h.nicks
+h.nicks_alternate
+h.username
+h.realname
+h.local_hostname
+h.command = "/msg -server h nickserv identify {{ two_secret_irc_pass }};{{ two_secret_irc_command }}"
+h.command_delay
+h.autojoin = "#idgaf"
+h.autorejoin
+h.autorejoin_delay
+h.connection_timeout
+h.anti_flood_prio_high
+h.anti_flood_prio_low
+h.away_check
+h.away_check_max_nicks
+h.default_msg_kick
+h.default_msg_part
+h.default_msg_quit
+h.notify
+hangops.addresses = "hangops.irc.slack.com/6667"
+hangops.proxy
+hangops.ipv6
+hangops.ssl = on
+hangops.ssl_cert
+hangops.ssl_priorities
+hangops.ssl_dhkey_size
+hangops.ssl_fingerprint
+hangops.ssl_verify
+hangops.password = "{{ hangops_irc_passkey }}"
+hangops.capabilities
+hangops.sasl_mechanism
+hangops.sasl_username
+hangops.sasl_password = "{{ hangops_irc_passkey }}"
+hangops.sasl_key
+hangops.sasl_timeout
+hangops.sasl_fail
+hangops.autoconnect = off
+hangops.autoreconnect
+hangops.autoreconnect_delay
+hangops.nicks
+hangops.nicks_alternate
+hangops.username
+hangops.realname
+hangops.local_hostname
+hangops.command
+hangops.command_delay
+hangops.autojoin
+hangops.autorejoin
+hangops.autorejoin_delay
+hangops.connection_timeout
+hangops.anti_flood_prio_high
+hangops.anti_flood_prio_low
+hangops.away_check
+hangops.away_check_max_nicks
+hangops.default_msg_kick
+hangops.default_msg_part
+hangops.default_msg_quit
+hangops.notify
+io.addresses = "insiders-only.irc.slack.com/6667"
+io.proxy
+io.ipv6
+io.ssl = on
+io.ssl_cert
+io.ssl_priorities
+io.ssl_dhkey_size
+io.ssl_fingerprint
+io.ssl_verify
+io.password = "{{ io_irc_passkey }}"
+io.capabilities
+io.sasl_mechanism
+io.sasl_username
+io.sasl_password
+io.sasl_key
+io.sasl_timeout
+io.sasl_fail
+io.autoconnect = on
+io.autoreconnect
+io.autoreconnect_delay
+io.nicks
+io.nicks_alternate
+io.username
+io.realname
+io.local_hostname
+io.command
+io.command_delay
+io.autojoin
+io.autorejoin
+io.autorejoin_delay
+io.connection_timeout
+io.anti_flood_prio_high
+io.anti_flood_prio_low
+io.away_check
+io.away_check_max_nicks
+io.default_msg_kick
+io.default_msg_part
+io.default_msg_quit
+io.notify
+hunks.addresses = "hunks.irc.slack.com/6667"
+hunks.proxy
+hunks.ipv6
+hunks.ssl = on
+hunks.ssl_cert
+hunks.ssl_priorities
+hunks.ssl_dhkey_size
+hunks.ssl_fingerprint
+hunks.ssl_verify
+hunks.password = "{{ hunks_irc_passkey }}"
+hunks.capabilities
+hunks.sasl_mechanism
+hunks.sasl_username
+hunks.sasl_password
+hunks.sasl_key
+hunks.sasl_timeout
+hunks.sasl_fail
+hunks.autoconnect = on
+hunks.autoreconnect
+hunks.autoreconnect_delay
+hunks.nicks
+hunks.nicks_alternate
+hunks.username
+hunks.realname
+hunks.local_hostname
+hunks.command
+hunks.command_delay
+hunks.autojoin
+hunks.autorejoin
+hunks.autorejoin_delay
+hunks.connection_timeout
+hunks.anti_flood_prio_high
+hunks.anti_flood_prio_low
+hunks.away_check
+hunks.away_check_max_nicks
+hunks.default_msg_kick
+hunks.default_msg_part
+hunks.default_msg_quit
+hunks.notify
