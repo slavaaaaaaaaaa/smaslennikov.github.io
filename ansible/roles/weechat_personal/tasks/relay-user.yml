@@ -6,7 +6,7 @@
     groups:
     generate_ssh_key: no
 
-- name: Add our pubkeys
+- name: Add weechat relay pubkey
   authorized_key:
     user: weechat
     state: present
