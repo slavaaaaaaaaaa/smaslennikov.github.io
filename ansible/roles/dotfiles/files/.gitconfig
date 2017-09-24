@@ -1,7 +1,6 @@
 [push]
 	default = matching
 [user]
-	signingkey = 0xE540F5AE106445F5
 	email = me@smaslennikov.com
 	name = Slava Maslennikov
 [alias]

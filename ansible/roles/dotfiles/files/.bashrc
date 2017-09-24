@@ -21,7 +21,10 @@ function _foreground_calc {
     done
 }
 
+. /etc/bash_completion
+
 export TERMINFO=/etc/terminfo
+export TERM=xterm
 
 ARCH='x64'
 PATH="$PATH:/sbin:/usr/sbin/:/home/slobber/bin"
