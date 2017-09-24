@@ -1,2 +1,3 @@
 ---
+- { include: relay-user.yml, become: true, become_user: root }
 - { include: tasks.yml, become: true, become_user: slava }
