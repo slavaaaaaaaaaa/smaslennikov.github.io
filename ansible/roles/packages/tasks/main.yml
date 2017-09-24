@@ -10,6 +10,8 @@
     #- mpc
     #- ncmpcpp
     - ansible
+    - bash-completion
+    - bash-completion-extras
     - bitlbee
     - cowsay
     - cronie
