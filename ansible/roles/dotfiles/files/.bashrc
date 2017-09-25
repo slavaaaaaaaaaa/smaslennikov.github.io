@@ -21,7 +21,7 @@ function _foreground_calc {
     done
 }
 
-. /etc/bash_completion
+. /etc/profile.d/bash_completion.sh
 
 export TERMINFO=/etc/terminfo
 export TERM=xterm
