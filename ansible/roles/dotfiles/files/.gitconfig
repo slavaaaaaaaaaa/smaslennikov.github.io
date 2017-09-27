@@ -4,7 +4,12 @@
 	email = me@smaslennikov.com
 	name = Slava Maslennikov
 [alias]
-	co = checkout
+    git = !exec git
+	c = checkout
+    o = commit
+    p = pull
+    u = push
+    r = push --rebase
 [apply]
 	whitespace = nowarn
 [color]
