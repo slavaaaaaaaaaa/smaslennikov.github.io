@@ -5,3 +5,5 @@ What's an RFC?
 - in response to
 >11:30:12 fusl | > An error occurred (InvalidArgument) when calling the UploadPart operation: Part number must be an integer between 1 and 10000, inclusive
 >11:30:12 fusl | gonna kill somebody
+
+P.S. Never mind, Part was misread as Port
