@@ -4,7 +4,8 @@ set -e
 
 echo "Building your haikus..."
 cd rhymes/
-tmpfile=$(mktemp)
+indextmpfile=$(mktemp)
+rsstmpfile=$(mktemp)
 
 while read -r file; do
     if [[ "$file" == *".txt" ]]; then
@@ -12,14 +13,36 @@ while read -r file; do
         author=$(git show --format="%aN" $(git blame $file | head -n1 | cut -d" " -f 1) | head -n1)
         date=$(git show --format="%ai" $(git blame $file | head -n1 | cut -d" " -f 1) | head -n1 | cut -d" " -f 1,2 | sed -e 's/ /T/')
 
-        echo -e "hello the pizza is ready $date<h4><a href=\"https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/$file\">$name</a> by $author on $date</h4><embed src=\"$file\" height="$(echo "$(cat $file | wc -l)*26" | bc)" width=370>" >> $tmpfile
+        echo -e "hello the pizza is ready $date<h4><a href=\"https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/$file\">$name</a> by $author on $date</h4><embed src=\"$file\" height="$(echo "$(cat $file | wc -l)*26" | bc)" width=370>" >> $indextmpfile
+
+        echo "
+  <item>
+    <title>$name</title>
+    <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/$file</link>
+    <description>$name by $author on $date</description>
+  </item>" >> $rsstmpfile
     fi
 done <<< "$(while read file; do \
         echo $(git log --pretty=format:%ad -n 1 --date=raw -- $file) $file; \
     done < <(git ls-tree -r --name-only HEAD) | cut -d" " -f 3)"
 
-echo '<title>Rhymes at smaslennikov.com</title>' > index.html
-echo '<link rel="stylesheet" href="http://smaslennikov.com/assets/css/style.css?v=ff674011f1d18457583d29c73b81d4dffb14e488">' >> index.html
-echo '<a href="http://smaslennikov.com">Get me out of here</a><br />' >> index.html
+echo '<title>Rhymes at smaslennikov.com</title>
+<link rel="stylesheet" href="http://smaslennikov.com/assets/css/style.css?v=ff674011f1d18457583d29c73b81d4dffb14e488">
+<a href="http://smaslennikov.com">Get me out of here</a><br />' > index.html
 
-sort -k6 -r $tmpfile | sed -e 's/^.*<h4>/<h4>/g' | sed -e 's/\(....-..-..\)T\(.*\)/\1 \2/' -e 's/Z$//' >> index.html
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
+<rss version=\"2.0\">
+<channel>
+  <title>Slava Maslennikov</title>
+  <link>http://smaslennikov.com/rhymes</link>
+  <description>Slava Maslennikov - Haikus and Rhymes</description>
+  <copyright>2017 Slava Maslennikov. All rights reserved.</copyright>
+" > rss.xml
+
+sort -k6 -r $indextmpfile | sed -e 's/^.*<h4>/<h4>/g' | sed -e 's/\(....-..-..\)T\(.*\)/\1 \2/' -e 's/Z$//' >> index.html
+
+cat $rsstmpfile >> rss.xml
+
+echo "
+</channel>
+</rss>" >> rss.xml
