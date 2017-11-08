@@ -2,7 +2,6 @@
 
 set -e
 
-echo "Building your haikus..."
 cd rhymes/
 indextmpfile=$(mktemp)
 rsstmpfile=$(mktemp)
