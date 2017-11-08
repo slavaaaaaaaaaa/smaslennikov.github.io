@@ -33,9 +33,9 @@ echo '<title>Rhymes at smaslennikov.com</title>
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
 <rss version=\"2.0\">
 <channel>
-  <title>Slava Maslennikov</title>
+  <title>Slava Maslennikov - Haikus and Rhymes</title>
   <link>http://smaslennikov.com/rhymes</link>
-  <description>Slava Maslennikov - Haikus and Rhymes</description>
+  <description>I was a poet and I didn't even know I was one</description>
   <copyright>2017 Slava Maslennikov. All rights reserved.</copyright>
 " > rss.xml
 
