@@ -21,7 +21,7 @@ check_enc:
 index: rhymes
 	echo "Building your haikus..."
 	./bin/build_haikus.sh
-	git --no-pager diff rhymes/index.html
+	git --no-pager diff rhymes/
 
 encrypt_haikus:
 	@echo Encrypting some secret haikus
