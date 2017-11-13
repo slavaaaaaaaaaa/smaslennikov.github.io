@@ -18,10 +18,17 @@ check_dec:
 check_enc:
 	head ${VAULT_VARS} | grep -q "\-\-\-"
 
-index: rhymes
+indeces: index_rhymes index_emergencies
+
+index_rhymes: rhymes
 	echo "Building your haikus..."
 	./bin/build_haikus.sh
 	git --no-pager diff rhymes/
+
+index_emergencies: in_emergency
+	echo "Building your emergencies..."
+	./bin/build_emergencies.sh
+	git --no-pager diff in_emergency/
 
 encrypt_haikus:
 	@echo Encrypting some secret haikus
