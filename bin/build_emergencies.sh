@@ -21,12 +21,12 @@ while read -r file; do
     if [[ "$file" == *".jpg" ]] || [[ "$file" == *".png" ]]; then
         name=$file
 
-        echo -e "<h4><a href=\"https://github.com/smaslennikov/smaslennikov.github.io/blob/master/in_emergency/$file\">$name</a></h4><img src=\"$file\" height="100">" >> index.html
+        echo -e "<h4><a href=\"http://smaslennikov.com/in_emergency/$file\">$name</a></h4><img src=\"$file\" height="100">" >> index.html
 
         echo "
   <item>
     <title>$name</title>
-    <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/in_emergency/$file</link>
+    <link>http://smaslennikov.com/in_emergency/$file</link>
     <description>$name</description>
   </item>" >> rss.xml
     fi
