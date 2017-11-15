@@ -21,7 +21,7 @@ while read -r file; do
     if [[ "$file" == *".jpg" ]] || [[ "$file" == *".png" ]]; then
         name=$file
 
-        echo -e "<h4><a href=\"http://smaslennikov.com/in_emergency/$file\">$name</a></h4><img src=\"$file\" height="100">" >> index.html
+        echo -e "<h4><a href=\"http://smaslennikov.com/in_emergency/$file\">$name</h4><img src=\"$file\" height="100"></a>" >> index.html
 
         echo "
   <item>
