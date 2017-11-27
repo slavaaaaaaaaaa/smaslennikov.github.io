@@ -14,7 +14,7 @@ while read -r file; do
         lines=$(cat $file | wc -l)
         height=$(printf %.$2f $(echo "8.155714+24.31143*$lines-0.3547619*$lines^2+0.003839524*$lines^3" | bc))
 
-        echo -e "hello the pizza is ready $date<h4><a href=\"https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/$file\">$name</a> by $author on $date</h4><embed src=\"$file\" height="$height" width=370>" >> $indextmpfile
+        echo -e "hello the pizza is ready $date<h4><a href=\"https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/$file\">$name</a> by $author on $date</h4><embed src=\"$file\" height="$height" width=470>" >> $indextmpfile
 
         echo "
   <item>
