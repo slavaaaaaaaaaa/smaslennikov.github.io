@@ -18,7 +18,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
 " > rss.xml
 
 while read -r file; do
-    if [[ "$file" == *".jpg" ]] || [[ "$file" == *".png" ]]; then
+    if [[ "$file" == *".jpg" ]] || [[ "$file" == *".png" ]] || [[ "$file" == *".gif" ]]; then
         name=$file
 
         echo -e "<h4><a href=\"http://smaslennikov.com/in_emergency/$file\">$name</h4><img src=\"$file\" height="100"></a>" >> index.html
