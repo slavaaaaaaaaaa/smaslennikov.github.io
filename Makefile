@@ -30,6 +30,10 @@ index_emergencies: in_emergency
 	./bin/build_emergencies.sh
 	git --no-pager diff in_emergency/
 
+resume:
+	echo "Building your resume..."
+	bin/build_resume.sh
+
 encrypt_haikus:
 	@echo Encrypting some secret haikus
 	./bin/build_enc_haikus.sh

@@ -2,7 +2,13 @@
 
 set -e
 
+echo "Building your LaTeX files..."
+
 if [ $(which pdflatex) ]; then
-    echo "Building your LaTeX files..."
     pdflatex -quiet -output-directory=pdf/ tex/*.tex
+elif [ -e /Library/TeX/Root/bin/x86_64-darwin/pdflatex ]; then
+    /Library/TeX/Root/bin/x86_64-darwin/pdflatex -quiet -output-directory=pdf/ tex/*.tex
+else
+    echo "You don't have pdflatex installed!"
+    exit 1
 fi
