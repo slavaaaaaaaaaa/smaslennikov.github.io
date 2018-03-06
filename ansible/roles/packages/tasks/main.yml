@@ -17,6 +17,8 @@
     - cronie
     - fail2ban
     - fortune-mod
+    - gcc
+    - gcc-g++
     - git
     - htop
     - lsof
@@ -24,6 +26,7 @@
     - mutt
     - ncurses
     - nmap
+    - python-devel
     - python-pip
     - rancid
     - reptyr
@@ -35,3 +38,8 @@
     - vim
     - weechat
     - yum-utils
+
+- name: install pip crap
+  pip: name={{ item }} state=latest
+  with_items:
+    - yowsup2
