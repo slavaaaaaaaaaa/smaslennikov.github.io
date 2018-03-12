@@ -28,6 +28,7 @@
     - nmap
     - python-devel
     - python-pip
+    - python-websocket-client
     - rancid
     - reptyr
     - screen
