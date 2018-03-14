@@ -3,40 +3,46 @@ alias ll="ls -lah"
 alias ipa="ip a"
 
 if [[ $- != *i* ]] ; then
-	# Shell is non-interactive.  Be done now!
-	return
+  return
 fi
 
-function _foreground_calc {
-    # thanks centos
-    shasum_cmd=$(which shasum || echo sha1sum)
-    # reject these colors for being too dark
-    local reject=([0]=a [16]=a [17]=a [18]=a [19]=a [232]=a [233]=a [234]=a [235]=a [236]=a [237]=a [238]=a)
-    echo "$1" | $shasum_cmd | while read -n2 num; do
-    local num=$((16#$num))
-    if [ -z "${reject[$num]}" ]; then
-        echo $num
-        return
-    fi
-    done
+function _branch_show() {
+  git branch 2> /dev/null | grep -e "^*" | cut -d' ' -f 2 | sed -e 's/$/ /g'
 }
 
-. /etc/profile.d/bash_completion.sh
+function _foreground_calc {
+  # thanks centos
+  shasum_cmd=$(which shasum || echo sha1sum)
+  # reject these colors for being too dark
+  local reject=([0]=a [16]=a [17]=a [18]=a [19]=a [232]=a [233]=a [234]=a [235]=a [236]=a [237]=a [238]=a)
+  echo "$1" | $shasum_cmd | while read -n2 num; do
+  local num=$((16#$num))
+  if [ -z "${reject[$num]}" ]; then
+    echo $num
+    return
+  fi
+  done
+}
 
-export TERMINFO=/etc/terminfo
+export ANSIBLE_NOCOWS=1
+export ARCH='x64'
+export EDITOR="vim"
+export GPG_TTY=$(tty)
+export HISTFILESIZE=10000
+export HISTTIMEFORMAT="%h/%d -- %H:%M:%S "
+export PATH="$PATH:/sbin:/usr/sbin/:${HOME}/bin"
+export PS1='\[\033k\033\\\]\[\e[32m\]\u@\[\e[38;5;${hostnamecolor}m\]\h \[\e[32m\]\w \[\033[33m\]$(_branch_show)\[\e[32m\]\j\[\e[0m\] \$ '
+export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
 export TERM=xterm
+export TERMINFO=/etc/terminfo
+export hostnamecolor=$(_foreground_calc $HOSTNAME)
 
-ARCH='x64'
-PATH="$PATH:/sbin:/usr/sbin/:/home/slobber/bin"
-EDITOR="vim"
-HISTFILESIZE=10000
-HISTTIMEFORMAT="%h/%d -- %H:%M:%S "
-
-hostnamecolor=$(_foreground_calc $HOSTNAME)
-PS1='\[\033k\033\\\]\[\e[32m\]\u@\[\e[38;5;${hostnamecolor}m\]\h \[\e[32m\]\w \j\[\e[0m\] \$ '
-
-fortune | cowsay
+fortune | cowsay -y
 echo "~~~~~~~~~~~^^^^^^^^^^^^^^^^^^~~~~~~~~~"
 uptime
 echo
 screen -ls
+
+. /etc/profile.d/bash_completion.sh
+[ -f /Users/slava/.travis/travis.sh ] && source /Users/slava/.travis/travis.sh
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
