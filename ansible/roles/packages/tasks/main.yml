@@ -18,7 +18,7 @@
     - fail2ban
     - fortune-mod
     - gcc
-    - gcc-g++
+    - gcc-c++
     - git
     - htop
     - lsof

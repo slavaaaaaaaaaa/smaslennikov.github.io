@@ -2,7 +2,7 @@ VAULT_VARS="ansible/inventory/group_vars/all.yml"
 
 vps: ansible
 	@echo Ansibling your VPS...
-	cd ansible && ansible-playbook playbooks/deploy_vps.yml --ask-become-pass --ask-vault-pass
+	cd ansible && ansible-playbook playbooks/deploy_vps.yml --ask-become-pass --ask-vault-pass $(TEST_ARGS)
 
 enc: check_enc
 	@echo Encrypting your vars...
