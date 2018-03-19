@@ -13,6 +13,13 @@
     owner: slava
     group: slava
 
+- name: install weechat plugins config
+  template:
+    src: "{{ role_path }}/files/plugins.conf.j2"
+    dest: "/home/slava/.weechat_work/plugins.conf"
+    owner: slava
+    group: slava
+
 - name: install the rest of weechat configs
   copy:
     src: "{{ item }}"
