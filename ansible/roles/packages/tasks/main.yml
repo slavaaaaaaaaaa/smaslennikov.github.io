@@ -12,6 +12,7 @@
     - ansible
     - bash-completion
     - bash-completion-extras
+    - bind-utils
     - bitlbee
     - cowsay
     - cronie
