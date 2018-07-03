@@ -32,7 +32,6 @@ export HISTFILESIZE=10000
 export HISTTIMEFORMAT="%h/%d -- %H:%M:%S "
 export PATH="$PATH:/sbin:/usr/sbin/:${HOME}/bin"
 export PS1='\[\033k\033\\\]\[\e[32m\]\u@\[\e[38;5;${hostnamecolor}m\]\h \[\e[32m\]\w \[\033[33m\]$(_branch_show)\[\e[32m\]\j\[\e[0m\] \$ '
-export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
 export TERM=xterm
 export TERMINFO=/etc/terminfo
 export hostnamecolor=$(_foreground_calc $HOSTNAME)
@@ -46,3 +45,7 @@ screen -ls
 . /etc/profile.d/bash_completion.sh
 [ -f /Users/slava/.travis/travis.sh ] && source /Users/slava/.travis/travis.sh
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# use one of these
+export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
+#if [ -z "$SSH_AUTH_SOCK" ] ; then eval `ssh-agent -s`; ssh-add; fi
