@@ -1,22 +1,24 @@
 #!/bin/bash
 
-PGREQUIRESSL=require
-PGSSLMODE=verify-ca
-PGSSLROOTCERT=certs/server-ca.pem
-PGSSLCERT=certs/client-cert.pem
-PGSSLKEY=certs/client-key.pem
+export PGREQUIRESSL=0
+export PGSSLMODE=allow
+export PGSSLROOTCERT=certs/server-ca.pem
+export PGSSLCERT=certs/client-cert.pem
+export PGSSLKEY=certs/client-key.pem
 
-SRC_HOST=db01
-SRC_USER=postgres
-SRC_PASS=certs/src_pgpass
+export SRC_HOST=db01
+export SRC_USER=postgres
+export SRC_PASS=certs/src_pgpass
 
-DEST_HOST=db02
-DEST_USER=postgres
-DEST_PASS=certs/dest_pgpass
+export DEST_HOST=db02
+export DEST_USER=postgres
+export DEST_PASS=certs/dest_pgpass
 
-DBS="onedb twodb threedb"
+export DBS="onedb twodb threedb"
 
-EXTRA_FLAGS="--no-owner --no-acl"
+export EXTRA_FLAGS="--no-owner --no-acl"
+
+set -e
 
 for file in ${PGSSLROOTCERT} ${PGSSLCERT} ${PGSSLKEY} ${DEST_PASS} ${SRC_PASS}; do
 	if [ ! -f ${file} ]; then
@@ -33,7 +35,7 @@ fi
 
 function migrate_db {
 	DB_NAME=${1}
-	echo "-- Running on ${DB_NAME}"
+	echo "-- Running on database: ${DB_NAME}"
 
 	LIST_FILE=/tmp/${DB_NAME}_dump.custom.list
 	DUMP_FILE=/tmp/${DB_NAME}_dump.custom
@@ -47,6 +49,7 @@ function migrate_db {
 
 	echo "-- Running dump command"
 	PGPASSFILE=${SRC_PASS} pg_dump \
+						--no-password \
 						-h ${SRC_HOST} \
 						-U ${SRC_USER} \
 						-Fc \
@@ -61,13 +64,14 @@ function migrate_db {
 					> ${LIST_FILE}
 
 	echo "-- Creating database on destination host"
-	if ! createdb -h ${DEST_HOST} -U ${DEST_USER} ${DB_NAME}; then
+	if ! PGPASSFILE=${DEST_PASS} createdb -e --no-password -h ${DEST_HOST} -U ${DEST_USER} ${DB_NAME}; then
 		echo "Couldn't create ${DB_NAME}!"
 		exit 1
 	fi
 
 	echo "-- Running restore command"
 	PGPASSFILE=${DEST_PASS} pg_restore \
+						--no-password \
 						-h ${DEST_HOST} \
 						-U ${DEST_USER} \
 						--use-list ${LIST_FILE} \
