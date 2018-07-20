@@ -16,7 +16,7 @@ export DEST_PASS=certs/dest_pgpass
 
 export DBS="onedb twodb threedb"
 
-export EXTRA_FLAGS="--no-owner --no-acl"
+export EXTRA_FLAGS="--no-owner --no-acl --no-password"
 
 set -e
 
@@ -49,7 +49,6 @@ function migrate_db {
 
 	echo "-- Running dump command"
 	PGPASSFILE=${SRC_PASS} pg_dump \
-						--no-password \
 						-h ${SRC_HOST} \
 						-U ${SRC_USER} \
 						-Fc \
@@ -64,14 +63,17 @@ function migrate_db {
 					> ${LIST_FILE}
 
 	echo "-- Creating database on destination host"
-	if ! PGPASSFILE=${DEST_PASS} createdb -e --no-password -h ${DEST_HOST} -U ${DEST_USER} ${DB_NAME}; then
+	if ! PGPASSFILE=${DEST_PASS} createdb \
+						--no-password \
+						-h ${DEST_HOST} \
+						-U ${DEST_USER} \
+					${DB_NAME}; then
 		echo "Couldn't create ${DB_NAME}!"
 		exit 1
 	fi
 
 	echo "-- Running restore command"
 	PGPASSFILE=${DEST_PASS} pg_restore \
-						--no-password \
 						-h ${DEST_HOST} \
 						-U ${DEST_USER} \
 						--use-list ${LIST_FILE} \
