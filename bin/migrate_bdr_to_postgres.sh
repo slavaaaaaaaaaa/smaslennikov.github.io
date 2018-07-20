@@ -47,6 +47,24 @@ function migrate_db {
 		fi
 	done
 
+	echo "-- Checking processes on database"
+	PGPASSFILE=${SRC_PASS} psql \
+						-h ${SRC_HOST} \
+						-U ${SRC_USER} -w \
+						<< EOF
+SELECT usename,application_name,client_addr,backend_start,state \
+	FROM pg_stat_activity \
+	WHERE datname = '${DB_NAME}';
+EOF
+
+	read -p "Proceed with the dump? " -n 1 -r
+	echo
+	if [[ ! $REPLY =~ ^[Yy]$ ]]
+	then
+		echo "-- Exiting"
+		exit 0
+	fi
+
 	echo "-- Running dump command"
 	PGPASSFILE=${SRC_PASS} pg_dump \
 						-h ${SRC_HOST} \
