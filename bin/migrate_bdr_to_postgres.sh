@@ -136,13 +136,22 @@ EOF
 					> ${LIST_FILE}
 
 	echo "-- Creating database on destination host"
-	if ! PGPASSFILE=${DEST_PASS} createdb \
+	PGPASSFILE=${DEST_PASS} createdb \
 						-h ${DEST_HOST} \
 						-U ${DEST_USER} -w \
-					${DB_NAME}; then
-		echo "Couldn't create ${DB_NAME}!"
-		exit 1
-	fi
+					${DB_NAME}
+
+	echo "-- Creating needed extensions on destination database"
+	for extension in $(grep "EXTENSION -" ${LIST_FILE} | sed -e 's/^.* - //' | grep -v bdr); do
+		echo "-- Creating extension: $extension"
+		PGPASSFILE=${DEST_PASS} psql \
+						-h ${DEST_HOST} \
+						-U ${DEST_USER} -w \
+						-d ${DB_NAME} \
+						<< EOF
+CREATE EXTENSION ${extension};
+EOF
+	done
 
 	echo "-- Running restore command"
 	PGPASSFILE=${DEST_PASS} pg_restore \
