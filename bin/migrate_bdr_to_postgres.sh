@@ -7,10 +7,12 @@ export PGSSLCERT=certs/client-cert.pem
 export PGSSLKEY=certs/client-key.pem
 
 export SRC_HOST=db01
+export SRC_PORT=5432
 export SRC_USER=postgres
 export SRC_PASS=certs/src_pgpass
 
 export DEST_HOST=db02
+export DEST_PORT=5432
 export DEST_USER=postgres
 export DEST_PASS=certs/dest_pgpass
 
@@ -28,7 +30,7 @@ for file in ${PGSSLROOTCERT} ${PGSSLCERT} ${PGSSLKEY} ${DEST_PASS} ${SRC_PASS}; 
 done
 
 echo "-- Testing hosts' connectivity"
-if ! pg_isready -h ${SRC_HOST} || ! pg_isready -h ${DEST_HOST}; then
+if ! pg_isready -h ${SRC_HOST} -p ${SRC_PORT} || ! pg_isready -h ${DEST_HOST} -p ${DEST_PORT}; then
 	echo "One of the hosts isn't accessible!"
 	exit 1
 fi
@@ -50,6 +52,7 @@ function migrate_db {
 	echo "-- Checking processes on database"
 	PGPASSFILE=${SRC_PASS} psql \
 						-h ${SRC_HOST} \
+						-p ${SRC_PORT} \
 						-U ${SRC_USER} -w \
 						-d ${DB_NAME} \
 						<< EOF
@@ -69,6 +72,7 @@ EOF
 	echo "-- Locking out the database and setting connection limit to 1"
 	PGPASSFILE=${SRC_PASS} psql \
 						-h ${SRC_HOST} \
+						-p ${SRC_PORT} \
 						-U ${SRC_USER} -w \
 						-d ${DB_NAME} \
 						<< EOF
@@ -81,6 +85,7 @@ EOF
 	echo "-- Kicking everyone out the database"
 	PGPASSFILE=${SRC_PASS} psql \
 						-h ${SRC_HOST} \
+						-p ${SRC_PORT} \
 						-U ${SRC_USER} -w \
 						-d ${DB_NAME} \
 						<< EOF
@@ -93,6 +98,7 @@ EOF
 	echo "-- Allowing incoming connections again"
 	PGPASSFILE=${SRC_PASS} psql \
 						-h ${SRC_HOST} \
+						-p ${SRC_PORT} \
 						-U ${SRC_USER} -w \
 						-d ${DB_NAME} \
 						<< EOF
@@ -104,6 +110,7 @@ EOF
 	echo "-- Checking processes on database, again"
 	PGPASSFILE=${SRC_PASS} psql \
 						-h ${SRC_HOST} \
+						-p ${SRC_PORT} \
 						-U ${SRC_USER} -w \
 						-d ${DB_NAME} \
 						<< EOF
@@ -123,6 +130,7 @@ EOF
 	echo "-- Running dump command"
 	PGPASSFILE=${SRC_PASS} pg_dump \
 						-h ${SRC_HOST} \
+						-p ${SRC_PORT} \
 						-U ${SRC_USER} \
 						-Fc \
 						${DB_NAME} \
@@ -138,6 +146,7 @@ EOF
 	echo "-- Creating database on destination host"
 	PGPASSFILE=${DEST_PASS} createdb \
 						-h ${DEST_HOST} \
+						-p ${DEST_PORT} \
 						-U ${DEST_USER} -w \
 					${DB_NAME}
 
@@ -146,6 +155,7 @@ EOF
 		echo "-- Creating extension: $extension"
 		PGPASSFILE=${DEST_PASS} psql \
 						-h ${DEST_HOST} \
+						-p ${DEST_PORT} \
 						-U ${DEST_USER} -w \
 						-d ${DB_NAME} \
 						<< EOF
@@ -156,6 +166,7 @@ EOF
 	echo "-- Running restore command"
 	PGPASSFILE=${DEST_PASS} pg_restore \
 						-h ${DEST_HOST} \
+						-p ${DEST_PORT} \
 						-U ${DEST_USER} \
 						--use-list ${LIST_FILE} \
 						${DUMP_FILE} \
