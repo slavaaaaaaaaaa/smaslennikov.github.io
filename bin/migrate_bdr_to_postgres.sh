@@ -51,6 +51,61 @@ function migrate_db {
 	PGPASSFILE=${SRC_PASS} psql \
 						-h ${SRC_HOST} \
 						-U ${SRC_USER} -w \
+						-d ${DB_NAME} \
+						<< EOF
+SELECT usename,application_name,client_addr,backend_start,state \
+	FROM pg_stat_activity \
+	WHERE datname = '${DB_NAME}';
+EOF
+
+	read -p "Proceed with terminating existing connections and locking out the database? " -n 1 -r
+	echo
+	if [[ ! $REPLY =~ ^[Yy]$ ]]
+	then
+		echo "-- Exiting"
+		exit 0
+	fi
+
+	echo "-- Locking out the database and setting connection limit to 1"
+	PGPASSFILE=${SRC_PASS} psql \
+						-h ${SRC_HOST} \
+						-U ${SRC_USER} -w \
+						-d ${DB_NAME} \
+						<< EOF
+UPDATE pg_database \
+	SET datallowconn = false, \
+		datconnlimit = '1' \
+	WHERE datname = '${DB_NAME}';
+EOF
+
+	echo "-- Kicking everyone out the database"
+	PGPASSFILE=${SRC_PASS} psql \
+						-h ${SRC_HOST} \
+						-U ${SRC_USER} -w \
+						-d ${DB_NAME} \
+						<< EOF
+SELECT pg_terminate_backend(pid) \
+	FROM pg_stat_activity \
+	WHERE datname = '${DB_NAME}' \
+		AND pid <> pg_backend_pid(); \
+EOF
+
+	echo "-- Allowing incoming connections again"
+	PGPASSFILE=${SRC_PASS} psql \
+						-h ${SRC_HOST} \
+						-U ${SRC_USER} -w \
+						-d ${DB_NAME} \
+						<< EOF
+UPDATE pg_database \
+	SET datallowconn = true \
+	WHERE datname = '${DB_NAME}';
+EOF
+
+	echo "-- Checking processes on database, again"
+	PGPASSFILE=${SRC_PASS} psql \
+						-h ${SRC_HOST} \
+						-U ${SRC_USER} -w \
+						-d ${DB_NAME} \
 						<< EOF
 SELECT usename,application_name,client_addr,backend_start,state \
 	FROM pg_stat_activity \
@@ -82,9 +137,8 @@ EOF
 
 	echo "-- Creating database on destination host"
 	if ! PGPASSFILE=${DEST_PASS} createdb \
-						--no-password \
 						-h ${DEST_HOST} \
-						-U ${DEST_USER} \
+						-U ${DEST_USER} -w \
 					${DB_NAME}; then
 		echo "Couldn't create ${DB_NAME}!"
 		exit 1
