@@ -65,7 +65,7 @@ while [[ $# -gt 0 ]]; do
 		shift
 		shift
 		;;
-		-sp|--source-pass)
+		-sw|--source-pass)
 		export SRC_PASS="$2"
 		shift
 		shift
@@ -85,7 +85,7 @@ while [[ $# -gt 0 ]]; do
 		shift
 		shift
 		;;
-		-dp|--dest-pass)
+		-dw|--dest-pass)
 		export DEST_PASS="$2"
 		shift
 		shift
