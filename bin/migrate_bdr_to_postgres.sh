@@ -153,58 +153,20 @@ UPDATE pg_database \
 	SET datallowconn = false, \
 		datconnlimit = '1' \
 	WHERE datname = '${DB_NAME}';
-EOF
-
-	echo "-- Kicking everyone out the database"
-	PGPASSFILE=${SRC_PASS} psql \
-						-h ${SRC_HOST} \
-						-p ${SRC_PORT} \
-						-U ${SRC_USER} -w \
-						-d ${DB_NAME} \
-						<< EOF
 SELECT pg_terminate_backend(pid) \
 	FROM pg_stat_activity \
 	WHERE datname = '${DB_NAME}' \
 		AND pid <> pg_backend_pid(); \
-EOF
-
-	echo "-- Checking processes on database, again"
-	PGPASSFILE=${SRC_PASS} psql \
-						-h ${SRC_HOST} \
-						-p ${SRC_PORT} \
-						-U ${SRC_USER} -w \
-						-d ${DB_NAME} \
-						<< EOF
-SELECT usename,application_name,client_addr,backend_start,state \
-	FROM pg_stat_activity \
+UPDATE pg_database \
+	SET datallowconn = true \
 	WHERE datname = '${DB_NAME}';
 EOF
-
-	read -p "Proceed with the dump? " -n 1 -r
-	echo
-	if [[ ! $REPLY =~ ^[Yy]$ ]]
-	then
-		echo "-- Exiting"
-		exit 0
-	fi
 }
 
 function dump_db {
 	DB_NAME=${1}
 	LIST_FILE=${2}
 	DUMP_FILE=${3}
-
-	echo "-- Allowing incoming connections again"
-	PGPASSFILE=${SRC_PASS} psql \
-						-h ${SRC_HOST} \
-						-p ${SRC_PORT} \
-						-U ${SRC_USER} -w \
-						-d ${DB_NAME} \
-						<< EOF
-UPDATE pg_database \
-	SET datallowconn = true \
-	WHERE datname = '${DB_NAME}';
-EOF
 
 	echo "-- Running dump command"
 	PGPASSFILE=${SRC_PASS} pg_dump \
