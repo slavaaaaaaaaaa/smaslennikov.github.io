@@ -10,4 +10,4 @@ Probably stable-ish
 
 ## Contact
 
-See the [front page](http://smaslennikov.com)
+See the [front page](https://smaslennikov.com)

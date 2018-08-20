@@ -6,7 +6,7 @@ cd in_emergency/
 
 echo '<title>Emergency Images at smaslennikov.com</title>
 <link rel="stylesheet" href="https://smaslennikov.com/assets/css/style.css?v=ff674011f1d18457583d29c73b81d4dffb14e488">
-<a href="https://smaslennikov.com/in_emergency/rss.xml"><img src="http://smaslennikov.com/rss.png" width=16 height=16 /></a> <a href="http://smaslennikov.com">Get me out of here</a><br />' > index.html
+<a href="https://smaslennikov.com/in_emergency/rss.xml"><img src="https://smaslennikov.com/rss.png" width=16 height=16 /></a> <a href="https://smaslennikov.com">Get me out of here</a><br />' > index.html
 
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
 <rss version=\"2.0\">
