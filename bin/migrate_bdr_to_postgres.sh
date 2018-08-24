@@ -10,13 +10,13 @@ export SRC_HOST=db01
 export SRC_PORT=5432
 export SRC_USER=postgres
 export SRC_PASS=certs/src_pgpass
+export SRC_DB_NAME=test
 
 export DEST_HOST=db02
 export DEST_PORT=5432
 export DEST_USER=postgres
 export DEST_PASS=certs/dest_pgpass
-
-export DBS="onedb twodb threedb"
+export DEST_DB_NAME=test
 
 export EXTRA_FLAGS="--no-owner --no-acl --no-password"
 
@@ -45,8 +45,13 @@ while [[ $# -gt 0 ]]; do
 		shift
 		shift
 		;;
-		-dbs|--databases)
-		export DBS="$2"
+		--lock)
+		export LOCK_SRC_DB=true
+		shift
+		shift
+		;;
+		-sb|--source-db)
+		export SRC_DB_NAME="$2"
 		shift
 		shift
 		;;
@@ -67,6 +72,11 @@ while [[ $# -gt 0 ]]; do
 		;;
 		-sw|--source-pass)
 		export SRC_PASS="$2"
+		shift
+		shift
+		;;
+		-db|--dest-db)
+		export DEST_DB_NAME="$2"
 		shift
 		shift
 		;;
@@ -118,20 +128,19 @@ function verify_files_hosts {
 }
 
 function lock_db {
-	DB_NAME=${1}
-	LIST_FILE=${2}
-	DUMP_FILE=${3}
+	LIST_FILE=${1}
+	DUMP_FILE=${2}
 
 	echo "-- Checking processes on database"
 	PGPASSFILE=${SRC_PASS} psql \
 						-h ${SRC_HOST} \
 						-p ${SRC_PORT} \
 						-U ${SRC_USER} -w \
-						-d ${DB_NAME} \
+						-d ${SRC_DB_NAME} \
 						<< EOF
 SELECT usename,application_name,client_addr,backend_start,state \
 	FROM pg_stat_activity \
-	WHERE datname = '${DB_NAME}';
+	WHERE datname = '${SRC_DB_NAME}';
 EOF
 
 	read -p "Proceed with terminating existing connections and locking out the database? " -n 1 -r
@@ -147,26 +156,25 @@ EOF
 						-h ${SRC_HOST} \
 						-p ${SRC_PORT} \
 						-U ${SRC_USER} -w \
-						-d ${DB_NAME} \
+						-d ${SRC_DB_NAME} \
 						<< EOF
 UPDATE pg_database \
 	SET datallowconn = false, \
 		datconnlimit = '1' \
-	WHERE datname = '${DB_NAME}';
+	WHERE datname = '${SRC_DB_NAME}';
 SELECT pg_terminate_backend(pid) \
 	FROM pg_stat_activity \
-	WHERE datname = '${DB_NAME}' \
+	WHERE datname = '${SRC_DB_NAME}' \
 		AND pid <> pg_backend_pid(); \
 UPDATE pg_database \
 	SET datallowconn = true \
-	WHERE datname = '${DB_NAME}';
+	WHERE datname = '${SRC_DB_NAME}';
 EOF
 }
 
 function dump_db {
-	DB_NAME=${1}
-	LIST_FILE=${2}
-	DUMP_FILE=${3}
+	LIST_FILE=${1}
+	DUMP_FILE=${2}
 
 	echo "-- Running dump command"
 	PGPASSFILE=${SRC_PASS} pg_dump \
@@ -174,15 +182,14 @@ function dump_db {
 						-p ${SRC_PORT} \
 						-U ${SRC_USER} \
 						-Fc \
-						${DB_NAME} \
+						${SRC_DB_NAME} \
 						${EXTRA_FLAGS} \
 					> ${DUMP_FILE}
 }
 
 function sanitize_dump {
-	DB_NAME=${1}
-	LIST_FILE=${2}
-	DUMP_FILE=${3}
+	LIST_FILE=${1}
+	DUMP_FILE=${2}
 
 	echo "-- Setting up TOC"
 	pg_restore --list ${DUMP_FILE} | sed -e 's/.*EXTENSION/;&/g' \
@@ -192,16 +199,15 @@ function sanitize_dump {
 }
 
 function prepare_dest {
-	DB_NAME=${1}
-	LIST_FILE=${2}
-	DUMP_FILE=${3}
+	LIST_FILE=${1}
+	DUMP_FILE=${2}
 
 	echo "-- Creating database on destination host"
 	PGPASSFILE=${DEST_PASS} createdb \
 						-h ${DEST_HOST} \
 						-p ${DEST_PORT} \
 						-U ${DEST_USER} -w \
-					${DB_NAME}
+					${DEST_DB_NAME}
 
 	echo "-- Creating needed extensions on destination database"
 	for extension in $(grep "EXTENSION -" ${LIST_FILE} | sed -e 's/^.* - //' | grep -v bdr); do
@@ -210,7 +216,7 @@ function prepare_dest {
 						-h ${DEST_HOST} \
 						-p ${DEST_PORT} \
 						-U ${DEST_USER} -w \
-						-d ${DB_NAME} \
+						-d ${DEST_DB_NAME} \
 						<< EOF
 CREATE EXTENSION ${extension};
 EOF
@@ -218,9 +224,8 @@ EOF
 }
 
 function restore_dump {
-	DB_NAME=${1}
-	LIST_FILE=${2}
-	DUMP_FILE=${3}
+	LIST_FILE=${1}
+	DUMP_FILE=${2}
 
 	echo "-- Running restore command"
 	PGPASSFILE=${DEST_PASS} pg_restore \
@@ -230,16 +235,14 @@ function restore_dump {
 						--use-list ${LIST_FILE} \
 						${DUMP_FILE} \
 						${EXTRA_FLAGS} \
-						--dbname=${DB_NAME}
+						--dbname=${DEST_DB_NAME}
 }
 
 function migrate_db {
-	DB_NAME=${1}
+	echo "-- Running on database: ${SRC_DB_NAME}"
 
-	echo "-- Running on database: ${DB_NAME}"
-
-	LIST_FILE=/tmp/${DB_NAME}_dump.custom.list
-	DUMP_FILE=/tmp/${DB_NAME}_dump.custom
+	LIST_FILE=/tmp/${SRC_DB_NAME}_dump.custom.list
+	DUMP_FILE=/tmp/${SRC_DB_NAME}_dump.custom
 
 	for file in ${LIST_FILE} ${DUMP_FILE}; do
 		if [ -f ${file} ]; then
@@ -248,16 +251,17 @@ function migrate_db {
 		fi
 	done
 
-	lock_db ${DB_NAME} ${LIST_FILE} ${DUMP_FILE}
-	dump_db ${DB_NAME} ${LIST_FILE} ${DUMP_FILE}
-	sanitize_dump ${DB_NAME} ${LIST_FILE} ${DUMP_FILE}
-	prepare_dest ${DB_NAME} ${LIST_FILE} ${DUMP_FILE}
-	restore_dump ${DB_NAME} ${LIST_FILE} ${DUMP_FILE}
+	if [ "$LOCK_SRC_DB" = true ]; then
+		lock_db ${LIST_FILE} ${DUMP_FILE}
+	fi
 
-	echo "Done migrating ${db}!"
+	dump_db ${LIST_FILE} ${DUMP_FILE}
+	sanitize_dump ${LIST_FILE} ${DUMP_FILE}
+	prepare_dest ${LIST_FILE} ${DUMP_FILE}
+	restore_dump ${LIST_FILE} ${DUMP_FILE}
+
+	echo "Done migrating ${SRC_DB_NAME}!"
 }
 
-for db in ${DBS}; do
-	verify_files_hosts
-	migrate_db ${db}
-done
+verify_files_hosts
+migrate_db
