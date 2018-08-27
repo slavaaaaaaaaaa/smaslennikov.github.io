@@ -30,7 +30,8 @@ export EDITOR="vim"
 export GPG_TTY=$(tty)
 export HISTFILESIZE=10000
 export HISTTIMEFORMAT="%h/%d -- %H:%M:%S "
-export PATH="$PATH:/sbin:/usr/sbin/:${HOME}/bin"
+export PATH="/usr/local/bin:$PATH:/sbin:/usr/sbin/:$HOME/bin"
+export LD_LIBRARY_PATH=/usr/local/lib
 export PS1='\[\033k\033\\\]\[\e[32m\]\u@\[\e[38;5;${hostnamecolor}m\]\h \[\e[32m\]\w \[\033[33m\]$(_branch_show)\[\e[32m\]\j\[\e[0m\] \$ '
 export TERM=xterm
 export TERMINFO=/etc/terminfo
@@ -47,5 +48,7 @@ screen -ls
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # use one of these
-export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
+#export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
+eval $(gpg-agent --daemon)
+
 #if [ -z "$SSH_AUTH_SOCK" ] ; then eval `ssh-agent -s`; ssh-add; fi
