@@ -1,0 +1,13 @@
+---
+- name: Configure a personal pear with some of the usual things
+  hosts: pear
+  become: true
+  serial: 100%
+
+  roles:
+   - accounts
+   - dotfiles
+   - packages
+   - configs
+   - clone_my_repos
+   - gpg-keys

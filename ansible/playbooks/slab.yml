@@ -1,6 +1,6 @@
 ---
 - name: Configure a personal VPS with all the usual things
-  hosts: all
+  hosts: slab
   become: true
   serial: 100%
 
