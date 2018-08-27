@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# default values
 export PGREQUIRESSL=0
 export PGSSLMODE=allow
 export PGSSLROOTCERT=certs/server-ca.pem
@@ -24,6 +25,21 @@ set -e
 
 function help {
 	echo "Read the script for necessary flags"
+	echo "Here's an example execution: "
+	echo -e " $ ./migrate_bdr_to_postgres.sh \\
+		 --sslrootcert [root certification for destination host] \\
+		 --sslcert [certificate for destination host] \\
+		 --sslkey [certificate key for destination host] \\
+		 -sh [source host] \\
+		 -sp [source port] \\
+		 -dh [destination host] \\
+		 -dp [destination port] \\
+		 -sw [source PGPASS file] \\
+		 -dw [destination PGPASS file] \\
+		 -su [source user] \\
+		 -du [destination user] \\
+		 -sd [source dbname] \\
+		 -dd [destination dbname]"
 	exit 0
 }
 
@@ -50,7 +66,7 @@ while [[ $# -gt 0 ]]; do
 		shift
 		shift
 		;;
-		-sb|--source-db)
+		-sd|--source-db)
 		export SRC_DB_NAME="$2"
 		shift
 		shift
@@ -75,7 +91,7 @@ while [[ $# -gt 0 ]]; do
 		shift
 		shift
 		;;
-		-db|--dest-db)
+		-dd|--dest-db)
 		export DEST_DB_NAME="$2"
 		shift
 		shift
