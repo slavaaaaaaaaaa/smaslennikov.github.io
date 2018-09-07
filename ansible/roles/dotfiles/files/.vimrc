@@ -407,17 +407,16 @@ match ExtraWhitespace /\s\+$\| \+\ze\t/
 "Elflord is readable and pretty standard
 "colorscheme elflord
 
-""HARD TABS 5 LYFE
 filetype plugin indent off
-set noet
-set ts=8
-set sw=8
-set nosmarttab
+set expandtab
+"set tabstop=4
+"set shiftwidth=8
+"set nosmarttab
 "Syntax highlighting on huge lines is nice too, remove the default limit
 set synmaxcol=0
 
-"Don't wrap lines
-set nowrap
+" wrap lines
+set wrap
 
 "Show matching parens
 set showmatch
