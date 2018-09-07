@@ -1,4 +1,8 @@
 ---
+- name: set timezone
+  timezone:
+    name: US/Pacific
+
 - name: build hosts file
   lineinfile:
     dest: /etc/hosts
