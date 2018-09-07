@@ -12,7 +12,7 @@ function _branch_show() {
 
 function _foreground_calc {
   # thanks centos
-  shasum_cmd=$(which shasum || echo sha1sum)
+  shasum_cmd=$(which shasum  2>/dev/null || echo sha1sum)
   # reject these colors for being too dark
   local reject=([0]=a [16]=a [17]=a [18]=a [19]=a [232]=a [233]=a [234]=a [235]=a [236]=a [237]=a [238]=a)
   echo "$1" | $shasum_cmd | while read -n2 num; do
@@ -45,7 +45,7 @@ screen -ls
 
 . /etc/profile.d/bash_completion.sh
 [ -f /Users/slava/.travis/travis.sh ] && source /Users/slava/.travis/travis.sh
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
 
 # use one of these
 #export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
