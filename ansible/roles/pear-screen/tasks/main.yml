@@ -1,0 +1,14 @@
+---
+- name: Fix screen binary permissions
+  become: yes
+  become_user: root
+  file:
+    path: /usr/bin/screen
+    mode: "u=rws,g=rws,o=rx"
+
+- name: Fix screen run directory permissions
+  become: yes
+  become_user: root
+  file:
+    path: /var/run/screen
+    mode: 0755
