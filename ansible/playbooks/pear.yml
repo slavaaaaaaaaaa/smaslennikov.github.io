@@ -9,5 +9,9 @@
    - dotfiles
    - packages
    - configs
+   - pear-screen
    - clone_my_repos
    - gpg-keys
+   - mutt
+   - weechat_personal
+   - weechat_work
