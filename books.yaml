@@ -1,4 +1,20 @@
 ---
+- author: Douglas Adams
+    - book: "The Hitchhiker's Guide to the Galaxy"
+      year-published: 1979
+      read-count: 1
+    - book: The Restaurant at the End of the Universe
+      year-published: 1980
+      read-count: 1
+    - book: Life, the Universe and Everything
+      year-published: 1982
+      read-count: 0
+
+- author: Tim O'Brien
+    - book: The Things They Carried
+      year-published: 1990
+      read-count: 1
+
 - author: Michael Ondaatje
     - book: The English Patient
       my-rating: 0
