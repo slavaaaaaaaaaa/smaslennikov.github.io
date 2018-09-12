@@ -1,6 +1,6 @@
 ---
 - author: Michael Ondaatje
-    title: The English Patient
+    - book: The English Patient
       my-rating: 0
       avg-rating: 3.88
       year-published: 1992
@@ -8,15 +8,29 @@
       read-count: 1
 
 - author: Ernest Hemingway
-    title: The Old Man and the Sea
+    - book: The Fifth Column and Four Stories of the Spanish Civil War
+      my-rating: 5
+      avg-rating: 3.57
+      year-published: 1938
+      date-read: 2017/07/11
+      read-count: 1
+    - book: The Old Man and the Sea
       my-rating: 5
       avg-rating: 3.75
       year-published: 1952
       date-read: 2018/06/07
       read-count: 1
+    - book: Complete Poems
+      additional-authors: Nicholas Gerogiannis
+      my-rating: 5
+      avg-rating: 3.36
+      year-published: 1979
+      date-read: 2017/10/18
+      read-count: 1
+
 
 - author: Antoine de Saint-Exupéry
-    title: Night Flight
+    - book: Night Flight
       my-rating: 5
       avg-rating: 3.80
       year-published: 1931
@@ -24,33 +38,73 @@
       read-count: 1
 
 - author: J.D. Salinger
-    title: Nine Stories
+    - book: Nine Stories
       my-rating: 4
       avg-rating: 4.19
       year-published: 1953
       date-read: 2018/06/06
       read-count: 1
 
-- author: Vladimir Nabokov
-    title: Защита Лужина
-      additional-authors: Владимир Набоков
+- author: Владимир Набоков
+    - book: Защита Лужина
       my-rating: 5
       avg-rating: 3.95
       year-published: 1930
       date-read: 2018/06/04
       read-count: 1
-
-- author: Vladimir Nabokov
-    title: Insomniac Dreams: Experiments with Time by Vladimir Nabokov
+    - book: Insomniac Dreams: Experiments with Time by Vladimir Nabokov
       additional-authors: Gennady Barabtarlo
       my-rating: 0
       avg-rating: 3.51
       year-published: 2017
       date-read:
       read-count: 1
+    - book: Король, дама, валет
+      my-rating: 0
+      avg-rating: 3.81
+      year-published: 1928
+      date-read:
+      read-count: 0
+    - book: Камера Обскура
+      my-rating: 5
+      avg-rating: 3.95
+      year-published: 1932
+      date-read: 2017/04/02
+      read-count: 1
+    - book: Speak, Memory
+      my-rating: 0
+      avg-rating: 4.19
+      year-published: 1951
+      date-read:
+      read-count: 0
+    - book: Lolita
+      additional-authors: Craig Raine
+      my-rating: 4
+      avg-rating: 3.89
+      year-published: 1955
+      date-read: 2017/04/17
+      read-count: 1
+    - book: Дар
+      my-rating: 5
+      avg-rating: 3.99
+      year-published: 1938
+      date-read: 2017/08/08
+      read-count: 1
+    - book: Отчаяние
+      my-rating: 5
+      avg-rating: 3.92
+      year-published: 1934
+      date-read:
+      read-count: 2
+    - book: Solus Rex
+      my-rating: 5
+      avg-rating: 3.80
+      year-published:
+      date-read:
+      read-count: 1
 
 - author: Harold Stewart
-    title: A Net of Fireflies: Japanese Haiku and Haiku Paintings
+    - book: A Net of Fireflies: Japanese Haiku and Haiku Paintings
       my-rating: 5
       avg-rating: 3.85
       year-published: 1960
@@ -58,7 +112,7 @@
       read-count: 0
 
 - author: Leo Tolstoy
-    title: Война и мир
+    - book: Война и мир
       my-rating: 5
       avg-rating: 4.32
       year-published: 2002
@@ -66,7 +120,7 @@
       read-count: 1
 
 - author: Arkady Strugatsky
-    title: Пикник на обочине
+    - book: Пикник на обочине
       additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
       my-rating: 5
       avg-rating: 4.40
@@ -74,34 +128,16 @@
       date-read:
       read-count: 1
 
-- author: Vladimir Nabokov
-    title: Король, дама, валет
-      additional-authors: Vladimir Nabokov
-      my-rating: 0
-      avg-rating: 3.81
-      year-published: 1928
-      date-read:
-      read-count: 0
-
 - author: Luke Rhinehart
-    title: The Dice Man
+    - book: The Dice Man
       my-rating: 0
       avg-rating: 3.60
       year-published: 1971
       date-read:
       read-count: 0
 
-- author: Ayn Rand
-    title: We the Living
-      additional-authors: Leonard Peikoff
-      my-rating: 3
-      avg-rating: 3.90
-      year-published: 1936
-      date-read: 2017/12/27
-      read-count: 1
-
 - author: Gorillaz
-    title: Gorillaz: Rise of the Ogre
+    - book: Gorillaz: Rise of the Ogre
       my-rating: 0
       avg-rating: 4.41
       year-published: 2006
@@ -109,7 +145,7 @@
       read-count: 0
 
 - author: Roland Barthes
-    title: 'A Lover''s Discourse: Fragments'
+    - book: 'A Lover''s Discourse: Fragments'
       additional-authors: Richard Howard, Wayne Koestenbaum
       my-rating: 0
       avg-rating: 4.37
@@ -117,16 +153,8 @@
       date-read:
       read-count: 0
 
-- author: Vladimir Nabokov
-    title: Камера Обскура
-      my-rating: 5
-      avg-rating: 3.95
-      year-published: 1932
-      date-read: 2017/04/02
-      read-count: 1
-
 - author: Edith Hamilton
-    title: Mythology: Timeless Tales of Gods and Heroes
+    - book: Mythology: Timeless Tales of Gods and Heroes
       additional-authors: Steele Savage
       my-rating: 0
       avg-rating: 3.99
@@ -135,31 +163,15 @@
       read-count: 0
 
 - author: Jonathan Safran Foer
-    title: Everything Is Illuminated
+    - book: Everything Is Illuminated
       my-rating: 0
       avg-rating: 3.90
       year-published: 2002
       date-read:
       read-count: 0
 
-- author: Charles Bukowski
-      my-rating: 5
-      avg-rating: 3.86
-      year-published: 2009
-      date-read: 2017/10/18
-      read-count: 1
-
-- author: Ernest Hemingway
-    title: Complete Poems
-      additional-authors: Nicholas Gerogiannis
-      my-rating: 5
-      avg-rating: 3.36
-      year-published: 1979
-      date-read: 2017/10/18
-      read-count: 1
-
 - author: E.E. Cummings
-    title: 100 Selected Poems
+    - book: 100 Selected Poems
       my-rating: 5
       avg-rating: 4.32
       year-published: 1954
@@ -167,8 +179,8 @@
       read-count: 1
 
 - author: Albert Camus
-    title: The Stranger
-      additional-authors: Matthew    Ward
+    - book: The Stranger
+      additional-authors: Matthew Ward
       my-rating: 5
       avg-rating: 3.97
       year-published: 1942
@@ -176,7 +188,9 @@
       read-count: 1
 
 - author: Nicholas Reynolds
-    title: 'Writer, Sailor, Soldier, Spy: Ernest Hemingway''s Secret Adventures, 1935-1961'
+    - book: >
+        Writer, Sailor, Soldier, Spy: Ernest Hemingway's Secret
+        Adventures, 1935-1961
       additional-authors: Fred Sanders
       my-rating: 0
       avg-rating: 3.65
@@ -185,41 +199,37 @@
       read-count: 0
 
 - author: Ayn Rand
-    title: Atlas Shrugged
+    - book: Atlas Shrugged
       additional-authors: Leonard Peikoff
       my-rating: 0
       avg-rating: 3.68
       year-published: 1957
       date-read:
       read-count: 0
-
-- author: Ayn Rand
-    title: The Fountainhead
+    - book: The Fountainhead
       additional-authors: Leonard Peikoff
       my-rating: 0
       avg-rating: 3.86
       year-published: 1943
       date-read:
       read-count: 0
+    - book: We the Living
+      additional-authors: Leonard Peikoff
+      my-rating: 3
+      avg-rating: 3.90
+      year-published: 1936
+      date-read: 2017/12/27
+      read-count: 1
 
-- author: Vladimir Nabokov
-    title: Speak, Memory
-      my-rating: 0
-      avg-rating: 4.19
-      year-published: 1951
-      date-read:
-      read-count: 0
 
 - author: Tsuyoshi Hasegawa
-    title: The February Revolution: Petrograd 1917
+    - book: The February Revolution: Petrograd 1917
       my-rating: 0
       avg-rating: 4.00
       year-published: 1980
       date-read:
       read-count: 0
-
-- author: Tsuyoshi Hasegawa
-    title: Crime and Punishment in the Russian Revolution: Mob Justice and Police in Petrograd
+    - book: Crime and Punishment in the Russian Revolution: Mob Justice and Police in Petrograd
       my-rating: 0
       avg-rating: 3.80
       year-published:
@@ -227,39 +237,29 @@
       read-count: 0
 
 - author: Kate Brown
-    title: Dispatches from Dystopia: Histories of Places Not Yet Forgotten
+    - book: Dispatches from Dystopia: Histories of Places Not Yet Forgotten
       my-rating: 0
       avg-rating: 3.73
       year-published: 2015
       date-read:
       read-count: 0
-
-- author: Kate Brown
-    title: Plutopia: Nuclear Families, Atomic Cities, and the Great Soviet and American Plutonium Disasters
+    - book: Plutopia: Nuclear Families, Atomic Cities, and the Great Soviet and American Plutonium Disasters
       my-rating: 0
       avg-rating: 4.13
       year-published: 2013
       date-read:
       read-count: 0
 
-- author: George 1924- Mohoff
-    title: The Russian Colony of Guadalupe Molokans in Mexico
+- author: George Mohoff
+    - book: The Russian Colony of Guadalupe Molokans in Mexico
       my-rating: 0
       avg-rating: 0.0
       year-published:
       date-read:
       read-count: 0
 
-- author: Vladimir Nabokov
-    title: Дар
-      my-rating: 5
-      avg-rating: 3.99
-      year-published: 1938
-      date-read: 2017/08/08
-      read-count: 1
-
 - author: Николай Чернышевский
-    title: Что делать?
+    - book: Что делать?
       my-rating: 0
       avg-rating: 3.67
       year-published:
@@ -267,7 +267,7 @@
       read-count: 0
 
 - author: Joshua Slocum
-    title: Sailing Alone around the World
+    - book: Sailing Alone around the World
       my-rating: 5
       avg-rating: 4.13
       year-published: 1899
@@ -275,23 +275,15 @@
       read-count: 1
 
 - author: Camille Fournier
-    title: 'The Manager''s Path: A Guide for Tech Leaders Navigating Growth and Change'
+    - book: 'The Manager''s Path: A Guide for Tech Leaders Navigating Growth and Change'
       my-rating: 0
       avg-rating: 4.38
       year-published: 2017
       date-read:
       read-count: 0
 
-- author: Ernest Hemingway
-    title: The Fifth Column and Four Stories of the Spanish Civil War
-      my-rating: 5
-      avg-rating: 3.57
-      year-published: 1938
-      date-read: 2017/07/11
-      read-count: 1
-
 - author: Alexander Shulgin
-    title: Pihkal: A Chemical Love Story
+    - book: Pihkal: A Chemical Love Story
       additional-authors: Ann Shulgin
       my-rating: 0
       avg-rating: 4.36
@@ -300,24 +292,34 @@
       read-count: 0
 
 - author: Дмитрий Липскеров
-    title: О Нем и о Бабочках
+    - book: О Нем и о Бабочках
       my-rating: 3
       avg-rating: 4.00
       year-published:
       date-read: 2017/06/30
       read-count: 1
+    - book: Последний сон разума
+      my-rating: 0
+      avg-rating: 4.12
+      year-published: 2007
+      date-read:
+      read-count: 0
+    - book: Осени не будет никогда
+      my-rating: 3
+      avg-rating: 4.19
+      year-published:
+      date-read: 2017/06/21
+      read-count: 1
 
 - author: Neil Gaiman
-    title: The Sandman: Overture
+    - book: The Sandman: Overture
       additional-authors: J.H. Williams III, Dave Stewart, Todd Klein
       my-rating: 0
       avg-rating: 3.96
       year-published: 2015
       date-read:
-      read-count: 0
-
-- author: Neil Gaiman
-    title: Preludes & Nocturnes (The Sandman, #1)
+      read-count: 1
+    - book: Preludes & Nocturnes (The Sandman, #1)
       additional-authors: Sam Kieth, Mike Dringenberg, Malcolm Jones III, Todd Klein, Karen  Berger
       my-rating: 5
       avg-rating: 4.27
@@ -326,7 +328,7 @@
       read-count: 1
 
 - author: Garth Ennis
-    title: Preacher, Volume 1: Gone to Texas
+    - book: Preacher, Volume 1: Gone to Texas
       additional-authors: Steve Dillon, Joe R. Lansdale
       my-rating: 0
       avg-rating: 4.15
@@ -335,7 +337,7 @@
       read-count: 0
 
 - author: Warren Ellis
-    title: Transmetropolitan, Vol. 1: Back on the Street (Transmetropolitan, #1)
+    - book: Transmetropolitan, Vol. 1: Back on the Street (Transmetropolitan, #1)
       additional-authors: Darick Robertston, Garth Ennis
       my-rating: 0
       avg-rating: 4.22
@@ -344,32 +346,23 @@
       read-count: 0
 
 - author: Salman Rushdie
-    title: East, West
+    - book: East, West
       my-rating: 3
       avg-rating: 3.57
       year-published: 1994
       date-read: 2017/06/26
       read-count: 1
 
-- author: Eduard Limonov
-    title: Великие
-      additional-authors: Эдуард Лимонов
+- author: Эдуард Лимонов
+    - book: Великие
       my-rating: 4
       avg-rating: 4.33
       year-published:
       date-read: 2017/06/24
       read-count: 1
 
-- author: Дмитрий Липскеров
-    title: Осени не будет никогда
-      my-rating: 3
-      avg-rating: 4.19
-      year-published:
-      date-read: 2017/06/21
-      read-count: 1
-
 - author: Jez Humble
-    title: Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
+    - book: Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
       additional-authors: David  Farley
       my-rating: 0
       avg-rating: 4.15
@@ -378,7 +371,7 @@
       read-count: 0
 
 - author: Thomas Hobbes
-    title: Leviathan
+    - book: Leviathan
       additional-authors: C.B. Macpherson
       my-rating: 0
       avg-rating: 3.68
@@ -387,55 +380,35 @@
       read-count: 0
 
 - author: Arthur C. Clarke
-    title: 2010: Odyssey Two (Space Odyssey, #2)
+    - book: 2001: A Space Odyssey (Space Odyssey, #1)
+      my-rating: 5
+      avg-rating: 4.13
+      year-published: 1968
+      date-read: 2017/06/19
+      read-count: 1
+    - book: 2010: Odyssey Two (Space Odyssey, #2)
       my-rating: 0
       avg-rating: 3.90
       year-published: 1982
       date-read:
       read-count: 0
 
-- author: Arthur C. Clarke
-    title: 2001: A Space Odyssey (Space Odyssey, #1)
-      my-rating: 5
-      avg-rating: 4.13
-      year-published: 1968
-      date-read: 2017/06/19
-      read-count: 1
-
-- author: Дмитрий Липскеров
-    title: Последний сон разума
-      my-rating: 0
-      avg-rating: 4.12
-      year-published: 2007
-      date-read:
-      read-count: 0
-
 - author: Mikhail Bulgakov
-    title: Записки покойника (Театральный роман)
+    - book: Записки покойника (Театральный роман)
       my-rating: 5
       avg-rating: 4.23
       year-published: 2006
       date-read: 2017/06/14
       read-count: 1
-
-- author: Mikhail Bulgakov
-    title: Собачье сердце
+    - book: Собачье сердце
       my-rating: 5
       avg-rating: 4.14
       year-published: 1925
       date-read: 2017/06/12
       read-count: 1
 
-- author: Charles Bukowski
-    title: War All the Time
-      my-rating: 0
-      avg-rating: 4.16
-      year-published: 1984
-      date-read:
-      read-count: 0
-
 - author: Victor Pelevin
-    title: Generation "П". Повести. Рассказы
+    - book: Generation "П". Повести. Рассказы
       additional-authors: Виктор Пелевин
       my-rating: 4
       avg-rating: 4.11
@@ -444,7 +417,7 @@
       read-count: 1
 
 - author: Francis Spufford
-    title: 'Red Plenty: Inside the Fifties'' Soviet Dream'
+    - book: 'Red Plenty: Inside the Fifties'' Soviet Dream'
       my-rating: 0
       avg-rating: 4.07
       year-published: 2007
@@ -452,7 +425,7 @@
       read-count: 0
 
 - author: Victor Pelevin
-    title: Чапаев и Пустота
+    - book: Чапаев и Пустота
       additional-authors: Пелевин Виктор
       my-rating: 0
       avg-rating: 4.26
@@ -461,7 +434,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Аристономия
+    - book: Аристономия
       my-rating: 5
       avg-rating: 3.99
       year-published: 2012
@@ -469,7 +442,7 @@
       read-count: 1
 
 - author: Lois Lowry
-    title: The Giver (The Giver, #1)
+    - book: The Giver (The Giver, #1)
       my-rating: 0
       avg-rating: 4.12
       year-published: 1993
@@ -477,7 +450,7 @@
       read-count: 0
 
 - author: Karl Marx
-    title: Basic Writings on Politics and Philosophy
+    - book: Basic Writings on Politics and Philosophy
       additional-authors: Friedrich Engels, Lewis Samuel Feuer
       my-rating: 0
       avg-rating: 3.86
@@ -486,7 +459,7 @@
       read-count: 0
 
 - author: Xosé Tarrío González
-    title: Huye, hombre, huye. Diario de un preso F.I.E.S.
+    - book: Huye, hombre, huye. Diario de un preso F.I.E.S.
       my-rating: 0
       avg-rating: 4.29
       year-published: 1999
@@ -494,7 +467,7 @@
       read-count: 0
 
 - author: Ron Hahne
-    title: Black Mask  Up Against the Wall Motherfucker: The Incomplete Works of Ron Hahne, Ben Morea, and the Black Mask Group
+    - book: Black Mask  Up Against the Wall Motherfucker: The Incomplete Works of Ron Hahne, Ben Morea, and the Black Mask Group
       additional-authors: Ben Morea, Stewart Home
       my-rating: 0
       avg-rating: 3.97
@@ -503,7 +476,7 @@
       read-count: 0
 
 - author: Clifford Harper
-    title: Prolegomena: To a Study of the Return of the Repressed in History
+    - book: Prolegomena: To a Study of the Return of the Repressed in History
       my-rating: 5
       avg-rating: 4.57
       year-published: 1994
@@ -511,7 +484,7 @@
       read-count: 1
 
 - author: Dan Simmons
-    title: Hyperion (Hyperion Cantos, #1)
+    - book: Hyperion (Hyperion Cantos, #1)
       my-rating: 4
       avg-rating: 4.22
       year-published: 1989
@@ -519,7 +492,7 @@
       read-count: 1
 
 - author: Umberto Eco
-    title: The Name of the Rose
+    - book: The Name of the Rose
       additional-authors: William Weaver, Seán Barrett
       my-rating: 0
       avg-rating: 4.12
@@ -528,7 +501,7 @@
       read-count: 0
 
 - author: Sam Quinones
-    title: 'Dreamland: The True Tale of America''s Opiate Epidemic'
+    - book: 'Dreamland: The True Tale of America''s Opiate Epidemic'
       my-rating: 0
       avg-rating: 4.25
       year-published: 2015
@@ -536,7 +509,7 @@
       read-count: 0
 
 - author: Linda    Evans
-    title: The Prison-Industrial Complex & the Global Economy
+    - book: The Prison-Industrial Complex & the Global Economy
       additional-authors: Eve Goldberg
       my-rating: 4
       avg-rating: 3.93
@@ -545,7 +518,7 @@
       read-count: 1
 
 - author: Jalil Muntaqim
-    title: The Vancouver Five: Armed Struggle in Canada
+    - book: The Vancouver Five: Armed Struggle in Canada
       additional-authors: Jim Campbell
       my-rating: 5
       avg-rating: 3.33
@@ -554,7 +527,7 @@
       read-count: 1
 
 - author: Hunter S. Thompson
-    title: The Curse of Lono
+    - book: The Curse of Lono
       additional-authors: Steve Crist, Ralph Steadman
       my-rating: 5
       avg-rating: 3.95
@@ -563,7 +536,7 @@
       read-count: 1
 
 - author: Sidney Sheldon
-    title: The Sky is Falling
+    - book: The Sky is Falling
       my-rating: 0
       avg-rating: 3.55
       year-published: 2000
@@ -571,7 +544,7 @@
       read-count: 0
 
 - author: Ann Hansen
-    title: Direct Action: Memoirs of an Urban Guerrilla
+    - book: Direct Action: Memoirs of an Urban Guerrilla
       my-rating: 0
       avg-rating: 3.89
       year-published: 2001
@@ -579,7 +552,7 @@
       read-count: 0
 
 - author: Thomas Paine
-    title: Common Sense
+    - book: Common Sense
       my-rating: 0
       avg-rating: 3.97
       year-published: 1776
@@ -587,7 +560,7 @@
       read-count: 0
 
 - author: Yang Jwing-Ming
-    title: 'Qigong, the Secret of Youth: Da Mo''s Muscle/Tendon Changing and Marrow/Brain Washing Classics'
+    - book: 'Qigong, the Secret of Youth: Da Mo''s Muscle/Tendon Changing and Marrow/Brain Washing Classics'
       my-rating: 0
       avg-rating: 4.31
       year-published: 2000
@@ -595,7 +568,7 @@
       read-count: 0
 
 - author: Benjamin Hoff
-    title: Дао Винни-Пуха
+    - book: Дао Винни-Пуха
       additional-authors: Lev Vysotsky
       my-rating: 4
       avg-rating: 4.01
@@ -604,7 +577,7 @@
       read-count: 1
 
 - author: Tom Wainwright
-    title: Narconomics: How to Run a Drug Cartel
+    - book: Narconomics: How to Run a Drug Cartel
       my-rating: 0
       avg-rating: 4.16
       year-published: 2016
@@ -612,7 +585,7 @@
       read-count: 0
 
 - author: Benjamin Hoff
-    title: The Tao of Pooh
+    - book: The Tao of Pooh
       additional-authors: Ernest H. Shepard
       my-rating: 0
       avg-rating: 4.01
@@ -621,7 +594,7 @@
       read-count: 1
 
 - author: Barbara Demick
-    title: Nothing to Envy: Ordinary Lives in North Korea
+    - book: Nothing to Envy: Ordinary Lives in North Korea
       my-rating: 0
       avg-rating: 4.43
       year-published: 2009
@@ -629,7 +602,7 @@
       read-count: 0
 
 - author: Jon Ronson
-    title: The Psychopath Test: A Journey Through the Madness Industry
+    - book: The Psychopath Test: A Journey Through the Madness Industry
       my-rating: 0
       avg-rating: 3.93
       year-published: 2012
@@ -637,24 +610,15 @@
       read-count: 0
 
 - author: Lawrence Freedman
-    title: Strategy: A History
+    - book: Strategy: A History
       my-rating: 0
       avg-rating: 3.97
       year-published: 2013
       date-read:
       read-count: 0
 
-- author: Vladimir Nabokov
-    title: Lolita
-      additional-authors: Craig Raine
-      my-rating: 4
-      avg-rating: 3.89
-      year-published: 1955
-      date-read: 2017/04/17
-      read-count: 1
-
 - author: Victor Davis Hanson
-    title: A War Like No Other: How the Athenians & Spartans Fought the Peloponnesian War
+    - book: A War Like No Other: How the Athenians & Spartans Fought the Peloponnesian War
       my-rating: 0
       avg-rating: 4.10
       year-published: 1989
@@ -662,7 +626,7 @@
       read-count: 0
 
 - author: Ivan Goncharov
-    title: Oblomov
+    - book: Oblomov
       additional-authors: Stephen Pearl, Galya Diment
       my-rating: 0
       avg-rating: 4.02
@@ -671,7 +635,7 @@
       read-count: 0
 
 - author: Dalton Trumbo
-    title: Johnny Got His Gun
+    - book: Johnny Got His Gun
       my-rating: 0
       avg-rating: 4.17
       year-published: 1939
@@ -679,7 +643,7 @@
       read-count: 0
 
 - author: Lao Tzu
-    title: Tao Te Ching
+    - book: Tao Te Ching
       additional-authors: Gia-Fu Feng, Jane English, Toinette Lippe, Jacob Needleman
       my-rating: 4
       avg-rating: 4.31
@@ -688,7 +652,7 @@
       read-count: 1
 
 - author: Ali Almossawi
-    title: An Illustrated Book of Bad Arguments
+    - book: An Illustrated Book of Bad Arguments
       additional-authors: Alejandro Giraldo
       my-rating: 0
       avg-rating: 3.77
@@ -697,7 +661,7 @@
       read-count: 0
 
 - author: Frederick C. Crews
-    title: The Pooh Perplex
+    - book: The Pooh Perplex
       my-rating: 0
       avg-rating: 4.01
       year-published: 1963
@@ -705,7 +669,7 @@
       read-count: 0
 
 - author: Sun Tzu
-    title: The Art of War
+    - book: The Art of War
       additional-authors: Thomas Cleary, نادر سعیدی
       my-rating: 0
       avg-rating: 3.96
@@ -714,7 +678,7 @@
       read-count: 0
 
 - author: Bandi
-    title: The Accusation: Forbidden Stories from Inside North Korea
+    - book: The Accusation: Forbidden Stories from Inside North Korea
       additional-authors: Deborah     Smith
       my-rating: 0
       avg-rating: 4.02
@@ -723,7 +687,7 @@
       read-count: 0
 
 - author: Vladimir Orlov
-    title: Аптекарь
+    - book: Аптекарь
       my-rating: 0
       avg-rating: 4.05
       year-published: 1988
@@ -731,7 +695,7 @@
       read-count: 0
 
 - author: Vladimir Orlov
-    title: Альтист Данилов
+    - book: Альтист Данилов
       additional-authors: Vladimir Orlov
       my-rating: 0
       avg-rating: 4.11
@@ -740,7 +704,7 @@
       read-count: 0
 
 - author: William Blake
-    title: The Complete Poetry and Prose
+    - book: The Complete Poetry and Prose
       additional-authors: David V. Erdman, Harold Bloom
       my-rating: 0
       avg-rating: 4.24
@@ -749,7 +713,7 @@
       read-count: 0
 
 - author: William Blake
-    title: Songs of Innocence and of Experience
+    - book: Songs of Innocence and of Experience
       my-rating: 0
       avg-rating: 4.11
       year-published: 1794
@@ -757,7 +721,7 @@
       read-count: 0
 
 - author: Готфрид Август Бюргер
-    title: Невероятные путешествия Барона Мюнхгаузена
+    - book: Невероятные путешествия Барона Мюнхгаузена
       my-rating: 0
       avg-rating: 4.00
       year-published: 2014
@@ -765,7 +729,7 @@
       read-count: 0
 
 - author: Rainer Maria Rilke
-    title: The Selected Poetry of Rainer Maria Rilke
+    - book: The Selected Poetry of Rainer Maria Rilke
       additional-authors: Stephen Mitchell, Robert Hass
       my-rating: 0
       avg-rating: 4.40
@@ -774,7 +738,7 @@
       read-count: 0
 
 - author: Philip Roth
-    title: The Plot Against America
+    - book: The Plot Against America
       my-rating: 0
       avg-rating: 3.73
       year-published: 2004
@@ -782,7 +746,7 @@
       read-count: 0
 
 - author: Sylvia Plath
-    title: The Bell Jar
+    - book: The Bell Jar
       additional-authors: Reinhard Kaiser
       my-rating: 0
       avg-rating: 3.99
@@ -791,7 +755,7 @@
       read-count: 0
 
 - author: Atul Gawande
-    title: Being Mortal: Medicine and What Matters in the End
+    - book: Being Mortal: Medicine and What Matters in the End
       my-rating: 0
       avg-rating: 4.43
       year-published: 2014
@@ -799,7 +763,7 @@
       read-count: 0
 
 - author: Fazil Iskander
-    title: Сандро из Чегема
+    - book: Сандро из Чегема
       additional-authors: Фазиль Искандер
       my-rating: 0
       avg-rating: 4.29
@@ -808,7 +772,7 @@
       read-count: 0
 
 - author: Fazil Iskander
-    title: Кролики и удавы
+    - book: Кролики и удавы
       additional-authors: Фазиль Искандер
       my-rating: 5
       avg-rating: 4.17
@@ -817,7 +781,7 @@
       read-count: 1
 
 - author: Cynthia Shapiro
-    title: 'Corporate Confidential: 50 Secrets Your Company Doesn''t Want You to Know---and What to Do About Them'
+    - book: 'Corporate Confidential: 50 Secrets Your Company Doesn''t Want You to Know---and What to Do About Them'
       my-rating: 3
       avg-rating: 3.91
       year-published: 2005
@@ -825,7 +789,7 @@
       read-count: 1
 
 - author: Richard Bach
-    title: Чайка по имени Джонатан Ливингстон
+    - book: Чайка по имени Джонатан Ливингстон
       additional-authors: Юни Родман
       my-rating: 3
       avg-rating: 3.81
@@ -833,17 +797,8 @@
       date-read: 2017/02/27
       read-count: 1
 
-- author: Vladimir Nabokov
-    title: Отчаяние
-      additional-authors: Vladimir Nabokov
-      my-rating: 5
-      avg-rating: 3.92
-      year-published: 1934
-      date-read:
-      read-count: 2
-
 - author: Aleksey Nikolayevich Tolstoy
-    title: Гиперболоид инженера Гарина
+    - book: Гиперболоид инженера Гарина
       additional-authors: Алексей Николаевич Толстой
       my-rating: 5
       avg-rating: 3.92
@@ -852,7 +807,7 @@
       read-count: 1
 
 - author: John le Carré
-    title: Call for the Dead (George Smiley, #1)
+    - book: Call for the Dead (George Smiley, #1)
       my-rating: 0
       avg-rating: 3.79
       year-published: 1961
@@ -860,7 +815,7 @@
       read-count: 0
 
 - author: Roberto Bolaño
-    title: The Last Interview and Other Conversations
+    - book: The Last Interview and Other Conversations
       additional-authors: Mónica Maristain, Marcela Valdes, Sybil Perez, Tom McCartan
       my-rating: 0
       avg-rating: 3.82
@@ -869,7 +824,7 @@
       read-count: 0
 
 - author: Andy Hunt
-    title: The Pragmatic Programmer: From Journeyman to Master
+    - book: The Pragmatic Programmer: From Journeyman to Master
       additional-authors: Dave Thomas
       my-rating: 4
       avg-rating: 4.31
@@ -878,7 +833,7 @@
       read-count: 1
 
 - author: Тильман Шпенглер
-    title: Мозг Ленина
+    - book: Мозг Ленина
       my-rating: 4
       avg-rating: 4.00
       year-published:
@@ -886,7 +841,7 @@
       read-count: 1
 
 - author: Boris Akunin
-    title: Murder on the Leviathan (Erast Fandorin Mysteries, #3)
+    - book: Murder on the Leviathan (Erast Fandorin Mysteries, #3)
       additional-authors: Boris Akunin, Andrew Bromfield
       my-rating: 5
       avg-rating: 4.00
@@ -895,7 +850,7 @@
       read-count: 1
 
 - author: Veniamin Kaverin
-    title: Two Captains
+    - book: Two Captains
       additional-authors: Bernard Isaacs
       my-rating: 5
       avg-rating: 4.32
@@ -904,7 +859,7 @@
       read-count: 1
 
 - author: Suzanne Bourgeois
-    title: Genesis of the Salk Institute
+    - book: Genesis of the Salk Institute
       my-rating: 5
       avg-rating: 4.00
       year-published: 2013
@@ -912,7 +867,7 @@
       read-count: 1
 
 - author: Gabriel García Márquez
-    title: Море исчезающих времен [More ischezayuschih vremen]
+    - book: Море исчезающих времен [More ischezayuschih vremen]
       my-rating: 5
       avg-rating: 3.92
       year-published: 2007
@@ -920,7 +875,7 @@
       read-count: 1
 
 - author: J.R.R. Tolkien
-    title: The Hobbit
+    - book: The Hobbit
       my-rating: 5
       avg-rating: 4.26
       year-published: 1937
@@ -928,7 +883,7 @@
       read-count: 1
 
 - author: Anthony Burgess
-    title: A Clockwork Orange
+    - book: A Clockwork Orange
       my-rating: 0
       avg-rating: 3.99
       year-published: 1962
@@ -936,7 +891,7 @@
       read-count: 0
 
 - author: Richard  Adams
-    title: Watership Down (Watership Down, #1)
+    - book: Watership Down (Watership Down, #1)
       my-rating: 0
       avg-rating: 4.06
       year-published: 1972
@@ -944,7 +899,7 @@
       read-count: 0
 
 - author: Fazil Iskander
-    title: Пиры Валтасара. Кролики и удавы
+    - book: Пиры Валтасара. Кролики и удавы
       additional-authors: Фазиль Искандер
       my-rating: 5
       avg-rating: 5.00
@@ -953,7 +908,7 @@
       read-count: 1
 
 - author: Boris Akunin
-    title: Dekorater (Erast Fandorin Mysteries #5.2)
+    - book: Dekorater (Erast Fandorin Mysteries #5.2)
       additional-authors: Igor Buljan
       my-rating: 0
       avg-rating: 4.05
@@ -962,7 +917,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Patasotilas (Erast Fandorin Mysteries #5.1)
+    - book: Patasotilas (Erast Fandorin Mysteries #5.1)
       additional-authors: Anton Nikkilä
       my-rating: 0
       avg-rating: 4.04
@@ -971,7 +926,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Планета вода (Erast Fandorin Mysteries, #14)
+    - book: Планета вода (Erast Fandorin Mysteries, #14)
       additional-authors: Boris Akunin, Борис Акунин
       my-rating: 0
       avg-rating: 3.62
@@ -980,7 +935,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Весь мир театр (Erast Fandorin Mysteries, #12)
+    - book: Весь мир театр (Erast Fandorin Mysteries, #12)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 3.67
@@ -989,7 +944,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Черный город (Erast Fandorin Mysteries, #13)
+    - book: Черный город (Erast Fandorin Mysteries, #13)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 3.97
@@ -998,7 +953,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Любовница смерти (Erast Fandorin Mysteries, #8)
+    - book: Любовница смерти (Erast Fandorin Mysteries, #8)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 3.86
@@ -1007,7 +962,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: The Turkish Gambit (Erast Fandorin Mysteries, #2)
+    - book: The Turkish Gambit (Erast Fandorin Mysteries, #2)
       additional-authors: Boris Akunin, Andrew Bromfield
       my-rating: 5
       avg-rating: 3.95
@@ -1016,7 +971,7 @@
       read-count: 1
 
 - author: Boris Akunin
-    title: Азазель
+    - book: Азазель
       additional-authors: Борис Акунин
       my-rating: 5
       avg-rating: 3.88
@@ -1025,7 +980,7 @@
       read-count: 1
 
 - author: Boris Akunin
-    title: Нефритовые четки (Erast Fandorin Mysteries, #11)
+    - book: Нефритовые четки (Erast Fandorin Mysteries, #11)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 4.17
@@ -1034,7 +989,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Коронация, или Последний из романов (Erast Fandorin Mysteries, #7)
+    - book: Коронация, или Последний из романов (Erast Fandorin Mysteries, #7)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 4.21
@@ -1043,7 +998,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Любовник смерти (Erast Fandorin Mysteries, #9)
+    - book: Любовник смерти (Erast Fandorin Mysteries, #9)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 4.06
@@ -1052,7 +1007,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Special Assignments (Erast Fandorin Mysteries, #5)
+    - book: Special Assignments (Erast Fandorin Mysteries, #5)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 4.08
@@ -1061,7 +1016,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Алмазная колесница (Erast Fandorin Mysteries, #10)
+    - book: Алмазная колесница (Erast Fandorin Mysteries, #10)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 4.40
@@ -1070,7 +1025,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: Статский советник (Erast Fandorin Mysteries, #6)
+    - book: Статский советник (Erast Fandorin Mysteries, #6)
       additional-authors: Boris Akunin
       my-rating: 0
       avg-rating: 4.19
@@ -1079,7 +1034,7 @@
       read-count: 0
 
 - author: Boris Akunin
-    title: The Death of Achilles (Erast Fandorin Mysteries, #4)
+    - book: The Death of Achilles (Erast Fandorin Mysteries, #4)
       additional-authors: Boris Akunin, Andrew Bromfield
       my-rating: 0
       avg-rating: 4.08
@@ -1088,7 +1043,7 @@
       read-count: 0
 
 - author: Gabriel García Márquez
-    title: Скверное время
+    - book: Скверное время
       my-rating: 5
       avg-rating: 3.40
       year-published: 1961
@@ -1096,7 +1051,7 @@
       read-count: 1
 
 - author: Brian Christian
-    title: Algorithms to Live By: The Computer Science of Human Decisions
+    - book: Algorithms to Live By: The Computer Science of Human Decisions
       additional-authors: Tom  Griffiths
       my-rating: 0
       avg-rating: 4.16
@@ -1105,7 +1060,7 @@
       read-count: 0
 
 - author: Gabriel García Márquez
-    title: А смерть всегда надежнее любви...
+    - book: А смерть всегда надежнее любви...
       additional-authors: Габриэль Гарсиа Маркес
       my-rating: 5
       avg-rating: 5.00
@@ -1114,7 +1069,7 @@
       read-count: 1
 
 - author: David A. Mindell
-    title: Digital Apollo: Human and Machine in Spaceflight
+    - book: Digital Apollo: Human and Machine in Spaceflight
       my-rating: 0
       avg-rating: 4.24
       year-published: 2008
@@ -1122,7 +1077,7 @@
       read-count: 0
 
 - author: Aleksey Nikolayevich Tolstoy
-    title: Аэлита
+    - book: Аэлита
       additional-authors: Алексей Николаевич Толстой
       my-rating: 5
       avg-rating: 3.65
@@ -1131,7 +1086,7 @@
       read-count: 1
 
 - author: Roberto Bolaño
-    title: 2666
+    - book: 2666
       my-rating: 0
       avg-rating: 4.21
       year-published: 2004
@@ -1139,7 +1094,7 @@
       read-count: 0
 
 - author: Hunter S. Thompson
-    title: Screwjack
+    - book: Screwjack
       my-rating: 5
       avg-rating: 3.58
       year-published: 2000
@@ -1147,7 +1102,7 @@
       read-count: 1
 
 - author: Jonathan Kozol
-    title: 'Savage Inequalities: Children in America''s Schools'
+    - book: 'Savage Inequalities: Children in America''s Schools'
       my-rating: 0
       avg-rating: 4.24
       year-published: 1991
@@ -1155,7 +1110,7 @@
       read-count: 0
 
 - author: Keith Richards
-    title: Life
+    - book: Life
       additional-authors: James Fox
       my-rating: 4
       avg-rating: 3.85
@@ -1164,7 +1119,7 @@
       read-count: 1
 
 - author: Abbie Hoffman
-    title: Steal This Book
+    - book: Steal This Book
       my-rating: 0
       avg-rating: 3.60
       year-published: 1971
@@ -1172,7 +1127,7 @@
       read-count: 0
 
 - author: Walter Isaacson
-    title: Steve Jobs
+    - book: Steve Jobs
       my-rating: 1
       avg-rating: 4.11
       year-published: 2011
@@ -1180,7 +1135,7 @@
       read-count: 1
 
 - author: Dennis Lehane
-    title: Shutter Island
+    - book: Shutter Island
       my-rating: 0
       avg-rating: 4.09
       year-published: 2003
@@ -1188,7 +1143,7 @@
       read-count: 0
 
 - author: James Sallis
-    title: Driven
+    - book: Driven
       my-rating: 0
       avg-rating: 3.26
       year-published: 2012
@@ -1196,7 +1151,7 @@
       read-count: 0
 
 - author: Christa Roberts
-    title: Employee Handbook
+    - book: Employee Handbook
       my-rating: 3
       avg-rating: 3.90
       year-published: 2014
@@ -1204,7 +1159,7 @@
       read-count: 1
 
 - author: Miriam Elia
-    title: Diary of Edward the Hamster 1990-1990
+    - book: Diary of Edward the Hamster 1990-1990
       additional-authors: Ezra Elia
       my-rating: 5
       avg-rating: 3.99
@@ -1212,33 +1167,16 @@
       date-read:
       read-count: 1
 
-- author: Ray Bradbury
-    title: Dandelion Wine
-      my-rating: 0
-      avg-rating: 4.09
-      year-published: 1957
-      date-read:
-      read-count: 0
-
 - author: Jim Hogshire
-    title: 'Opium for the Masses: Harvesting Nature''s Best Pain Medication'
+    - book: 'Opium for the Masses: Harvesting Nature''s Best Pain Medication'
       my-rating: 4
       avg-rating: 3.88
       year-published: 1994
       date-read:
       read-count: 1
 
-- author: Charles Bukowski
-    title: The Bell Tolls for No One
-      additional-authors: David Stephen Calonne
-      my-rating: 5
-      avg-rating: 3.67
-      year-published: 2015
-      date-read:
-      read-count: 1
-
 - author: Jon Ronson
-    title: The Men Who Stare at Goats
+    - book: The Men Who Stare at Goats
       my-rating: 0
       avg-rating: 3.60
       year-published: 2004
@@ -1246,7 +1184,7 @@
       read-count: 0
 
 - author: Aleksey Nikolayevich Tolstoy
-    title: Aelita
+    - book: Aelita
       my-rating: 5
       avg-rating: 3.65
       year-published: 1922
@@ -1254,7 +1192,7 @@
       read-count: 1
 
 - author: Octavio Paz
-    title: In/Mediaciones
+    - book: In/Mediaciones
       my-rating: 0
       avg-rating: 4.00
       year-published: 1979
@@ -1262,7 +1200,7 @@
       read-count: 0
 
 - author: Leonid Kaganov
-    title: Таблетки
+    - book: Таблетки
       my-rating: 3
       avg-rating: 4.09
       year-published:
@@ -1270,7 +1208,7 @@
       read-count: 1
 
 - author: Catherine Cowan
-    title: My Life with the Wave
+    - book: My Life with the Wave
       additional-authors: Octavio Paz, Mark Buehner
       my-rating: 5
       avg-rating: 3.93
@@ -1279,7 +1217,7 @@
       read-count: 1
 
 - author: Vasily Aksyonov
-    title: Остров Крым
+    - book: Остров Крым
       additional-authors: Василий Аксёнов
       my-rating: 5
       avg-rating: 3.81
@@ -1288,7 +1226,7 @@
       read-count: 1
 
 - author: John le Carré
-    title: Absolute Friends
+    - book: Absolute Friends
       my-rating: 5
       avg-rating: 3.60
       year-published: 2003
@@ -1296,7 +1234,7 @@
       read-count: 1
 
 - author: Gabriel García Márquez
-    title: Of Love and Other Demons
+    - book: Of Love and Other Demons
       my-rating: 0
       avg-rating: 3.98
       year-published: 1994
@@ -1304,7 +1242,7 @@
       read-count: 0
 
 - author: Gabriel García Márquez
-    title: El coronel no tiene quien le escriba
+    - book: El coronel no tiene quien le escriba
       my-rating: 0
       avg-rating: 3.72
       year-published: 1961
@@ -1312,7 +1250,7 @@
       read-count: 0
 
 - author: Gabriel García Márquez
-    title: One Hundred Years of Solitude
+    - book: One Hundred Years of Solitude
       additional-authors: Gregory Rabassa
       my-rating: 5
       avg-rating: 4.05
@@ -1321,7 +1259,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: Дорога к Марсу
+    - book: Дорога к Марсу
       additional-authors: Сергей Лукьяненко, Александр Зорич, Александр Громов, Alexander Gromov
       my-rating: 0
       avg-rating: 2.17
@@ -1330,7 +1268,7 @@
       read-count: 0
 
 - author: Sergei Lukyanenko
-    title: Прозрачные витражи (Лабиринт отражений, #3)
+    - book: Прозрачные витражи (Лабиринт отражений, #3)
       additional-authors: Сергей Лукьяненко
       my-rating: 3
       avg-rating: 3.93
@@ -1339,7 +1277,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: Лабиринт отражений (Лабиринт отражений, #1)
+    - book: Лабиринт отражений (Лабиринт отражений, #1)
       additional-authors: Сергей Лукьяненко
       my-rating: 5
       avg-rating: 4.13
@@ -1348,7 +1286,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: The Last Watch (Watch #4)
+    - book: The Last Watch (Watch #4)
       additional-authors: Andrew Bromfield
       my-rating: 5
       avg-rating: 4.11
@@ -1357,7 +1295,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: Twilight Watch (Watch #3)
+    - book: Twilight Watch (Watch #3)
       additional-authors: Andrew Bromfield
       my-rating: 5
       avg-rating: 4.12
@@ -1366,7 +1304,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: Day Watch (Watch #2)
+    - book: Day Watch (Watch #2)
       additional-authors: Andrew Bromfield
       my-rating: 4
       avg-rating: 4.05
@@ -1375,7 +1313,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: Night Watch (Watch #1)
+    - book: Night Watch (Watch #1)
       additional-authors: Andrew Bromfield
       my-rating: 5
       avg-rating: 3.98
@@ -1384,7 +1322,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: Новый Дозор (Дозоры, #5)
+    - book: Новый Дозор (Дозоры, #5)
       additional-authors: Сергей Лукьяненко
       my-rating: 4
       avg-rating: 4.00
@@ -1393,7 +1331,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: Черновик (Работа над ошибками, #1)
+    - book: Черновик (Работа над ошибками, #1)
       additional-authors: Сергей Лукьяненко, Александр Андриенко
       my-rating: 0
       avg-rating: 3.99
@@ -1402,7 +1340,7 @@
       read-count: 0
 
 - author: Sergei Lukyanenko
-    title: Звёзды - холодные игрушки (Звёздный лабиринт, #1)
+    - book: Звёзды - холодные игрушки (Звёздный лабиринт, #1)
       additional-authors: Сергей Лукьяненко
       my-rating: 0
       avg-rating: 4.10
@@ -1411,7 +1349,7 @@
       read-count: 0
 
 - author: Sergei Lukyanenko
-    title: Чистовик (Работа над ошибками, #2)
+    - book: Чистовик (Работа над ошибками, #2)
       additional-authors: Сергей Лукьяненко, Александр Андриенко
       my-rating: 4
       avg-rating: 3.69
@@ -1420,7 +1358,7 @@
       read-count: 1
 
 - author: Sergei Lukyanenko
-    title: Фальшивые зеркала (Лабиринт отражений, #2)
+    - book: Фальшивые зеркала (Лабиринт отражений, #2)
       additional-authors: Сергей Лукьяненко
       my-rating: 4
       avg-rating: 4.18
@@ -1429,7 +1367,7 @@
       read-count: 1
 
 - author: Mikhail Bulgakov
-    title: Morphine
+    - book: Morphine
       my-rating: 0
       avg-rating: 4.06
       year-published: 1926
@@ -1437,7 +1375,7 @@
       read-count: 0
 
 - author: Mikhail Bulgakov
-    title: The White Guard
+    - book: The White Guard
       additional-authors: Michael Glenny
       my-rating: 0
       avg-rating: 4.05
@@ -1446,7 +1384,7 @@
       read-count: 0
 
 - author: Mikhail Bulgakov
-    title: Heart of a Dog
+    - book: Heart of a Dog
       additional-authors: Mirra Ginsburg
       my-rating: 0
       avg-rating: 4.14
@@ -1455,7 +1393,7 @@
       read-count: 0
 
 - author: Mikhail Bulgakov
-    title: The Master and Margarita
+    - book: The Master and Margarita
       additional-authors: 'Katherine Tiernan O''Connor, Ellendea Proffer, Diana Burgin'
       my-rating: 5
       avg-rating: 4.31
@@ -1464,7 +1402,7 @@
       read-count: 1
 
 - author: John le Carré
-    title: A Delicate Truth
+    - book: A Delicate Truth
       my-rating: 0
       avg-rating: 3.75
       year-published: 2013
@@ -1472,7 +1410,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: A Murder of Quality
+    - book: A Murder of Quality
       my-rating: 0
       avg-rating: 3.60
       year-published: 1962
@@ -1480,7 +1418,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: A Most Wanted Man
+    - book: A Most Wanted Man
       my-rating: 0
       avg-rating: 3.49
       year-published: 2008
@@ -1488,7 +1426,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: The Little Drummer Girl
+    - book: The Little Drummer Girl
       my-rating: 0
       avg-rating: 3.95
       year-published: 1983
@@ -1496,7 +1434,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: The Honourable Schoolboy
+    - book: The Honourable Schoolboy
       my-rating: 0
       avg-rating: 3.95
       year-published: 1977
@@ -1504,7 +1442,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: A Perfect Spy
+    - book: A Perfect Spy
       my-rating: 0
       avg-rating: 4.00
       year-published: 1986
@@ -1512,7 +1450,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: The Constant Gardener
+    - book: The Constant Gardener
       my-rating: 0
       avg-rating: 3.78
       year-published: 2001
@@ -1520,7 +1458,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: The Russia House
+    - book: The Russia House
       my-rating: 0
       avg-rating: 3.91
       year-published: 1989
@@ -1528,7 +1466,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: 'Smiley''s People'
+    - book: 'Smiley''s People'
       my-rating: 0
       avg-rating: 4.26
       year-published: 1979
@@ -1536,7 +1474,7 @@
       read-count: 0
 
 - author: John le Carré
-    title: The Spy Who Came In from the Cold
+    - book: The Spy Who Came In from the Cold
       my-rating: 5
       avg-rating: 4.07
       year-published: 1963
@@ -1544,7 +1482,7 @@
       read-count: 1
 
 - author: John le Carré
-    title: Tinker, Tailor, Soldier, Spy
+    - book: Tinker, Tailor, Soldier, Spy
       my-rating: 0
       avg-rating: 4.05
       year-published: 1974
@@ -1552,7 +1490,7 @@
       read-count: 0
 
 - author: Erich Maria Remarque
-    title: Three Comrades
+    - book: Three Comrades
       additional-authors: Arthur Wesley Wheen
       my-rating: 5
       avg-rating: 4.48
@@ -1561,7 +1499,7 @@
       read-count: 1
 
 - author: Arkady Strugatsky
-    title: Отель «У Погибшего Альпиниста»
+    - book: Отель «У Погибшего Альпиниста»
       additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
       my-rating: 0
       avg-rating: 3.76
@@ -1570,7 +1508,7 @@
       read-count: 0
 
 - author: Arkady Strugatsky
-    title: Обитаемый остров
+    - book: Обитаемый остров
       additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
       my-rating: 0
       avg-rating: 4.26
@@ -1579,7 +1517,7 @@
       read-count: 0
 
 - author: Arkady Strugatsky
-    title: Трудно быть богом
+    - book: Трудно быть богом
       additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
       my-rating: 0
       avg-rating: 4.22
@@ -1588,7 +1526,7 @@
       read-count: 0
 
 - author: Arkady Strugatsky
-    title: Понедельник начинается в субботу
+    - book: Понедельник начинается в субботу
       additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
       my-rating: 5
       avg-rating: 4.30
@@ -1597,7 +1535,7 @@
       read-count: 1
 
 - author: Hunter S. Thompson
-    title: 'Hell''s Angels: A Strange and Terrible Saga'
+    - book: 'Hell''s Angels: A Strange and Terrible Saga'
       my-rating: 0
       avg-rating: 4.00
       year-published: 1966
@@ -1605,7 +1543,7 @@
       read-count: 0
 
 - author: Hunter S. Thompson
-    title: 'Fear and Loathing on the Campaign Trail ''72'
+    - book: 'Fear and Loathing on the Campaign Trail ''72'
       my-rating: 0
       avg-rating: 4.11
       year-published: 1973
@@ -1613,7 +1551,7 @@
       read-count: 0
 
 - author: Hunter S. Thompson
-    title: The Rum Diary
+    - book: The Rum Diary
       my-rating: 5
       avg-rating: 3.83
       year-published: 1998
@@ -1621,7 +1559,7 @@
       read-count: 1
 
 - author: Hunter S. Thompson
-    title: Fear and Loathing in Las Vegas
+    - book: Fear and Loathing in Las Vegas
       additional-authors: Ralph Steadman
       my-rating: 5
       avg-rating: 4.08
@@ -1630,7 +1568,7 @@
       read-count: 1
 
 - author: Chuck Palahniuk
-    title: Fight Club
+    - book: Fight Club
       my-rating: 5
       avg-rating: 4.20
       year-published: 1996
@@ -1638,7 +1576,7 @@
       read-count: 1
 
 - author: Aleksey Nikolayevich Tolstoy
-    title: Граф Калиостро
+    - book: Граф Калиостро
       additional-authors: Алексей Николаевич Толстой
       my-rating: 0
       avg-rating: 3.93
@@ -1647,7 +1585,7 @@
       read-count: 0
 
 - author: Aleksey Nikolayevich Tolstoy
-    title: Терентий Генералов
+    - book: Терентий Генералов
       additional-authors: Алексей Николаевич Толстой
       my-rating: 0
       avg-rating: 4.50
@@ -1656,7 +1594,7 @@
       read-count: 0
 
 - author: Aleksey Nikolayevich Tolstoy
-    title: Peter the First
+    - book: Peter the First
       my-rating: 0
       avg-rating: 4.16
       year-published: 1944
@@ -1664,7 +1602,7 @@
       read-count: 0
 
 - author: Juan Rulfo
-    title: Pedro Páramo
+    - book: Pedro Páramo
       additional-authors: Margaret Sayers Peden, Susan Sontag
       my-rating: 5
       avg-rating: 4.05
@@ -1673,7 +1611,7 @@
       read-count: 1
 
 - author: Veniamin Kaverin
-    title: Два капитана
+    - book: Два капитана
       additional-authors: Вениамин Каверин
       my-rating: 5
       avg-rating: 4.32
@@ -1682,7 +1620,7 @@
       read-count: 1
 
 - author: Viktor Suvorov
-    title: Аквариум
+    - book: Аквариум
       additional-authors: Виктор Суворов
       my-rating: 5
       avg-rating: 4.30
@@ -1691,25 +1629,21 @@
       read-count: 1
 
 - author: Vladimir Voinovich
-    title: Малое собрание сочинений
+    - book: Малое собрание сочинений
       additional-authors: Владимир Войнович
       my-rating: 0
       avg-rating: 0.0
       year-published:
       date-read:
       read-count: 0
-
-- author: Vladimir Voinovich
-    title: Жизнь и необычайные приключения солдата Ивана Чонкина
+    - book: Жизнь и необычайные приключения солдата Ивана Чонкина
       additional-authors: Владимир Войнович
       my-rating: 3
       avg-rating: 3.97
       year-published: 1969
       date-read:
       read-count: 1
-
-- author: Vladimir Voinovich
-    title: Москва 2042
+    - book: Москва 2042
       additional-authors: Владимир Войнович
       my-rating: 0
       avg-rating: 3.90
@@ -1718,39 +1652,48 @@
       read-count: 0
 
 - author: Juan Rulfo
-    title: El Llano en llamas
+    - book: El Llano en llamas
       my-rating: 5
       avg-rating: 4.18
       year-published: 1950
       date-read:
       read-count: 1
 
-- author: Vladimir Nabokov
-    title: Solus Rex
-      my-rating: 5
-      avg-rating: 3.80
-      year-published:
-      date-read:
-      read-count: 1
-
 - author: Charles Bukowski
-    title: Women
+    - book: Women
       my-rating: 4
       avg-rating: 3.88
       year-published: 1978
       date-read:
       read-count: 1
-
-- author: Charles Bukowski
-    title: Post Office
+    - book: Post Office
       my-rating: 5
       avg-rating: 4.00
       year-published: 1971
       date-read:
       read-count: 1
+    - book: The Bell Tolls for No One
+      additional-authors: David Stephen Calonne
+      my-rating: 5
+      avg-rating: 3.67
+      year-published: 2015
+      date-read:
+      read-count: 1
+    - book: War All the Time
+      my-rating: 0
+      avg-rating: 4.16
+      year-published: 1984
+      date-read:
+      read-count: 0
+    - book: The Continual Condition: Poems
+      my-rating: 5
+      avg-rating: 3.86
+      year-published: 2009
+      date-read: 2017/10/18
+      read-count: 1
 
 - author: Stanisław Lem
-    title: Звёздные дневники Ийона Тихого
+    - book: Звёздные дневники Ийона Тихого
       my-rating: 3
       avg-rating: 4.28
       year-published: 1957
@@ -1758,39 +1701,39 @@
       read-count: 1
 
 - author: Ray Bradbury
-    title: 'Green Shadows, White Whale: A Novel of Ray Bradbury''s Adventures Making Moby Dick with John Huston in Ireland'
+    - book: 'Green Shadows, White Whale: A Novel of Ray Bradbury''s Adventures Making Moby Dick with John Huston in Ireland'
       my-rating: 4
       avg-rating: 3.83
       year-published: 1992
       date-read:
       read-count: 1
-
-- author: Ray Bradbury
-    title: Zen in the Art of Writing
+    - book: Zen in the Art of Writing
       my-rating: 0
       avg-rating: 4.11
       year-published: 1987
       date-read:
       read-count: 0
-
-- author: Ray Bradbury
-    title: Fahrenheit 451
+    - book: Fahrenheit 451
       my-rating: 5
       avg-rating: 3.98
       year-published: 1953
       date-read:
       read-count: 1
+    - book: Dandelion Wine
+      my-rating: 0
+      avg-rating: 4.09
+      year-published: 1957
+      date-read:
+      read-count: 0
 
 - author: Robert M. Pirsig
-    title: Lila: An Inquiry Into Morals
+    - book: Lila: An Inquiry Into Morals
       my-rating: 4
       avg-rating: 3.76
       year-published: 1991
       date-read:
       read-count: 1
-
-- author: Robert M. Pirsig
-    title: Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values
+    - book: Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values
       my-rating: 5
       avg-rating: 3.77
       year-published: 1974
@@ -1798,87 +1741,67 @@
       read-count: 1
 
 - author: Carlos Castaneda
-    title: The Wheel of Time: The Shamans of Mexico Their Thoughts About Life Death & the Universe
+    - book: The Wheel of Time: The Shamans of Mexico Their Thoughts About Life Death & the Universe
       my-rating: 0
       avg-rating: 4.04
       year-published: 1998
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: The Active Side of Infinity
+    - book: The Active Side of Infinity
       my-rating: 0
       avg-rating: 4.15
       year-published: 1998
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: Power of Silence
+    - book: Power of Silence
       my-rating: 0
       avg-rating: 4.21
       year-published: 1987
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: Fire from Within
+    - book: Fire from Within
       my-rating: 0
       avg-rating: 4.13
       year-published: 1984
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: Second Ring of Power
+    - book: Second Ring of Power
       my-rating: 0
       avg-rating: 4.01
       year-published: 1977
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: 'Eagle''s Gift'
+    - book: 'Eagle''s Gift'
       my-rating: 0
       avg-rating: 4.06
       year-published: 1981
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: The Art of Dreaming
+    - book: The Art of Dreaming
       my-rating: 0
       avg-rating: 4.11
       year-published: 1993
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: Tales of Power
+    - book: Tales of Power
       my-rating: 0
       avg-rating: 4.14
       year-published: 1974
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: Journey to Ixtlan
+    - book: Journey to Ixtlan
       my-rating: 0
       avg-rating: 4.11
       year-published: 1972
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: A Separate Reality
+    - book: A Separate Reality
       my-rating: 0
       avg-rating: 4.07
       year-published: 1968
       date-read:
       read-count: 0
-
-- author: Carlos Castaneda
-    title: The Teachings of Don Juan: A Yaqui Way of Knowledge
+    - book: The Teachings of Don Juan: A Yaqui Way of Knowledge
       my-rating: 5
       avg-rating: 3.94
       year-published: 1968
