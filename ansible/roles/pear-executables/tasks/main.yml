@@ -1,15 +1,11 @@
 ---
-- name: Fix screen binary permissions
+- name: Comment out devpts fstab entry
   become: yes
   become_user: root
-  file:
-    path: "{{ item }}"
-    mode: "u=rws,g=rws,o=rx"
-  with_items:
-    - /usr/bin/screen
-    - /usr/bin/mosh
-    - /usr/bin/mosh-client
-    - /usr/bin/mosh-server
+  replace:
+    dest: /etc/fstab
+    regexp: '^devpts'
+    replace: '#devpts'
 
 - name: Fix screen run directory permissions
   become: yes
