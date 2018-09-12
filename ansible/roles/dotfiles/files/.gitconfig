@@ -1,33 +1,34 @@
 [push]
-	default = matching
+    default = matching
 [user]
-	email = me@smaslennikov.com
-	name = Slava Maslennikov
+    email = me@smaslennikov.com
+    name = Svyatoslav I. Maslennikov
+    signingkey = 0966E2426B9E28CC
 [alias]
     git = !exec git
-	c = checkout
+    c = checkout
     o = commit
     p = pull
     u = push
     r = push --rebase
 [apply]
-	whitespace = nowarn
+    whitespace = nowarn
 [color]
-	branch = auto
-	diff = auto
-	status = auto
+    branch = auto
+    diff = auto
+    status = auto
 [color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
+    current = yellow reverse
+    local = yellow
+    remote = green
 [color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
 [color "status"]
-	added = yellow
-	changed = green
-	untracked = cyan
+    added = yellow
+    changed = green
+    untracked = cyan
 [commit]
-	gpgsign = true
+    gpgsign = true
