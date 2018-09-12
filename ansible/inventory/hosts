@@ -7,3 +7,6 @@ pear.pinchesarbol.es
 
 [slab]
 slab.pinchesarbol.es
+
+[pizzabook]
+localhost ansible_connection=local

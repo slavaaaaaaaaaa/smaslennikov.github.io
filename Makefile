@@ -1,5 +1,11 @@
 VAULT_VARS="ansible/inventory/group_vars/all.yml"
 
+pizzabook: ansible
+	@echo Ansibling your pizzabook...
+	cd ansible && \
+        ansible-galaxy install -r requirements.yml && \
+        ansible-playbook playbooks/pizzabook.yml --ask-become-pass --ask-vault-pass $(TEST_ARGS)
+
 pear: ansible
 	@echo Ansibling your pear...
 	cd ansible && ansible-playbook playbooks/pear.yml --ask-become-pass --ask-vault-pass $(TEST_ARGS)
