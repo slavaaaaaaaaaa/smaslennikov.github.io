@@ -1,2 +1,6 @@
 *.log
 *.aux
+
+# ansible galaxy roles
+ansible/roles/elliotweiser.osx-command-line-tools/
+ansible/roles/geerlingguy.homebrew/
