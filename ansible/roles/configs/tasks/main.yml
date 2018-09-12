@@ -1,2 +1,2 @@
 ---
-- { include: tasks.yml, become: true, become_user: root }
+- { include: tasks.yml, become: true, become_user: root, when: ansible_distribution == "CentOS" }
