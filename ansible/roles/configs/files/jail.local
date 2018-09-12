@@ -28,7 +28,6 @@ filter   = sshd
 port     = ssh
 logpath  = %(sshd_log)s
 action   = iptables[name=SSH, port=ssh, protocol=tcp]
-           sendmail-whois[name=SSH, dest=me+f2b@smaslennikov.com, sender=fail2ban@mail.com]
 maxretry = 3
 bantime  = 1728000
 
@@ -43,4 +42,3 @@ logpath = %(sshd_log)s
 port    = ssh
 logpath = %(sshd_log)s
 action   = iptables[name=SSH, port=ssh, protocol=tcp]
-           sendmail-whois[name=SSH, dest=me+f2b@smaslennikov.com, sender=fail2ban@mail.com]

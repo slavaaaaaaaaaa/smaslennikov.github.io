@@ -3,8 +3,13 @@
   become: yes
   become_user: root
   file:
-    path: /usr/bin/screen
+    path: "{{ item }}"
     mode: "u=rws,g=rws,o=rx"
+  with_items:
+    - /usr/bin/screen
+    - /usr/bin/mosh
+    - /usr/bin/mosh-client
+    - /usr/bin/mosh-server
 
 - name: Fix screen run directory permissions
   become: yes
