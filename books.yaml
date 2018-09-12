@@ -1,1825 +1,1638 @@
 ---
 - author: Douglas Adams
-    - book: "The Hitchhiker's Guide to the Galaxy"
-      year-published: 1979
-      read-count: 1
-    - book: The Restaurant at the End of the Universe
-      year-published: 1980
-      read-count: 1
-    - book: Life, the Universe and Everything
-      year-published: 1982
-      read-count: 0
-
+  - book: "The Hitchhiker's Guide to the Galaxy"
+    year-published: 1979
+    read-count: 1
+  - book: The Restaurant at the End of the Universe
+    year-published: 1980
+    read-count: 1
+  - book: Life, the Universe and Everything
+    year-published: 1982
+    read-count: 0
 - author: Tim O'Brien
-    - book: The Things They Carried
-      year-published: 1990
-      read-count: 1
-
+  - book: The Things They Carried
+    year-published: 1990
+    read-count: 1
 - author: Michael Ondaatje
-    - book: The English Patient
-      my-rating: 0
-      avg-rating: 3.88
-      year-published: 1992
-      date-read:
-      read-count: 1
-
+  - book: The English Patient
+    my-rating: 0
+    avg-rating: 3.88
+    year-published: 1992
+    date-read:
+    read-count: 1
 - author: Ernest Hemingway
-    - book: The Fifth Column and Four Stories of the Spanish Civil War
-      my-rating: 5
-      avg-rating: 3.57
-      year-published: 1938
-      date-read: 2017/07/11
-      read-count: 1
-    - book: The Old Man and the Sea
-      my-rating: 5
-      avg-rating: 3.75
-      year-published: 1952
-      date-read: 2018/06/07
-      read-count: 1
-    - book: Complete Poems
-      additional-authors: Nicholas Gerogiannis
-      my-rating: 5
-      avg-rating: 3.36
-      year-published: 1979
-      date-read: 2017/10/18
-      read-count: 1
-
-
+  - book: The Fifth Column and Four Stories of the Spanish Civil War
+    my-rating: 5
+    avg-rating: 3.57
+    year-published: 1938
+    date-read: 2017/07/11
+    read-count: 1
+  - book: The Old Man and the Sea
+    my-rating: 5
+    avg-rating: 3.75
+    year-published: 1952
+    date-read: 2018/06/07
+    read-count: 1
+  - book: Complete Poems
+    additional-authors: Nicholas Gerogiannis
+    my-rating: 5
+    avg-rating: 3.36
+    year-published: 1979
+    date-read: 2017/10/18
+    read-count: 1
 - author: Antoine de Saint-Exupéry
-    - book: Night Flight
-      my-rating: 5
-      avg-rating: 3.80
-      year-published: 1931
-      date-read: 2018/06/07
-      read-count: 1
-
+  - book: Night Flight
+    my-rating: 5
+    avg-rating: 3.80
+    year-published: 1931
+    date-read: 2018/06/07
+    read-count: 1
 - author: J.D. Salinger
-    - book: Nine Stories
-      my-rating: 4
-      avg-rating: 4.19
-      year-published: 1953
-      date-read: 2018/06/06
-      read-count: 1
-
+  - book: Nine Stories
+    my-rating: 4
+    avg-rating: 4.19
+    year-published: 1953
+    date-read: 2018/06/06
+    read-count: 1
 - author: Владимир Набоков
-    - book: Защита Лужина
-      my-rating: 5
-      avg-rating: 3.95
-      year-published: 1930
-      date-read: 2018/06/04
-      read-count: 1
-    - book: Insomniac Dreams: Experiments with Time by Vladimir Nabokov
-      additional-authors: Gennady Barabtarlo
-      my-rating: 0
-      avg-rating: 3.51
-      year-published: 2017
-      date-read:
-      read-count: 1
-    - book: Король, дама, валет
-      my-rating: 0
-      avg-rating: 3.81
-      year-published: 1928
-      date-read:
-      read-count: 0
-    - book: Камера Обскура
-      my-rating: 5
-      avg-rating: 3.95
-      year-published: 1932
-      date-read: 2017/04/02
-      read-count: 1
-    - book: Speak, Memory
-      my-rating: 0
-      avg-rating: 4.19
-      year-published: 1951
-      date-read:
-      read-count: 0
-    - book: Lolita
-      additional-authors: Craig Raine
-      my-rating: 4
-      avg-rating: 3.89
-      year-published: 1955
-      date-read: 2017/04/17
-      read-count: 1
-    - book: Дар
-      my-rating: 5
-      avg-rating: 3.99
-      year-published: 1938
-      date-read: 2017/08/08
-      read-count: 1
-    - book: Отчаяние
-      my-rating: 5
-      avg-rating: 3.92
-      year-published: 1934
-      date-read:
-      read-count: 2
-    - book: Solus Rex
-      my-rating: 5
-      avg-rating: 3.80
-      year-published:
-      date-read:
-      read-count: 1
-
+  - book: Защита Лужина
+    my-rating: 5
+    avg-rating: 3.95
+    year-published: 1930
+    date-read: 2018/06/04
+    read-count: 1
+  - book: Insomniac Dreams: Experiments with Time by Vladimir Nabokov
+    additional-authors: Gennady Barabtarlo
+    my-rating: 0
+    avg-rating: 3.51
+    year-published: 2017
+    date-read:
+    read-count: 1
+  - book: Король, дама, валет
+    my-rating: 0
+    avg-rating: 3.81
+    year-published: 1928
+    date-read:
+    read-count: 0
+  - book: Камера Обскура
+    my-rating: 5
+    avg-rating: 3.95
+    year-published: 1932
+    date-read: 2017/04/02
+    read-count: 1
+  - book: Speak, Memory
+    my-rating: 0
+    avg-rating: 4.19
+    year-published: 1951
+    date-read:
+    read-count: 0
+  - book: Lolita
+    additional-authors: Craig Raine
+    my-rating: 4
+    avg-rating: 3.89
+    year-published: 1955
+    date-read: 2017/04/17
+    read-count: 1
+  - book: Дар
+    my-rating: 5
+    avg-rating: 3.99
+    year-published: 1938
+    date-read: 2017/08/08
+    read-count: 1
+  - book: Отчаяние
+    my-rating: 5
+    avg-rating: 3.92
+    year-published: 1934
+    date-read:
+    read-count: 2
+  - book: Solus Rex
+    my-rating: 5
+    avg-rating: 3.80
+    year-published:
+    date-read:
+    read-count: 1
 - author: Harold Stewart
-    - book: A Net of Fireflies: Japanese Haiku and Haiku Paintings
-      my-rating: 5
-      avg-rating: 3.85
-      year-published: 1960
-      date-read:
-      read-count: 0
-
+  - book: A Net of Fireflies: Japanese Haiku and Haiku Paintings
+    my-rating: 5
+    avg-rating: 3.85
+    year-published: 1960
+    date-read:
+    read-count: 0
 - author: Leo Tolstoy
-    - book: Война и мир
-      my-rating: 5
-      avg-rating: 4.32
-      year-published: 2002
-      date-read: 2018/04/17
-      read-count: 1
-
+  - book: Война и мир
+    my-rating: 5
+    avg-rating: 4.32
+    year-published: 2002
+    date-read: 2018/04/17
+    read-count: 1
 - author: Arkady Strugatsky
-    - book: Пикник на обочине
-      additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
-      my-rating: 5
-      avg-rating: 4.40
-      year-published:
-      date-read:
-      read-count: 1
-
+  - book: Пикник на обочине
+    additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
+    my-rating: 5
+    avg-rating: 4.40
+    year-published:
+    date-read:
+    read-count: 1
 - author: Luke Rhinehart
-    - book: The Dice Man
-      my-rating: 0
-      avg-rating: 3.60
-      year-published: 1971
-      date-read:
-      read-count: 0
-
+  - book: The Dice Man
+    my-rating: 0
+    avg-rating: 3.60
+    year-published: 1971
+    date-read:
+    read-count: 0
 - author: Gorillaz
-    - book: Gorillaz: Rise of the Ogre
-      my-rating: 0
-      avg-rating: 4.41
-      year-published: 2006
-      date-read:
-      read-count: 0
-
+  - book: Gorillaz: Rise of the Ogre
+    my-rating: 0
+    avg-rating: 4.41
+    year-published: 2006
+    date-read:
+    read-count: 0
 - author: Roland Barthes
-    - book: 'A Lover''s Discourse: Fragments'
-      additional-authors: Richard Howard, Wayne Koestenbaum
-      my-rating: 0
-      avg-rating: 4.37
-      year-published: 1977
-      date-read:
-      read-count: 0
-
+  - book: 'A Lover''s Discourse: Fragments'
+    additional-authors: Richard Howard, Wayne Koestenbaum
+    my-rating: 0
+    avg-rating: 4.37
+    year-published: 1977
+    date-read:
+    read-count: 0
 - author: Edith Hamilton
-    - book: Mythology: Timeless Tales of Gods and Heroes
-      additional-authors: Steele Savage
-      my-rating: 0
-      avg-rating: 3.99
-      year-published: 1942
-      date-read:
-      read-count: 0
-
+  - book: Mythology: Timeless Tales of Gods and Heroes
+    additional-authors: Steele Savage
+    my-rating: 0
+    avg-rating: 3.99
+    year-published: 1942
+    date-read:
+    read-count: 0
 - author: Jonathan Safran Foer
-    - book: Everything Is Illuminated
-      my-rating: 0
-      avg-rating: 3.90
-      year-published: 2002
-      date-read:
-      read-count: 0
-
+  - book: Everything Is Illuminated
+    my-rating: 0
+    avg-rating: 3.90
+    year-published: 2002
+    date-read:
+    read-count: 0
 - author: E.E. Cummings
-    - book: 100 Selected Poems
-      my-rating: 5
-      avg-rating: 4.32
-      year-published: 1954
-      date-read: 2017/10/18
-      read-count: 1
-
+  - book: 100 Selected Poems
+    my-rating: 5
+    avg-rating: 4.32
+    year-published: 1954
+    date-read: 2017/10/18
+    read-count: 1
 - author: Albert Camus
-    - book: The Stranger
-      additional-authors: Matthew Ward
-      my-rating: 5
-      avg-rating: 3.97
-      year-published: 1942
-      date-read: 2017/10/18
-      read-count: 1
-
+  - book: The Stranger
+    additional-authors: Matthew Ward
+    my-rating: 5
+    avg-rating: 3.97
+    year-published: 1942
+    date-read: 2017/10/18
+    read-count: 1
 - author: Nicholas Reynolds
-    - book: >
-        Writer, Sailor, Soldier, Spy: Ernest Hemingway's Secret
-        Adventures, 1935-1961
-      additional-authors: Fred Sanders
-      my-rating: 0
-      avg-rating: 3.65
-      year-published: 2017
-      date-read:
-      read-count: 0
-
+  - book: >
+    Writer, Sailor, Soldier, Spy: Ernest Hemingway's Secret
+    Adventures, 1935-1961
+    additional-authors: Fred Sanders
+    my-rating: 0
+    avg-rating: 3.65
+    year-published: 2017
+    date-read:
+    read-count: 0
 - author: Ayn Rand
-    - book: Atlas Shrugged
-      additional-authors: Leonard Peikoff
-      my-rating: 0
-      avg-rating: 3.68
-      year-published: 1957
-      date-read:
-      read-count: 0
-    - book: The Fountainhead
-      additional-authors: Leonard Peikoff
-      my-rating: 0
-      avg-rating: 3.86
-      year-published: 1943
-      date-read:
-      read-count: 0
-    - book: We the Living
-      additional-authors: Leonard Peikoff
-      my-rating: 3
-      avg-rating: 3.90
-      year-published: 1936
-      date-read: 2017/12/27
-      read-count: 1
-
-
+  - book: Atlas Shrugged
+    additional-authors: Leonard Peikoff
+    my-rating: 0
+    avg-rating: 3.68
+    year-published: 1957
+    date-read:
+    read-count: 0
+  - book: The Fountainhead
+    additional-authors: Leonard Peikoff
+    my-rating: 0
+    avg-rating: 3.86
+    year-published: 1943
+    date-read:
+    read-count: 0
+  - book: We the Living
+    additional-authors: Leonard Peikoff
+    my-rating: 3
+    avg-rating: 3.90
+    year-published: 1936
+    date-read: 2017/12/27
+    read-count: 1
 - author: Tsuyoshi Hasegawa
-    - book: The February Revolution: Petrograd 1917
-      my-rating: 0
-      avg-rating: 4.00
-      year-published: 1980
-      date-read:
-      read-count: 0
-    - book: Crime and Punishment in the Russian Revolution: Mob Justice and Police in Petrograd
-      my-rating: 0
-      avg-rating: 3.80
-      year-published:
-      date-read:
-      read-count: 0
-
+  - book: The February Revolution: Petrograd 1917
+    my-rating: 0
+    avg-rating: 4.00
+    year-published: 1980
+    date-read:
+    read-count: 0
+  - book: Crime and Punishment in the Russian Revolution: Mob Justice and Police in Petrograd
+    my-rating: 0
+    avg-rating: 3.80
+    year-published:
+    date-read:
+    read-count: 0
 - author: Kate Brown
-    - book: Dispatches from Dystopia: Histories of Places Not Yet Forgotten
-      my-rating: 0
-      avg-rating: 3.73
-      year-published: 2015
-      date-read:
-      read-count: 0
-    - book: Plutopia: Nuclear Families, Atomic Cities, and the Great Soviet and American Plutonium Disasters
-      my-rating: 0
-      avg-rating: 4.13
-      year-published: 2013
-      date-read:
-      read-count: 0
-
+  - book: Dispatches from Dystopia: Histories of Places Not Yet Forgotten
+    my-rating: 0
+    avg-rating: 3.73
+    year-published: 2015
+    date-read:
+    read-count: 0
+  - book: Plutopia: Nuclear Families, Atomic Cities, and the Great Soviet and American Plutonium Disasters
+    my-rating: 0
+    avg-rating: 4.13
+    year-published: 2013
+    date-read:
+    read-count: 0
 - author: George Mohoff
-    - book: The Russian Colony of Guadalupe Molokans in Mexico
-      my-rating: 0
-      avg-rating: 0.0
-      year-published:
-      date-read:
-      read-count: 0
-
+  - book: The Russian Colony of Guadalupe Molokans in Mexico
+    my-rating: 0
+    avg-rating: 0.0
+    year-published:
+    date-read:
+    read-count: 0
 - author: Николай Чернышевский
-    - book: Что делать?
-      my-rating: 0
-      avg-rating: 3.67
-      year-published:
-      date-read:
-      read-count: 0
-
+  - book: Что делать?
+    my-rating: 0
+    avg-rating: 3.67
+    year-published:
+    date-read:
+    read-count: 0
 - author: Joshua Slocum
-    - book: Sailing Alone around the World
-      my-rating: 5
-      avg-rating: 4.13
-      year-published: 1899
-      date-read: 2017/07/19
-      read-count: 1
-
+  - book: Sailing Alone around the World
+    my-rating: 5
+    avg-rating: 4.13
+    year-published: 1899
+    date-read: 2017/07/19
+    read-count: 1
 - author: Camille Fournier
-    - book: 'The Manager''s Path: A Guide for Tech Leaders Navigating Growth and Change'
-      my-rating: 0
-      avg-rating: 4.38
-      year-published: 2017
-      date-read:
-      read-count: 0
-
+  - book: 'The Manager''s Path: A Guide for Tech Leaders Navigating Growth and Change'
+    my-rating: 0
+    avg-rating: 4.38
+    year-published: 2017
+    date-read:
+    read-count: 0
 - author: Alexander Shulgin
-    - book: Pihkal: A Chemical Love Story
-      additional-authors: Ann Shulgin
-      my-rating: 0
-      avg-rating: 4.36
-      year-published: 1990
-      date-read:
-      read-count: 0
-
+  - book: Pihkal: A Chemical Love Story
+    additional-authors: Ann Shulgin
+    my-rating: 0
+    avg-rating: 4.36
+    year-published: 1990
+    date-read:
+    read-count: 0
 - author: Дмитрий Липскеров
-    - book: О Нем и о Бабочках
-      my-rating: 3
-      avg-rating: 4.00
-      year-published:
-      date-read: 2017/06/30
-      read-count: 1
-    - book: Последний сон разума
-      my-rating: 0
-      avg-rating: 4.12
-      year-published: 2007
-      date-read:
-      read-count: 0
-    - book: Осени не будет никогда
-      my-rating: 3
-      avg-rating: 4.19
-      year-published:
-      date-read: 2017/06/21
-      read-count: 1
-
+  - book: О Нем и о Бабочках
+    my-rating: 3
+    avg-rating: 4.00
+    year-published:
+    date-read: 2017/06/30
+    read-count: 1
+  - book: Последний сон разума
+    my-rating: 0
+    avg-rating: 4.12
+    year-published: 2007
+    date-read:
+    read-count: 0
+  - book: Осени не будет никогда
+    my-rating: 3
+    avg-rating: 4.19
+    year-published:
+    date-read: 2017/06/21
+    read-count: 1
 - author: Neil Gaiman
-    - book: The Sandman: Overture
-      additional-authors: J.H. Williams III, Dave Stewart, Todd Klein
-      my-rating: 0
-      avg-rating: 3.96
-      year-published: 2015
-      date-read:
-      read-count: 1
-    - book: Preludes & Nocturnes (The Sandman, #1)
-      additional-authors: Sam Kieth, Mike Dringenberg, Malcolm Jones III, Todd Klein, Karen  Berger
-      my-rating: 5
-      avg-rating: 4.27
-      year-published: 1989
-      date-read: 2017/06/27
-      read-count: 1
-
+  - book: The Sandman: Overture
+    additional-authors: J.H. Williams III, Dave Stewart, Todd Klein
+    my-rating: 0
+    avg-rating: 3.96
+    year-published: 2015
+    date-read:
+    read-count: 1
+  - book: Preludes & Nocturnes (The Sandman, #1)
+    additional-authors: Sam Kieth, Mike Dringenberg, Malcolm Jones III, Todd Klein, Karen  Berger
+    my-rating: 5
+    avg-rating: 4.27
+    year-published: 1989
+    date-read: 2017/06/27
+    read-count: 1
 - author: Garth Ennis
-    - book: Preacher, Volume 1: Gone to Texas
-      additional-authors: Steve Dillon, Joe R. Lansdale
-      my-rating: 0
-      avg-rating: 4.15
-      year-published: 1996
-      date-read:
-      read-count: 0
-
+  - book: Preacher, Volume 1: Gone to Texas
+    additional-authors: Steve Dillon, Joe R. Lansdale
+    my-rating: 0
+    avg-rating: 4.15
+    year-published: 1996
+    date-read:
+    read-count: 0
 - author: Warren Ellis
-    - book: Transmetropolitan, Vol. 1: Back on the Street (Transmetropolitan, #1)
-      additional-authors: Darick Robertston, Garth Ennis
-      my-rating: 0
-      avg-rating: 4.22
-      year-published: 1998
-      date-read:
-      read-count: 0
-
+  - book: Transmetropolitan, Vol. 1: Back on the Street (Transmetropolitan, #1)
+    additional-authors: Darick Robertston, Garth Ennis
+    my-rating: 0
+    avg-rating: 4.22
+    year-published: 1998
+    date-read:
+    read-count: 0
 - author: Salman Rushdie
-    - book: East, West
-      my-rating: 3
-      avg-rating: 3.57
-      year-published: 1994
-      date-read: 2017/06/26
-      read-count: 1
-
+  - book: East, West
+    my-rating: 3
+    avg-rating: 3.57
+    year-published: 1994
+    date-read: 2017/06/26
+    read-count: 1
 - author: Эдуард Лимонов
-    - book: Великие
-      my-rating: 4
-      avg-rating: 4.33
-      year-published:
-      date-read: 2017/06/24
-      read-count: 1
-
+  - book: Великие
+    my-rating: 4
+    avg-rating: 4.33
+    year-published:
+    date-read: 2017/06/24
+    read-count: 1
 - author: Jez Humble
-    - book: Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
-      additional-authors: David  Farley
-      my-rating: 0
-      avg-rating: 4.15
-      year-published: 2010
-      date-read:
-      read-count: 0
-
+  - book: Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
+    additional-authors: David  Farley
+    my-rating: 0
+    avg-rating: 4.15
+    year-published: 2010
+    date-read:
+    read-count: 0
 - author: Thomas Hobbes
-    - book: Leviathan
-      additional-authors: C.B. Macpherson
-      my-rating: 0
-      avg-rating: 3.68
-      year-published: 1651
-      date-read:
-      read-count: 0
-
+  - book: Leviathan
+    additional-authors: C.B. Macpherson
+    my-rating: 0
+    avg-rating: 3.68
+    year-published: 1651
+    date-read:
+    read-count: 0
 - author: Arthur C. Clarke
-    - book: 2001: A Space Odyssey (Space Odyssey, #1)
-      my-rating: 5
-      avg-rating: 4.13
-      year-published: 1968
-      date-read: 2017/06/19
-      read-count: 1
-    - book: 2010: Odyssey Two (Space Odyssey, #2)
-      my-rating: 0
-      avg-rating: 3.90
-      year-published: 1982
-      date-read:
-      read-count: 0
-
+  - book: 2001: A Space Odyssey (Space Odyssey, #1)
+    my-rating: 5
+    avg-rating: 4.13
+    year-published: 1968
+    date-read: 2017/06/19
+    read-count: 1
+  - book: 2010: Odyssey Two (Space Odyssey, #2)
+    my-rating: 0
+    avg-rating: 3.90
+    year-published: 1982
+    date-read:
+    read-count: 0
 - author: Mikhail Bulgakov
-    - book: Записки покойника (Театральный роман)
-      my-rating: 5
-      avg-rating: 4.23
-      year-published: 2006
-      date-read: 2017/06/14
-      read-count: 1
-    - book: Собачье сердце
-      my-rating: 5
-      avg-rating: 4.14
-      year-published: 1925
-      date-read: 2017/06/12
-      read-count: 1
-
+  - book: Записки покойника (Театральный роман)
+    my-rating: 5
+    avg-rating: 4.23
+    year-published: 2006
+    date-read: 2017/06/14
+    read-count: 1
+  - book: Собачье сердце
+    my-rating: 5
+    avg-rating: 4.14
+    year-published: 1925
+    date-read: 2017/06/12
+    read-count: 1
 - author: Victor Pelevin
-    - book: Generation "П". Повести. Рассказы
-      additional-authors: Виктор Пелевин
-      my-rating: 4
-      avg-rating: 4.11
-      year-published: 1999
-      date-read: 2017/06/08
-      read-count: 1
-
+  - book: Generation "П". Повести. Рассказы
+    additional-authors: Виктор Пелевин
+    my-rating: 4
+    avg-rating: 4.11
+    year-published: 1999
+    date-read: 2017/06/08
+    read-count: 1
 - author: Francis Spufford
-    - book: 'Red Plenty: Inside the Fifties'' Soviet Dream'
-      my-rating: 0
-      avg-rating: 4.07
-      year-published: 2007
-      date-read:
-      read-count: 0
-
+  - book: 'Red Plenty: Inside the Fifties'' Soviet Dream'
+    my-rating: 0
+    avg-rating: 4.07
+    year-published: 2007
+    date-read:
+    read-count: 0
 - author: Victor Pelevin
-    - book: Чапаев и Пустота
-      additional-authors: Пелевин Виктор
-      my-rating: 0
-      avg-rating: 4.26
-      year-published: 1996
-      date-read:
-      read-count: 0
-
+  - book: Чапаев и Пустота
+    additional-authors: Пелевин Виктор
+    my-rating: 0
+    avg-rating: 4.26
+    year-published: 1996
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Аристономия
-      my-rating: 5
-      avg-rating: 3.99
-      year-published: 2012
-      date-read:
-      read-count: 1
-
+  - book: Аристономия
+    my-rating: 5
+    avg-rating: 3.99
+    year-published: 2012
+    date-read:
+    read-count: 1
 - author: Lois Lowry
-    - book: The Giver (The Giver, #1)
-      my-rating: 0
-      avg-rating: 4.12
-      year-published: 1993
-      date-read:
-      read-count: 0
-
+  - book: The Giver (The Giver, #1)
+    my-rating: 0
+    avg-rating: 4.12
+    year-published: 1993
+    date-read:
+    read-count: 0
 - author: Karl Marx
-    - book: Basic Writings on Politics and Philosophy
-      additional-authors: Friedrich Engels, Lewis Samuel Feuer
-      my-rating: 0
-      avg-rating: 3.86
-      year-published: 1959
-      date-read:
-      read-count: 0
-
+  - book: Basic Writings on Politics and Philosophy
+    additional-authors: Friedrich Engels, Lewis Samuel Feuer
+    my-rating: 0
+    avg-rating: 3.86
+    year-published: 1959
+    date-read:
+    read-count: 0
 - author: Xosé Tarrío González
-    - book: Huye, hombre, huye. Diario de un preso F.I.E.S.
-      my-rating: 0
-      avg-rating: 4.29
-      year-published: 1999
-      date-read:
-      read-count: 0
-
+  - book: Huye, hombre, huye. Diario de un preso F.I.E.S.
+    my-rating: 0
+    avg-rating: 4.29
+    year-published: 1999
+    date-read:
+    read-count: 0
 - author: Ron Hahne
-    - book: Black Mask  Up Against the Wall Motherfucker: The Incomplete Works of Ron Hahne, Ben Morea, and the Black Mask Group
-      additional-authors: Ben Morea, Stewart Home
-      my-rating: 0
-      avg-rating: 3.97
-      year-published: 1993
-      date-read:
-      read-count: 0
-
+  - book: Black Mask  Up Against the Wall Motherfucker: The Incomplete Works of Ron Hahne, Ben Morea, and the Black Mask Group
+    additional-authors: Ben Morea, Stewart Home
+    my-rating: 0
+    avg-rating: 3.97
+    year-published: 1993
+    date-read:
+    read-count: 0
 - author: Clifford Harper
-    - book: Prolegomena: To a Study of the Return of the Repressed in History
-      my-rating: 5
-      avg-rating: 4.57
-      year-published: 1994
-      date-read:
-      read-count: 1
-
+  - book: Prolegomena: To a Study of the Return of the Repressed in History
+    my-rating: 5
+    avg-rating: 4.57
+    year-published: 1994
+    date-read:
+    read-count: 1
 - author: Dan Simmons
-    - book: Hyperion (Hyperion Cantos, #1)
-      my-rating: 4
-      avg-rating: 4.22
-      year-published: 1989
-      date-read: 2017/05/22
-      read-count: 1
-
+  - book: Hyperion (Hyperion Cantos, #1)
+    my-rating: 4
+    avg-rating: 4.22
+    year-published: 1989
+    date-read: 2017/05/22
+    read-count: 1
 - author: Umberto Eco
-    - book: The Name of the Rose
-      additional-authors: William Weaver, Seán Barrett
-      my-rating: 0
-      avg-rating: 4.12
-      year-published: 1980
-      date-read:
-      read-count: 0
-
+  - book: The Name of the Rose
+    additional-authors: William Weaver, Seán Barrett
+    my-rating: 0
+    avg-rating: 4.12
+    year-published: 1980
+    date-read:
+    read-count: 0
 - author: Sam Quinones
-    - book: 'Dreamland: The True Tale of America''s Opiate Epidemic'
-      my-rating: 0
-      avg-rating: 4.25
-      year-published: 2015
-      date-read:
-      read-count: 0
-
-- author: Linda    Evans
-    - book: The Prison-Industrial Complex & the Global Economy
-      additional-authors: Eve Goldberg
-      my-rating: 4
-      avg-rating: 3.93
-      year-published: 1998
-      date-read: 2017/05/15
-      read-count: 1
-
+  - book: 'Dreamland: The True Tale of America''s Opiate Epidemic'
+    my-rating: 0
+    avg-rating: 4.25
+    year-published: 2015
+    date-read:
+    read-count: 0
+- author: Linda  Evans
+  - book: The Prison-Industrial Complex & the Global Economy
+    additional-authors: Eve Goldberg
+    my-rating: 4
+    avg-rating: 3.93
+    year-published: 1998
+    date-read: 2017/05/15
+    read-count: 1
 - author: Jalil Muntaqim
-    - book: The Vancouver Five: Armed Struggle in Canada
-      additional-authors: Jim Campbell
-      my-rating: 5
-      avg-rating: 3.33
-      year-published: 2002
-      date-read: 2017/05/16
-      read-count: 1
-
+  - book: The Vancouver Five: Armed Struggle in Canada
+    additional-authors: Jim Campbell
+    my-rating: 5
+    avg-rating: 3.33
+    year-published: 2002
+    date-read: 2017/05/16
+    read-count: 1
 - author: Hunter S. Thompson
-    - book: The Curse of Lono
-      additional-authors: Steve Crist, Ralph Steadman
-      my-rating: 5
-      avg-rating: 3.95
-      year-published: 1983
-      date-read: 2017/05/16
-      read-count: 1
-
+  - book: The Curse of Lono
+    additional-authors: Steve Crist, Ralph Steadman
+    my-rating: 5
+    avg-rating: 3.95
+    year-published: 1983
+    date-read: 2017/05/16
+    read-count: 1
 - author: Sidney Sheldon
-    - book: The Sky is Falling
-      my-rating: 0
-      avg-rating: 3.55
-      year-published: 2000
-      date-read:
-      read-count: 0
-
+  - book: The Sky is Falling
+    my-rating: 0
+    avg-rating: 3.55
+    year-published: 2000
+    date-read:
+    read-count: 0
 - author: Ann Hansen
-    - book: Direct Action: Memoirs of an Urban Guerrilla
-      my-rating: 0
-      avg-rating: 3.89
-      year-published: 2001
-      date-read:
-      read-count: 0
-
+  - book: Direct Action: Memoirs of an Urban Guerrilla
+    my-rating: 0
+    avg-rating: 3.89
+    year-published: 2001
+    date-read:
+    read-count: 0
 - author: Thomas Paine
-    - book: Common Sense
-      my-rating: 0
-      avg-rating: 3.97
-      year-published: 1776
-      date-read:
-      read-count: 0
-
+  - book: Common Sense
+    my-rating: 0
+    avg-rating: 3.97
+    year-published: 1776
+    date-read:
+    read-count: 0
 - author: Yang Jwing-Ming
-    - book: 'Qigong, the Secret of Youth: Da Mo''s Muscle/Tendon Changing and Marrow/Brain Washing Classics'
-      my-rating: 0
-      avg-rating: 4.31
-      year-published: 2000
-      date-read:
-      read-count: 0
-
+  - book: 'Qigong, the Secret of Youth: Da Mo''s Muscle/Tendon Changing and Marrow/Brain Washing Classics'
+    my-rating: 0
+    avg-rating: 4.31
+    year-published: 2000
+    date-read:
+    read-count: 0
 - author: Benjamin Hoff
-    - book: Дао Винни-Пуха
-      additional-authors: Lev Vysotsky
-      my-rating: 4
-      avg-rating: 4.01
-      year-published: 1982
-      date-read: 2017/04/19
-      read-count: 1
-
+  - book: Дао Винни-Пуха
+    additional-authors: Lev Vysotsky
+    my-rating: 4
+    avg-rating: 4.01
+    year-published: 1982
+    date-read: 2017/04/19
+    read-count: 1
 - author: Tom Wainwright
-    - book: Narconomics: How to Run a Drug Cartel
-      my-rating: 0
-      avg-rating: 4.16
-      year-published: 2016
-      date-read:
-      read-count: 0
-
+  - book: Narconomics: How to Run a Drug Cartel
+    my-rating: 0
+    avg-rating: 4.16
+    year-published: 2016
+    date-read:
+    read-count: 0
 - author: Benjamin Hoff
-    - book: The Tao of Pooh
-      additional-authors: Ernest H. Shepard
-      my-rating: 0
-      avg-rating: 4.01
-      year-published: 1982
-      date-read:
-      read-count: 1
-
+  - book: The Tao of Pooh
+    additional-authors: Ernest H. Shepard
+    my-rating: 0
+    avg-rating: 4.01
+    year-published: 1982
+    date-read:
+    read-count: 1
 - author: Barbara Demick
-    - book: Nothing to Envy: Ordinary Lives in North Korea
-      my-rating: 0
-      avg-rating: 4.43
-      year-published: 2009
-      date-read:
-      read-count: 0
-
+  - book: Nothing to Envy: Ordinary Lives in North Korea
+    my-rating: 0
+    avg-rating: 4.43
+    year-published: 2009
+    date-read:
+    read-count: 0
 - author: Jon Ronson
-    - book: The Psychopath Test: A Journey Through the Madness Industry
-      my-rating: 0
-      avg-rating: 3.93
-      year-published: 2012
-      date-read:
-      read-count: 0
-
+  - book: The Psychopath Test: A Journey Through the Madness Industry
+    my-rating: 0
+    avg-rating: 3.93
+    year-published: 2012
+    date-read:
+    read-count: 0
 - author: Lawrence Freedman
-    - book: Strategy: A History
-      my-rating: 0
-      avg-rating: 3.97
-      year-published: 2013
-      date-read:
-      read-count: 0
-
+  - book: Strategy: A History
+    my-rating: 0
+    avg-rating: 3.97
+    year-published: 2013
+    date-read:
+    read-count: 0
 - author: Victor Davis Hanson
-    - book: A War Like No Other: How the Athenians & Spartans Fought the Peloponnesian War
-      my-rating: 0
-      avg-rating: 4.10
-      year-published: 1989
-      date-read:
-      read-count: 0
-
+  - book: A War Like No Other: How the Athenians & Spartans Fought the Peloponnesian War
+    my-rating: 0
+    avg-rating: 4.10
+    year-published: 1989
+    date-read:
+    read-count: 0
 - author: Ivan Goncharov
-    - book: Oblomov
-      additional-authors: Stephen Pearl, Galya Diment
-      my-rating: 0
-      avg-rating: 4.02
-      year-published: 1859
-      date-read:
-      read-count: 0
-
+  - book: Oblomov
+    additional-authors: Stephen Pearl, Galya Diment
+    my-rating: 0
+    avg-rating: 4.02
+    year-published: 1859
+    date-read:
+    read-count: 0
 - author: Dalton Trumbo
-    - book: Johnny Got His Gun
-      my-rating: 0
-      avg-rating: 4.17
-      year-published: 1939
-      date-read:
-      read-count: 0
-
+  - book: Johnny Got His Gun
+    my-rating: 0
+    avg-rating: 4.17
+    year-published: 1939
+    date-read:
+    read-count: 0
 - author: Lao Tzu
-    - book: Tao Te Ching
-      additional-authors: Gia-Fu Feng, Jane English, Toinette Lippe, Jacob Needleman
-      my-rating: 4
-      avg-rating: 4.31
-      year-published: -300
-      date-read: 2017/04/05
-      read-count: 1
-
+  - book: Tao Te Ching
+    additional-authors: Gia-Fu Feng, Jane English, Toinette Lippe, Jacob Needleman
+    my-rating: 4
+    avg-rating: 4.31
+    year-published: -300
+    date-read: 2017/04/05
+    read-count: 1
 - author: Ali Almossawi
-    - book: An Illustrated Book of Bad Arguments
-      additional-authors: Alejandro Giraldo
-      my-rating: 0
-      avg-rating: 3.77
-      year-published: 2013
-      date-read:
-      read-count: 0
-
+  - book: An Illustrated Book of Bad Arguments
+    additional-authors: Alejandro Giraldo
+    my-rating: 0
+    avg-rating: 3.77
+    year-published: 2013
+    date-read:
+    read-count: 0
 - author: Frederick C. Crews
-    - book: The Pooh Perplex
-      my-rating: 0
-      avg-rating: 4.01
-      year-published: 1963
-      date-read:
-      read-count: 0
-
+  - book: The Pooh Perplex
+    my-rating: 0
+    avg-rating: 4.01
+    year-published: 1963
+    date-read:
+    read-count: 0
 - author: Sun Tzu
-    - book: The Art of War
-      additional-authors: Thomas Cleary, نادر سعیدی
-      my-rating: 0
-      avg-rating: 3.96
-      year-published: -450
-      date-read:
-      read-count: 0
-
+  - book: The Art of War
+    additional-authors: Thomas Cleary, نادر سعیدی
+    my-rating: 0
+    avg-rating: 3.96
+    year-published: -450
+    date-read:
+    read-count: 0
 - author: Bandi
-    - book: The Accusation: Forbidden Stories from Inside North Korea
-      additional-authors: Deborah     Smith
-      my-rating: 0
-      avg-rating: 4.02
-      year-published: 2014
-      date-read:
-      read-count: 0
-
+  - book: The Accusation: Forbidden Stories from Inside North Korea
+    additional-authors: Deborah   Smith
+    my-rating: 0
+    avg-rating: 4.02
+    year-published: 2014
+    date-read:
+    read-count: 0
 - author: Vladimir Orlov
-    - book: Аптекарь
-      my-rating: 0
-      avg-rating: 4.05
-      year-published: 1988
-      date-read:
-      read-count: 0
-
+  - book: Аптекарь
+    my-rating: 0
+    avg-rating: 4.05
+    year-published: 1988
+    date-read:
+    read-count: 0
 - author: Vladimir Orlov
-    - book: Альтист Данилов
-      additional-authors: Vladimir Orlov
-      my-rating: 0
-      avg-rating: 4.11
-      year-published: 1980
-      date-read:
-      read-count: 0
-
+  - book: Альтист Данилов
+    additional-authors: Vladimir Orlov
+    my-rating: 0
+    avg-rating: 4.11
+    year-published: 1980
+    date-read:
+    read-count: 0
 - author: William Blake
-    - book: The Complete Poetry and Prose
-      additional-authors: David V. Erdman, Harold Bloom
-      my-rating: 0
-      avg-rating: 4.24
-      year-published: 1965
-      date-read:
-      read-count: 0
-
+  - book: The Complete Poetry and Prose
+    additional-authors: David V. Erdman, Harold Bloom
+    my-rating: 0
+    avg-rating: 4.24
+    year-published: 1965
+    date-read:
+    read-count: 0
 - author: William Blake
-    - book: Songs of Innocence and of Experience
-      my-rating: 0
-      avg-rating: 4.11
-      year-published: 1794
-      date-read:
-      read-count: 0
-
+  - book: Songs of Innocence and of Experience
+    my-rating: 0
+    avg-rating: 4.11
+    year-published: 1794
+    date-read:
+    read-count: 0
 - author: Готфрид Август Бюргер
-    - book: Невероятные путешествия Барона Мюнхгаузена
-      my-rating: 0
-      avg-rating: 4.00
-      year-published: 2014
-      date-read:
-      read-count: 0
-
+  - book: Невероятные путешествия Барона Мюнхгаузена
+    my-rating: 0
+    avg-rating: 4.00
+    year-published: 2014
+    date-read:
+    read-count: 0
 - author: Rainer Maria Rilke
-    - book: The Selected Poetry of Rainer Maria Rilke
-      additional-authors: Stephen Mitchell, Robert Hass
-      my-rating: 0
-      avg-rating: 4.40
-      year-published: 1976
-      date-read:
-      read-count: 0
-
+  - book: The Selected Poetry of Rainer Maria Rilke
+    additional-authors: Stephen Mitchell, Robert Hass
+    my-rating: 0
+    avg-rating: 4.40
+    year-published: 1976
+    date-read:
+    read-count: 0
 - author: Philip Roth
-    - book: The Plot Against America
-      my-rating: 0
-      avg-rating: 3.73
-      year-published: 2004
-      date-read:
-      read-count: 0
-
+  - book: The Plot Against America
+    my-rating: 0
+    avg-rating: 3.73
+    year-published: 2004
+    date-read:
+    read-count: 0
 - author: Sylvia Plath
-    - book: The Bell Jar
-      additional-authors: Reinhard Kaiser
-      my-rating: 0
-      avg-rating: 3.99
-      year-published: 1963
-      date-read:
-      read-count: 0
-
+  - book: The Bell Jar
+    additional-authors: Reinhard Kaiser
+    my-rating: 0
+    avg-rating: 3.99
+    year-published: 1963
+    date-read:
+    read-count: 0
 - author: Atul Gawande
-    - book: Being Mortal: Medicine and What Matters in the End
-      my-rating: 0
-      avg-rating: 4.43
-      year-published: 2014
-      date-read:
-      read-count: 0
-
+  - book: Being Mortal: Medicine and What Matters in the End
+    my-rating: 0
+    avg-rating: 4.43
+    year-published: 2014
+    date-read:
+    read-count: 0
 - author: Fazil Iskander
-    - book: Сандро из Чегема
-      additional-authors: Фазиль Искандер
-      my-rating: 0
-      avg-rating: 4.29
-      year-published: 1983
-      date-read:
-      read-count: 0
-
+  - book: Сандро из Чегема
+    additional-authors: Фазиль Искандер
+    my-rating: 0
+    avg-rating: 4.29
+    year-published: 1983
+    date-read:
+    read-count: 0
 - author: Fazil Iskander
-    - book: Кролики и удавы
-      additional-authors: Фазиль Искандер
-      my-rating: 5
-      avg-rating: 4.17
-      year-published: 1982
-      date-read: 2017/12/30
-      read-count: 1
-
+  - book: Кролики и удавы
+    additional-authors: Фазиль Искандер
+    my-rating: 5
+    avg-rating: 4.17
+    year-published: 1982
+    date-read: 2017/12/30
+    read-count: 1
 - author: Cynthia Shapiro
-    - book: 'Corporate Confidential: 50 Secrets Your Company Doesn''t Want You to Know---and What to Do About Them'
-      my-rating: 3
-      avg-rating: 3.91
-      year-published: 2005
-      date-read: 2017/03/01
-      read-count: 1
-
+  - book: 'Corporate Confidential: 50 Secrets Your Company Doesn''t Want You to Know---and What to Do About Them'
+    my-rating: 3
+    avg-rating: 3.91
+    year-published: 2005
+    date-read: 2017/03/01
+    read-count: 1
 - author: Richard Bach
-    - book: Чайка по имени Джонатан Ливингстон
-      additional-authors: Юни Родман
-      my-rating: 3
-      avg-rating: 3.81
-      year-published: 1970
-      date-read: 2017/02/27
-      read-count: 1
-
+  - book: Чайка по имени Джонатан Ливингстон
+    additional-authors: Юни Родман
+    my-rating: 3
+    avg-rating: 3.81
+    year-published: 1970
+    date-read: 2017/02/27
+    read-count: 1
 - author: Aleksey Nikolayevich Tolstoy
-    - book: Гиперболоид инженера Гарина
-      additional-authors: Алексей Николаевич Толстой
-      my-rating: 5
-      avg-rating: 3.92
-      year-published: 1927
-      date-read:
-      read-count: 1
-
+  - book: Гиперболоид инженера Гарина
+    additional-authors: Алексей Николаевич Толстой
+    my-rating: 5
+    avg-rating: 3.92
+    year-published: 1927
+    date-read:
+    read-count: 1
 - author: John le Carré
-    - book: Call for the Dead (George Smiley, #1)
-      my-rating: 0
-      avg-rating: 3.79
-      year-published: 1961
-      date-read:
-      read-count: 0
-
+  - book: Call for the Dead (George Smiley, #1)
+    my-rating: 0
+    avg-rating: 3.79
+    year-published: 1961
+    date-read:
+    read-count: 0
 - author: Roberto Bolaño
-    - book: The Last Interview and Other Conversations
-      additional-authors: Mónica Maristain, Marcela Valdes, Sybil Perez, Tom McCartan
-      my-rating: 0
-      avg-rating: 3.82
-      year-published: 2009
-      date-read:
-      read-count: 0
-
+  - book: The Last Interview and Other Conversations
+    additional-authors: Mónica Maristain, Marcela Valdes, Sybil Perez, Tom McCartan
+    my-rating: 0
+    avg-rating: 3.82
+    year-published: 2009
+    date-read:
+    read-count: 0
 - author: Andy Hunt
-    - book: The Pragmatic Programmer: From Journeyman to Master
-      additional-authors: Dave Thomas
-      my-rating: 4
-      avg-rating: 4.31
-      year-published: 1999
-      date-read: 2017/02/14
-      read-count: 1
-
+  - book: The Pragmatic Programmer: From Journeyman to Master
+    additional-authors: Dave Thomas
+    my-rating: 4
+    avg-rating: 4.31
+    year-published: 1999
+    date-read: 2017/02/14
+    read-count: 1
 - author: Тильман Шпенглер
-    - book: Мозг Ленина
-      my-rating: 4
-      avg-rating: 4.00
-      year-published:
-      date-read: 2017/02/07
-      read-count: 1
-
+  - book: Мозг Ленина
+    my-rating: 4
+    avg-rating: 4.00
+    year-published:
+    date-read: 2017/02/07
+    read-count: 1
 - author: Boris Akunin
-    - book: Murder on the Leviathan (Erast Fandorin Mysteries, #3)
-      additional-authors: Boris Akunin, Andrew Bromfield
-      my-rating: 5
-      avg-rating: 4.00
-      year-published: 1998
-      date-read: 2017/01/27
-      read-count: 1
-
+  - book: Murder on the Leviathan (Erast Fandorin Mysteries, #3)
+    additional-authors: Boris Akunin, Andrew Bromfield
+    my-rating: 5
+    avg-rating: 4.00
+    year-published: 1998
+    date-read: 2017/01/27
+    read-count: 1
 - author: Veniamin Kaverin
-    - book: Two Captains
-      additional-authors: Bernard Isaacs
-      my-rating: 5
-      avg-rating: 4.32
-      year-published: 1944
-      date-read:
-      read-count: 1
-
+  - book: Two Captains
+    additional-authors: Bernard Isaacs
+    my-rating: 5
+    avg-rating: 4.32
+    year-published: 1944
+    date-read:
+    read-count: 1
 - author: Suzanne Bourgeois
-    - book: Genesis of the Salk Institute
-      my-rating: 5
-      avg-rating: 4.00
-      year-published: 2013
-      date-read: 2017/01/16
-      read-count: 1
-
+  - book: Genesis of the Salk Institute
+    my-rating: 5
+    avg-rating: 4.00
+    year-published: 2013
+    date-read: 2017/01/16
+    read-count: 1
 - author: Gabriel García Márquez
-    - book: Море исчезающих времен [More ischezayuschih vremen]
-      my-rating: 5
-      avg-rating: 3.92
-      year-published: 2007
-      date-read: 2017/01/09
-      read-count: 1
-
+  - book: Море исчезающих времен [More ischezayuschih vremen]
+    my-rating: 5
+    avg-rating: 3.92
+    year-published: 2007
+    date-read: 2017/01/09
+    read-count: 1
 - author: J.R.R. Tolkien
-    - book: The Hobbit
-      my-rating: 5
-      avg-rating: 4.26
-      year-published: 1937
-      date-read: 2003/01/01
-      read-count: 1
-
+  - book: The Hobbit
+    my-rating: 5
+    avg-rating: 4.26
+    year-published: 1937
+    date-read: 2003/01/01
+    read-count: 1
 - author: Anthony Burgess
-    - book: A Clockwork Orange
-      my-rating: 0
-      avg-rating: 3.99
-      year-published: 1962
-      date-read:
-      read-count: 0
-
+  - book: A Clockwork Orange
+    my-rating: 0
+    avg-rating: 3.99
+    year-published: 1962
+    date-read:
+    read-count: 0
 - author: Richard  Adams
-    - book: Watership Down (Watership Down, #1)
-      my-rating: 0
-      avg-rating: 4.06
-      year-published: 1972
-      date-read:
-      read-count: 0
-
+  - book: Watership Down (Watership Down, #1)
+    my-rating: 0
+    avg-rating: 4.06
+    year-published: 1972
+    date-read:
+    read-count: 0
 - author: Fazil Iskander
-    - book: Пиры Валтасара. Кролики и удавы
-      additional-authors: Фазиль Искандер
-      my-rating: 5
-      avg-rating: 5.00
-      year-published:
-      date-read: 2016/12/30
-      read-count: 1
-
+  - book: Пиры Валтасара. Кролики и удавы
+    additional-authors: Фазиль Искандер
+    my-rating: 5
+    avg-rating: 5.00
+    year-published:
+    date-read: 2016/12/30
+    read-count: 1
 - author: Boris Akunin
-    - book: Dekorater (Erast Fandorin Mysteries #5.2)
-      additional-authors: Igor Buljan
-      my-rating: 0
-      avg-rating: 4.05
-      year-published: 1999
-      date-read:
-      read-count: 0
-
+  - book: Dekorater (Erast Fandorin Mysteries #5.2)
+    additional-authors: Igor Buljan
+    my-rating: 0
+    avg-rating: 4.05
+    year-published: 1999
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Patasotilas (Erast Fandorin Mysteries #5.1)
-      additional-authors: Anton Nikkilä
-      my-rating: 0
-      avg-rating: 4.04
-      year-published: 1999
-      date-read:
-      read-count: 0
-
+  - book: Patasotilas (Erast Fandorin Mysteries #5.1)
+    additional-authors: Anton Nikkilä
+    my-rating: 0
+    avg-rating: 4.04
+    year-published: 1999
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Планета вода (Erast Fandorin Mysteries, #14)
-      additional-authors: Boris Akunin, Борис Акунин
-      my-rating: 0
-      avg-rating: 3.62
-      year-published: 2015
-      date-read:
-      read-count: 0
-
+  - book: Планета вода (Erast Fandorin Mysteries, #14)
+    additional-authors: Boris Akunin, Борис Акунин
+    my-rating: 0
+    avg-rating: 3.62
+    year-published: 2015
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Весь мир театр (Erast Fandorin Mysteries, #12)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 3.67
-      year-published: 2009
-      date-read:
-      read-count: 0
-
+  - book: Весь мир театр (Erast Fandorin Mysteries, #12)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 3.67
+    year-published: 2009
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Черный город (Erast Fandorin Mysteries, #13)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 3.97
-      year-published: 2012
-      date-read:
-      read-count: 0
-
+  - book: Черный город (Erast Fandorin Mysteries, #13)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 3.97
+    year-published: 2012
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Любовница смерти (Erast Fandorin Mysteries, #8)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 3.86
-      year-published: 2001
-      date-read:
-      read-count: 0
-
+  - book: Любовница смерти (Erast Fandorin Mysteries, #8)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 3.86
+    year-published: 2001
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: The Turkish Gambit (Erast Fandorin Mysteries, #2)
-      additional-authors: Boris Akunin, Andrew Bromfield
-      my-rating: 5
-      avg-rating: 3.95
-      year-published: 1998
-      date-read: 2017/01/04
-      read-count: 1
-
+  - book: The Turkish Gambit (Erast Fandorin Mysteries, #2)
+    additional-authors: Boris Akunin, Andrew Bromfield
+    my-rating: 5
+    avg-rating: 3.95
+    year-published: 1998
+    date-read: 2017/01/04
+    read-count: 1
 - author: Boris Akunin
-    - book: Азазель
-      additional-authors: Борис Акунин
-      my-rating: 5
-      avg-rating: 3.88
-      year-published: 1998
-      date-read: 2016/12/16
-      read-count: 1
-
+  - book: Азазель
+    additional-authors: Борис Акунин
+    my-rating: 5
+    avg-rating: 3.88
+    year-published: 1998
+    date-read: 2016/12/16
+    read-count: 1
 - author: Boris Akunin
-    - book: Нефритовые четки (Erast Fandorin Mysteries, #11)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 4.17
-      year-published: 2006
-      date-read:
-      read-count: 0
-
+  - book: Нефритовые четки (Erast Fandorin Mysteries, #11)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 4.17
+    year-published: 2006
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Коронация, или Последний из романов (Erast Fandorin Mysteries, #7)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 4.21
-      year-published: 2000
-      date-read:
-      read-count: 0
-
+  - book: Коронация, или Последний из романов (Erast Fandorin Mysteries, #7)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 4.21
+    year-published: 2000
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Любовник смерти (Erast Fandorin Mysteries, #9)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 4.06
-      year-published: 2001
-      date-read:
-      read-count: 0
-
+  - book: Любовник смерти (Erast Fandorin Mysteries, #9)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 4.06
+    year-published: 2001
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Special Assignments (Erast Fandorin Mysteries, #5)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 4.08
-      year-published: 1999
-      date-read:
-      read-count: 0
-
+  - book: Special Assignments (Erast Fandorin Mysteries, #5)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 4.08
+    year-published: 1999
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Алмазная колесница (Erast Fandorin Mysteries, #10)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 4.40
-      year-published: 1999
-      date-read:
-      read-count: 0
-
+  - book: Алмазная колесница (Erast Fandorin Mysteries, #10)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 4.40
+    year-published: 1999
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: Статский советник (Erast Fandorin Mysteries, #6)
-      additional-authors: Boris Akunin
-      my-rating: 0
-      avg-rating: 4.19
-      year-published: 1999
-      date-read:
-      read-count: 0
-
+  - book: Статский советник (Erast Fandorin Mysteries, #6)
+    additional-authors: Boris Akunin
+    my-rating: 0
+    avg-rating: 4.19
+    year-published: 1999
+    date-read:
+    read-count: 0
 - author: Boris Akunin
-    - book: The Death of Achilles (Erast Fandorin Mysteries, #4)
-      additional-authors: Boris Akunin, Andrew Bromfield
-      my-rating: 0
-      avg-rating: 4.08
-      year-published: 1998
-      date-read:
-      read-count: 0
-
+  - book: The Death of Achilles (Erast Fandorin Mysteries, #4)
+    additional-authors: Boris Akunin, Andrew Bromfield
+    my-rating: 0
+    avg-rating: 4.08
+    year-published: 1998
+    date-read:
+    read-count: 0
 - author: Gabriel García Márquez
-    - book: Скверное время
-      my-rating: 5
-      avg-rating: 3.40
-      year-published: 1961
-      date-read: 2016/11/28
-      read-count: 1
-
+  - book: Скверное время
+    my-rating: 5
+    avg-rating: 3.40
+    year-published: 1961
+    date-read: 2016/11/28
+    read-count: 1
 - author: Brian Christian
-    - book: Algorithms to Live By: The Computer Science of Human Decisions
-      additional-authors: Tom  Griffiths
-      my-rating: 0
-      avg-rating: 4.16
-      year-published: 2016
-      date-read:
-      read-count: 0
-
+  - book: Algorithms to Live By: The Computer Science of Human Decisions
+    additional-authors: Tom  Griffiths
+    my-rating: 0
+    avg-rating: 4.16
+    year-published: 2016
+    date-read:
+    read-count: 0
 - author: Gabriel García Márquez
-    - book: А смерть всегда надежнее любви...
-      additional-authors: Габриэль Гарсиа Маркес
-      my-rating: 5
-      avg-rating: 5.00
-      year-published:
-      date-read: 2016/11/10
-      read-count: 1
-
+  - book: А смерть всегда надежнее любви...
+    additional-authors: Габриэль Гарсиа Маркес
+    my-rating: 5
+    avg-rating: 5.00
+    year-published:
+    date-read: 2016/11/10
+    read-count: 1
 - author: David A. Mindell
-    - book: Digital Apollo: Human and Machine in Spaceflight
-      my-rating: 0
-      avg-rating: 4.24
-      year-published: 2008
-      date-read:
-      read-count: 0
-
+  - book: Digital Apollo: Human and Machine in Spaceflight
+    my-rating: 0
+    avg-rating: 4.24
+    year-published: 2008
+    date-read:
+    read-count: 0
 - author: Aleksey Nikolayevich Tolstoy
-    - book: Аэлита
-      additional-authors: Алексей Николаевич Толстой
-      my-rating: 5
-      avg-rating: 3.65
-      year-published: 1922
-      date-read:
-      read-count: 1
-
+  - book: Аэлита
+    additional-authors: Алексей Николаевич Толстой
+    my-rating: 5
+    avg-rating: 3.65
+    year-published: 1922
+    date-read:
+    read-count: 1
 - author: Roberto Bolaño
-    - book: 2666
-      my-rating: 0
-      avg-rating: 4.21
-      year-published: 2004
-      date-read:
-      read-count: 0
-
+  - book: 2666
+    my-rating: 0
+    avg-rating: 4.21
+    year-published: 2004
+    date-read:
+    read-count: 0
 - author: Hunter S. Thompson
-    - book: Screwjack
-      my-rating: 5
-      avg-rating: 3.58
-      year-published: 2000
-      date-read: 2016/10/20
-      read-count: 1
-
+  - book: Screwjack
+    my-rating: 5
+    avg-rating: 3.58
+    year-published: 2000
+    date-read: 2016/10/20
+    read-count: 1
 - author: Jonathan Kozol
-    - book: 'Savage Inequalities: Children in America''s Schools'
-      my-rating: 0
-      avg-rating: 4.24
-      year-published: 1991
-      date-read:
-      read-count: 0
-
+  - book: 'Savage Inequalities: Children in America''s Schools'
+    my-rating: 0
+    avg-rating: 4.24
+    year-published: 1991
+    date-read:
+    read-count: 0
 - author: Keith Richards
-    - book: Life
-      additional-authors: James Fox
-      my-rating: 4
-      avg-rating: 3.85
-      year-published: 2010
-      date-read:
-      read-count: 1
-
+  - book: Life
+    additional-authors: James Fox
+    my-rating: 4
+    avg-rating: 3.85
+    year-published: 2010
+    date-read:
+    read-count: 1
 - author: Abbie Hoffman
-    - book: Steal This Book
-      my-rating: 0
-      avg-rating: 3.60
-      year-published: 1971
-      date-read:
-      read-count: 0
-
+  - book: Steal This Book
+    my-rating: 0
+    avg-rating: 3.60
+    year-published: 1971
+    date-read:
+    read-count: 0
 - author: Walter Isaacson
-    - book: Steve Jobs
-      my-rating: 1
-      avg-rating: 4.11
-      year-published: 2011
-      date-read:
-      read-count: 1
-
+  - book: Steve Jobs
+    my-rating: 1
+    avg-rating: 4.11
+    year-published: 2011
+    date-read:
+    read-count: 1
 - author: Dennis Lehane
-    - book: Shutter Island
-      my-rating: 0
-      avg-rating: 4.09
-      year-published: 2003
-      date-read:
-      read-count: 0
-
+  - book: Shutter Island
+    my-rating: 0
+    avg-rating: 4.09
+    year-published: 2003
+    date-read:
+    read-count: 0
 - author: James Sallis
-    - book: Driven
-      my-rating: 0
-      avg-rating: 3.26
-      year-published: 2012
-      date-read:
-      read-count: 0
-
+  - book: Driven
+    my-rating: 0
+    avg-rating: 3.26
+    year-published: 2012
+    date-read:
+    read-count: 0
 - author: Christa Roberts
-    - book: Employee Handbook
-      my-rating: 3
-      avg-rating: 3.90
-      year-published: 2014
-      date-read:
-      read-count: 1
-
+  - book: Employee Handbook
+    my-rating: 3
+    avg-rating: 3.90
+    year-published: 2014
+    date-read:
+    read-count: 1
 - author: Miriam Elia
-    - book: Diary of Edward the Hamster 1990-1990
-      additional-authors: Ezra Elia
-      my-rating: 5
-      avg-rating: 3.99
-      year-published: 2012
-      date-read:
-      read-count: 1
-
+  - book: Diary of Edward the Hamster 1990-1990
+    additional-authors: Ezra Elia
+    my-rating: 5
+    avg-rating: 3.99
+    year-published: 2012
+    date-read:
+    read-count: 1
 - author: Jim Hogshire
-    - book: 'Opium for the Masses: Harvesting Nature''s Best Pain Medication'
-      my-rating: 4
-      avg-rating: 3.88
-      year-published: 1994
-      date-read:
-      read-count: 1
-
+  - book: 'Opium for the Masses: Harvesting Nature''s Best Pain Medication'
+    my-rating: 4
+    avg-rating: 3.88
+    year-published: 1994
+    date-read:
+    read-count: 1
 - author: Jon Ronson
-    - book: The Men Who Stare at Goats
-      my-rating: 0
-      avg-rating: 3.60
-      year-published: 2004
-      date-read:
-      read-count: 0
-
+  - book: The Men Who Stare at Goats
+    my-rating: 0
+    avg-rating: 3.60
+    year-published: 2004
+    date-read:
+    read-count: 0
 - author: Aleksey Nikolayevich Tolstoy
-    - book: Aelita
-      my-rating: 5
-      avg-rating: 3.65
-      year-published: 1922
-      date-read:
-      read-count: 1
-
+  - book: Aelita
+    my-rating: 5
+    avg-rating: 3.65
+    year-published: 1922
+    date-read:
+    read-count: 1
 - author: Octavio Paz
-    - book: In/Mediaciones
-      my-rating: 0
-      avg-rating: 4.00
-      year-published: 1979
-      date-read:
-      read-count: 0
-
+  - book: In/Mediaciones
+    my-rating: 0
+    avg-rating: 4.00
+    year-published: 1979
+    date-read:
+    read-count: 0
 - author: Leonid Kaganov
-    - book: Таблетки
-      my-rating: 3
-      avg-rating: 4.09
-      year-published:
-      date-read: 2016/10/19
-      read-count: 1
-
+  - book: Таблетки
+    my-rating: 3
+    avg-rating: 4.09
+    year-published:
+    date-read: 2016/10/19
+    read-count: 1
 - author: Catherine Cowan
-    - book: My Life with the Wave
-      additional-authors: Octavio Paz, Mark Buehner
-      my-rating: 5
-      avg-rating: 3.93
-      year-published: 1997
-      date-read: 2016/10/17
-      read-count: 1
-
+  - book: My Life with the Wave
+    additional-authors: Octavio Paz, Mark Buehner
+    my-rating: 5
+    avg-rating: 3.93
+    year-published: 1997
+    date-read: 2016/10/17
+    read-count: 1
 - author: Vasily Aksyonov
-    - book: Остров Крым
-      additional-authors: Василий Аксёнов
-      my-rating: 5
-      avg-rating: 3.81
-      year-published: 1979
-      date-read: 2016/10/18
-      read-count: 1
-
+  - book: Остров Крым
+    additional-authors: Василий Аксёнов
+    my-rating: 5
+    avg-rating: 3.81
+    year-published: 1979
+    date-read: 2016/10/18
+    read-count: 1
 - author: John le Carré
-    - book: Absolute Friends
-      my-rating: 5
-      avg-rating: 3.60
-      year-published: 2003
-      date-read: 2016/09/24
-      read-count: 1
-
+  - book: Absolute Friends
+    my-rating: 5
+    avg-rating: 3.60
+    year-published: 2003
+    date-read: 2016/09/24
+    read-count: 1
 - author: Gabriel García Márquez
-    - book: Of Love and Other Demons
-      my-rating: 0
-      avg-rating: 3.98
-      year-published: 1994
-      date-read:
-      read-count: 0
-
+  - book: Of Love and Other Demons
+    my-rating: 0
+    avg-rating: 3.98
+    year-published: 1994
+    date-read:
+    read-count: 0
 - author: Gabriel García Márquez
-    - book: El coronel no tiene quien le escriba
-      my-rating: 0
-      avg-rating: 3.72
-      year-published: 1961
-      date-read:
-      read-count: 0
-
+  - book: El coronel no tiene quien le escriba
+    my-rating: 0
+    avg-rating: 3.72
+    year-published: 1961
+    date-read:
+    read-count: 0
 - author: Gabriel García Márquez
-    - book: One Hundred Years of Solitude
-      additional-authors: Gregory Rabassa
-      my-rating: 5
-      avg-rating: 4.05
-      year-published: 1967
-      date-read:
-      read-count: 1
-
+  - book: One Hundred Years of Solitude
+    additional-authors: Gregory Rabassa
+    my-rating: 5
+    avg-rating: 4.05
+    year-published: 1967
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: Дорога к Марсу
-      additional-authors: Сергей Лукьяненко, Александр Зорич, Александр Громов, Alexander Gromov
-      my-rating: 0
-      avg-rating: 2.17
-      year-published:
-      date-read:
-      read-count: 0
-
+  - book: Дорога к Марсу
+    additional-authors: Сергей Лукьяненко, Александр Зорич, Александр Громов, Alexander Gromov
+    my-rating: 0
+    avg-rating: 2.17
+    year-published:
+    date-read:
+    read-count: 0
 - author: Sergei Lukyanenko
-    - book: Прозрачные витражи (Лабиринт отражений, #3)
-      additional-authors: Сергей Лукьяненко
-      my-rating: 3
-      avg-rating: 3.93
-      year-published: 1999
-      date-read:
-      read-count: 1
-
+  - book: Прозрачные витражи (Лабиринт отражений, #3)
+    additional-authors: Сергей Лукьяненко
+    my-rating: 3
+    avg-rating: 3.93
+    year-published: 1999
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: Лабиринт отражений (Лабиринт отражений, #1)
-      additional-authors: Сергей Лукьяненко
-      my-rating: 5
-      avg-rating: 4.13
-      year-published: 1996
-      date-read:
-      read-count: 1
-
+  - book: Лабиринт отражений (Лабиринт отражений, #1)
+    additional-authors: Сергей Лукьяненко
+    my-rating: 5
+    avg-rating: 4.13
+    year-published: 1996
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: The Last Watch (Watch #4)
-      additional-authors: Andrew Bromfield
-      my-rating: 5
-      avg-rating: 4.11
-      year-published: 2006
-      date-read:
-      read-count: 1
-
+  - book: The Last Watch (Watch #4)
+    additional-authors: Andrew Bromfield
+    my-rating: 5
+    avg-rating: 4.11
+    year-published: 2006
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: Twilight Watch (Watch #3)
-      additional-authors: Andrew Bromfield
-      my-rating: 5
-      avg-rating: 4.12
-      year-published: 2004
-      date-read:
-      read-count: 1
-
+  - book: Twilight Watch (Watch #3)
+    additional-authors: Andrew Bromfield
+    my-rating: 5
+    avg-rating: 4.12
+    year-published: 2004
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: Day Watch (Watch #2)
-      additional-authors: Andrew Bromfield
-      my-rating: 4
-      avg-rating: 4.05
-      year-published: 2000
-      date-read:
-      read-count: 1
-
+  - book: Day Watch (Watch #2)
+    additional-authors: Andrew Bromfield
+    my-rating: 4
+    avg-rating: 4.05
+    year-published: 2000
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: Night Watch (Watch #1)
-      additional-authors: Andrew Bromfield
-      my-rating: 5
-      avg-rating: 3.98
-      year-published: 1998
-      date-read:
-      read-count: 1
-
+  - book: Night Watch (Watch #1)
+    additional-authors: Andrew Bromfield
+    my-rating: 5
+    avg-rating: 3.98
+    year-published: 1998
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: Новый Дозор (Дозоры, #5)
-      additional-authors: Сергей Лукьяненко
-      my-rating: 4
-      avg-rating: 4.00
-      year-published: 2012
-      date-read:
-      read-count: 1
-
+  - book: Новый Дозор (Дозоры, #5)
+    additional-authors: Сергей Лукьяненко
+    my-rating: 4
+    avg-rating: 4.00
+    year-published: 2012
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: Черновик (Работа над ошибками, #1)
-      additional-authors: Сергей Лукьяненко, Александр Андриенко
-      my-rating: 0
-      avg-rating: 3.99
-      year-published: 2005
-      date-read:
-      read-count: 0
-
+  - book: Черновик (Работа над ошибками, #1)
+    additional-authors: Сергей Лукьяненко, Александр Андриенко
+    my-rating: 0
+    avg-rating: 3.99
+    year-published: 2005
+    date-read:
+    read-count: 0
 - author: Sergei Lukyanenko
-    - book: Звёзды - холодные игрушки (Звёздный лабиринт, #1)
-      additional-authors: Сергей Лукьяненко
-      my-rating: 0
-      avg-rating: 4.10
-      year-published: 1997
-      date-read:
-      read-count: 0
-
+  - book: Звёзды - холодные игрушки (Звёздный лабиринт, #1)
+    additional-authors: Сергей Лукьяненко
+    my-rating: 0
+    avg-rating: 4.10
+    year-published: 1997
+    date-read:
+    read-count: 0
 - author: Sergei Lukyanenko
-    - book: Чистовик (Работа над ошибками, #2)
-      additional-authors: Сергей Лукьяненко, Александр Андриенко
-      my-rating: 4
-      avg-rating: 3.69
-      year-published: 2005
-      date-read:
-      read-count: 1
-
+  - book: Чистовик (Работа над ошибками, #2)
+    additional-authors: Сергей Лукьяненко, Александр Андриенко
+    my-rating: 4
+    avg-rating: 3.69
+    year-published: 2005
+    date-read:
+    read-count: 1
 - author: Sergei Lukyanenko
-    - book: Фальшивые зеркала (Лабиринт отражений, #2)
-      additional-authors: Сергей Лукьяненко
-      my-rating: 4
-      avg-rating: 4.18
-      year-published: 1999
-      date-read:
-      read-count: 1
-
+  - book: Фальшивые зеркала (Лабиринт отражений, #2)
+    additional-authors: Сергей Лукьяненко
+    my-rating: 4
+    avg-rating: 4.18
+    year-published: 1999
+    date-read:
+    read-count: 1
 - author: Mikhail Bulgakov
-    - book: Morphine
-      my-rating: 0
-      avg-rating: 4.06
-      year-published: 1926
-      date-read:
-      read-count: 0
-
+  - book: Morphine
+    my-rating: 0
+    avg-rating: 4.06
+    year-published: 1926
+    date-read:
+    read-count: 0
 - author: Mikhail Bulgakov
-    - book: The White Guard
-      additional-authors: Michael Glenny
-      my-rating: 0
-      avg-rating: 4.05
-      year-published: 1925
-      date-read:
-      read-count: 0
-
+  - book: The White Guard
+    additional-authors: Michael Glenny
+    my-rating: 0
+    avg-rating: 4.05
+    year-published: 1925
+    date-read:
+    read-count: 0
 - author: Mikhail Bulgakov
-    - book: Heart of a Dog
-      additional-authors: Mirra Ginsburg
-      my-rating: 0
-      avg-rating: 4.14
-      year-published: 1925
-      date-read:
-      read-count: 0
-
+  - book: Heart of a Dog
+    additional-authors: Mirra Ginsburg
+    my-rating: 0
+    avg-rating: 4.14
+    year-published: 1925
+    date-read:
+    read-count: 0
 - author: Mikhail Bulgakov
-    - book: The Master and Margarita
-      additional-authors: 'Katherine Tiernan O''Connor, Ellendea Proffer, Diana Burgin'
-      my-rating: 5
-      avg-rating: 4.31
-      year-published: 1967
-      date-read:
-      read-count: 1
-
+  - book: The Master and Margarita
+    additional-authors: 'Katherine Tiernan O''Connor, Ellendea Proffer, Diana Burgin'
+    my-rating: 5
+    avg-rating: 4.31
+    year-published: 1967
+    date-read:
+    read-count: 1
 - author: John le Carré
-    - book: A Delicate Truth
-      my-rating: 0
-      avg-rating: 3.75
-      year-published: 2013
-      date-read:
-      read-count: 0
-
+  - book: A Delicate Truth
+    my-rating: 0
+    avg-rating: 3.75
+    year-published: 2013
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: A Murder of Quality
-      my-rating: 0
-      avg-rating: 3.60
-      year-published: 1962
-      date-read:
-      read-count: 0
-
+  - book: A Murder of Quality
+    my-rating: 0
+    avg-rating: 3.60
+    year-published: 1962
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: A Most Wanted Man
-      my-rating: 0
-      avg-rating: 3.49
-      year-published: 2008
-      date-read:
-      read-count: 0
-
+  - book: A Most Wanted Man
+    my-rating: 0
+    avg-rating: 3.49
+    year-published: 2008
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: The Little Drummer Girl
-      my-rating: 0
-      avg-rating: 3.95
-      year-published: 1983
-      date-read:
-      read-count: 0
-
+  - book: The Little Drummer Girl
+    my-rating: 0
+    avg-rating: 3.95
+    year-published: 1983
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: The Honourable Schoolboy
-      my-rating: 0
-      avg-rating: 3.95
-      year-published: 1977
-      date-read:
-      read-count: 0
-
+  - book: The Honourable Schoolboy
+    my-rating: 0
+    avg-rating: 3.95
+    year-published: 1977
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: A Perfect Spy
-      my-rating: 0
-      avg-rating: 4.00
-      year-published: 1986
-      date-read:
-      read-count: 0
-
+  - book: A Perfect Spy
+    my-rating: 0
+    avg-rating: 4.00
+    year-published: 1986
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: The Constant Gardener
-      my-rating: 0
-      avg-rating: 3.78
-      year-published: 2001
-      date-read:
-      read-count: 0
-
+  - book: The Constant Gardener
+    my-rating: 0
+    avg-rating: 3.78
+    year-published: 2001
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: The Russia House
-      my-rating: 0
-      avg-rating: 3.91
-      year-published: 1989
-      date-read:
-      read-count: 0
-
+  - book: The Russia House
+    my-rating: 0
+    avg-rating: 3.91
+    year-published: 1989
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: 'Smiley''s People'
-      my-rating: 0
-      avg-rating: 4.26
-      year-published: 1979
-      date-read:
-      read-count: 0
-
+  - book: 'Smiley''s People'
+    my-rating: 0
+    avg-rating: 4.26
+    year-published: 1979
+    date-read:
+    read-count: 0
 - author: John le Carré
-    - book: The Spy Who Came In from the Cold
-      my-rating: 5
-      avg-rating: 4.07
-      year-published: 1963
-      date-read:
-      read-count: 1
-
+  - book: The Spy Who Came In from the Cold
+    my-rating: 5
+    avg-rating: 4.07
+    year-published: 1963
+    date-read:
+    read-count: 1
 - author: John le Carré
-    - book: Tinker, Tailor, Soldier, Spy
-      my-rating: 0
-      avg-rating: 4.05
-      year-published: 1974
-      date-read:
-      read-count: 0
-
+  - book: Tinker, Tailor, Soldier, Spy
+    my-rating: 0
+    avg-rating: 4.05
+    year-published: 1974
+    date-read:
+    read-count: 0
 - author: Erich Maria Remarque
-    - book: Three Comrades
-      additional-authors: Arthur Wesley Wheen
-      my-rating: 5
-      avg-rating: 4.48
-      year-published: 1936
-      date-read:
-      read-count: 1
-
+  - book: Three Comrades
+    additional-authors: Arthur Wesley Wheen
+    my-rating: 5
+    avg-rating: 4.48
+    year-published: 1936
+    date-read:
+    read-count: 1
 - author: Arkady Strugatsky
-    - book: Отель «У Погибшего Альпиниста»
-      additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
-      my-rating: 0
-      avg-rating: 3.76
-      year-published: 1970
-      date-read:
-      read-count: 0
-
+  - book: Отель «У Погибшего Альпиниста»
+    additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
+    my-rating: 0
+    avg-rating: 3.76
+    year-published: 1970
+    date-read:
+    read-count: 0
 - author: Arkady Strugatsky
-    - book: Обитаемый остров
-      additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
-      my-rating: 0
-      avg-rating: 4.26
-      year-published: 1967
-      date-read:
-      read-count: 0
-
+  - book: Обитаемый остров
+    additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
+    my-rating: 0
+    avg-rating: 4.26
+    year-published: 1967
+    date-read:
+    read-count: 0
 - author: Arkady Strugatsky
-    - book: Трудно быть богом
-      additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
-      my-rating: 0
-      avg-rating: 4.22
-      year-published: 1964
-      date-read:
-      read-count: 0
-
+  - book: Трудно быть богом
+    additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
+    my-rating: 0
+    avg-rating: 4.22
+    year-published: 1964
+    date-read:
+    read-count: 0
 - author: Arkady Strugatsky
-    - book: Понедельник начинается в субботу
-      additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
-      my-rating: 5
-      avg-rating: 4.30
-      year-published: 1965
-      date-read:
-      read-count: 1
-
+  - book: Понедельник начинается в субботу
+    additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
+    my-rating: 5
+    avg-rating: 4.30
+    year-published: 1965
+    date-read:
+    read-count: 1
 - author: Hunter S. Thompson
-    - book: 'Hell''s Angels: A Strange and Terrible Saga'
-      my-rating: 0
-      avg-rating: 4.00
-      year-published: 1966
-      date-read:
-      read-count: 0
-
+  - book: 'Hell''s Angels: A Strange and Terrible Saga'
+    my-rating: 0
+    avg-rating: 4.00
+    year-published: 1966
+    date-read:
+    read-count: 0
 - author: Hunter S. Thompson
-    - book: 'Fear and Loathing on the Campaign Trail ''72'
-      my-rating: 0
-      avg-rating: 4.11
-      year-published: 1973
-      date-read:
-      read-count: 0
-
+  - book: 'Fear and Loathing on the Campaign Trail ''72'
+    my-rating: 0
+    avg-rating: 4.11
+    year-published: 1973
+    date-read:
+    read-count: 0
 - author: Hunter S. Thompson
-    - book: The Rum Diary
-      my-rating: 5
-      avg-rating: 3.83
-      year-published: 1998
-      date-read:
-      read-count: 1
-
+  - book: The Rum Diary
+    my-rating: 5
+    avg-rating: 3.83
+    year-published: 1998
+    date-read:
+    read-count: 1
 - author: Hunter S. Thompson
-    - book: Fear and Loathing in Las Vegas
-      additional-authors: Ralph Steadman
-      my-rating: 5
-      avg-rating: 4.08
-      year-published: 1971
-      date-read:
-      read-count: 1
-
+  - book: Fear and Loathing in Las Vegas
+    additional-authors: Ralph Steadman
+    my-rating: 5
+    avg-rating: 4.08
+    year-published: 1971
+    date-read:
+    read-count: 1
 - author: Chuck Palahniuk
-    - book: Fight Club
-      my-rating: 5
-      avg-rating: 4.20
-      year-published: 1996
-      date-read:
-      read-count: 1
-
+  - book: Fight Club
+    my-rating: 5
+    avg-rating: 4.20
+    year-published: 1996
+    date-read:
+    read-count: 1
 - author: Aleksey Nikolayevich Tolstoy
-    - book: Граф Калиостро
-      additional-authors: Алексей Николаевич Толстой
-      my-rating: 0
-      avg-rating: 3.93
-      year-published:
-      date-read:
-      read-count: 0
-
+  - book: Граф Калиостро
+    additional-authors: Алексей Николаевич Толстой
+    my-rating: 0
+    avg-rating: 3.93
+    year-published:
+    date-read:
+    read-count: 0
 - author: Aleksey Nikolayevich Tolstoy
-    - book: Терентий Генералов
-      additional-authors: Алексей Николаевич Толстой
-      my-rating: 0
-      avg-rating: 4.50
-      year-published:
-      date-read:
-      read-count: 0
-
+  - book: Терентий Генералов
+    additional-authors: Алексей Николаевич Толстой
+    my-rating: 0
+    avg-rating: 4.50
+    year-published:
+    date-read:
+    read-count: 0
 - author: Aleksey Nikolayevich Tolstoy
-    - book: Peter the First
-      my-rating: 0
-      avg-rating: 4.16
-      year-published: 1944
-      date-read:
-      read-count: 0
-
+  - book: Peter the First
+    my-rating: 0
+    avg-rating: 4.16
+    year-published: 1944
+    date-read:
+    read-count: 0
 - author: Juan Rulfo
-    - book: Pedro Páramo
-      additional-authors: Margaret Sayers Peden, Susan Sontag
-      my-rating: 5
-      avg-rating: 4.05
-      year-published: 1955
-      date-read:
-      read-count: 1
-
+  - book: Pedro Páramo
+    additional-authors: Margaret Sayers Peden, Susan Sontag
+    my-rating: 5
+    avg-rating: 4.05
+    year-published: 1955
+    date-read:
+    read-count: 1
 - author: Veniamin Kaverin
-    - book: Два капитана
-      additional-authors: Вениамин Каверин
-      my-rating: 5
-      avg-rating: 4.32
-      year-published: 1944
-      date-read:
-      read-count: 1
-
+  - book: Два капитана
+    additional-authors: Вениамин Каверин
+    my-rating: 5
+    avg-rating: 4.32
+    year-published: 1944
+    date-read:
+    read-count: 1
 - author: Viktor Suvorov
-    - book: Аквариум
-      additional-authors: Виктор Суворов
-      my-rating: 5
-      avg-rating: 4.30
-      year-published: 1985
-      date-read:
-      read-count: 1
-
+  - book: Аквариум
+    additional-authors: Виктор Суворов
+    my-rating: 5
+    avg-rating: 4.30
+    year-published: 1985
+    date-read:
+    read-count: 1
 - author: Vladimir Voinovich
-    - book: Малое собрание сочинений
-      additional-authors: Владимир Войнович
-      my-rating: 0
-      avg-rating: 0.0
-      year-published:
-      date-read:
-      read-count: 0
-    - book: Жизнь и необычайные приключения солдата Ивана Чонкина
-      additional-authors: Владимир Войнович
-      my-rating: 3
-      avg-rating: 3.97
-      year-published: 1969
-      date-read:
-      read-count: 1
-    - book: Москва 2042
-      additional-authors: Владимир Войнович
-      my-rating: 0
-      avg-rating: 3.90
-      year-published: 1987
-      date-read:
-      read-count: 0
-
+  - book: Малое собрание сочинений
+    additional-authors: Владимир Войнович
+    my-rating: 0
+    avg-rating: 0.0
+    year-published:
+    date-read:
+    read-count: 0
+  - book: Жизнь и необычайные приключения солдата Ивана Чонкина
+    additional-authors: Владимир Войнович
+    my-rating: 3
+    avg-rating: 3.97
+    year-published: 1969
+    date-read:
+    read-count: 1
+  - book: Москва 2042
+    additional-authors: Владимир Войнович
+    my-rating: 0
+    avg-rating: 3.90
+    year-published: 1987
+    date-read:
+    read-count: 0
 - author: Juan Rulfo
-    - book: El Llano en llamas
-      my-rating: 5
-      avg-rating: 4.18
-      year-published: 1950
-      date-read:
-      read-count: 1
-
+  - book: El Llano en llamas
+    my-rating: 5
+    avg-rating: 4.18
+    year-published: 1950
+    date-read:
+    read-count: 1
 - author: Charles Bukowski
-    - book: Women
-      my-rating: 4
-      avg-rating: 3.88
-      year-published: 1978
-      date-read:
-      read-count: 1
-    - book: Post Office
-      my-rating: 5
-      avg-rating: 4.00
-      year-published: 1971
-      date-read:
-      read-count: 1
-    - book: The Bell Tolls for No One
-      additional-authors: David Stephen Calonne
-      my-rating: 5
-      avg-rating: 3.67
-      year-published: 2015
-      date-read:
-      read-count: 1
-    - book: War All the Time
-      my-rating: 0
-      avg-rating: 4.16
-      year-published: 1984
-      date-read:
-      read-count: 0
-    - book: The Continual Condition: Poems
-      my-rating: 5
-      avg-rating: 3.86
-      year-published: 2009
-      date-read: 2017/10/18
-      read-count: 1
-
+  - book: Women
+    my-rating: 4
+    avg-rating: 3.88
+    year-published: 1978
+    date-read:
+    read-count: 1
+  - book: Post Office
+    my-rating: 5
+    avg-rating: 4.00
+    year-published: 1971
+    date-read:
+    read-count: 1
+  - book: The Bell Tolls for No One
+    additional-authors: David Stephen Calonne
+    my-rating: 5
+    avg-rating: 3.67
+    year-published: 2015
+    date-read:
+    read-count: 1
+  - book: War All the Time
+    my-rating: 0
+    avg-rating: 4.16
+    year-published: 1984
+    date-read:
+    read-count: 0
+  - book: The Continual Condition: Poems
+    my-rating: 5
+    avg-rating: 3.86
+    year-published: 2009
+    date-read: 2017/10/18
+    read-count: 1
 - author: Stanisław Lem
-    - book: Звёздные дневники Ийона Тихого
-      my-rating: 3
-      avg-rating: 4.28
-      year-published: 1957
-      date-read:
-      read-count: 1
-
+  - book: Звёздные дневники Ийона Тихого
+    my-rating: 3
+    avg-rating: 4.28
+    year-published: 1957
+    date-read:
+    read-count: 1
 - author: Ray Bradbury
-    - book: 'Green Shadows, White Whale: A Novel of Ray Bradbury''s Adventures Making Moby Dick with John Huston in Ireland'
-      my-rating: 4
-      avg-rating: 3.83
-      year-published: 1992
-      date-read:
-      read-count: 1
-    - book: Zen in the Art of Writing
-      my-rating: 0
-      avg-rating: 4.11
-      year-published: 1987
-      date-read:
-      read-count: 0
-    - book: Fahrenheit 451
-      my-rating: 5
-      avg-rating: 3.98
-      year-published: 1953
-      date-read:
-      read-count: 1
-    - book: Dandelion Wine
-      my-rating: 0
-      avg-rating: 4.09
-      year-published: 1957
-      date-read:
-      read-count: 0
-
+  - book: 'Green Shadows, White Whale: A Novel of Ray Bradbury''s Adventures Making Moby Dick with John Huston in Ireland'
+    my-rating: 4
+    avg-rating: 3.83
+    year-published: 1992
+    date-read:
+    read-count: 1
+  - book: Zen in the Art of Writing
+    my-rating: 0
+    avg-rating: 4.11
+    year-published: 1987
+    date-read:
+    read-count: 0
+  - book: Fahrenheit 451
+    my-rating: 5
+    avg-rating: 3.98
+    year-published: 1953
+    date-read:
+    read-count: 1
+  - book: Dandelion Wine
+    my-rating: 0
+    avg-rating: 4.09
+    year-published: 1957
+    date-read:
+    read-count: 0
 - author: Robert M. Pirsig
-    - book: Lila: An Inquiry Into Morals
-      my-rating: 4
-      avg-rating: 3.76
-      year-published: 1991
-      date-read:
-      read-count: 1
-    - book: Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values
-      my-rating: 5
-      avg-rating: 3.77
-      year-published: 1974
-      date-read:
-      read-count: 1
-
+  - book: Lila: An Inquiry Into Morals
+    my-rating: 4
+    avg-rating: 3.76
+    year-published: 1991
+    date-read:
+    read-count: 1
+  - book: Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values
+    my-rating: 5
+    avg-rating: 3.77
+    year-published: 1974
+    date-read:
+    read-count: 1
 - author: Carlos Castaneda
-    - book: The Wheel of Time: The Shamans of Mexico Their Thoughts About Life Death & the Universe
-      my-rating: 0
-      avg-rating: 4.04
-      year-published: 1998
-      date-read:
-      read-count: 0
-    - book: The Active Side of Infinity
-      my-rating: 0
-      avg-rating: 4.15
-      year-published: 1998
-      date-read:
-      read-count: 0
-    - book: Power of Silence
-      my-rating: 0
-      avg-rating: 4.21
-      year-published: 1987
-      date-read:
-      read-count: 0
-    - book: Fire from Within
-      my-rating: 0
-      avg-rating: 4.13
-      year-published: 1984
-      date-read:
-      read-count: 0
-    - book: Second Ring of Power
-      my-rating: 0
-      avg-rating: 4.01
-      year-published: 1977
-      date-read:
-      read-count: 0
-    - book: 'Eagle''s Gift'
-      my-rating: 0
-      avg-rating: 4.06
-      year-published: 1981
-      date-read:
-      read-count: 0
-    - book: The Art of Dreaming
-      my-rating: 0
-      avg-rating: 4.11
-      year-published: 1993
-      date-read:
-      read-count: 0
-    - book: Tales of Power
-      my-rating: 0
-      avg-rating: 4.14
-      year-published: 1974
-      date-read:
-      read-count: 0
-    - book: Journey to Ixtlan
-      my-rating: 0
-      avg-rating: 4.11
-      year-published: 1972
-      date-read:
-      read-count: 0
-    - book: A Separate Reality
-      my-rating: 0
-      avg-rating: 4.07
-      year-published: 1968
-      date-read:
-      read-count: 0
-    - book: The Teachings of Don Juan: A Yaqui Way of Knowledge
-      my-rating: 5
-      avg-rating: 3.94
-      year-published: 1968
-      date-read: 2016/08/28
-      read-count: 1
+  - book: The Wheel of Time: The Shamans of Mexico Their Thoughts About Life Death & the Universe
+    my-rating: 0
+    avg-rating: 4.04
+    year-published: 1998
+    date-read:
+    read-count: 0
+  - book: The Active Side of Infinity
+    my-rating: 0
+    avg-rating: 4.15
+    year-published: 1998
+    date-read:
+    read-count: 0
+  - book: Power of Silence
+    my-rating: 0
+    avg-rating: 4.21
+    year-published: 1987
+    date-read:
+    read-count: 0
+  - book: Fire from Within
+    my-rating: 0
+    avg-rating: 4.13
+    year-published: 1984
+    date-read:
+    read-count: 0
+  - book: Second Ring of Power
+    my-rating: 0
+    avg-rating: 4.01
+    year-published: 1977
+    date-read:
+    read-count: 0
+  - book: 'Eagle''s Gift'
+    my-rating: 0
+    avg-rating: 4.06
+    year-published: 1981
+    date-read:
+    read-count: 0
+  - book: The Art of Dreaming
+    my-rating: 0
+    avg-rating: 4.11
+    year-published: 1993
+    date-read:
+    read-count: 0
+  - book: Tales of Power
+    my-rating: 0
+    avg-rating: 4.14
+    year-published: 1974
+    date-read:
+    read-count: 0
+  - book: Journey to Ixtlan
+    my-rating: 0
+    avg-rating: 4.11
+    year-published: 1972
+    date-read:
+    read-count: 0
+  - book: A Separate Reality
+    my-rating: 0
+    avg-rating: 4.07
+    year-published: 1968
+    date-read:
+    read-count: 0
+  - book: The Teachings of Don Juan: A Yaqui Way of Knowledge
+    my-rating: 5
+    avg-rating: 3.94
+    year-published: 1968
+    date-read: 2016/08/28
+    read-count: 1
