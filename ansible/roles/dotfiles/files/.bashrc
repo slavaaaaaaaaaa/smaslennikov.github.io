@@ -52,3 +52,4 @@ export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
 eval $(gpg-agent --daemon)
 
 #if [ -z "$SSH_AUTH_SOCK" ] ; then eval `ssh-agent -s`; ssh-add; fi
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
