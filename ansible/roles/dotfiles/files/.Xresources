@@ -1,0 +1,75 @@
+URxvt*background:         black
+URxvt*foreground:         white
+!URxvt*cursorColor:        white
+
+! black
+*color0:  #2E3436
+*color8:  #555753
+! red
+*color1:  #a40000
+*color9:  #EF2929
+! green
+*color2:  #4E9A06
+*color10: #8AE234
+! yellow
+*color3:  #C4A000
+*color11: #FCE94F
+! blue
+*color4:  #3465A4
+*color12: #729FCF
+! purple
+*color5:  #75507B
+*color13: #AD7FA8
+! orange (replaces cyan)
+*color6:  #ce5c00
+*color14: #fcaf3e
+! white
+*color7:  #babdb9
+*color15: #EEEEEC
+
+!URxvt*metaSendsEscape: true
+
+! Using XLFD (created via e.g. xfontsel)
+!URxvt*font:           -misc-fixed-medium-r-semicondensed-*-12-90-100-*-c-60-iso8859-1
+! Using Xft
+URxvt*font:           xft:Inconsolata:size=8
+
+!-*-{ Xft settings
+Xft*dpi:       96
+Xft*antialias: True
+Xft*hinting:   Full
+!-*-}
+
+! Set the style of the scrollbar: rxvt (default), plain, next, xterm
+URxvt.scrollstyle: rxvt
+! To disable the scrollbar
+URxvt.scrollBar: false
+
+! The string will be interpreted as if typed into the shell as-is.
+! In this example, printing will be disabled altogether.
+URxvt.print-pipe: "cat > /dev/null"
+
+URxvt.modifier: Alt
+!-*- Perl extensions -*-
+URxvt.perl-ext: default,url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+
+!URxvt.perl-ext-common:default,clipboard,matcher,keyboard-select
+!URxvt.keysym.M-u:     perl:url-select:select_next
+!URxvt.url-launcher:   "/usr/bin/chromium --incognito"
+!URxvt.underlineURLs:  True
+!URxvt.matcher.button: 1
+!URxvt.keysym.M-Escape:perl:keyboard-select:activate
+!URxvt.keysym.M-c:     perl:clipboard:copy
+!URxvt.keysym.M-v:     perl:clipboard:paste
+!URxvt.keysym.M-C-v:   perl:clipboard:paste_escaped
+!!URxvt.copyCommand:   xsel -ib
+!!URxvt.pasteCommand:  xsel -ob
+!! Comment this if you don't want copy when text is selected
+!URxvt.clipboard.autocopy: true
+!
+!URxvt.perl-ext-common: default,matcher
+!URxvt.url-launcher:   /usr/bin/chromium --incognito
+!URxvt.matcher.button: 1
