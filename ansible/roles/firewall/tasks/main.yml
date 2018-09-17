@@ -6,8 +6,11 @@
 
 - name: provide plex service file
   copy:
-    src: "{{ role_path }}/files/plex.xml"
+    src: "{{ role_path }}/files/{{ item }}"
     dest: /etc/firewalld/services/
+  with_items:
+    - plex.xml
+    - mosh.xml
 
 - name: enable and start firewalld
   service:
@@ -21,3 +24,13 @@
     interface: eth0
     permanent: true
     state: enabled
+
+- name: open firewall ports
+  firewalld:
+    zone: public
+    service: "{{ item }}"
+    permanent: true
+    state: enabled
+  with_items:
+    - ssh
+    - mosh
