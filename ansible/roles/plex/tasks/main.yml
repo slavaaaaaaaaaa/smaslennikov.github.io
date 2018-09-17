@@ -1,0 +1,41 @@
+---
+- name: install plex
+  yum: name=https://downloads.plex.tv/plex-media-server/1.13.5.5332-21ab172de/plexmediaserver-1.13.5.5332-21ab172de.x86_64.rpm
+
+- name: install nginx
+  yum:
+    name: "{{ item }}"
+  with_items:
+    - nginx
+    - python2-certbot-nginx
+    - libxslt-devel
+
+- name: run certbot
+  command: certbot --nginx -m me@smaslennikov.com
+
+- name: install nginx config
+  copy:
+    src: "{{ role_path}}/files/nginx.conf"
+    dest: /etc/nginx/
+    owner: root
+    group: root
+
+- name: enable and start services
+  service:
+    name: "{{ item }}"
+    state: started
+    enabled: yes
+  with_items:
+    - plexmediaserver.service
+    - nginx
+
+- name: open firewall ports
+  firewalld:
+    zone: public
+    service: "{{ item }}"
+    permanent: true
+    state: enabled
+  with_items:
+    - http
+    - https
+    - plex
