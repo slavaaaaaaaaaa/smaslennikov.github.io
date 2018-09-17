@@ -449,3 +449,5 @@ au BufNewFile,BufRead *.groff set filetype=groff
 "perltidy for small chunks. Highlight and run <leader>dt
 ":source /ndn/etc/vim/vimrc
 "au BufRead,BufNewFile *.t set filetype=perl
+
+autocmd FileType make setlocal noexpandtab
