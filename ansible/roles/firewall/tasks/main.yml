@@ -1,0 +1,23 @@
+---
+- name: install firewalld
+  yum:
+    name: firewalld
+    state: latest
+
+- name: provide plex service file
+  copy:
+    src: "{{ role_path }}/files/plex.xml"
+    dest: /etc/firewalld/services/
+
+- name: enable and start firewalld
+  service:
+    name: firewalld
+    enable: true
+    state: started
+
+- name: set firewalld interface on public zone
+  firewalld:
+    zone: public
+    interface: eth0
+    permanent: true
+    state: enabled

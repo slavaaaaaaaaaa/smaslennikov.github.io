@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>Plex</short>
+  <description>Plex service</description>
+  <port protocol="tcp" port="32400"/>
+  <port protocol="udp" port="32400"/>
+</service>
