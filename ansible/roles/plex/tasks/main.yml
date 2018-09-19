@@ -11,7 +11,7 @@
     - libxslt-devel
 
 - name: run certbot
-  command: certbot --nginx -m me@smaslennikov.com
+  command: certbot -n -m me@smaslennikov.com --nginx --domains pear.pinchesarbol.es
 
 - name: install nginx config
   copy:
