@@ -53,6 +53,3 @@
     dest: /home/slava/.weechat_personal/python/autoload/wee_slack.py
     owner: slava
     group: slava
-
-- name: run weechat_personal in a screen
-  shell: "(! (ps -ef | grep -q weechat_personal | grep -v grep) && (screen -ls | grep pizzadough) ) && (screen -S pizzadough -X screen -t weechat -dm weechat -d /home/slava/.weechat_personal) || (screen -S pizzadough -t weechat -A -d -m weechat -d /home/slava/.weechat_personal)"

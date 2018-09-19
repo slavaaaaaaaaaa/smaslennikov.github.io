@@ -15,7 +15,7 @@
 - name: enable and start firewalld
   service:
     name: firewalld
-    enable: true
+    enabled: true
     state: started
 
 - name: set firewalld interface on public zone
