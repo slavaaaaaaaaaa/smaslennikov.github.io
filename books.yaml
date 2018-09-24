@@ -1,4 +1,14 @@
 ---
+- author: Kurt Vonnegut
+  - book: "Slaughterhouse-Five"
+    year-published: 1969
+    read-count: 0
+    date-read:
+- author: Stephen Chbosky
+  - book: "The Perks of Being a Wallflower"
+    year-published: 1999
+    read-count: 1
+    date-read: 2018/09/23
 - author: Douglas Adams
   - book: "The Hitchhiker's Guide to the Galaxy"
     year-published: 1979
@@ -8,7 +18,8 @@
     read-count: 1
   - book: Life, the Universe and Everything
     year-published: 1982
-    read-count: 0
+    read-count: 1
+    date-read: 2018/09/20
 - author: Tim O'Brien
   - book: The Things They Carried
     year-published: 1990
