@@ -1,9 +1,14 @@
 ---
+- author: Joseph Heller
+  - book: "Catch-22"
+    year-published: 1961
+    read-count: 0
+    date-read:
 - author: Kurt Vonnegut
   - book: "Slaughterhouse-Five"
     year-published: 1969
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 2018/10/01
 - author: Stephen Chbosky
   - book: "The Perks of Being a Wallflower"
     year-published: 1999
