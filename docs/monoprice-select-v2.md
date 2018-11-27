@@ -14,6 +14,7 @@ You can't know which you'll get, apparently: I got v2.1 with knurled bed adjusti
     * [Replacing the Y carriage plate](#replacing-the-y-carriage-plate)
     * [Three point leveling](#three-point-leveling)
 - [Printable additions](#printable-additions)
+- [Filament used](#filament-used)
 
 <!-- tocstop -->
 
@@ -74,3 +75,7 @@ These are nice to have:
 - [a tool holder](https://www.thingiverse.com/thing:2131776)
 
 I guess there aren't any more nice things.
+
+## Filament used
+
+I read nonsense about how PLA+ (Premium PLA) is better and have been buying these [Inland rolls](https://www.amazon.com/gp/product/B07FMKNGWD) almost exclusively. They've been great and cheap! Except now they're mostly gone from Amazon stock.
