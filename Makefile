@@ -51,3 +51,7 @@ encrypt_haikus:
 decrypt_haikus:
 	@echo Decrypting some secret haikus
 	./bin/build_dec_haikus.sh
+
+toc:
+	markdown-toc --indent "    " -i README.md
+	markdown-toc --indent "    " -i docs/monoprice-select-v2.md
