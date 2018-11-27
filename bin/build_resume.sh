@@ -5,7 +5,7 @@ set -e
 echo "Building your LaTeX files..."
 
 if [ $(which pdflatex) ]; then
-    pdflatex -quiet -output-directory=. tex/*.tex
+    pdflatex -quiet -output-directory=docs/ tex/*.tex
 elif [ -e /Library/TeX/Root/bin/x86_64-darwin/pdflatex ]; then
     /Library/TeX/Root/bin/x86_64-darwin/pdflatex -quiet -output-directory=. tex/*.tex
 else
