@@ -13,12 +13,12 @@ while true; do
 	cpuusage=$( grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print usage "%"}' );
 
         cputemp=$(sensors coretemp-isa-0000 | grep Package | awk '{print $4;}')
-        nvidiatemp=$(sensors nouveau-pci-0100 | grep temp1 | awk '{print $2;}')
+        nvidiatemp=$(nvidia-smi -q -d temperature | grep "GPU Current" | cut -d':' -f2)
 
-        buttery=$(acpi | cut -d',' -f2)
+        buttery=$(acpi | cut -d',' -f2,3)
 
 	# Overall output command
-	DWM_STATUS="cpu $cputemp | nvidia $nvidiatemp | $cpuusage | $kernel | $uptime | Vol: $DWM_VOL | buttery$buttery |  $DWM_CLOCK";
+	DWM_STATUS="cpu $cputemp | gpu$nvidiatemp | $cpuusage | $uptime | Vol: $DWM_VOL | buttery$buttery | $DWM_CLOCK";
 	xsetroot -name "$DWM_STATUS";
 	sleep $DWM_RENEW_INT;
 done &

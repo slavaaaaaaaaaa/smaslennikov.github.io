@@ -32,7 +32,7 @@ URxvt*foreground:         white
 ! Using XLFD (created via e.g. xfontsel)
 !URxvt*font:           -misc-fixed-medium-r-semicondensed-*-12-90-100-*-c-60-iso8859-1
 ! Using Xft
-URxvt*font:           xft:Inconsolata:size=8
+!URxvt*font:           xft:Inconsolata:size=8
 
 !-*-{ Xft settings
 Xft*dpi:       96
@@ -51,10 +51,11 @@ URxvt.print-pipe: "cat > /dev/null"
 
 URxvt.modifier: Alt
 !-*- Perl extensions -*-
-URxvt.perl-ext: default,url-select
-URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: /usr/bin/xdg-open
-URxvt.url-select.underline: true
+URxvt.perl-ext: default,matcher
+URxvt.keysym.M-u: matcher:last
+URxvt.keysym.M-y: matcher:list
+URxvt.matcher.launcher: /usr/bin/xdg-open
+!URxvt.url-select.underline: true
 
 !URxvt.perl-ext-common:default,clipboard,matcher,keyboard-select
 !URxvt.keysym.M-u:     perl:url-select:select_next

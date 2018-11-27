@@ -50,8 +50,7 @@ screen -ls
 [ -f /Users/slava/.travis/travis.sh ] && source /Users/slava/.travis/travis.sh
 if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
 
-#if [ -z "$SSH_AUTH_SOCK" ] ; then eval `ssh-agent -s`; ssh-add; fi
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 [ -f /etc/profile.d/bash_completion.sh ] && . /etc/profile.d/bash_completion.sh
+
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
-gpgconf --launch gpg-agent
