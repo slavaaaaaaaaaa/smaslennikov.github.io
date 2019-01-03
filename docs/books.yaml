@@ -1,9 +1,19 @@
 ---
+- author: Ray Bradbury
+  - book: "A Sound of Thunder"
+    year-published: 1952
+    read-count: 2
+    date-read: 2018/1/3
+- author: Xose Tarrio Gonzalez
+  - book: "Huye Hombre Huye"
+    year-published: 1999
+    read-count: 0
+    date-read:
 - author: Joseph Heller
   - book: "Catch-22"
     year-published: 1961
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 2018/11/15
 - author: Kurt Vonnegut
   - book: "Slaughterhouse-Five"
     year-published: 1969
