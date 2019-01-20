@@ -1,14 +1,58 @@
 ---
+- author: Mary Wollstonecraft Shelley
+  - book: Frankenstein
+    year-published: 1818
+    read-count: 1
+    date-read: 2019/1/18
+    review: |
+      It's hard to say what finally brought me to read this book - I never had a huge interest in classic English literature, nor in the way the language flows and is seemingly a constant "filler" to the story at large. A close friend often refers to a hear-say story about Dickens: apparently, he was paid on a per-word basis, which was the reasoning for how large his volumes are. I don't think I've ever read Dickens, so I can't say what my own opinion of his supposed filler writing is, nor whether the story is true. By chance, however, I did pick up my wife's copy of this book - gathering dust in our cluttered bookshelf.
+      Although it's not my intention, this review may contain spoilers, so continue with caution!
+      I was surprised to find out the book's lack of relevance to the popular story I heard: a man in a castle has his hunch-backed helped flip a scary electrical switch by candle-light; a creature goes "ruhhr," instantly the poor weather outside is filled with gruesome villagers with pitchforks. It was a rather happy realization that this scene was.. made up, seemingly out of thin air. The book is much more melodic, timely and suspenseful. The story within is much more convoluted than the simple derivations. In a drunken stupor with friends - that, in fact, caused me to read the book, - I heard one of them refer to the book as such of "spectacular depth," and now that I've read it, this is one of the best descriptions I can reiterate.
+      By the end, I started noticing a theme - most likely one I made up, rather than placed there by the author. It just so happened that I picked up Frankenstein right after a Spanish maximum security prisoner's account of his incarceration (Huye, Hombre, Huye!), so I suppose some themes still resided in my head and applied to whatever I'd read next. Here, I saw notions of the creature's abandonment, lack of care, attachment, education by his "parent" and creator. Assuming the notion of tabula rasa - that one is born as a "blank slate," with no predisposition, good or bad, to the world outside, - it's clear that we're shown the destructive, criminal product of generally bad, or nonexistent, parenting as well as an intolerant society. The creature continuously shows pains of abandonment, even murderous "tantrums" in purpose of gaining something from its master (the relative youth of the creature is important to keep in mind). One may argue that different actions from the main character would bring forth a different story altogether.
+      It's interesting to note the positive qualities of the main character's upbringing in contrast to the parental qualities of his own. I generally despise the level of black-and-white writing that this book possesses, but in this case it is peculiar how such qualities morph into something more, as some characters become so gray and.. interesting, for the lack of a better word.
+      This is a book I'll be recommending to everyone, oddly enough, especially in the anarchist communities.
+      Cheers!
 - author: Ray Bradbury
   - book: "A Sound of Thunder"
     year-published: 1952
     read-count: 2
-    date-read: 2018/1/3
-- author: Xose Tarrio Gonzalez
-  - book: "Huye Hombre Huye"
-    year-published: 1999
-    read-count: 0
+    date-read: 2019/1/8
+  - book: 'Green Shadows, White Whale: A Novel of Ray Bradbury''s Adventures Making Moby Dick with John Huston in Ireland'
+    my-rating: 4
+    avg-rating: 3.83
+    year-published: 1992
     date-read:
+    read-count: 1
+  - book: Zen in the Art of Writing
+    my-rating: 0
+    avg-rating: 4.11
+    year-published: 1987
+    date-read:
+    read-count: 0
+  - book: Fahrenheit 451
+    my-rating: 5
+    avg-rating: 3.98
+    year-published: 1953
+    date-read:
+    read-count: 1
+  - book: Dandelion Wine
+    my-rating: 0
+    avg-rating: 4.09
+    year-published: 1957
+    date-read:
+    read-count: 0
+- author: Xose Tarrio Gonzalez
+  - book: "Huye, Hombre, Huye!"
+    year-published: 1999
+    read-count: 1
+    date-read: 2019/1/8
+    review: |
+      I received this book for free from Little Black Cart in exchange for a review. As much as I appreciate this action, it does not affect my opinions or comments here.
+      Although it's not my intention, this review may contain spoilers, so continue with caution!
+      The book is an account of a maximum security prisoner in Spain. The not-even-thirty-year-old man is bounced around the country between prisons far from family and friends, is beaten and abused by guards and prison administrations, and quickly discovers he has AIDS, for which he doesn't get proper (according to his discussions of the Spanish law) treatment. On the other hand, he is a clearly dangerous individual who committed crimes, attacks guards, starts riots and hostage situations and regularly attempts escapes.
+      It is clear that the author has two purposes for the book: to show the public the mistreatment of Spanish prisons and their personnel, and to persuade the reader that although it is easy to assume that all prisoners are men of bad character, it's simply not the case. Unfortunately, the language largely used throughout the book as well as the apparent omissions of information, do not bode well for the perceptible truth of the story. The author repeats his opinions several times, but the described actions cause concern: as an example, there are several riots described; in more than one, there are fatal stabbings of one prisoner by another. The explanations for these actions, however, don't go beyond the like of "the victim was a rapist, drug dealer, or similar, and deserved it so clearly, that the action was unavoidable." It's unclear whether the author realizes that such statements exactly are why he's expelled from society, that murder isn't an acceptable form of communication or revenge for actions.
+      What is fascinating about this book, however, is the dialogue of causation of much of the prisons' populations. The poverty, unaccounted abuse by elders, seeming incarceration in a religious school are all described as a society's failure to bring up their adolescent population. There is a prevailing theme of abuse and negative reinforcement throughout the life of the author, as well as that of people close to him.
+      Overall, the book brought important truths to my eyes. Although I did not fact-check every incident described, many aren't something one can simply make up. This book is full of stories of clear abuses of power, filled with people of both strong and weak characters. Administrations, guards, judges, policemen and politicians are blamed for abuses and neglects, and are later found guilty of murders, frauds. If not a perfect professionally-written book, this is an important account that absolutely must be spread to better societies, people and governments.
 - author: Joseph Heller
   - book: "Catch-22"
     year-published: 1961
@@ -44,7 +88,7 @@
     my-rating: 0
     avg-rating: 3.88
     year-published: 1992
-    date-read:
+    date-read: 2018/08/20
     read-count: 1
 - author: Ernest Hemingway
   - book: The Fifth Column and Four Stories of the Spanish Civil War
@@ -1557,31 +1601,6 @@
     year-published: 1957
     date-read:
     read-count: 1
-- author: Ray Bradbury
-  - book: 'Green Shadows, White Whale: A Novel of Ray Bradbury''s Adventures Making Moby Dick with John Huston in Ireland'
-    my-rating: 4
-    avg-rating: 3.83
-    year-published: 1992
-    date-read:
-    read-count: 1
-  - book: Zen in the Art of Writing
-    my-rating: 0
-    avg-rating: 4.11
-    year-published: 1987
-    date-read:
-    read-count: 0
-  - book: Fahrenheit 451
-    my-rating: 5
-    avg-rating: 3.98
-    year-published: 1953
-    date-read:
-    read-count: 1
-  - book: Dandelion Wine
-    my-rating: 0
-    avg-rating: 4.09
-    year-published: 1957
-    date-read:
-    read-count: 0
 - author: Robert M. Pirsig
   - book: Lila: An Inquiry Into Morals
     my-rating: 4
