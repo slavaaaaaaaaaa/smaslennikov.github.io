@@ -1,4 +1,28 @@
 ---
+- author: Ernest Hemingway
+  - book: The Sun Also Rises
+    year-published: 1926
+    read-count: 0
+    date-read:
+  - book: The Fifth Column and Four Stories of the Spanish Civil War
+    my-rating: 5
+    avg-rating: 3.57
+    year-published: 1938
+    date-read: 2017/07/11
+    read-count: 1
+  - book: The Old Man and the Sea
+    my-rating: 5
+    avg-rating: 3.75
+    year-published: 1952
+    date-read: 2018/06/07
+    read-count: 1
+  - book: Complete Poems
+    additional-authors: Nicholas Gerogiannis
+    my-rating: 5
+    avg-rating: 3.36
+    year-published: 1979
+    date-read: 2017/10/18
+    read-count: 1
 - author: Mary Wollstonecraft Shelley
   - book: Frankenstein
     year-published: 1818
@@ -89,26 +113,6 @@
     avg-rating: 3.88
     year-published: 1992
     date-read: 2018/08/20
-    read-count: 1
-- author: Ernest Hemingway
-  - book: The Fifth Column and Four Stories of the Spanish Civil War
-    my-rating: 5
-    avg-rating: 3.57
-    year-published: 1938
-    date-read: 2017/07/11
-    read-count: 1
-  - book: The Old Man and the Sea
-    my-rating: 5
-    avg-rating: 3.75
-    year-published: 1952
-    date-read: 2018/06/07
-    read-count: 1
-  - book: Complete Poems
-    additional-authors: Nicholas Gerogiannis
-    my-rating: 5
-    avg-rating: 3.36
-    year-published: 1979
-    date-read: 2017/10/18
     read-count: 1
 - author: Antoine de Saint-Exupéry
   - book: Night Flight
