@@ -1,9 +1,14 @@
 ---
+- author: Henri Frankfort,  John A. Wilson, Thorkild Jacobsen
+  - book: Before Philosophy
+    year-published: 1960
+    read-count: 0
+    date-read:
 - author: Ernest Hemingway
   - book: The Sun Also Rises
     year-published: 1926
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 2019/01/24
   - book: The Fifth Column and Four Stories of the Spanish Civil War
     my-rating: 5
     avg-rating: 3.57
