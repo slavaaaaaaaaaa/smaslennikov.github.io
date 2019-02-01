@@ -4,6 +4,8 @@
     email = me@smaslennikov.com
     name = Svyatoslav I. Maslennikov
     signingkey = 0966E2426B9E28CC
+[tag]
+    forceSignAnnotated = true
 [alias]
     git = !exec git
     c = checkout
