@@ -1,41 +1,31 @@
-VAULT_VARS="ansible/inventory/group_vars/all.yml"
+.DEFAULT_GOAL=toc
 
-pizzabook: ansible
-	@echo Ansibling your pizzabook...
-	cd ansible && \
-        ansible-galaxy install -r requirements.yml && \
-        ansible-playbook playbooks/pizzabook.yml --ask-become-pass --ask-vault-pass $(TEST_ARGS)
+GITROOT=$(shell git rev-parse --show-toplevel)
 
-pear: ansible
-	@echo Ansibling your pear...
-	cd ansible && ansible-playbook playbooks/pear.yml --ask-become-pass --ask-vault-pass $(TEST_ARGS)
+VAULT_VARS_FILE=ansible/inventory/group_vars/all.yml
+VAULT_PASSWORD_FILE=secret/vault_password
 
-slab: ansible
-	@echo Ansibling your slab...
-	cd ansible && ansible-playbook playbooks/slab.yml --ask-become-pass --ask-vault-pass $(TEST_ARGS)
+ENCRYPTABLE=$(VAULT_PASSWORD_FILE) rhymes/cigarettes rhymes/slavery
 
-enc: check_enc
-	@echo Encrypting your vars...
-	ansible-vault encrypt ${VAULT_VARS}
+include $(shell test -d $(GITROOT)/include.mk/ || git clone git@github.com:smaslennikov/include.mk.git && echo $(GITROOT))/include.mk/*.mk
 
-dec: check_dec
-	@echo Decrypting your vars...
-	ansible-vault decrypt ${VAULT_VARS}
+define RECIPIENTS
+-r me@smaslennikov.com
+endef
 
-check_dec:
-	head ${VAULT_VARS} | grep -q ANSIBLE_VAULT
+TEST_ARGS=-C -D
 
-check_enc:
-	head ${VAULT_VARS} | grep -q "\-\-\-"
+ansible-%: $(VAULT_VARS_FILE)
+	cd ansible && ansible-playbook playbooks/$*.yml --ask-become-pass --ask-vault-pass $(TEST_ARGS)
 
 indeces: index_rhymes index_emergencies
 
-index_rhymes: rhymes
+index_rhymes:
 	echo "Building your haikus..."
 	./bin/build_haikus.sh
 	git --no-pager diff rhymes/
 
-index_emergencies: in_emergency
+index_emergencies:
 	echo "Building your emergencies..."
 	./bin/build_emergencies.sh
 	git --no-pager diff in_emergency/
@@ -43,15 +33,3 @@ index_emergencies: in_emergency
 resume:
 	echo "Building your resume..."
 	bin/build_resume.sh
-
-encrypt_haikus:
-	@echo Encrypting some secret haikus
-	./bin/build_enc_haikus.sh
-
-decrypt_haikus:
-	@echo Decrypting some secret haikus
-	./bin/build_dec_haikus.sh
-
-toc:
-	markdown-toc --indent "    " -i README.md
-	markdown-toc --indent "    " -i docs/monoprice-select-v2.md
