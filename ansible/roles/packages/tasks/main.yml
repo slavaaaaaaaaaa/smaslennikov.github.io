@@ -1,3 +1,5 @@
+- include: debian-tasks.yml
+  when: ansible_distribution == "Debian"
 - include: centos-tasks.yml
   when: ansible_distribution == "CentOS"
 - include: darwin-tasks.yml

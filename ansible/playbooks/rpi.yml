@@ -1,0 +1,11 @@
+---
+- name: Configure an RPI with some of the usual things
+  hosts: rpi
+  become: true
+  serial: 100%
+
+  roles:
+   - accounts
+   - dotfiles
+   - packages
+   - configs

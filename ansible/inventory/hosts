@@ -1,6 +1,7 @@
-[all]
-slab.pinchesarbol.es
-pear.pinchesarbol.es
+[all:children]
+slab
+pear
+rpi
 
 [pear]
 pear.pinchesarbol.es
@@ -10,3 +11,6 @@ slab.pinchesarbol.es
 
 [pizzabook]
 localhost ansible_connection=local
+
+[rpi]
+192.168.1.195
