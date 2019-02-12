@@ -1,6 +1,8 @@
 *.log
 *.aux
 
+secret/vault_password
+
 # ansible galaxy roles
 ansible/roles/elliotweiser.osx-command-line-tools/
 ansible/roles/geerlingguy.homebrew/
