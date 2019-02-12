@@ -1,0 +1,3 @@
+[submodule "include.mk"]
+	path = include.mk
+	url = git@github.com:smaslennikov/include.mk.git
