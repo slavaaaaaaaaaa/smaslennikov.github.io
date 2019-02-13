@@ -30,3 +30,13 @@
     regexp: '^%wheel\s'
     line: '%wheel ALL=(ALL) ALL'
     validate: 'visudo -cf %s'
+  when: allow_passwordless_sudo_hosts is not search("{{ inventory_hostname }}")
+
+- name: Allow %wheel passwordless sudo
+  lineinfile:
+    dest: /etc/sudoers
+    state: present
+    regexp: '^%wheel\s'
+    line: '%wheel ALL=(ALL) NOPASSWD: ALL'
+    validate: 'visudo -cf %s'
+  when: allow_passwordless_sudo_hosts is search("{{ inventory_hostname }}")
