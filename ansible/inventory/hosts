@@ -13,4 +13,4 @@ slab.pinchesarbol.es
 localhost ansible_connection=local
 
 [rpi]
-192.168.1.195
+192.168.1.195 ansible_ssh_user=pi ansible_ssh_pass=raspberry
