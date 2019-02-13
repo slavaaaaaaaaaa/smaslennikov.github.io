@@ -9,3 +9,9 @@
    - dotfiles
    - packages
    - configs
+
+  tasks:
+   - name: Remove default user
+     user:
+       name: pi
+       state: absent
