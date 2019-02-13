@@ -9,6 +9,7 @@
     name: slava
     comment: "Slava Maslennikov"
     groups: wheel
+    shell: /bin/bash
     generate_ssh_key: yes
     ssh_key_bits: 4096
     ssh_key_type: rsa
