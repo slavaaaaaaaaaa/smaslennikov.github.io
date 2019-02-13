@@ -1,13 +1,15 @@
 ---
 - name: install the beloved dotfiles
-  when: ansible_distribution == "CentOS"
+  when: ansible_distribution == "CentOS" or ansible_distribution == "Debian"
   copy:
     src: "{{ item }}"
     dest: '/home/slava/'
     owner: slava
     group: slava
-  with_fileglob:
+  with_items:
+    - "{{ role_path }}/files/*"
     - "{{ role_path }}/files/.*"
+    - "{{ role_path }}/files/.ssh/"
 
 - name: install the beloved dotfiles
   when: ansible_distribution == "MacOSX"
@@ -16,5 +18,7 @@
     dest: '/Users/slava'
     owner: slava
     group: staff
-  with_fileglob:
+  with_items:
+    - "{{ role_path }}/files/*"
     - "{{ role_path }}/files/.*"
+    - "{{ role_path }}/files/.ssh/"

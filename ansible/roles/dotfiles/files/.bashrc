@@ -32,7 +32,6 @@ function _foreground_calc {
 export ANSIBLE_NOCOWS=1
 export ARCH='x64'
 export EDITOR="vim"
-export GPG_TTY=$(tty)
 export HISTSIZE=20000
 export HISTFILESIZE=40000
 export HISTTIMEFORMAT="%h/%d -- %H:%M:%S "
@@ -53,4 +52,9 @@ if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 [ -f /etc/profile.d/bash_completion.sh ] && . /etc/profile.d/bash_completion.sh
 
+unset SSH_AGENT_PID
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+export GPG_TTY=$(tty)
+
+export GOOGLE_APPLICATION_CREDENTIALS=~/.config/gcloud/legacy_credentials/slava.maslennikov@sadasystems.com/adc.json
+export keepassdb=~/Dropbox/b/asskeep.kdbx
