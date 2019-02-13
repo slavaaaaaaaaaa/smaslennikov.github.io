@@ -1,0 +1,37 @@
+- name: Install packages
+  apt: name={{ item }} state=latest update_cache=true
+  with_items:
+    - mpc
+    - ncmpcpp
+    - ansible
+    - bash-completion
+    - dnsutils
+    - bitlbee
+    - cowsay
+    - fail2ban
+    - fortune-mod
+    - gcc
+    - g++
+    - git
+    - htop
+    - lsof
+    - mosh
+    - mutt
+    - nmap
+    - python-dev
+    - python-pip
+    - rancid
+    - reptyr
+    - rtorrent
+    - screen
+    - sqlite
+    - sudo
+    - tcpdump
+    - traceroute
+    - vim
+    - weechat
+
+- name: install pip crap
+  pip: name={{ item }} state=latest
+  with_items:
+    - yowsup2
