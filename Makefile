@@ -13,10 +13,10 @@ define RECIPIENTS
 -r me@smaslennikov.com
 endef
 
-TEST_ARGS=-C -D
+TEST_ARGS?=-C
 
-ansible-%: $(VAULT_VARS_FILE)
-	cd ansible && ansible-playbook playbooks/$*.yml --ask-become-pass --ask-vault-pass $(TEST_ARGS)
+ansible-%:
+	cd ansible && ansible-playbook playbooks/$*.yml --ask-become-pass -D $(TEST_ARGS)
 
 indeces: index_rhymes index_emergencies
 
