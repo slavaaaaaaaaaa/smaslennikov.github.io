@@ -30,8 +30,3 @@
     - traceroute
     - vim
     - weechat
-
-- name: install pip crap
-  pip: name={{ item }} state=latest
-  with_items:
-    - yowsup2
