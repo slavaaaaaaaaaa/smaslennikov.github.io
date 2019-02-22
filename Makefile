@@ -5,7 +5,7 @@ GITROOT=$(shell git rev-parse --show-toplevel)
 VAULT_VARS_FILE=ansible/inventory/group_vars/all.yml
 VAULT_PASSWORD_FILE=secret/vault_password
 
-ENCRYPTABLE=$(VAULT_PASSWORD_FILE) rhymes/cigarettes rhymes/slavery
+ENCRYPTABLE=$(VAULT_PASSWORD_FILE) #rhymes/cigarettes rhymes/slavery
 
 include $(shell test -d $(GITROOT)/include.mk/ || git clone git@github.com:smaslennikov/include.mk.git && echo $(GITROOT))/include.mk/*.mk
 
