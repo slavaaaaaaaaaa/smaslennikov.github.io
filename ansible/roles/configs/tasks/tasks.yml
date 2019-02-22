@@ -25,3 +25,19 @@
   service:
     name: fail2ban
     state: restarted
+
+- name: install RPI boot config
+  copy:
+    src: "{{ item }}"
+    dest: '/boot/'
+  with_fileglob:
+    - "{{ role_path }}/files/config.txt"
+  when: gpio_hosts is search("{{ inventory_hostname }}")
+
+- name: install RPI wpa_supplicant config
+  copy:
+    src: "{{ item }}"
+    dest: '/etc/wpa_supplicant/'
+  with_fileglob:
+    - "{{ role_path }}/files/wpa_supplicant.conf"
+  when: gpio_hosts is search("{{ inventory_hostname }}")
