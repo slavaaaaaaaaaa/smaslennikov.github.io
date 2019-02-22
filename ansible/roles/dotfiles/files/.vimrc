@@ -451,3 +451,4 @@ au BufNewFile,BufRead *.groff set filetype=groff
 "au BufRead,BufNewFile *.t set filetype=perl
 
 autocmd FileType make setlocal noexpandtab
+autocmd FileType c setlocal tabstop=4 shiftwidth=4
