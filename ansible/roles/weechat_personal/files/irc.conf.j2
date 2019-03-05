@@ -173,7 +173,7 @@ freenode.realname = "slobber"
 freenode.local_hostname
 freenode.command = "/msg -server freenode nickserv identify {{ freenode_sasl_password }}"
 freenode.command_delay = 5
-freenode.autojoin = "#iwdsa,##nightmares,#swift"
+freenode.autojoin = "#iwdsa,##nightmares,#swift,##cars,##hamradio,##fountainpens,#guns,#iwdsa-eboard,#iwdsa-ebored,#jenkins,#neo900,#purism,#swift-telcolab"
 freenode.autorejoin
 freenode.autorejoin_delay
 freenode.connection_timeout
@@ -212,8 +212,8 @@ p.realname
 p.local_hostname
 p.command = "/msg -server p nickserv identify {{ one_secret_irc_pass }}"
 p.command_delay = 5
-p.autojoin = "#asylum"
-p.autorejoin
+p.autojoin = "{{ one_secret_irc_autojoins }}"
+p.autorejoin = on
 p.autorejoin_delay
 p.connection_timeout
 p.anti_flood_prio_high
@@ -290,7 +290,7 @@ h.realname
 h.local_hostname
 h.command = "/msg -server h nickserv identify {{ two_secret_irc_pass }};{{ two_secret_irc_command }}"
 h.command_delay
-h.autojoin = "#idgaf"
+h.autojoin = "{{ two_secret_irc_autojoins }}"
 h.autorejoin
 h.autorejoin_delay
 h.connection_timeout
