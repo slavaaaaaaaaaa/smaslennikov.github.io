@@ -27,3 +27,13 @@
       sysctl:
         name: net.ipv4.ip_local_port_range
         value: 1024 65535
+    - name: open some firewall ports
+      firewalld:
+        zone: public
+        port: "{{ item }}"
+        permanent: true
+        immediate: true
+        state: enabled
+      with_items:
+        - 60001-60100/udp
+        - 1025-1028
