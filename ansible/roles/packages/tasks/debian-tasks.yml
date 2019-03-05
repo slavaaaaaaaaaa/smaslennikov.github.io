@@ -1,4 +1,4 @@
-- name: Install packages
+- name: Install packages on debian
   apt: name={{ item }} state=latest update_cache=true
   with_items:
     - mpc
@@ -30,3 +30,4 @@
     - traceroute
     - vim
     - weechat
+    - npm

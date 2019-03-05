@@ -4,7 +4,7 @@
     name: epel-release
     state: latest
 
-- name: Install packages
+- name: Install packages on centos
   yum: name={{ item }} state=latest update_cache=true
   with_items:
     #- mpc
@@ -42,7 +42,7 @@
     - weechat
     - yum-utils
 
-- name: install pip crap
+- name: install pip crap on centos
   pip: name={{ item }} state=latest
   with_items:
     - yowsup2

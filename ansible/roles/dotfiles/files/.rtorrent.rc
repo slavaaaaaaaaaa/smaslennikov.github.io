@@ -31,7 +31,7 @@ schedule = watch_directory,5,5,load_start=/home/slava/trs/
 #schedule = untied_directory,5,5,stop_untied=
 
 # Close torrents when diskspace is low.
-schedule = low_diskspace,5,60,close_low_diskspace=2G
+schedule = low_diskspace,5,60,close_low_diskspace=10G
 
 # The ip address reported to the tracker.
 #ip = 127.0.0.1
@@ -66,7 +66,7 @@ schedule = low_diskspace,5,60,close_low_diskspace=2G
 # outgoing connections but retries with encryption if they fail, preferring
 # plaintext to RC4 encryption after the encrypted handshake
 #
-encryption = allow_incoming,enable_retry,prefer_plaintext
+encryption = allow_incoming,enable_retry,try_outgoing
 
 # Enable DHT support for trackerless torrents or when all trackers are down.
 # May be set to "disable" (completely disable DHT), "off" (do not start DHT),
@@ -82,3 +82,7 @@ dht = disable
 # Enable peer exchange (for torrents not marked private)
 #
 #peer_exchange = yes
+
+network.http.max_open.set = 99
+network.max_open_files.set = 600
+network.max_open_sockets.set = 999

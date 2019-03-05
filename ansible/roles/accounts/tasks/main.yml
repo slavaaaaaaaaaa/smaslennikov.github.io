@@ -36,4 +36,4 @@
     name: slava
     groups: gpio,i2c
     append: yes
-  when: gpio_hosts is search("{{ inventory_hostname }}")
+  when: gpio_hosts is search(inventory_hostname)

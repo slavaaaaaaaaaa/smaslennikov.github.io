@@ -1,5 +1,5 @@
 ---
-- name: install the beloved dotfiles
+- name: install the beloved dotfiles on nix
   when: ansible_distribution == "CentOS" or ansible_distribution == "Debian"
   copy:
     src: "{{ item }}"
@@ -10,17 +10,17 @@
     - "{{ role_path }}/files/*"
     - "{{ role_path }}/files/.*"
 
-- name: install more beloved dotfiles
+- name: install more beloved sshconfig on nix
   when: ansible_distribution == "CentOS" or ansible_distribution == "Debian"
   copy:
     src: "{{ item }}"
-    dest: '/home/slava/'
+    dest: '/home/slava/.ssh/'
     owner: slava
     group: slava
-  with_items:
-    - "{{ role_path }}/files/.ssh/"
+  with_fileglob:
+    - "{{ role_path }}/files/.ssh/*"
 
-- name: install the beloved dotfiles
+- name: install the beloved dotfiles on osx
   when: ansible_distribution == "MacOSX"
   copy:
     src: "{{ item }}"
@@ -31,12 +31,12 @@
     - "{{ role_path }}/files/*"
     - "{{ role_path }}/files/.*"
 
-- name: install the beloved dotfiles
+- name: install the beloved sshconfig on osx
   when: ansible_distribution == "MacOSX"
   copy:
     src: "{{ item }}"
-    dest: '/Users/slava'
+    dest: '/Users/slava/.ssh/'
     owner: slava
     group: staff
-  with_items:
-    - "{{ role_path }}/files/.ssh/"
+  with_fileglob:
+    - "{{ role_path }}/files/.ssh/*"
