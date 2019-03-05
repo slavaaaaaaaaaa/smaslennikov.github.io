@@ -5,15 +5,25 @@
   serial: 100%
 
   roles:
-   - accounts
-   - dotfiles
-   - packages
-   - configs
-   - pear-executables
-   - clone_my_repos
-   - gpg-keys
-   - mutt
-   - weechat_personal
-   - weechat_work
-   - firewall
-   - plex
+    - accounts
+    - dotfiles
+    - packages
+    - configs
+    - pear-executables
+    - clone_my_repos
+    - gpg-keys
+    - mutt
+    - weechat_personal
+    - weechat_work
+    - firewall
+    - plex
+
+  tasks:
+    - name: apply sysctl file limits
+      sysctl:
+        name: fs.file-max
+        value: 500000
+    - name: apply sysctl tcp port limits
+      sysctl:
+        name: net.ipv4.ip_local_port_range
+        value: 1024 65535
