@@ -5,8 +5,8 @@
   serial: 100%
 
   roles:
-   - dotfiles
-   - packages
-   - clone_my_repos
-   - gpg-keys
-   - mutt
+    - dotfiles
+    - packages
+    - clone_my_repos
+    - gpg-keys
+    - mutt

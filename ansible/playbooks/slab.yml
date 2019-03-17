@@ -5,12 +5,13 @@
   serial: 100%
 
   roles:
-   - accounts
-   - dotfiles
-   - packages
-   - configs
-   - clone_my_repos
-   - gpg-keys
-   - mutt
-   - weechat_personal
-   - weechat_work
+    - accounts
+    - dotfiles
+    - packages
+    - configs
+    - fail2ban
+    - clone_my_repos
+    - gpg-keys
+    - mutt
+    - weechat_personal
+    - weechat_work

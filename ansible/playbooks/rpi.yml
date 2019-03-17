@@ -5,10 +5,11 @@
   serial: 100%
 
   roles:
-   - accounts
-   - dotfiles
-   - packages
-   - configs
+    - accounts
+    - dotfiles
+    - packages
+    - configs
+    - fail2ban
 
   tasks:
    - name: Remove default user

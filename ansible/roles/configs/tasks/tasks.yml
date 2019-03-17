@@ -14,18 +14,6 @@
   hostname:
     name: "{{ inventory_hostname }}"
 
-- name: install fail2ban jail
-  copy:
-    src: "{{ item }}"
-    dest: '/etc/fail2ban/jail.d/'
-  with_fileglob:
-    - "{{ role_path }}/files/jail.local"
-
-- name: restart fail2ban
-  service:
-    name: fail2ban
-    state: restarted
-
 - name: install RPI boot config
   copy:
     src: "{{ item }}"

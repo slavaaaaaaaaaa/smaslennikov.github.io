@@ -13,6 +13,7 @@
     - clone_my_repos
     - gpg-keys
     - mutt
+    - fail2ban
     - weechat_personal
     - weechat_work
     - firewall
