@@ -20,6 +20,14 @@
   with_fileglob:
     - "{{ role_path }}/files/.ssh/*"
 
+- name: install sshcontrol on nix
+  when: ansible_distribution == "CentOS" or "Debian" or "Ubuntu"
+  copy:
+    src: "sshcontrol"
+    dest: '/home/slava/.gnupg/'
+    owner: slava
+    group: slava
+
 - name: install the beloved dotfiles on osx
   when: ansible_distribution == "MacOSX"
   copy:
@@ -40,3 +48,11 @@
     group: staff
   with_fileglob:
     - "{{ role_path }}/files/.ssh/*"
+
+- name: install sshcontrol on osx
+  when: ansible_distribution == "MacOSX"
+  copy:
+    src: "sshcontrol"
+    dest: '/Users/slava/.gnupg/'
+    owner: slava
+    group: staff
