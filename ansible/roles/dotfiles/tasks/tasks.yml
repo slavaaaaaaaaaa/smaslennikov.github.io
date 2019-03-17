@@ -7,8 +7,8 @@
     owner: slava
     group: slava
   with_fileglob:
-    - "{{ role_path }}/files/*"
-    - "{{ role_path }}/files/.*"
+    - "{{ role_path }}/files/home/*"
+    - "{{ role_path }}/files/home/.*"
 
 - name: install more beloved sshconfig on nix
   when: ansible_distribution == "CentOS" or "Debian" or "Ubuntu"
@@ -28,8 +28,8 @@
     owner: slava
     group: staff
   with_fileglob:
-    - "{{ role_path }}/files/*"
-    - "{{ role_path }}/files/.*"
+    - "{{ role_path }}/files/home/*"
+    - "{{ role_path }}/files/home/.*"
 
 - name: install the beloved sshconfig on osx
   when: ansible_distribution == "MacOSX"
