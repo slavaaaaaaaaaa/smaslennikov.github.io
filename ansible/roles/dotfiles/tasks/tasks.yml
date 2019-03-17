@@ -1,6 +1,6 @@
 ---
 - name: install the beloved dotfiles on nix
-  when: ansible_distribution == "CentOS" or ansible_distribution == "Debian"
+  when: ansible_distribution == "CentOS" or "Debian" or "Ubuntu"
   copy:
     src: "{{ item }}"
     dest: '/home/slava/'
@@ -11,7 +11,7 @@
     - "{{ role_path }}/files/.*"
 
 - name: install more beloved sshconfig on nix
-  when: ansible_distribution == "CentOS" or ansible_distribution == "Debian"
+  when: ansible_distribution == "CentOS" or "Debian" or "Ubuntu"
   copy:
     src: "{{ item }}"
     dest: '/home/slava/.ssh/'
