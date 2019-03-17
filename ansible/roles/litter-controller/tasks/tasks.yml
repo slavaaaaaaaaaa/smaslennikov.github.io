@@ -1,0 +1,19 @@
+---
+- name: install RPI boot config
+  copy:
+    src: "{{ item }}"
+    dest: '/boot/'
+  with_fileglob:
+    - "{{ role_path }}/files/config.txt"
+
+- name: install RPI wpa_supplicant config
+  copy:
+    src: "{{ item }}"
+    dest: '/etc/wpa_supplicant/'
+  with_fileglob:
+    - "{{ role_path }}/files/wpa_supplicant.conf"
+
+- name: Remove default user
+  user:
+    name: pi
+    state: absent
