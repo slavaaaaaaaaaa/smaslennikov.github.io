@@ -3,7 +3,9 @@
   hosts: pizzabook
   become: false
   serial: 100%
-  vars:
+
   roles:
     - dotfiles
     - geerlingguy.homebrew
+    - packages
+    - laptop
