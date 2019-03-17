@@ -14,3 +14,6 @@ localhost ansible_connection=local
 
 [rpi]
 rpi.pinchesarbol.es
+
+[slicey]
+192.168.1.162 ansible_user=slava

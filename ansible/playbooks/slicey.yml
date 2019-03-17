@@ -1,0 +1,12 @@
+---
+- name: Configure leptop
+  hosts: slicey
+  become: true
+  serial: 100%
+
+  roles:
+   - dotfiles
+   - packages
+   - clone_my_repos
+   - gpg-keys
+   - mutt
