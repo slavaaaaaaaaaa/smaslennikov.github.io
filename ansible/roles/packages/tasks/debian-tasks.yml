@@ -31,3 +31,24 @@
     - vim
     - weechat
     - npm
+    - acpi
+    - alsa-utils
+    - ansible
+    - keepassxc
+    - libxft-dev
+    - libxinerama-dev
+    - lm-sensors
+    - network-manager
+    - network-manager-gnome
+    - pavucontrol
+    - rxvt-unicode
+    - slock
+    - urxvt
+    - x11-xserver-utils
+    - xbacklight
+    - xbattbar
+    - xinit
+    - xinput
+    - xss-lock
+    - battery-stats
+# also dropbox and google chrome from upstream
