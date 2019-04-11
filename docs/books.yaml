@@ -1,4 +1,14 @@
 ---
+- author: Aldous Huxley
+  - book: Brave New World
+    year-published: 1932
+    read-count: 0
+    date-read:
+- author: Tom Robbins
+  - book: Jitterbug Perfume
+    year-published: 1984
+    read-count: 1
+    date-read: 4/9/2019
 - author: Bobby Fischer
   - book: Bobby Fischer Teaches Chess
     year-published: 1982
