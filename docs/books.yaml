@@ -1,9 +1,14 @@
 ---
+- author: Cormac McCarthy
+  - book: All the Pretty Horses
+    year-published: 1992
+    read-count: 0
+    date-read:
 - author: Aldous Huxley
   - book: Brave New World
     year-published: 1932
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 5/3/2019
 - author: Tom Robbins
   - book: Jitterbug Perfume
     year-published: 1984
