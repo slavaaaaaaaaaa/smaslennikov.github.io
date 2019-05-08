@@ -1,4 +1,24 @@
 ---
+- name: install newsboat configs on nix
+  when: ansible_distribution == "CentOS" or "Debian" or "Ubuntu"
+  copy:
+    src: "{{ item }}"
+    dest: '/home/slava/.newsboat/'
+    owner: slava
+    group: slava
+  with_fileglob:
+    - "{{ role_path }}/files/.newsboat/*"
+
+- name: install newsboat configs on osx
+  when: ansible_distribution == "MacOSX"
+  copy:
+    src: "{{ item }}"
+    dest: '/Users/slava/.newsboat/'
+    owner: slava
+    group: staff
+  with_fileglob:
+    - "{{ role_path }}/files/.newsboat/*"
+
 - name: install the beloved dotfiles on nix
   when: ansible_distribution == "CentOS" or "Debian" or "Ubuntu"
   copy:

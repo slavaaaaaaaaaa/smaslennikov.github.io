@@ -17,6 +17,7 @@
     - lsof
     - mosh
     - mutt
+    - newsboat
     - nmap
     - python-dev
     - python-pip
