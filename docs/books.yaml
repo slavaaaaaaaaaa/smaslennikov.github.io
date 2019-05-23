@@ -1,9 +1,19 @@
 ---
+- author: Bob Cinsidine
+  - book: Landmarks of American History (The Panama Canal, \#10)
+    year-published: 1951
+    read-count: 0
+    date-read:
+- author: Irving Chernev
+  - book: Logical Chess Move by Move
+    year-published: 1957
+    read-count: 0
+    date-read:
 - author: Cormac McCarthy
   - book: All the Pretty Horses
     year-published: 1992
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 5/21/2019
 - author: Aldous Huxley
   - book: Brave New World
     year-published: 1932
