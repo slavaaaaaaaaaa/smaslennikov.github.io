@@ -36,7 +36,7 @@ and buy:
 The original fan is weak and its metal case doesn't place air everywhere you want it, I guess.
 
 - print one of [these](https://www.thingiverse.com/thing:1025471) (you probably want the `DiiiCooler_Rev3-21-V2-1_Beta3.STL` but read his instructions, don't listen to me)
-- buy one of [these](https://www.amazon.com/gp/product/B071WMHNG5) and throw the second one away - $11.49
+- buy one of [these](https://www.amazon.com/gp/product/B07DB6132Q) and throw the second one away - $20
    - or buy them for a third of the price on aliexpress and wait a year for it to ship
 
 ## Bed leveling
