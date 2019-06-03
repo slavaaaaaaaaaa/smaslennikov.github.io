@@ -1,0 +1,126 @@
+# Come visit Chicago, IL and all its great places and jazz and booze
+
+<!-- toc -->
+
+- [Overall](#overall)
+- [Lagunitas Brewing Company Chicago](#lagunitas-brewing-company-chicago)
+- [Skydeck Chicago](#skydeck-chicago)
+- [McCormick Tribune Plaza](#mccormick-tribune-plaza)
+- [The Picasso](#the-picasso)
+- [Pierogi Heaven](#pierogi-heaven)
+- [Andy's Jazz Club & Restaurant](#andys-jazz-club--restaurant)
+- [Lou Malnati's Pizzeria](#lou-malnatis-pizzeria)
+- [Blue Chicago](#blue-chicago)
+- [Gilt Bar](#gilt-bar)
+- [Timothy O'Toole's Pub Chicago](#timothy-otooles-pub-chicago)
+- [Quartino Ristorante](#quartino-ristorante)
+- [Al's Beef](#als-beef)
+- [International Museum of Surgical Science](#international-museum-of-surgical-science)
+- [The Green Mill](#the-green-mill)
+- [Eataly Chicago](#eataly-chicago)
+
+<!-- tocstop -->
+
+## Overall
+
+I recommend walking around a lot - we crossed the entire city in maybe 45 minutes on foot, and from the bean to the surgery museum it’s like thirty minutes walking. With kids things are different, of course.
+
+I recommend walking around the bridges and along the river going to the south part of the town - some nice old huge buildings there, like the Opera house.
+
+The pier is a waste of time - very commercial, nothing good there. However, walking around south of it on the rim of the park (the coastline) is cool, plenty of boats and stuff.
+
+Metro is easy and reliable. Crazies are less crazy than the LA crazies.
+
+## [Lagunitas Brewing Company Chicago](https://goo.gl/maps/T1iEesb4aHS6bRxa6)
+
+Never been there but it’s great beer.
+
+## [Skydeck Chicago](https://goo.gl/maps/tjzT6PNn3BWqqoqbA)
+
+Good view of the city I guess. Costs some money, don’t pay them anything past admission, try to go on a weekday because it does get crowded.
+
+Wait no I’ve never gone here - I’ve been to the other highrise that’s above the Cheesecake restaurant (which actually has decent steak). Doesn’t matter where you go to see the skyline.
+
+Good for family trip.
+
+## [McCormick Tribune Plaza](https://goo.gl/maps/tLotWHZgFbvz9BPv6)
+
+Where the bean is. Just walk around the park and stuff while drinking beer. Go south, there’s a long bridge that’s kinda cool - leads you to the museum of art or something. Haven’t been to the actual museum, no reason it wouldn’t be great but is usually crowded.
+
+Good for family trip.
+
+## [The Picasso](https://goo.gl/maps/mmmfNzsN7rfpsK4RA)
+
+Just a famous thing next to a lot of metro lines.
+
+Good for family trip - while walking around the city, I presume.
+
+## [Pierogi Heaven](https://goo.gl/maps/7Pxj6kVSGphMkisA7)
+
+Never been here, wanted to go. High rated food place.
+
+Probably good for family trip.
+
+## [Andy's Jazz Club & Restaurant](https://goo.gl/maps/Qw6A66mwqFmhGjUXA)
+
+Great Jazz place, not small or divey but good.
+
+Probably not the best for the whole family and kids and shit.
+
+## [Lou Malnati's Pizzeria](https://goo.gl/maps/iL1KxWTfKbUW5UtZ6)
+
+Best pizza you’ll ever have. Did research, is the best deep dish pizza in the city, and therefore the world.
+
+Definitely good for taking the whole family here.
+
+## [Blue Chicago](https://goo.gl/maps/55D5W2hruJZRj3hh9)
+
+Very good jazz bar - though they usually play blues I think. Very good, divey. Go on a Thursday if you can to see the band Anna and I saw last time we were there.
+
+Might be okay to go with kids here.
+
+## [Gilt Bar](https://goo.gl/maps/DdLBQZfByx3Eta9E9)
+
+Best manhattan I’ve ever had. Is not quiet nor divey.
+
+Probably less good to go here with kids.
+
+## [Timothy O'Toole's Pub Chicago](https://goo.gl/maps/DqqbjFW6AL9XNZFf9)
+
+Simple pub food beer place. Nothing special but open late, unlike many other places.
+
+Probably good for family trip.
+
+## [Quartino Ristorante](https://goo.gl/maps/v6cBXRaUv48QAT3s7)
+
+Very cheap italian food with cheap but good wine list - love this place.
+
+Great for the whole family thing.
+
+## [Al's Beef](https://goo.gl/maps/HesQNwPR7YVx1XkU6)
+
+Some kind of legendary well-known beef sandwich place. Very good, fast-foody. Place is small so best case scenario is taking it to go to the nearest park. We took it to a tiny church courtyard where we had beer. Illegally, of course.
+
+Probably okay with kids - but more likely you’ll postmates it to you or something.
+
+## [International Museum of Surgical Science](https://goo.gl/maps/HYhxYN1NNiGUp6MAA)
+
+Fantastic museum of surgery - highly recommend walking to it from the city on the beach. Make sure you check when it’s open.
+
+Directly north of it is a cool park that I also recommend for aimless walking.
+
+Directly west and south-west of it are older suburbs with cool houses all over. Recommend aimless walking here as well.
+
+Kids would love this place.
+
+## [The Green Mill](https://goo.gl/maps/hjmEGyzpRSqvWRF78)
+
+Legendary Jazz bar. Highly recommend you make your way out there - best case is by metro, it’s easily accessible from there.
+
+Probably not best for kids - but if you snag a booth anything is possible.
+
+## [Eataly Chicago](https://goo.gl/maps/1hWLXLAbowjjVTm49)
+
+Very very good Italian food, is more expensive. The building houses several restaurants - one for desserts, some wine tastings around, some Italian food around. Eataly is the one restaurant we went there to, I recommend it.
+
+Good for kids and exploring that whole building and shit. Make a reservation.
