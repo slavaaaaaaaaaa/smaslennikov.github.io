@@ -1,9 +1,14 @@
 ---
+- author: Bob Fitch, Mary Oppenheimer
+  - book: Ghana: End of an Illusion
+    year-published: 1966
+    read-count: 0
+    date-read:
 - author: George Orwell
   - book: 1984
     year-published: 1949
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 6/18/2019
 - author: Peter F. Gamilton
   - book: Pandora's Star
     year-published:
