@@ -15,6 +15,7 @@ You can't know which you'll get, apparently: I got v2.1 with knurled bed adjusti
     * [Three point leveling](#three-point-leveling)
 - [Printable additions](#printable-additions)
 - [Filament used](#filament-used)
+- [Operation](#operation)
 
 <!-- tocstop -->
 
@@ -79,3 +80,24 @@ I guess there aren't any more nice things.
 ## Filament used
 
 I read nonsense about how PLA+ (Premium PLA) is better and have been buying these [Inland rolls](https://www.amazon.com/gp/product/B07FMKNGWD) almost exclusively. They've been great and cheap! Except now they're mostly gone from Amazon stock.
+
+## Operation
+
+My tactics for operating this printer are as follows:
+
+1. Use [Cura](https://ultimaker.com/software/ultimaker-cura) (though better alternatives that I haven't tried apparently exist)
+2. Select the proper printer preset (make sure the dimensions correlate to that of reality, 200x200x180mm)
+3. Historically I used much higher temperature presets:
+    - default build plate temperature: `80C`
+4. Both fans are upgraded, so they should be tuned to lower speeds:
+    - extruder fan speed: `75`
+    - extruder regular fan speed at height: `0.5`
+5. Ensure supports are present at sharper angles, etc. Realize how a 3D printer prints: in circles, top to bottom. Bridges, for example, are difficult when things are out of tune.
+6. Slice the model, save to an SD card, insert SD card into printer
+7. Clean the bed up with the scraper
+8. Adjust the bed by:
+    1. Setting the extruder to height `0`,
+    2. Shutting off the printer,
+    3. Moving the extruder manually to each of the three adjustable areas and adjusting bed height there while sliding a piece of paper between the bed and the extruder. You should feel slight resistance in pulling paper through.
+    4. Continue step 3 until the paper test works well on all corners. I usually prefer to err on the side of having the extruder *too low* rather than too high: that way, the first layer may be squeezed on, but it'll stick better than if it's too high.
+9. Print! If things turn up weird, you may need to adjust the Z axis - especially where it's reinforced with the rods.
