@@ -1,9 +1,19 @@
 ---
+- author: Franz Kafka
+  - book: Selected Short Stories of Franz Kafka
+    year-published: 1952
+    read-count: 0
+    date-read:
+- author: Shirley Jackson
+  - book: The Lottery
+    year-published: 1948
+    read-count: 0
+    date-read:
 - author: Bob Fitch, Mary Oppenheimer
   - book: Ghana: End of an Illusion
     year-published: 1966
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 8/7/2019
 - author: George Orwell
   - book: 1984
     year-published: 1949
