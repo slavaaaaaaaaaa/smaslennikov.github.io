@@ -1,14 +1,57 @@
 ---
+- author: Bill Biewenga
+  - book: Weather for Sailors
+    year-published: 2004
+    read-count: 0
+    date-read:
+- author: Ruby El Hult
+  - book: Northwest Disaster
+    year-published: 1960
+    read-count: 1
+    date-read: 2019/10/01
+- author: Samuel Taylor Coleridge
+  - book: The Rime of the Ancient Mariner
+    year-published: 1798
+    read-count: 1
+    date-read: 2019/09/30
+- author: Ernest Hemingway
+  - book: Green Hills of Africa
+    year-published: 1935
+    read-count: 1
+    date-read: 2019/09/27
+  - book: The Sun Also Rises
+    year-published: 1926
+    read-count: 1
+    date-read: 2019/01/24
+  - book: The Fifth Column and Four Stories of the Spanish Civil War
+    my-rating: 5
+    avg-rating: 3.57
+    year-published: 1938
+    date-read: 2017/07/11
+    read-count: 1
+  - book: The Old Man and the Sea
+    my-rating: 5
+    avg-rating: 3.75
+    year-published: 1952
+    date-read: 2018/06/07
+    read-count: 1
+  - book: Complete Poems
+    additional-authors: Nicholas Gerogiannis
+    my-rating: 5
+    avg-rating: 3.36
+    year-published: 1979
+    date-read: 2017/10/18
+    read-count: 1
 - author: Franz Kafka
   - book: Selected Short Stories of Franz Kafka
     year-published: 1952
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 8/25/2019
 - author: Shirley Jackson
   - book: The Lottery
     year-published: 1948
-    read-count: 0
-    date-read:
+    read-count: 1
+    date-read: 8/8/2019
 - author: Bob Fitch, Mary Oppenheimer
   - book: Ghana: End of an Illusion
     year-published: 1966
@@ -68,30 +111,6 @@
     year-published: 1960
     read-count: 0
     date-read:
-- author: Ernest Hemingway
-  - book: The Sun Also Rises
-    year-published: 1926
-    read-count: 1
-    date-read: 2019/01/24
-  - book: The Fifth Column and Four Stories of the Spanish Civil War
-    my-rating: 5
-    avg-rating: 3.57
-    year-published: 1938
-    date-read: 2017/07/11
-    read-count: 1
-  - book: The Old Man and the Sea
-    my-rating: 5
-    avg-rating: 3.75
-    year-published: 1952
-    date-read: 2018/06/07
-    read-count: 1
-  - book: Complete Poems
-    additional-authors: Nicholas Gerogiannis
-    my-rating: 5
-    avg-rating: 3.36
-    year-published: 1979
-    date-read: 2017/10/18
-    read-count: 1
 - author: Mary Wollstonecraft Shelley
   - book: Frankenstein
     year-published: 1818
