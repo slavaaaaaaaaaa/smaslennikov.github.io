@@ -1,4 +1,66 @@
 ---
+- author: James A. Gibbs
+  - book: Pacific Graveyard
+    year-published: 1991
+    date-read:
+    read-count: 0
+- author: Владимир Набоков
+  - book: Защита Лужина
+    my-rating: 5
+    avg-rating: 3.95
+    year-published: 1930
+    date-read: 2018/06/04
+    read-count: 1
+  - book: Insomniac Dreams: Experiments with Time by Vladimir Nabokov
+    additional-authors: Gennady Barabtarlo
+    my-rating: 5
+    avg-rating: 3.51
+    year-published: 2017
+    date-read: 2019/10/24
+    read-count: 1
+  - book: Король, дама, валет
+    my-rating: 0
+    avg-rating: 3.81
+    year-published: 1928
+    date-read:
+    read-count: 0
+  - book: Камера Обскура
+    my-rating: 5
+    avg-rating: 3.95
+    year-published: 1932
+    date-read: 2017/04/02
+    read-count: 1
+  - book: Speak, Memory
+    my-rating: 0
+    avg-rating: 4.19
+    year-published: 1951
+    date-read:
+    read-count: 0
+  - book: Lolita
+    additional-authors: Craig Raine
+    my-rating: 4
+    avg-rating: 3.89
+    year-published: 1955
+    date-read: 2017/04/17
+    read-count: 1
+  - book: Дар
+    my-rating: 5
+    avg-rating: 3.99
+    year-published: 1938
+    date-read: 2017/08/08
+    read-count: 1
+  - book: Отчаяние
+    my-rating: 5
+    avg-rating: 3.92
+    year-published: 1934
+    date-read:
+    read-count: 2
+  - book: Solus Rex
+    my-rating: 5
+    avg-rating: 3.80
+    year-published:
+    date-read:
+    read-count: 1
 - author: Bill Biewenga
   - book: Weather for Sailors
     year-published: 2004
@@ -215,63 +277,6 @@
     avg-rating: 4.19
     year-published: 1953
     date-read: 2018/06/06
-    read-count: 1
-- author: Владимир Набоков
-  - book: Защита Лужина
-    my-rating: 5
-    avg-rating: 3.95
-    year-published: 1930
-    date-read: 2018/06/04
-    read-count: 1
-  - book: Insomniac Dreams: Experiments with Time by Vladimir Nabokov
-    additional-authors: Gennady Barabtarlo
-    my-rating: 0
-    avg-rating: 3.51
-    year-published: 2017
-    date-read:
-    read-count: 1
-  - book: Король, дама, валет
-    my-rating: 0
-    avg-rating: 3.81
-    year-published: 1928
-    date-read:
-    read-count: 0
-  - book: Камера Обскура
-    my-rating: 5
-    avg-rating: 3.95
-    year-published: 1932
-    date-read: 2017/04/02
-    read-count: 1
-  - book: Speak, Memory
-    my-rating: 0
-    avg-rating: 4.19
-    year-published: 1951
-    date-read:
-    read-count: 0
-  - book: Lolita
-    additional-authors: Craig Raine
-    my-rating: 4
-    avg-rating: 3.89
-    year-published: 1955
-    date-read: 2017/04/17
-    read-count: 1
-  - book: Дар
-    my-rating: 5
-    avg-rating: 3.99
-    year-published: 1938
-    date-read: 2017/08/08
-    read-count: 1
-  - book: Отчаяние
-    my-rating: 5
-    avg-rating: 3.92
-    year-published: 1934
-    date-read:
-    read-count: 2
-  - book: Solus Rex
-    my-rating: 5
-    avg-rating: 3.80
-    year-published:
-    date-read:
     read-count: 1
 - author: Harold Stewart
   - book: A Net of Fireflies: Japanese Haiku and Haiku Paintings
