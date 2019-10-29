@@ -1,14 +1,19 @@
 ---
+- author: Isabella Lucy Bird
+  - book: Unbeaten Tracks in Japan
+    year-published: 1881
+    date-read:
+    read-count: 0
 - author: Michael Stadler
   - book: Psychology of Sailing: The sea's effects on mind and body
     year-published: 1987
-    date-rad:
+    date-read:
     read-count: 0
 - author: James A. Gibbs
   - book: Pacific Graveyard
     year-published: 1991
-    date-read:
-    read-count: 0
+    date-read: 2019/10/28
+    read-count: 1
 - author: Владимир Набоков
   - book: Защита Лужина
     my-rating: 5
