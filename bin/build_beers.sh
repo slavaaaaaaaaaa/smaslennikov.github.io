@@ -21,7 +21,7 @@ while read -r file; do
     if [[ "$file" == *".jpg" ]] || [[ "$file" == *".png" ]] || [[ "$file" == *".gif" ]]; then
         name=$(echo "$file" | sed -e 's/_/ /g' -e 's/\..*//g')
 
-        echo -e "<h4><a href=\"https://smaslennikov.com/beers/$file\">$name</h4><img src=\"$file\" height="100"></a>" >> index.html
+        echo -e "<h4><a href=\"https://smaslennikov.com/beers/$file\">$name</h4><img src=\"$file\" height="300"></a>" >> index.html
 
         echo "
   <item>

@@ -37,7 +37,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
   <title>Slava Maslennikov - Haikus and Rhymes</title>
   <link>https://smaslennikov.com/rhymes</link>
   <description>I was a poet and I didn't even know I was one</description>
-  <copyright>2017 Slava Maslennikov. All rights reserved.</copyright>
+  <copyright>2017-2020 Slava Maslennikov. All rights reserved.</copyright>
 " > rss.xml
 
 sort -k6 -r $indextmpfile | sed -e 's/^.*<h4>/<h4>/g' | sed -e 's/\(....-..-..\)T\(.*\)/\1 \2/' -e 's/Z$//' >> index.html

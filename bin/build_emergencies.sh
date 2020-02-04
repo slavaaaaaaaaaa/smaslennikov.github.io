@@ -14,7 +14,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
   <title>Slava Maslennikov - Emergency Images</title>
   <link>https://smaslennikov.com/in_emergency</link>
   <description>In emergency, break glass</description>
-  <copyright>2017 Slava Maslennikov. All rights reserved.</copyright>
+  <copyright>2017-2020 Slava Maslennikov. All rights reserved.</copyright>
 " > rss.xml
 
 while read -r file; do
