@@ -18,7 +18,7 @@ TEST_ARGS?=-C
 ansible-%:
 	cd ansible && ansible-playbook playbooks/$*.yml --ask-become-pass -D $(TEST_ARGS)
 
-indeces: index_rhymes index_emergencies
+indeces: index_rhymes index_emergencies index_beers
 
 index_rhymes:
 	echo "Building your haikus..."
@@ -29,6 +29,11 @@ index_emergencies:
 	echo "Building your emergencies..."
 	./bin/build_emergencies.sh
 	git --no-pager diff in_emergency/
+
+index_beers:
+	echo "Building your emergencies..."
+	./bin/build_beers.sh
+	git --no-pager diff beers/
 
 resume:
 	echo "Building your resume..."
