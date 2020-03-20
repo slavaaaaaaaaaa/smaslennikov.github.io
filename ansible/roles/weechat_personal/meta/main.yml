@@ -1,8 +1,0 @@
----
-galaxy_info:
-  author: Slava Maslennikov
-  description: Install and configure the personal weechat
-  company: smaslennikov.com
-  license: license (GPLv2, CC-BY, etc)
-  min_ansible_version: 1.2
-dependencies: []
