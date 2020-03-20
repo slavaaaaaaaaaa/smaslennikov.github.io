@@ -1,10 +1,10 @@
 ---
 - name: install firewalld
-  yum:
+  apt:
     name: firewalld
     state: latest
 
-- name: provide plex service file
+- name: provide firewalld service files
   copy:
     src: "{{ role_path }}/files/{{ item }}"
     dest: /etc/firewalld/services/
@@ -24,13 +24,18 @@
     interface: eth0
     permanent: true
     state: enabled
+  vars:
+    ansible_python_interpreter: '/usr/bin/python3'
 
 - name: open firewall ports
   firewalld:
     zone: public
     service: "{{ item }}"
     permanent: true
+    immediate: yes
     state: enabled
   with_items:
     - ssh
     - mosh
+  vars:
+    ansible_python_interpreter: '/usr/bin/python3'

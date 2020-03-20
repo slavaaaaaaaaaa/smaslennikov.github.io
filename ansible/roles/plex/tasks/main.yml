@@ -1,17 +1,21 @@
 ---
-- name: install plex
-  yum: name=https://downloads.plex.tv/plex-media-server/1.13.5.5332-21ab172de/plexmediaserver-1.13.5.5332-21ab172de.x86_64.rpm
+- name: install plex pubkey
+  apt_key:
+    url: https://downloads.plex.tv/plex-keys/PlexSign.key
+    state: present
 
-- name: install nginx
-  yum:
-    name: "{{ item }}"
-  with_items:
-    - nginx
-    - python2-certbot-nginx
-    - libxslt-devel
+- name: install plex repo
+  apt_repository:
+    repo: deb https://downloads.plex.tv/repo/deb public main
+    state: present
 
-- name: run certbot
-  command: certbot -n -m me@smaslennikov.com --nginx --domains pear.pinchesarbol.es
+- name: install nginx, certbot and plex
+  apt:
+    name:
+      - nginx
+      - python-certbot-nginx
+      - certbot
+      - plexmediaserver
 
 - name: install nginx config
   copy:
@@ -26,7 +30,7 @@
     state: started
     enabled: yes
   with_items:
-    - plexmediaserver.service
+    - plexmediaserver
     - nginx
 
 - name: open firewall ports
@@ -40,3 +44,8 @@
     - http
     - https
     - plex
+  vars:
+    ansible_python_interpreter: '/usr/bin/python3'
+
+- name: run certbot
+  command: certbot -n -m me@smaslennikov.com --nginx --domains cereza.pinchesarbol.es --agree-tos

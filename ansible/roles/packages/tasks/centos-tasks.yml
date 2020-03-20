@@ -5,45 +5,48 @@
     state: latest
 
 - name: Install packages on centos
-  yum: name={{ item }} state=latest update_cache=true
-  with_items:
-    #- mpc
-    #- ncmpcpp
-    - ansible
-    - bash-completion
-    - bash-completion-extras
-    - bind-utils
-    - bitlbee
-    - cowsay
-    - cronie
-    - fail2ban
-    - fortune-mod
-    - gcc
-    - gcc-c++
-    - git
-    - htop
-    - lsof
-    - mktorrent
-    - mosh
-    - mutt
-    - ncurses
-    - nmap
-    - python-devel
-    - python-pip
-    - python-websocket-client
-    - rancid
-    - reptyr
-    - rtorrent
-    - screen
-    - sqlite
-    - sudo
-    - tcpdump
-    - traceroute
-    - vim
-    - weechat
-    - yum-utils
+  yum:
+    state: latest
+    update_cache: true
+    name:
+      #- mpc
+      #- ncmpcpp
+      - ansible
+      - bash-completion
+      - bash-completion-extras
+      - bind-utils
+      - bitlbee
+      - cowsay
+      - cronie
+      - fail2ban
+      - fortune-mod
+      - gcc
+      - gcc-c++
+      - git
+      - htop
+      - lsof
+      - mktorrent
+      - mosh
+      - mutt
+      - ncurses
+      - nmap
+      - python-devel
+      - python-pip
+      - python-websocket-client
+      - rancid
+      - reptyr
+      - rtorrent
+      - screen
+      - sqlite
+      - sudo
+      - tcpdump
+      - traceroute
+      - vim
+      - weechat
+      - yum-utils
 
 - name: install pip crap on centos
-  pip: name={{ item }} state=latest
-  with_items:
-    - yowsup2
+  pip:
+    state: latest
+    name:
+      - yowsup2

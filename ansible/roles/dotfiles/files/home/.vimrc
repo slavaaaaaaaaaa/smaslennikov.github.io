@@ -121,7 +121,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme desert
+"colorscheme desert
 set background=dark
 
 " Set extra options when running in GUI mode
@@ -409,8 +409,8 @@ match ExtraWhitespace /\s\+$\| \+\ze\t/
 
 filetype plugin indent off
 set expandtab
-"set tabstop=4
-"set shiftwidth=8
+set tabstop=2
+set shiftwidth=2
 "set nosmarttab
 "Syntax highlighting on huge lines is nice too, remove the default limit
 set synmaxcol=0
@@ -452,3 +452,7 @@ au BufNewFile,BufRead *.groff set filetype=groff
 
 autocmd FileType make setlocal noexpandtab
 autocmd FileType c setlocal tabstop=4 shiftwidth=4
+autocmd FileType tf setlocal ts=2 sw=2 expandtab spell!
+
+set fileformat=unix
+set fileformats=unix,dos

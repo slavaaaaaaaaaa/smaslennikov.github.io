@@ -13,6 +13,7 @@
     p = pull
     u = push
     r = push --rebase
+    d = difftool
 [apply]
     whitespace = nowarn
 [color]
@@ -34,3 +35,9 @@
     untracked = cyan
 [commit]
     gpgsign = true
+[http]
+    postBuffer = 524288000
+[core]
+    autocrlf = input
+[difftool]
+    prompt = false

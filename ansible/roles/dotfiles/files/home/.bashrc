@@ -35,10 +35,11 @@ export EDITOR="vim"
 export HISTSIZE=20000
 export HISTFILESIZE=40000
 export HISTTIMEFORMAT="%h/%d -- %H:%M:%S "
-export PATH="/usr/local/bin:$PATH:/sbin:/usr/sbin/:$HOME/bin:$HOME/go/bin"
+export PATH="/usr/local/bin:$PATH:/sbin:/usr/sbin/:$HOME/bin:$HOME/go/bin:$HOME/.local/bin"
 export LD_LIBRARY_PATH=/usr/local/lib
 export PS1='\[\033k\033\\\]\[\e[32m\]\u@\[\e[38;5;${hostnamecolor}m\]\h \[\e[32m\]\w \[\033[33m\]$(_branch_show)\[\e[32m\]\j\[\e[0m\] \$ '
 export hostnamecolor=$(_foreground_calc $HOSTNAME)
+export GITPAGER=less
 
 fortune | cowsay -y
 echo "~~~~~~~~~~~^^^^^^^^^^^^^^^^^^~~~~~~~~~"

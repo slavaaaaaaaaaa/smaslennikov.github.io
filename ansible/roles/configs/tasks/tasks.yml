@@ -7,7 +7,7 @@
   lineinfile:
     dest: /etc/hosts
     regexp: "127.*{{ inventory_hostname }}.*$"
-    line: "127.0.1.1 {{ inventory_hostname }}"
+    line: '127.0.1.1 {{ inventory_hostname }} {{ inventory_hostname.split(".")[0] }}'
     state: present
 
 - name: set hostname
