@@ -1,4 +1,19 @@
 ---
+- author: Norman Maclean
+  - book: A River Runs Through It
+    year-published: 1976
+    date-read:
+    read-count:
+- author: M. Ageyev
+  - book: Novel with Cocaine
+    year-published: 1934
+    date-read: 2020/2/1
+    read-count: 1
+- author: Jan Valtin
+  - book: Out of the Night
+    year-published: 1941
+    date-read: 2020/1/1
+    read-count: 1
 - author: Isabella Lucy Bird
   - book: Unbeaten Tracks in Japan
     year-published: 1881
