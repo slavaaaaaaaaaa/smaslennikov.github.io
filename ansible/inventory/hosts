@@ -1,10 +1,10 @@
 [all:children]
 slab
-pear
+cereza
 rpi
 
-[pear]
-pear.pinchesarbol.es
+[cereza]
+cereza.pinchesarbol.es
 
 [slab]
 slab.pinchesarbol.es

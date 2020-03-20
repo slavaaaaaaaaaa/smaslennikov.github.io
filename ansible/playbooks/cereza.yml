@@ -1,0 +1,40 @@
+---
+- name: Configure a personal cherry with some of the usual things
+  hosts: cereza
+  become: true
+  serial: 100%
+
+  pre_tasks:
+    - name: apply sysctl file limits
+      sysctl:
+        name: fs.file-max
+        value: "500000"
+    - name: apply sysctl tcp port limits
+      sysctl:
+        name: net.ipv4.ip_local_port_range
+        value: 1024 65535
+    - name: open some firewall ports
+      firewalld:
+        zone: public
+        port: "{{ item }}"
+        permanent: true
+        immediate: true
+        state: enabled
+      with_items:
+        - "1025-1028/tcp"
+        - "1025-1028/udp"
+      vars:
+        ansible_python_interpreter: '/usr/bin/python3'
+
+  roles:
+    - accounts
+    - dotfiles
+    - packages
+    - configs
+    #- pear-executables hopefully broken centos trash
+    - mutt
+    - fail2ban
+    #- weechat_personal
+    #- weechat_work
+    - firewall
+    - plex

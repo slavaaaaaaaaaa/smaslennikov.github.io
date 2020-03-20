@@ -6,6 +6,15 @@
 
   roles:
     - accounts
+
+  tasks:
+    - name: Add user to GPIO groups
+      user:
+        name: slava
+        groups: gpio,i2c
+        append: yes
+
+  roles:
     - dotfiles
     - packages
     - configs
