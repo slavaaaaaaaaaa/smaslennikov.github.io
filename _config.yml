@@ -1,2 +1,5 @@
 theme: jekyll-theme-minimal
-title: smaslennikov.com
+layout: default
+title: Slava Maslennikov
+logo: logo.jpeg
+description: "A [Senior Cloud Engineer at SADA Systems, Inc.](https://www.linkedin.com/in/slava-maslennikov-a48b2a20/)"
