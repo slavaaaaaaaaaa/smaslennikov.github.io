@@ -21,9 +21,8 @@ I make beer and kombucha. Here are the label [designs](beers/)
 
 ## Presentations
 
-Grindr was a [fruitful time](grindr-demo-day-1) of [two](grindr-demo-day-2/) Demo Day presentations
-
-At NordstromRack.com|Hautelook I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/)
+* Grindr was a [fruitful time](grindr-demo-day-1) of [two](grindr-demo-day-2/) Demo Day presentations
+* At `NordstromRack.com|Hautelook` I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/)
 
 ## Mentionables
 
