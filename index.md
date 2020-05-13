@@ -25,10 +25,10 @@ Here's my [resume](docs/resume.pdf)
 ## Mentionables
 
 * John Paul Hayes II and has a pretty cool [personal site and home API](https://jph2.net)
-* James Khang was taking control of his skillset by building a [game](https://20minutesadayblog.wordpress.com)
-    * ...now he's got a [blog](https://medium.com/@jahmezz)
 * Bryce Case makes music and talks shit on the internet like a [boss](https://ytcracker.com)
 * Naftuli Kay is an engineer (not of trains), he does things [right](https://naftuli.wtf)
+* James Khang was taking control of his skillset by building a [game](https://20minutesadayblog.wordpress.com)
+    * ...now he's got a [blog](https://medium.com/@jahmezz)
 
 Most of these are in my <a href="https://github.com/smaslennikov/smaslennikov.github.io/blob/master/ansible/roles/dotfiles/files/.newsboat/urls">RSS subscription list</a>
 
