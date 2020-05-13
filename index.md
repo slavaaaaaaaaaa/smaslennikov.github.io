@@ -8,6 +8,7 @@ Here's my [resume](docs/resume.pdf)
 
 ## Notable projects
 
+* I [define](https://github.com/smaslennikov/include.mk) frequent commands as `make` target includes
 * [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh) is a bad script for migrating off PostgreSQL BDR
 * A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS
 * [Here's](https://smaslennikov.com/whattimeisitrightmeow/) a devopsy clock I made. Here's [another](https://smaslennikov.com/whattravisisitrightmeow/)
@@ -19,8 +20,12 @@ Here's my [resume](docs/resume.pdf)
 
 ## Presentations
 
-* Grindr was a [fruitful time](grindr-demo-day-1) of [two](grindr-demo-day-2/) Demo Day presentations
-* At `NordstromRack.com|Hautelook` I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/)
+* Another presentation [about secret storage](https://smaslennikov.com/sada-beer-and-learn-1/) was born at SADA
+* Grindr birthed
+    * a presentation [about secret storage](grindr-demo-day-1) as well as
+    * one about a [failed POC of GoCD](grindr-demo-day-2)
+* At `NordstromRack.com|Hautelook` I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/) with a partner
+    * though it's not as useful without our [notes](https://github.com/smaslennikov/cissp-access-mgmt-presentation/blob/master/presentation.md)
 
 ## Mentionables
 
