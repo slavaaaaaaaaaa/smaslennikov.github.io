@@ -1,9 +1,25 @@
 ---
+- author: Leo Tolstoy
+  - book: Война и мир
+    my-rating: 5
+    avg-rating: 4.32
+    year-published: 2002
+    date-read: 2018/04/17
+    read-count: 1
+  - book: Anna Karenina
+    year-published: 1877
+    date-read:
+    read-count:
+- author: Liu Cixin
+  - book: The Three Body Problem
+    year-published: 2008
+    date-read: 2020
+    read-count: 1
 - author: Norman Maclean
   - book: A River Runs Through It
     year-published: 1976
-    date-read:
-    read-count:
+    date-read: 2020
+    read-count: 1
 - author: M. Ageyev
   - book: Novel with Cocaine
     year-published: 1934
@@ -310,13 +326,6 @@
     year-published: 1960
     date-read:
     read-count: 0
-- author: Leo Tolstoy
-  - book: Война и мир
-    my-rating: 5
-    avg-rating: 4.32
-    year-published: 2002
-    date-read: 2018/04/17
-    read-count: 1
 - author: Arkady Strugatsky
   - book: Пикник на обочине
     additional-authors: Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
