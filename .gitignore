@@ -1,5 +1,6 @@
 *.log
 *.aux
+include.mk
 
 secret/vault_password
 
