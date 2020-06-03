@@ -4,7 +4,7 @@ set -e
 pdflatex --version
 pdftotext -v
 
-for i in tex/*.tex; do
+for i in docs/resume/*.tex; do
     newpdf=$(echo $i | sed -e 's%^.*/%%' -e 's/tex/pdf/g')
     oripdf=$(echo $i | sed 's/tex/pdf/g')
 
