@@ -434,6 +434,8 @@ This is my ongoing book tracking list, which gets updated more often than my [Go
 
 ## Leo Tolstoy
 ### Война и мир
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.32
@@ -442,6 +444,8 @@ Date Read | 2018/04/17
 Read Count | 1
 
 ### Anna Karenina
+
+Metric | Value
 -|-
 Year Published | 1877
 Date Read |
@@ -449,6 +453,8 @@ Read Count |
 
 ## Liu Cixin
 ### The Three Body Problem
+
+Metric | Value
 -|-
 Year Published | 2008
 Date Read | 2020
@@ -456,6 +462,8 @@ Read Count | 1
 
 ## Norman Maclean
 ### A River Runs Through It
+
+Metric | Value
 -|-
 Year Published | 1976
 Date Read | 2020
@@ -463,6 +471,8 @@ Read Count | 1
 
 ## M. Ageyev
 ### Novel with Cocaine
+
+Metric | Value
 -|-
 Year Published | 1934
 Date Read | 2020/2/1
@@ -470,6 +480,8 @@ Read Count | 1
 
 ## Jan Valtin
 ### Out of the Night
+
+Metric | Value
 -|-
 Year Published | 1941
 Date Read | 2020/1/1
@@ -477,6 +489,8 @@ Read Count | 1
 
 ## Isabella Lucy Bird
 ### Unbeaten Tracks in Japan
+
+Metric | Value
 -|-
 Year Published | 1881
 Date Read | 2019/12/17
@@ -484,6 +498,8 @@ Read Count | 1
 
 ## Michael Stadler
 ### Psychology of Sailing: The sea's effects on mind and body
+
+Metric | Value
 -|-
 Year Published | 1987
 Date Read |
@@ -491,6 +507,8 @@ Read Count | 0
 
 ## James A. Gibbs
 ### Pacific Graveyard
+
+Metric | Value
 -|-
 Year Published | 1991
 Date Read | 2019/10/28
@@ -498,6 +516,8 @@ Read Count | 1
 
 ## Владимир Набоков
 ### Защита Лужина
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.95
@@ -506,6 +526,8 @@ Date Read | 2018/06/04
 Read Count | 1
 
 ### Insomniac Dreams: Experiments with Time by Vladimir Nabokov
+
+Metric | Value
 -|-
 Addtl. Authors | Gennady Barabtarlo
 My Rating | 5
@@ -515,6 +537,8 @@ Date Read | 2019/10/23
 Read Count | 1
 
 ### Король, дама, валет
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.81
@@ -523,6 +547,8 @@ Date Read |
 Read Count | 0
 
 ### Камера Обскура
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.95
@@ -531,6 +557,8 @@ Date Read | 2017/04/02
 Read Count | 1
 
 ### Speak, Memory
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.19
@@ -539,6 +567,8 @@ Date Read |
 Read Count | 0
 
 ### Lolita
+
+Metric | Value
 -|-
 Addtl. Authors | Craig Raine
 My Rating | 4
@@ -548,6 +578,8 @@ Date Read | 2017/04/17
 Read Count | 1
 
 ### Дар
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.99
@@ -556,6 +588,8 @@ Date Read | 2017/08/08
 Read Count | 1
 
 ### Отчаяние
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.92
@@ -564,6 +598,8 @@ Date Read |
 Read Count | 2
 
 ### Solus Rex
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.80
@@ -572,6 +608,8 @@ Read Count | 1
 
 ## Bill Biewenga
 ### Weather for Sailors
+
+Metric | Value
 -|-
 Year Published | 2004
 Read Count | 0
@@ -579,6 +617,8 @@ Date Read |
 
 ## Ruby El Hult
 ### Northwest Disaster
+
+Metric | Value
 -|-
 Year Published | 1960
 Read Count | 1
@@ -586,6 +626,8 @@ Date Read | 2019/10/01
 
 ## Samuel Taylor Coleridge
 ### The Rime of the Ancient Mariner
+
+Metric | Value
 -|-
 Year Published | 1798
 Read Count | 1
@@ -593,18 +635,24 @@ Date Read | 2019/09/30
 
 ## Ernest Hemingway
 ### Green Hills of Africa
+
+Metric | Value
 -|-
 Year Published | 1935
 Read Count | 1
 Date Read | 2019/09/27
 
 ### The Sun Also Rises
+
+Metric | Value
 -|-
 Year Published | 1926
 Read Count | 1
 Date Read | 2019/01/24
 
 ### The Fifth Column and Four Stories of the Spanish Civil War
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.57
@@ -613,6 +661,8 @@ Date Read | 2017/07/11
 Read Count | 1
 
 ### The Old Man and the Sea
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.75
@@ -621,6 +671,8 @@ Date Read | 2018/06/07
 Read Count | 1
 
 ### Complete Poems
+
+Metric | Value
 -|-
 Addtl. Authors | Nicholas Gerogiannis
 My Rating | 5
@@ -631,6 +683,8 @@ Read Count | 1
 
 ## Franz Kafka
 ### Selected Short Stories of Franz Kafka
+
+Metric | Value
 -|-
 Year Published | 1952
 Read Count | 1
@@ -638,6 +692,8 @@ Date Read | 8/25/2019
 
 ## Shirley Jackson
 ### The Lottery
+
+Metric | Value
 -|-
 Year Published | 1948
 Read Count | 1
@@ -645,6 +701,8 @@ Date Read | 8/8/2019
 
 ## Bob Fitch, Mary Oppenheimer
 ### Ghana: End of an Illusion
+
+Metric | Value
 -|-
 Year Published | 1966
 Read Count | 1
@@ -652,6 +710,8 @@ Date Read | 8/7/2019
 
 ## George Orwell
 ### 1984
+
+Metric | Value
 -|-
 Year Published | 1949
 Read Count | 1
@@ -659,17 +719,23 @@ Date Read | 6/18/2019
 
 ## Peter F. Gamilton
 ### Pandora's Star
+
+Metric | Value
 -|-
 Read Count | 0
 Date Read |
 
 ### Misspent Youth
+
+Metric | Value
 -|-
 Read Count | 0
 Date Read |
 
 ## Bob Cinsidine
 ### Landmarks of American History (The Panama Canal, \#10)
+
+Metric | Value
 -|-
 Year Published | 1951
 Read Count | 1
@@ -677,6 +743,8 @@ Date Read | 5/27/2019
 
 ## Irving Chernev
 ### Logical Chess Move by Move
+
+Metric | Value
 -|-
 Year Published | 1957
 Read Count | 0
@@ -684,6 +752,8 @@ Date Read |
 
 ## Cormac McCarthy
 ### All the Pretty Horses
+
+Metric | Value
 -|-
 Year Published | 1992
 Read Count | 1
@@ -691,6 +761,8 @@ Date Read | 5/21/2019
 
 ## Aldous Huxley
 ### Brave New World
+
+Metric | Value
 -|-
 Year Published | 1932
 Read Count | 1
@@ -698,6 +770,8 @@ Date Read | 5/3/2019
 
 ## Tom Robbins
 ### Jitterbug Perfume
+
+Metric | Value
 -|-
 Year Published | 1984
 Read Count | 1
@@ -705,6 +779,8 @@ Date Read | 4/9/2019
 
 ## Bobby Fischer
 ### Bobby Fischer Teaches Chess
+
+Metric | Value
 -|-
 Year Published | 1982
 Read Count | 0
@@ -712,6 +788,8 @@ Date Read | 2/13/2019
 
 ## J. D. Salinger
 ### Catcher in the Rye
+
+Metric | Value
 -|-
 Year Published | 1951
 Read Count | 0
@@ -719,6 +797,8 @@ Date Read | 2/6/2019
 
 ## Henri Frankfort,  John A. Wilson, Thorkild Jacobsen
 ### Before Philosophy
+
+Metric | Value
 -|-
 Year Published | 1960
 Read Count | 0
@@ -726,6 +806,8 @@ Date Read |
 
 ## Mary Wollstonecraft Shelley
 ### Frankenstein
+
+Metric | Value
 -|-
 Year Published | 1818
 Read Count | 1
@@ -741,12 +823,16 @@ Date Read | 2019/1/18
 
 ## Ray Bradbury
 ### "A Sound of Thunder"
+
+Metric | Value
 -|-
 Year Published | 1952
 Read Count | 2
 Date Read | 2019/1/8
 
 ### 'Green Shadows, White Whale: A Novel of Ray Bradbury''s Adventures Making Moby Dick with John Huston in Ireland'
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 3.83
@@ -755,6 +841,8 @@ Date Read |
 Read Count | 1
 
 ### Zen in the Art of Writing
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.11
@@ -763,6 +851,8 @@ Date Read |
 Read Count | 0
 
 ### Fahrenheit 451
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.98
@@ -771,6 +861,8 @@ Date Read |
 Read Count | 1
 
 ### Dandelion Wine
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.09
@@ -780,6 +872,8 @@ Read Count | 0
 
 ## Xose Tarrio Gonzalez
 ### "Huye, Hombre, Huye!"
+
+Metric | Value
 -|-
 Year Published | 1999
 Read Count | 1
@@ -794,6 +888,8 @@ Date Read | 2019/1/8
 
 ## Joseph Heller
 ### "Catch-22"
+
+Metric | Value
 -|-
 Year Published | 1961
 Read Count | 1
@@ -801,6 +897,8 @@ Date Read | 2018/11/15
 
 ## Kurt Vonnegut
 ### "Slaughterhouse-Five"
+
+Metric | Value
 -|-
 Year Published | 1969
 Read Count | 1
@@ -808,6 +906,8 @@ Date Read | 2018/10/01
 
 ## Stephen Chbosky
 ### "The Perks of Being a Wallflower"
+
+Metric | Value
 -|-
 Year Published | 1999
 Read Count | 1
@@ -815,16 +915,22 @@ Date Read | 2018/09/23
 
 ## Douglas Adams
 ### "The Hitchhiker's Guide to the Galaxy"
+
+Metric | Value
 -|-
 Year Published | 1979
 Read Count | 1
 
 ### The Restaurant at the End of the Universe
+
+Metric | Value
 -|-
 Year Published | 1980
 Read Count | 1
 
 ### Life, the Universe and Everything
+
+Metric | Value
 -|-
 Year Published | 1982
 Read Count | 1
@@ -832,12 +938,16 @@ Date Read | 2018/09/20
 
 ## Tim O'Brien
 ### The Things They Carried
+
+Metric | Value
 -|-
 Year Published | 1990
 Read Count | 1
 
 ## Michael Ondaatje
 ### The English Patient
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.88
@@ -847,6 +957,8 @@ Read Count | 1
 
 ## Antoine de Saint-Exupéry
 ### Night Flight
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.80
@@ -856,6 +968,8 @@ Read Count | 1
 
 ## J.D. Salinger
 ### Nine Stories
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 4.19
@@ -865,6 +979,8 @@ Read Count | 1
 
 ## Harold Stewart
 ### A Net of Fireflies: Japanese Haiku and Haiku Paintings
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.85
@@ -874,6 +990,8 @@ Read Count | 0
 
 ## Arkady Strugatsky
 ### Пикник на обочине
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
 My Rating | 5
@@ -883,6 +1001,8 @@ Read Count | 1
 
 ## Luke Rhinehart
 ### The Dice Man
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.60
@@ -892,6 +1012,8 @@ Read Count | 0
 
 ## Gorillaz
 ### Gorillaz: Rise of the Ogre
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.41
@@ -901,6 +1023,8 @@ Read Count | 0
 
 ## Roland Barthes
 ### 'A Lover''s Discourse: Fragments'
+
+Metric | Value
 -|-
 Addtl. Authors | Richard Howard, Wayne Koestenbaum
 My Rating | 0
@@ -911,6 +1035,8 @@ Read Count | 0
 
 ## Edith Hamilton
 ### Mythology: Timeless Tales of Gods and Heroes
+
+Metric | Value
 -|-
 Addtl. Authors | Steele Savage
 My Rating | 0
@@ -921,6 +1047,8 @@ Read Count | 0
 
 ## Jonathan Safran Foer
 ### Everything Is Illuminated
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.90
@@ -930,6 +1058,8 @@ Read Count | 0
 
 ## E.E. Cummings
 ### 100 Selected Poems
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.32
@@ -939,6 +1069,8 @@ Read Count | 1
 
 ## Albert Camus
 ### The Stranger
+
+Metric | Value
 -|-
 Addtl. Authors | Matthew Ward
 My Rating | 5
@@ -949,6 +1081,8 @@ Read Count | 1
 
 ## Nicholas Reynolds
 ### Writer, Sailor, Soldier, Spy: Ernest Hemingway's Secret Adventures, 1935-1961
+
+Metric | Value
 -|-
 Addtl. Authors | Fred Sanders
 My Rating | 0
@@ -959,6 +1093,8 @@ Read Count | 0
 
 ## Ayn Rand
 ### Atlas Shrugged
+
+Metric | Value
 -|-
 Addtl. Authors | Leonard Peikoff
 My Rating | 0
@@ -968,6 +1104,8 @@ Date Read |
 Read Count | 0
 
 ### The Fountainhead
+
+Metric | Value
 -|-
 Addtl. Authors | Leonard Peikoff
 My Rating | 0
@@ -977,6 +1115,8 @@ Date Read |
 Read Count | 0
 
 ### We the Living
+
+Metric | Value
 -|-
 Addtl. Authors | Leonard Peikoff
 My Rating | 3
@@ -987,6 +1127,8 @@ Read Count | 1
 
 ## Tsuyoshi Hasegawa
 ### The February Revolution: Petrograd 1917
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.00
@@ -995,6 +1137,8 @@ Date Read |
 Read Count | 0
 
 ### Crime and Punishment in the Russian Revolution: Mob Justice and Police in Petrograd
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.80
@@ -1003,6 +1147,8 @@ Read Count | 0
 
 ## Kate Brown
 ### Dispatches from Dystopia: Histories of Places Not Yet Forgotten
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.73
@@ -1011,6 +1157,8 @@ Date Read |
 Read Count | 0
 
 ### Plutopia: Nuclear Families, Atomic Cities, and the Great Soviet and American Plutonium Disasters
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.13
@@ -1020,6 +1168,8 @@ Read Count | 0
 
 ## George Mohoff
 ### The Russian Colony of Guadalupe Molokans in Mexico
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 0.0
@@ -1028,6 +1178,8 @@ Read Count | 0
 
 ## Николай Чернышевский
 ### Что делать?
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.67
@@ -1036,6 +1188,8 @@ Read Count | 0
 
 ## Joshua Slocum
 ### Sailing Alone around the World
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.13
@@ -1045,6 +1199,8 @@ Read Count | 1
 
 ## Camille Fournier
 ### 'The Manager''s Path: A Guide for Tech Leaders Navigating Growth and Change'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.38
@@ -1054,6 +1210,8 @@ Read Count | 0
 
 ## Alexander Shulgin
 ### Pihkal: A Chemical Love Story
+
+Metric | Value
 -|-
 Addtl. Authors | Ann Shulgin
 My Rating | 0
@@ -1064,6 +1222,8 @@ Read Count | 0
 
 ## Дмитрий Липскеров
 ### О Нем и о Бабочках
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 4.00
@@ -1071,6 +1231,8 @@ Date Read | 2017/06/30
 Read Count | 1
 
 ### Последний сон разума
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.12
@@ -1079,6 +1241,8 @@ Date Read |
 Read Count | 0
 
 ### Осени не будет никогда
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 4.19
@@ -1087,6 +1251,8 @@ Read Count | 1
 
 ## Neil Gaiman
 ### The Sandman: Overture
+
+Metric | Value
 -|-
 Addtl. Authors | J.H. Williams III, Dave Stewart, Todd Klein
 My Rating | 0
@@ -1096,6 +1262,8 @@ Date Read |
 Read Count | 1
 
 ### Preludes & Nocturnes (The Sandman, #1)
+
+Metric | Value
 -|-
 Addtl. Authors | Sam Kieth, Mike Dringenberg, Malcolm Jones III, Todd Klein, Karen  Berger
 My Rating | 5
@@ -1106,6 +1274,8 @@ Read Count | 1
 
 ## Garth Ennis
 ### Preacher, Volume 1: Gone to Texas
+
+Metric | Value
 -|-
 Addtl. Authors | Steve Dillon, Joe R. Lansdale
 My Rating | 0
@@ -1116,6 +1286,8 @@ Read Count | 0
 
 ## Warren Ellis
 ### Transmetropolitan, Vol. 1: Back on the Street (Transmetropolitan, #1)
+
+Metric | Value
 -|-
 Addtl. Authors | Darick Robertston, Garth Ennis
 My Rating | 0
@@ -1126,6 +1298,8 @@ Read Count | 0
 
 ## Salman Rushdie
 ### East, West
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 3.57
@@ -1135,6 +1309,8 @@ Read Count | 1
 
 ## Эдуард Лимонов
 ### Великие
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 4.33
@@ -1143,6 +1319,8 @@ Read Count | 1
 
 ## Jez Humble
 ### Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
+
+Metric | Value
 -|-
 Addtl. Authors | David  Farley
 My Rating | 0
@@ -1153,6 +1331,8 @@ Read Count | 0
 
 ## Thomas Hobbes
 ### Leviathan
+
+Metric | Value
 -|-
 Addtl. Authors | C.B. Macpherson
 My Rating | 0
@@ -1163,6 +1343,8 @@ Read Count | 0
 
 ## Arthur C. Clarke
 ### 2001: A Space Odyssey (Space Odyssey, #1)
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.13
@@ -1171,6 +1353,8 @@ Date Read | 2017/06/19
 Read Count | 1
 
 ### 2010: Odyssey Two (Space Odyssey, #2)
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.90
@@ -1180,6 +1364,8 @@ Read Count | 0
 
 ## Mikhail Bulgakov
 ### Записки покойника (Театральный роман)
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.23
@@ -1188,6 +1374,8 @@ Date Read | 2017/06/14
 Read Count | 1
 
 ### Собачье сердце
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.14
@@ -1197,6 +1385,8 @@ Read Count | 1
 
 ## Victor Pelevin
 ### Generation "П". Повести. Рассказы
+
+Metric | Value
 -|-
 Addtl. Authors | Виктор Пелевин
 My Rating | 4
@@ -1206,6 +1396,8 @@ Date Read | 2017/06/08
 Read Count | 1
 
 ### Чапаев и Пустота
+
+Metric | Value
 -|-
 Addtl. Authors | Пелевин Виктор
 My Rating | 0
@@ -1216,6 +1408,8 @@ Read Count | 0
 
 ## Francis Spufford
 ### 'Red Plenty: Inside the Fifties'' Soviet Dream'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.07
@@ -1225,6 +1419,8 @@ Read Count | 0
 
 ## Boris Akunin
 ### Аристономия
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.99
@@ -1234,6 +1430,8 @@ Read Count | 1
 
 ## Lois Lowry
 ### The Giver (The Giver, #1)
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.12
@@ -1243,6 +1441,8 @@ Read Count | 0
 
 ## Karl Marx
 ### Basic Writings on Politics and Philosophy
+
+Metric | Value
 -|-
 Addtl. Authors | Friedrich Engels, Lewis Samuel Feuer
 My Rating | 0
@@ -1253,6 +1453,8 @@ Read Count | 0
 
 ## Xosé Tarrío González
 ### Huye, hombre, huye. Diario de un preso F.I.E.S.
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.29
@@ -1262,6 +1464,8 @@ Read Count | 0
 
 ## Ron Hahne
 ### Black Mask Up Against the Wall Motherfucker: The Incomplete Works of Ron Hahne, Ben Morea, and the Black Mask Group
+
+Metric | Value
 -|-
 Addtl. Authors | Ben Morea, Stewart Home
 My Rating | 0
@@ -1272,6 +1476,8 @@ Read Count | 0
 
 ## Clifford Harper
 ### Prolegomena: To a Study of the Return of the Repressed in History
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.57
@@ -1281,6 +1487,8 @@ Read Count | 1
 
 ## Dan Simmons
 ### Hyperion (Hyperion Cantos, #1)
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 4.22
@@ -1290,6 +1498,8 @@ Read Count | 1
 
 ## Umberto Eco
 ### The Name of the Rose
+
+Metric | Value
 -|-
 Addtl. Authors | William Weaver, Seán Barrett
 My Rating | 0
@@ -1300,6 +1510,8 @@ Read Count | 0
 
 ## Sam Quinones
 ### 'Dreamland: The True Tale of America''s Opiate Epidemic'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.25
@@ -1309,6 +1521,8 @@ Read Count | 0
 
 ## Linda  Evans
 ### The Prison-Industrial Complex & the Global Economy
+
+Metric | Value
 -|-
 Addtl. Authors | Eve Goldberg
 My Rating | 4
@@ -1319,6 +1533,8 @@ Read Count | 1
 
 ## Jalil Muntaqim
 ### The Vancouver Five: Armed Struggle in Canada
+
+Metric | Value
 -|-
 Addtl. Authors | Jim Campbell
 My Rating | 5
@@ -1329,6 +1545,8 @@ Read Count | 1
 
 ## Sidney Sheldon
 ### The Sky is Falling
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.55
@@ -1338,6 +1556,8 @@ Read Count | 0
 
 ## Ann Hansen
 ### Direct Action: Memoirs of an Urban Guerrilla
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.89
@@ -1347,6 +1567,8 @@ Read Count | 0
 
 ## Thomas Paine
 ### Common Sense
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.97
@@ -1356,6 +1578,8 @@ Read Count | 0
 
 ## Yang Jwing-Ming
 ### 'Qigong, the Secret of Youth: Da Mo''s Muscle/Tendon Changing and Marrow/Brain Washing Classics'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.31
@@ -1365,6 +1589,8 @@ Read Count | 0
 
 ## Benjamin Hoff
 ### Дао Винни-Пуха
+
+Metric | Value
 -|-
 Addtl. Authors | Lev Vysotsky
 My Rating | 4
@@ -1375,6 +1601,8 @@ Read Count | 1
 
 ## Tom Wainwright
 ### Narconomics: How to Run a Drug Cartel
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.16
@@ -1384,6 +1612,8 @@ Read Count | 0
 
 ## Benjamin Hoff
 ### The Tao of Pooh
+
+Metric | Value
 -|-
 Addtl. Authors | Ernest H. Shepard
 My Rating | 0
@@ -1394,6 +1624,8 @@ Read Count | 1
 
 ## Barbara Demick
 ### Nothing to Envy: Ordinary Lives in North Korea
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.43
@@ -1403,6 +1635,8 @@ Read Count | 0
 
 ## Jon Ronson
 ### The Psychopath Test: A Journey Through the Madness Industry
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.93
@@ -1412,6 +1646,8 @@ Read Count | 0
 
 ## Lawrence Freedman
 ### Strategy: A History
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.97
@@ -1421,6 +1657,8 @@ Read Count | 0
 
 ## Victor Davis Hanson
 ### A War Like No Other: How the Athenians & Spartans Fought the Peloponnesian War
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.10
@@ -1430,6 +1668,8 @@ Read Count | 0
 
 ## Ivan Goncharov
 ### Oblomov
+
+Metric | Value
 -|-
 Addtl. Authors | Stephen Pearl, Galya Diment
 My Rating | 0
@@ -1440,6 +1680,8 @@ Read Count | 0
 
 ## Dalton Trumbo
 ### Johnny Got His Gun
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.17
@@ -1449,6 +1691,8 @@ Read Count | 0
 
 ## Lao Tzu
 ### Tao Te Ching
+
+Metric | Value
 -|-
 Addtl. Authors | Gia-Fu Feng, Jane English, Toinette Lippe, Jacob Needleman
 My Rating | 4
@@ -1459,6 +1703,8 @@ Read Count | 1
 
 ## Ali Almossawi
 ### An Illustrated Book of Bad Arguments
+
+Metric | Value
 -|-
 Addtl. Authors | Alejandro Giraldo
 My Rating | 0
@@ -1469,6 +1715,8 @@ Read Count | 0
 
 ## Frederick C. Crews
 ### The Pooh Perplex
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.01
@@ -1478,6 +1726,8 @@ Read Count | 0
 
 ## Sun Tzu
 ### The Art of War
+
+Metric | Value
 -|-
 Addtl. Authors | Thomas Cleary, نادر سعیدی
 My Rating | 0
@@ -1488,6 +1738,8 @@ Read Count | 0
 
 ## Bandi
 ### The Accusation: Forbidden Stories from Inside North Korea
+
+Metric | Value
 -|-
 Addtl. Authors | Deborah   Smith
 My Rating | 0
@@ -1498,6 +1750,8 @@ Read Count | 0
 
 ## Vladimir Orlov
 ### Аптекарь
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.05
@@ -1506,6 +1760,8 @@ Date Read |
 Read Count | 0
 
 ### Альтист Данилов
+
+Metric | Value
 -|-
 Addtl. Authors | Vladimir Orlov
 My Rating | 0
@@ -1516,6 +1772,8 @@ Read Count | 0
 
 ## William Blake
 ### The Complete Poetry and Prose
+
+Metric | Value
 -|-
 Addtl. Authors | David V. Erdman, Harold Bloom
 My Rating | 0
@@ -1525,6 +1783,8 @@ Date Read |
 Read Count | 0
 
 ### Songs of Innocence and of Experience
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.11
@@ -1534,6 +1794,8 @@ Read Count | 0
 
 ## Готфрид Август Бюргер
 ### Невероятные путешествия Барона Мюнхгаузена
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.00
@@ -1543,6 +1805,8 @@ Read Count | 0
 
 ## Rainer Maria Rilke
 ### The Selected Poetry of Rainer Maria Rilke
+
+Metric | Value
 -|-
 Addtl. Authors | Stephen Mitchell, Robert Hass
 My Rating | 0
@@ -1553,6 +1817,8 @@ Read Count | 0
 
 ## Philip Roth
 ### The Plot Against America
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.73
@@ -1562,6 +1828,8 @@ Read Count | 0
 
 ## Sylvia Plath
 ### The Bell Jar
+
+Metric | Value
 -|-
 Addtl. Authors | Reinhard Kaiser
 My Rating | 0
@@ -1572,6 +1840,8 @@ Read Count | 0
 
 ## Atul Gawande
 ### Being Mortal: Medicine and What Matters in the End
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.43
@@ -1581,6 +1851,8 @@ Read Count | 0
 
 ## Fazil Iskander
 ### Сандро из Чегема
+
+Metric | Value
 -|-
 Addtl. Authors | Фазиль Искандер
 My Rating | 0
@@ -1590,6 +1862,8 @@ Date Read |
 Read Count | 0
 
 ### Кролики и удавы
+
+Metric | Value
 -|-
 Addtl. Authors | Фазиль Искандер
 My Rating | 5
@@ -1600,6 +1874,8 @@ Read Count | 1
 
 ## Cynthia Shapiro
 ### 'Corporate Confidential: 50 Secrets Your Company Doesn''t Want You to Know---and What to Do About Them'
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 3.91
@@ -1609,6 +1885,8 @@ Read Count | 1
 
 ## Richard Bach
 ### Чайка по имени Джонатан Ливингстон
+
+Metric | Value
 -|-
 Addtl. Authors | Юни Родман
 My Rating | 3
@@ -1619,6 +1897,8 @@ Read Count | 1
 
 ## Aleksey Nikolayevich Tolstoy
 ### Гиперболоид инженера Гарина
+
+Metric | Value
 -|-
 Addtl. Authors | Алексей Николаевич Толстой
 My Rating | 5
@@ -1629,6 +1909,8 @@ Read Count | 1
 
 ## John le Carré
 ### Call for the Dead (George Smiley, #1)
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.79
@@ -1638,6 +1920,8 @@ Read Count | 0
 
 ## Roberto Bolaño
 ### The Last Interview and Other Conversations
+
+Metric | Value
 -|-
 Addtl. Authors | Mónica Maristain, Marcela Valdes, Sybil Perez, Tom McCartan
 My Rating | 0
@@ -1648,6 +1932,8 @@ Read Count | 0
 
 ## Andy Hunt
 ### The Pragmatic Programmer: From Journeyman to Master
+
+Metric | Value
 -|-
 Addtl. Authors | Dave Thomas
 My Rating | 4
@@ -1658,6 +1944,8 @@ Read Count | 1
 
 ## Тильман Шпенглер
 ### Мозг Ленина
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 4.00
@@ -1666,6 +1954,8 @@ Read Count | 1
 
 ## Boris Akunin
 ### Murder on the Leviathan (Erast Fandorin Mysteries, #3)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin, Andrew Bromfield
 My Rating | 5
@@ -1676,6 +1966,8 @@ Read Count | 1
 
 ## Veniamin Kaverin
 ### Two Captains
+
+Metric | Value
 -|-
 Addtl. Authors | Bernard Isaacs
 My Rating | 5
@@ -1686,6 +1978,8 @@ Read Count | 1
 
 ## Suzanne Bourgeois
 ### Genesis of the Salk Institute
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.00
@@ -1695,6 +1989,8 @@ Read Count | 1
 
 ## Gabriel García Márquez
 ### Море исчезающих времен [More ischezayuschih vremen]
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.92
@@ -1704,6 +2000,8 @@ Read Count | 1
 
 ## J.R.R. Tolkien
 ### The Hobbit
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.26
@@ -1713,6 +2011,8 @@ Read Count | 1
 
 ## Anthony Burgess
 ### A Clockwork Orange
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.99
@@ -1722,6 +2022,8 @@ Read Count | 0
 
 ## Richard  Adams
 ### Watership Down (Watership Down, #1)
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.06
@@ -1731,6 +2033,8 @@ Read Count | 0
 
 ## Fazil Iskander
 ### Пиры Валтасара. Кролики и удавы
+
+Metric | Value
 -|-
 Addtl. Authors | Фазиль Искандер
 My Rating | 5
@@ -1740,6 +2044,8 @@ Read Count | 1
 
 ## Boris Akunin
 ### Dekorater (Erast Fandorin Mysteries #5.2)
+
+Metric | Value
 -|-
 Addtl. Authors | Igor Buljan
 My Rating | 0
@@ -1749,6 +2055,8 @@ Date Read |
 Read Count | 0
 
 ### Patasotilas (Erast Fandorin Mysteries #5.1)
+
+Metric | Value
 -|-
 Addtl. Authors | Anton Nikkilä
 My Rating | 0
@@ -1758,6 +2066,8 @@ Date Read |
 Read Count | 0
 
 ### Планета вода (Erast Fandorin Mysteries, #14)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin, Борис Акунин
 My Rating | 0
@@ -1767,6 +2077,8 @@ Date Read |
 Read Count | 0
 
 ### Весь мир театр (Erast Fandorin Mysteries, #12)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1776,6 +2088,8 @@ Date Read |
 Read Count | 0
 
 ### Черный город (Erast Fandorin Mysteries, #13)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1785,6 +2099,8 @@ Date Read |
 Read Count | 0
 
 ### Любовница смерти (Erast Fandorin Mysteries, #8)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1794,6 +2110,8 @@ Date Read |
 Read Count | 0
 
 ### The Turkish Gambit (Erast Fandorin Mysteries, #2)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin, Andrew Bromfield
 My Rating | 5
@@ -1803,6 +2121,8 @@ Date Read | 2017/01/04
 Read Count | 1
 
 ### Азазель
+
+Metric | Value
 -|-
 Addtl. Authors | Борис Акунин
 My Rating | 5
@@ -1812,6 +2132,8 @@ Date Read | 2016/12/16
 Read Count | 1
 
 ### Нефритовые четки (Erast Fandorin Mysteries, #11)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1821,6 +2143,8 @@ Date Read |
 Read Count | 0
 
 ### Коронация, или Последний из романов (Erast Fandorin Mysteries, #7)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1830,6 +2154,8 @@ Date Read |
 Read Count | 0
 
 ### Любовник смерти (Erast Fandorin Mysteries, #9)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1839,6 +2165,8 @@ Date Read |
 Read Count | 0
 
 ### Special Assignments (Erast Fandorin Mysteries, #5)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1848,6 +2176,8 @@ Date Read |
 Read Count | 0
 
 ### Алмазная колесница (Erast Fandorin Mysteries, #10)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1857,6 +2187,8 @@ Date Read |
 Read Count | 0
 
 ### Статский советник (Erast Fandorin Mysteries, #6)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin
 My Rating | 0
@@ -1866,6 +2198,8 @@ Date Read |
 Read Count | 0
 
 ### The Death of Achilles (Erast Fandorin Mysteries, #4)
+
+Metric | Value
 -|-
 Addtl. Authors | Boris Akunin, Andrew Bromfield
 My Rating | 0
@@ -1876,6 +2210,8 @@ Read Count | 0
 
 ## Gabriel García Márquez
 ### Скверное время
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.40
@@ -1885,6 +2221,8 @@ Read Count | 1
 
 ## Brian Christian
 ### Algorithms to Live By: The Computer Science of Human Decisions
+
+Metric | Value
 -|-
 Addtl. Authors | Tom  Griffiths
 My Rating | 0
@@ -1895,6 +2233,8 @@ Read Count | 0
 
 ## Gabriel García Márquez
 ### А смерть всегда надежнее любви...
+
+Metric | Value
 -|-
 Addtl. Authors | Габриэль Гарсиа Маркес
 My Rating | 5
@@ -1905,6 +2245,8 @@ Read Count | 1
 
 ## David A. Mindell
 ### Digital Apollo: Human and Machine in Spaceflight
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.24
@@ -1914,6 +2256,8 @@ Read Count | 0
 
 ## Aleksey Nikolayevich Tolstoy
 ### Аэлита
+
+Metric | Value
 -|-
 Addtl. Authors | Алексей Николаевич Толстой
 My Rating | 5
@@ -1924,6 +2268,8 @@ Read Count | 1
 
 ## Roberto Bolaño
 ### 2666
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.21
@@ -1933,6 +2279,8 @@ Read Count | 0
 
 ## Jonathan Kozol
 ### 'Savage Inequalities: Children in America''s Schools'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.24
@@ -1942,6 +2290,8 @@ Read Count | 0
 
 ## Keith Richards
 ### Life
+
+Metric | Value
 -|-
 Addtl. Authors | James Fox
 My Rating | 4
@@ -1952,6 +2302,8 @@ Read Count | 1
 
 ## Abbie Hoffman
 ### Steal This Book
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.60
@@ -1961,6 +2313,8 @@ Read Count | 0
 
 ## Walter Isaacson
 ### Steve Jobs
+
+Metric | Value
 -|-
 My Rating | 1
 Avg. Rating | 4.11
@@ -1970,6 +2324,8 @@ Read Count | 1
 
 ## Dennis Lehane
 ### Shutter Island
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.09
@@ -1979,6 +2335,8 @@ Read Count | 0
 
 ## James Sallis
 ### Driven
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.26
@@ -1988,6 +2346,8 @@ Read Count | 0
 
 ## Christa Roberts
 ### Employee Handbook
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 3.90
@@ -1997,6 +2357,8 @@ Read Count | 1
 
 ## Miriam Elia
 ### Diary of Edward the Hamster 1990-1990
+
+Metric | Value
 -|-
 Addtl. Authors | Ezra Elia
 My Rating | 5
@@ -2007,6 +2369,8 @@ Read Count | 1
 
 ## Jim Hogshire
 ### 'Opium for the Masses: Harvesting Nature''s Best Pain Medication'
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 3.88
@@ -2016,6 +2380,8 @@ Read Count | 1
 
 ## Jon Ronson
 ### The Men Who Stare at Goats
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.60
@@ -2025,6 +2391,8 @@ Read Count | 0
 
 ## Aleksey Nikolayevich Tolstoy
 ### Aelita
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.65
@@ -2034,6 +2402,8 @@ Read Count | 1
 
 ## Octavio Paz
 ### In/Mediaciones
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.00
@@ -2043,6 +2413,8 @@ Read Count | 0
 
 ## Leonid Kaganov
 ### Таблетки
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 4.09
@@ -2052,6 +2424,8 @@ Read Count | 1
 
 ## Catherine Cowan
 ### My Life with the Wave
+
+Metric | Value
 -|-
 Addtl. Authors | Octavio Paz, Mark Buehner
 My Rating | 5
@@ -2062,6 +2436,8 @@ Read Count | 1
 
 ## Vasily Aksyonov
 ### Остров Крым
+
+Metric | Value
 -|-
 Addtl. Authors | Василий Аксёнов
 My Rating | 5
@@ -2072,6 +2448,8 @@ Read Count | 1
 
 ## John le Carré
 ### Absolute Friends
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.60
@@ -2081,6 +2459,8 @@ Read Count | 1
 
 ## Gabriel García Márquez
 ### Of Love and Other Demons
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.98
@@ -2090,6 +2470,8 @@ Read Count | 0
 
 ## Gabriel García Márquez
 ### El coronel no tiene quien le escriba
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.72
@@ -2099,6 +2481,8 @@ Read Count | 0
 
 ## Gabriel García Márquez
 ### One Hundred Years of Solitude
+
+Metric | Value
 -|-
 Addtl. Authors | Gregory Rabassa
 My Rating | 5
@@ -2109,6 +2493,8 @@ Read Count | 1
 
 ## Sergei Lukyanenko
 ### Дорога к Марсу
+
+Metric | Value
 -|-
 Addtl. Authors | Сергей Лукьяненко, Александр Зорич, Александр Громов, Alexander Gromov
 My Rating | 0
@@ -2117,6 +2503,8 @@ Date Read |
 Read Count | 0
 
 ### Прозрачные витражи (Лабиринт отражений, #3)
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 3.93
@@ -2125,6 +2513,8 @@ Date Read |
 Read Count | 1
 
 ### Лабиринт отражений (Лабиринт отражений, #1)
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.13
@@ -2133,6 +2523,8 @@ Date Read |
 Read Count | 1
 
 ### The Last Watch (Watch #4)
+
+Metric | Value
 -|-
 Addtl. Authors | Andrew Bromfield
 My Rating | 5
@@ -2142,6 +2534,8 @@ Date Read |
 Read Count | 1
 
 ### Twilight Watch (Watch #3)
+
+Metric | Value
 -|-
 Addtl. Authors | Andrew Bromfield
 My Rating | 5
@@ -2151,6 +2545,8 @@ Date Read |
 Read Count | 1
 
 ### Day Watch (Watch #2)
+
+Metric | Value
 -|-
 Addtl. Authors | Andrew Bromfield
 My Rating | 4
@@ -2160,6 +2556,8 @@ Date Read |
 Read Count | 1
 
 ### Night Watch (Watch #1)
+
+Metric | Value
 -|-
 Addtl. Authors | Andrew Bromfield
 My Rating | 5
@@ -2169,6 +2567,8 @@ Date Read |
 Read Count | 1
 
 ### Новый Дозор (Дозоры, #5)
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 4.00
@@ -2177,6 +2577,8 @@ Date Read |
 Read Count | 1
 
 ### Черновик (Работа над ошибками, #1)
+
+Metric | Value
 -|-
 Addtl. Authors | Сергей Лукьяненко, Александр Андриенко
 My Rating | 0
@@ -2186,6 +2588,8 @@ Date Read |
 Read Count | 0
 
 ### Звёзды - холодные игрушки (Звёздный лабиринт, #1)
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.10
@@ -2194,6 +2598,8 @@ Date Read |
 Read Count | 0
 
 ### Чистовик (Работа над ошибками, #2)
+
+Metric | Value
 -|-
 Addtl. Authors | Сергей Лукьяненко, Александр Андриенко
 My Rating | 4
@@ -2203,6 +2609,8 @@ Date Read |
 Read Count | 1
 
 ### Фальшивые зеркала (Лабиринт отражений, #2)
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 4.18
@@ -2212,6 +2620,8 @@ Read Count | 1
 
 ## Mikhail Bulgakov
 ### Morphine
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.06
@@ -2220,6 +2630,8 @@ Date Read |
 Read Count | 0
 
 ### The White Guard
+
+Metric | Value
 -|-
 Addtl. Authors | Michael Glenny
 My Rating | 0
@@ -2229,6 +2641,8 @@ Date Read |
 Read Count | 0
 
 ### Heart of a Dog
+
+Metric | Value
 -|-
 Addtl. Authors | Mirra Ginsburg
 My Rating | 0
@@ -2238,6 +2652,8 @@ Date Read |
 Read Count | 0
 
 ### The Master and Margarita
+
+Metric | Value
 -|-
 Addtl. Authors | 'Katherine Tiernan O''Connor, Ellendea Proffer, Diana Burgin'
 My Rating | 5
@@ -2248,6 +2664,8 @@ Read Count | 1
 
 ## John le Carré
 ### A Delicate Truth
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.75
@@ -2256,6 +2674,8 @@ Date Read |
 Read Count | 0
 
 ### A Murder of Quality
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.60
@@ -2264,6 +2684,8 @@ Date Read |
 Read Count | 0
 
 ### A Most Wanted Man
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.49
@@ -2272,6 +2694,8 @@ Date Read |
 Read Count | 0
 
 ### The Little Drummer Girl
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.95
@@ -2280,6 +2704,8 @@ Date Read |
 Read Count | 0
 
 ### The Honourable Schoolboy
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.95
@@ -2288,6 +2714,8 @@ Date Read |
 Read Count | 0
 
 ### A Perfect Spy
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.00
@@ -2296,6 +2724,8 @@ Date Read |
 Read Count | 0
 
 ### The Constant Gardener
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.78
@@ -2304,6 +2734,8 @@ Date Read |
 Read Count | 0
 
 ### The Russia House
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.91
@@ -2312,6 +2744,8 @@ Date Read |
 Read Count | 0
 
 ### 'Smiley''s People'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.26
@@ -2320,6 +2754,8 @@ Date Read |
 Read Count | 0
 
 ### The Spy Who Came In from the Cold
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.07
@@ -2328,6 +2764,8 @@ Date Read |
 Read Count | 1
 
 ### Tinker, Tailor, Soldier, Spy
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.05
@@ -2337,6 +2775,8 @@ Read Count | 0
 
 ## Erich Maria Remarque
 ### Three Comrades
+
+Metric | Value
 -|-
 Addtl. Authors | Arthur Wesley Wheen
 My Rating | 5
@@ -2347,6 +2787,8 @@ Read Count | 1
 
 ## Аркадий Стругацкий, Борис Стругацкий
 ### Отель «У Погибшего Альпиниста»
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.76
@@ -2355,6 +2797,8 @@ Date Read |
 Read Count | 0
 
 ### Обитаемый остров
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.26
@@ -2363,6 +2807,8 @@ Date Read |
 Read Count | 0
 
 ### Трудно быть богом
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.22
@@ -2371,6 +2817,8 @@ Date Read |
 Read Count | 0
 
 ### Понедельник начинается в субботу
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.30
@@ -2380,6 +2828,8 @@ Read Count | 1
 
 ## Hunter S. Thompson
 ### The Curse of Lono
+
+Metric | Value
 -|-
 Addtl. Authors | Steve Crist, Ralph Steadman
 My Rating | 5
@@ -2389,6 +2839,8 @@ Date Read | 2017/05/16
 Read Count | 1
 
 ### Screwjack
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.58
@@ -2397,6 +2849,8 @@ Date Read | 2016/10/20
 Read Count | 1
 
 ### 'Hell''s Angels: A Strange and Terrible Saga'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.00
@@ -2405,6 +2859,8 @@ Date Read |
 Read Count | 0
 
 ### 'Fear and Loathing on the Campaign Trail ''72'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.11
@@ -2413,6 +2869,8 @@ Date Read |
 Read Count | 0
 
 ### The Rum Diary
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.83
@@ -2421,6 +2879,8 @@ Date Read |
 Read Count | 1
 
 ### Fear and Loathing in Las Vegas
+
+Metric | Value
 -|-
 Addtl. Authors | Ralph Steadman
 My Rating | 5
@@ -2431,6 +2891,8 @@ Read Count | 1
 
 ## Chuck Palahniuk
 ### Fight Club
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.20
@@ -2440,6 +2902,8 @@ Read Count | 1
 
 ## Алексей Николаевич Толстой
 ### Граф Калиостро
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.93
@@ -2447,6 +2911,8 @@ Date Read |
 Read Count | 0
 
 ### Терентий Генералов
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.50
@@ -2454,6 +2920,8 @@ Date Read |
 Read Count | 0
 
 ### Peter the First
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.16
@@ -2464,6 +2932,8 @@ Read Count | 0
 ## Juan Rulfo
 ### Pedro Páramo
 Addtl. Authors | Margaret Sayers Peden, Susan Sontag
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.05
@@ -2473,6 +2943,8 @@ Read Count | 1
 
 ## Вениамин Каверин
 ### Два капитана
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.32
@@ -2483,6 +2955,8 @@ Read Count | 1
 ## Viktor Suvorov
 ### Аквариум
 Addtl. Authors | Виктор Суворов
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.30
@@ -2492,6 +2966,8 @@ Read Count | 1
 
 ## Владимир Войнович
 ### Малое собрание сочинений
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 0.0
@@ -2499,6 +2975,8 @@ Date Read |
 Read Count | 0
 
 ### Жизнь и необычайные приключения солдата Ивана Чонкина
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 3.97
@@ -2507,6 +2985,8 @@ Date Read |
 Read Count | 1
 
 ### Москва 2042
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 3.90
@@ -2516,6 +2996,8 @@ Read Count | 0
 
 ## Juan Rulfo
 ### El Llano en llamas
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.18
@@ -2525,6 +3007,8 @@ Read Count | 1
 
 ## Charles Bukowski
 ### Women
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 3.88
@@ -2533,6 +3017,8 @@ Date Read |
 Read Count | 1
 
 ### Post Office
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 4.00
@@ -2541,6 +3027,8 @@ Date Read |
 Read Count | 1
 
 ### The Bell Tolls for No One
+
+Metric | Value
 -|-
 Addtl. Authors | David Stephen Calonne
 My Rating | 5
@@ -2550,6 +3038,8 @@ Date Read |
 Read Count | 1
 
 ### War All the Time
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.16
@@ -2558,6 +3048,8 @@ Date Read |
 Read Count | 0
 
 ### The Continual Condition: Poems
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.86
@@ -2567,6 +3059,8 @@ Read Count | 1
 
 ## Stanisław Lem
 ### Звёздные дневники Ийона Тихого
+
+Metric | Value
 -|-
 My Rating | 3
 Avg. Rating | 4.28
@@ -2576,6 +3070,8 @@ Read Count | 1
 
 ## Robert M. Pirsig
 ### Lila: An Inquiry Into Morals
+
+Metric | Value
 -|-
 My Rating | 4
 Avg. Rating | 3.76
@@ -2584,6 +3080,8 @@ Date Read |
 Read Count | 1
 
 ### Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.77
@@ -2593,6 +3091,8 @@ Read Count | 1
 
 ## Carlos Castaneda
 ### The Wheel of Time: The Shamans of Mexico Their Thoughts About Life Death & the Universe
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.04
@@ -2601,6 +3101,8 @@ Date Read |
 Read Count | 0
 
 ### The Active Side of Infinity
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.15
@@ -2609,6 +3111,8 @@ Date Read |
 Read Count | 0
 
 ### Power of Silence
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.21
@@ -2617,6 +3121,8 @@ Date Read |
 Read Count | 0
 
 ### Fire from Within
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.13
@@ -2625,6 +3131,8 @@ Date Read |
 Read Count | 0
 
 ### Second Ring of Power
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.01
@@ -2633,6 +3141,8 @@ Date Read |
 Read Count | 0
 
 ### 'Eagle''s Gift'
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.06
@@ -2641,6 +3151,8 @@ Date Read |
 Read Count | 0
 
 ### The Art of Dreaming
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.11
@@ -2649,6 +3161,8 @@ Date Read |
 Read Count | 0
 
 ### Tales of Power
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.14
@@ -2657,6 +3171,8 @@ Date Read |
 Read Count | 0
 
 ### Journey to Ixtlan
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.11
@@ -2665,6 +3181,8 @@ Date Read |
 Read Count | 0
 
 ### A Separate Reality
+
+Metric | Value
 -|-
 My Rating | 0
 Avg. Rating | 4.07
@@ -2673,6 +3191,8 @@ Date Read |
 Read Count | 0
 
 ### The Teachings of Don Juan: A Yaqui Way of Knowledge
+
+Metric | Value
 -|-
 My Rating | 5
 Avg. Rating | 3.94
