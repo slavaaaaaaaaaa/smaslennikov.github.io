@@ -8,7 +8,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul {
-  overflow: auto;
   position:static !important;
   margin:0 0 0;
 }
@@ -19,11 +18,12 @@ ul.posts {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:290px;
+  width:310px;
+  height:30px;
 }
 
 .posts li {
-  width:140px;
+  width:150px;
   height:30px;
   float:left;
   border-right:1px solid #e0e0e0;
@@ -36,7 +36,6 @@ ul.posts {
 }
 
 .posts a {
-  line-height:1;
   font-size:15px;
   color:#222;
   display:block;
@@ -49,7 +48,7 @@ ul.posts {
 }
 
 .posts ul a:active {
-  background-color:#f0f0f0;
+  background-color:transparent !important;
 }
 
 .posts a strong {
@@ -59,6 +58,7 @@ ul.posts {
 }
 
 ul.images {
+  overflow: auto;
   list-style:none;
   padding: 5px 10px;
   border:0px;

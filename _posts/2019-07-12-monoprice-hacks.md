@@ -5,9 +5,7 @@ title: "3D printer woes"
 author: "Svyatoslav I. Maslennikov"
 ---
 
-I made a terrible choice of buying on of these on amazon:
-
-- [Monoprice Select v2](https://www.amazon.com/gp/product/B018GZBC3Y) - $229.99+tax
+I made a terrible choice of buying a [Monoprice Select v2](https://www.amazon.com/gp/product/B018GZBC3Y) for $229.99+tax
 
 You can't know which you'll get, apparently: I got v2.1 with knurled bed adjusting rings instead of winged ones. The following are mods I've performed, gauged by necessity. AFAIK all v2s need these, not just v2.1.
 
