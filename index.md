@@ -9,12 +9,9 @@ Here's my [resume](docs/resume.pdf)
 ## Notable projects
 
 * I [define](https://github.com/smaslennikov/include.mk) frequent commands as `make` target includes
-* [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh) is a bad script for migrating off PostgreSQL BDR
 * A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS
-* [Here's](https://smaslennikov.com/whattimeisitrightmeow/) a devopsy clock I made. Here's [another](https://smaslennikov.com/whattravisisitrightmeow/)
-* [Jave](https://github.com/JaveLLC/) is the future of programming I collaborate on
-* [These lyrics](docs/sleepy_vikings-twin_peaks) were really hard to find
-* [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/docs/monoprice-select-v2.md) is a list of fixes for a Monoprice Select v2.1
+* [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh) is a not-great script for migrating off PostgreSQL BDR
+* [Here's](https://smaslennikov.com/whattimeisitrightmeow/) a devops clock I made. Here's [another](https://smaslennikov.com/whattravisisitrightmeow/)
 * [Here](rhymes) are some haikus and rhymes
 * [Here](beers) are some of my beer and kombucha labels
 * [Here](books) is my ongoing book list
@@ -35,3 +32,4 @@ Here's my [resume](docs/resume.pdf)
 * Naftuli Kay is an engineer (not of trains), he does things [right](https://naftuli.wtf)
 * James Khang was taking control of his skillset by building a [game](https://20minutesadayblog.wordpress.com)
     * ...now he's got a [blog](https://medium.com/@jahmezz)
+* [Jave](https://github.com/JaveLLC/) is the future of programming I collaborate on
