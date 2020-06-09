@@ -15,8 +15,8 @@ Here's my [resume](docs/resume.pdf)
 * [Jave](https://github.com/JaveLLC/) is the future of programming I collaborate on
 * [These lyrics](docs/sleepy_vikings-twin_peaks) were really hard to find
 * [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/docs/monoprice-select-v2.md) is a list of fixes for a Monoprice Select v2.1
-* [Here](rhymes/) are some haikus and rhymes
-* [Here](beers/) are some of my beer and kombucha labels
+* [Here](rhymes) are some haikus and rhymes
+* [Here](beers) are some of my beer and kombucha labels
 
 ## Presentations
 
