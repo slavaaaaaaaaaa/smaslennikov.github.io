@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ul {
   overflow: auto;
+  position:static;
   margin:0 0 0;
 }
 
@@ -66,10 +67,4 @@ ul.images {
   list-style:none;
   float:left;
   padding: 5px 5px;
-}
-
-@media print, screen and (max-width: 960px) {
-  ul {
-    position:static;
-  }
 }
