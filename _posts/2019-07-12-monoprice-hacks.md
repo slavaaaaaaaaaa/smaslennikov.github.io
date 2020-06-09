@@ -1,7 +1,7 @@
 ---
 type: posts
 layout: post
-title: "Getting started with a Monoprice Select v2.1"
+title: "3D printer woes"
 author: "Svyatoslav I. Maslennikov"
 ---
 
