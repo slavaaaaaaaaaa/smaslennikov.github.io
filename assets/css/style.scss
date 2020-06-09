@@ -8,12 +8,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul {
+  overflow: auto;
   margin:0 0 0;
 }
 
 ul.posts {
   list-style:none;
-  height:30px;
   padding:0;
   background: #f4f4f4;
   border-radius:5px;
@@ -22,11 +22,11 @@ ul.posts {
 }
 
 .posts li {
-  width:120px;
+  width:140px;
   float:left;
   border-right:1px solid #e0e0e0;
   border-radius:5px;
-  height:30px;
+  line-height: normal;
 }
 
 .posts li+li {
@@ -39,7 +39,6 @@ ul.posts {
   color:#222;
   display:block;
   text-align:center;
-  height:34px;
 }
 
 .posts a:hover, .posts a:focus {
@@ -58,7 +57,6 @@ ul.posts {
 }
 
 ul.images {
-  overflow: auto;
   list-style:none;
   padding: 5px 10px;
   border:0px;
@@ -68,4 +66,10 @@ ul.images {
   list-style:none;
   float:left;
   padding: 5px 5px;
+}
+
+@media print, screen and (max-width: 960px) {
+  ul {
+    position:static;
+  }
 }
