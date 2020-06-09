@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ul {
   overflow: auto;
-  position:static;
+  position:static !important;
   margin:0 0 0;
 }
 
@@ -24,6 +24,7 @@ ul.posts {
 
 .posts li {
   width:140px;
+  height:30px;
   float:left;
   border-right:1px solid #e0e0e0;
   border-radius:5px;
