@@ -20,7 +20,7 @@ Here's my [resume](docs/resume.pdf)
 
 ## Presentations
 
-* Another presentation [about secret storage](https://smaslennikov.com/sada-beer-and-learn-1/) was born at SADA
+* Another presentation [about secret storage](https://smaslennikov.com/sada-beer-and-learn-1/) given at SADA
 * Grindr birthed
     * a presentation [about secret storage](grindr-demo-day-1) as well as
     * one about a [failed POC of GoCD](grindr-demo-day-2)
