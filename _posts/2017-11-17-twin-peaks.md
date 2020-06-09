@@ -9,6 +9,7 @@ These lyrics were damn hard to find, so I bought a physical CD and managed to de
 
 ## Twin Peaks by Sleepy Vikings
 
+```text
 in a dream it was summer
 and i buried my head into
 the back of your neck
@@ -38,3 +39,4 @@ or screams. i call them ghosts -
  maybe you just call them memories -
 
 or maybe you don't think of me
+```
