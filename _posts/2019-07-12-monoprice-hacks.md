@@ -1,4 +1,9 @@
-# Getting started with a Monoprice Select v2.1
+---
+type: posts
+layout: post
+title: "Getting started with a Monoprice Select v2.1"
+author: "Svyatoslav I. Maslennikov"
+---
 
 I made a terrible choice of buying on of these on amazon:
 

@@ -1,3 +1,14 @@
+---
+type: posts
+layout: post
+title: "Twin Peaks"
+author: "Svyatoslav I. Maslennikov"
+---
+
+These lyrics were damn hard to find, so I bought a physical CD and managed to decipher the artsy handwriting.
+
+## Twin Peaks by Sleepy Vikings
+
 in a dream it was summer
 and i buried my head into
 the back of your neck
