@@ -16,48 +16,56 @@ Date Read | 2018/04/17
 Read Count | 1
 
 ### Anna Karenina
+-|-
 Year Published | 1877
 Date Read |
 Read Count |
 
 ## Liu Cixin
 ### The Three Body Problem
+-|-
 Year Published | 2008
 Date Read | 2020
 Read Count | 1
 
 ## Norman Maclean
 ### A River Runs Through It
+-|-
 Year Published | 1976
 Date Read | 2020
 Read Count | 1
 
 ## M. Ageyev
 ### Novel with Cocaine
+-|-
 Year Published | 1934
 Date Read | 2020/2/1
 Read Count | 1
 
 ## Jan Valtin
 ### Out of the Night
+-|-
 Year Published | 1941
 Date Read | 2020/1/1
 Read Count | 1
 
 ## Isabella Lucy Bird
 ### Unbeaten Tracks in Japan
+-|-
 Year Published | 1881
 Date Read | 2019/12/17
 Read Count | 1
 
 ## Michael Stadler
 ### Psychology of Sailing: The sea's effects on mind and body
+-|-
 Year Published | 1987
 Date Read |
 Read Count | 0
 
 ## James A. Gibbs
 ### Pacific Graveyard
+-|-
 Year Published | 1991
 Date Read | 2019/10/28
 Read Count | 1
@@ -70,14 +78,16 @@ Avg. Rating | 3.95
 Year Published | 1930
 Date Read | 2018/06/04
 Read Count | 1
+
 ### Insomniac Dreams: Experiments with Time by Vladimir Nabokov
-Addtl. Authors | Gennady Barabtarlo
 -|-
+Addtl. Authors | Gennady Barabtarlo
 My Rating | 5
 Avg. Rating | 3.51
 Year Published | 2017
 Date Read | 2019/10/23
 Read Count | 1
+
 ### Король, дама, валет
 -|-
 My Rating | 0
@@ -85,6 +95,7 @@ Avg. Rating | 3.81
 Year Published | 1928
 Date Read |
 Read Count | 0
+
 ### Камера Обскура
 -|-
 My Rating | 5
@@ -92,6 +103,7 @@ Avg. Rating | 3.95
 Year Published | 1932
 Date Read | 2017/04/02
 Read Count | 1
+
 ### Speak, Memory
 -|-
 My Rating | 0
@@ -99,14 +111,16 @@ Avg. Rating | 4.19
 Year Published | 1951
 Date Read |
 Read Count | 0
+
 ### Lolita
-Addtl. Authors | Craig Raine
 -|-
+Addtl. Authors | Craig Raine
 My Rating | 4
 Avg. Rating | 3.89
 Year Published | 1955
 Date Read | 2017/04/17
 Read Count | 1
+
 ### Дар
 -|-
 My Rating | 5
@@ -114,6 +128,7 @@ Avg. Rating | 3.99
 Year Published | 1938
 Date Read | 2017/08/08
 Read Count | 1
+
 ### Отчаяние
 -|-
 My Rating | 5
@@ -121,41 +136,48 @@ Avg. Rating | 3.92
 Year Published | 1934
 Date Read |
 Read Count | 2
+
 ### Solus Rex
 -|-
 My Rating | 5
 Avg. Rating | 3.80
-    year-published:
 Date Read |
 Read Count | 1
 
 ## Bill Biewenga
 ### Weather for Sailors
+-|-
 Year Published | 2004
 Read Count | 0
 Date Read |
 
 ## Ruby El Hult
 ### Northwest Disaster
+-|-
 Year Published | 1960
 Read Count | 1
 Date Read | 2019/10/01
 
 ## Samuel Taylor Coleridge
 ### The Rime of the Ancient Mariner
+-|-
 Year Published | 1798
 Read Count | 1
 Date Read | 2019/09/30
 
 ## Ernest Hemingway
 ### Green Hills of Africa
+-|-
 Year Published | 1935
 Read Count | 1
 Date Read | 2019/09/27
+
 ### The Sun Also Rises
+-|-
 Year Published | 1926
 Read Count | 1
 Date Read | 2019/01/24
+
 ### The Fifth Column and Four Stories of the Spanish Civil War
 -|-
 My Rating | 5
@@ -163,6 +185,7 @@ Avg. Rating | 3.57
 Year Published | 1938
 Date Read | 2017/07/11
 Read Count | 1
+
 ### The Old Man and the Sea
 -|-
 My Rating | 5
@@ -170,9 +193,10 @@ Avg. Rating | 3.75
 Year Published | 1952
 Date Read | 2018/06/07
 Read Count | 1
+
 ### Complete Poems
-Addtl. Authors | Nicholas Gerogiannis
 -|-
+Addtl. Authors | Nicholas Gerogiannis
 My Rating | 5
 Avg. Rating | 3.36
 Year Published | 1979
@@ -181,88 +205,102 @@ Read Count | 1
 
 ## Franz Kafka
 ### Selected Short Stories of Franz Kafka
+-|-
 Year Published | 1952
 Read Count | 1
 Date Read | 8/25/2019
 
 ## Shirley Jackson
 ### The Lottery
+-|-
 Year Published | 1948
 Read Count | 1
 Date Read | 8/8/2019
 
 ## Bob Fitch, Mary Oppenheimer
 ### Ghana: End of an Illusion
+-|-
 Year Published | 1966
 Read Count | 1
 Date Read | 8/7/2019
 
 ## George Orwell
 ### 1984
+-|-
 Year Published | 1949
 Read Count | 1
 Date Read | 6/18/2019
 
 ## Peter F. Gamilton
 ### Pandora's Star
-    year-published:
+-|-
 Read Count | 0
 Date Read |
+
 ### Misspent Youth
-    year-published:
+-|-
 Read Count | 0
 Date Read |
 
 ## Bob Cinsidine
 ### Landmarks of American History (The Panama Canal, \#10)
+-|-
 Year Published | 1951
 Read Count | 1
 Date Read | 5/27/2019
 
 ## Irving Chernev
 ### Logical Chess Move by Move
+-|-
 Year Published | 1957
 Read Count | 0
 Date Read |
 
 ## Cormac McCarthy
 ### All the Pretty Horses
+-|-
 Year Published | 1992
 Read Count | 1
 Date Read | 5/21/2019
 
 ## Aldous Huxley
 ### Brave New World
+-|-
 Year Published | 1932
 Read Count | 1
 Date Read | 5/3/2019
 
 ## Tom Robbins
 ### Jitterbug Perfume
+-|-
 Year Published | 1984
 Read Count | 1
 Date Read | 4/9/2019
 
 ## Bobby Fischer
 ### Bobby Fischer Teaches Chess
+-|-
 Year Published | 1982
 Read Count | 0
 Date Read | 2/13/2019
 
 ## J. D. Salinger
 ### Catcher in the Rye
+-|-
 Year Published | 1951
 Read Count | 0
 Date Read | 2/6/2019
 
 ## Henri Frankfort,  John A. Wilson, Thorkild Jacobsen
 ### Before Philosophy
+-|-
 Year Published | 1960
 Read Count | 0
 Date Read |
 
 ## Mary Wollstonecraft Shelley
 ### Frankenstein
+-|-
 Year Published | 1818
 Read Count | 1
 Date Read | 2019/1/18
@@ -277,9 +315,11 @@ Date Read | 2019/1/18
 
 ## Ray Bradbury
 ### "A Sound of Thunder"
+-|-
 Year Published | 1952
 Read Count | 2
 Date Read | 2019/1/8
+
 ### 'Green Shadows, White Whale: A Novel of Ray Bradbury''s Adventures Making Moby Dick with John Huston in Ireland'
 -|-
 My Rating | 4
@@ -287,6 +327,7 @@ Avg. Rating | 3.83
 Year Published | 1992
 Date Read |
 Read Count | 1
+
 ### Zen in the Art of Writing
 -|-
 My Rating | 0
@@ -294,6 +335,7 @@ Avg. Rating | 4.11
 Year Published | 1987
 Date Read |
 Read Count | 0
+
 ### Fahrenheit 451
 -|-
 My Rating | 5
@@ -301,6 +343,7 @@ Avg. Rating | 3.98
 Year Published | 1953
 Date Read |
 Read Count | 1
+
 ### Dandelion Wine
 -|-
 My Rating | 0
@@ -311,6 +354,7 @@ Read Count | 0
 
 ## Xose Tarrio Gonzalez
 ### "Huye, Hombre, Huye!"
+-|-
 Year Published | 1999
 Read Count | 1
 Date Read | 2019/1/8
@@ -324,36 +368,45 @@ Date Read | 2019/1/8
 
 ## Joseph Heller
 ### "Catch-22"
+-|-
 Year Published | 1961
 Read Count | 1
 Date Read | 2018/11/15
 
 ## Kurt Vonnegut
 ### "Slaughterhouse-Five"
+-|-
 Year Published | 1969
 Read Count | 1
 Date Read | 2018/10/01
 
 ## Stephen Chbosky
 ### "The Perks of Being a Wallflower"
+-|-
 Year Published | 1999
 Read Count | 1
 Date Read | 2018/09/23
 
 ## Douglas Adams
 ### "The Hitchhiker's Guide to the Galaxy"
+-|-
 Year Published | 1979
 Read Count | 1
+
 ### The Restaurant at the End of the Universe
+-|-
 Year Published | 1980
 Read Count | 1
+
 ### Life, the Universe and Everything
+-|-
 Year Published | 1982
 Read Count | 1
 Date Read | 2018/09/20
 
 ## Tim O'Brien
 ### The Things They Carried
+-|-
 Year Published | 1990
 Read Count | 1
 
@@ -395,11 +448,10 @@ Read Count | 0
 
 ## Arkady Strugatsky
 ### Пикник на обочине
-Addtl. Authors | Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
 -|-
+Addtl. Authors | Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
 My Rating | 5
 Avg. Rating | 4.40
-    year-published:
 Date Read |
 Read Count | 1
 
@@ -423,8 +475,8 @@ Read Count | 0
 
 ## Roland Barthes
 ### 'A Lover''s Discourse: Fragments'
-Addtl. Authors | Richard Howard, Wayne Koestenbaum
 -|-
+Addtl. Authors | Richard Howard, Wayne Koestenbaum
 My Rating | 0
 Avg. Rating | 4.37
 Year Published | 1977
@@ -433,8 +485,8 @@ Read Count | 0
 
 ## Edith Hamilton
 ### Mythology: Timeless Tales of Gods and Heroes
-Addtl. Authors | Steele Savage
 -|-
+Addtl. Authors | Steele Savage
 My Rating | 0
 Avg. Rating | 3.99
 Year Published | 1942
@@ -461,8 +513,8 @@ Read Count | 1
 
 ## Albert Camus
 ### The Stranger
-Addtl. Authors | Matthew Ward
 -|-
+Addtl. Authors | Matthew Ward
 My Rating | 5
 Avg. Rating | 3.97
 Year Published | 1942
@@ -470,11 +522,9 @@ Date Read | 2017/10/18
 Read Count | 1
 
 ## Nicholas Reynolds
-### >
-    Writer, Sailor, Soldier, Spy: Ernest Hemingway's Secret
-    Adventures, 1935-1961
-Addtl. Authors | Fred Sanders
+### Writer, Sailor, Soldier, Spy: Ernest Hemingway's Secret Adventures, 1935-1961
 -|-
+Addtl. Authors | Fred Sanders
 My Rating | 0
 Avg. Rating | 3.65
 Year Published | 2017
@@ -483,24 +533,26 @@ Read Count | 0
 
 ## Ayn Rand
 ### Atlas Shrugged
-Addtl. Authors | Leonard Peikoff
 -|-
+Addtl. Authors | Leonard Peikoff
 My Rating | 0
 Avg. Rating | 3.68
 Year Published | 1957
 Date Read |
 Read Count | 0
+
 ### The Fountainhead
-Addtl. Authors | Leonard Peikoff
 -|-
+Addtl. Authors | Leonard Peikoff
 My Rating | 0
 Avg. Rating | 3.86
 Year Published | 1943
 Date Read |
 Read Count | 0
+
 ### We the Living
-Addtl. Authors | Leonard Peikoff
 -|-
+Addtl. Authors | Leonard Peikoff
 My Rating | 3
 Avg. Rating | 3.90
 Year Published | 1936
@@ -515,11 +567,11 @@ Avg. Rating | 4.00
 Year Published | 1980
 Date Read |
 Read Count | 0
+
 ### Crime and Punishment in the Russian Revolution: Mob Justice and Police in Petrograd
 -|-
 My Rating | 0
 Avg. Rating | 3.80
-    year-published:
 Date Read |
 Read Count | 0
 
@@ -531,6 +583,7 @@ Avg. Rating | 3.73
 Year Published | 2015
 Date Read |
 Read Count | 0
+
 ### Plutopia: Nuclear Families, Atomic Cities, and the Great Soviet and American Plutonium Disasters
 -|-
 My Rating | 0
@@ -544,7 +597,6 @@ Read Count | 0
 -|-
 My Rating | 0
 Avg. Rating | 0.0
-    year-published:
 Date Read |
 Read Count | 0
 
@@ -553,7 +605,6 @@ Read Count | 0
 -|-
 My Rating | 0
 Avg. Rating | 3.67
-    year-published:
 Date Read |
 Read Count | 0
 
@@ -577,8 +628,8 @@ Read Count | 0
 
 ## Alexander Shulgin
 ### Pihkal: A Chemical Love Story
-Addtl. Authors | Ann Shulgin
 -|-
+Addtl. Authors | Ann Shulgin
 My Rating | 0
 Avg. Rating | 4.36
 Year Published | 1990
@@ -590,9 +641,9 @@ Read Count | 0
 -|-
 My Rating | 3
 Avg. Rating | 4.00
-    year-published:
 Date Read | 2017/06/30
 Read Count | 1
+
 ### Последний сон разума
 -|-
 My Rating | 0
@@ -600,26 +651,27 @@ Avg. Rating | 4.12
 Year Published | 2007
 Date Read |
 Read Count | 0
+
 ### Осени не будет никогда
 -|-
 My Rating | 3
 Avg. Rating | 4.19
-    year-published:
 Date Read | 2017/06/21
 Read Count | 1
 
 ## Neil Gaiman
 ### The Sandman: Overture
-Addtl. Authors | J.H. Williams III, Dave Stewart, Todd Klein
 -|-
+Addtl. Authors | J.H. Williams III, Dave Stewart, Todd Klein
 My Rating | 0
 Avg. Rating | 3.96
 Year Published | 2015
 Date Read |
 Read Count | 1
+
 ### Preludes & Nocturnes (The Sandman, #1)
-Addtl. Authors | Sam Kieth, Mike Dringenberg, Malcolm Jones III, Todd Klein, Karen  Berger
 -|-
+Addtl. Authors | Sam Kieth, Mike Dringenberg, Malcolm Jones III, Todd Klein, Karen  Berger
 My Rating | 5
 Avg. Rating | 4.27
 Year Published | 1989
@@ -628,8 +680,8 @@ Read Count | 1
 
 ## Garth Ennis
 ### Preacher, Volume 1: Gone to Texas
-Addtl. Authors | Steve Dillon, Joe R. Lansdale
 -|-
+Addtl. Authors | Steve Dillon, Joe R. Lansdale
 My Rating | 0
 Avg. Rating | 4.15
 Year Published | 1996
@@ -638,8 +690,8 @@ Read Count | 0
 
 ## Warren Ellis
 ### Transmetropolitan, Vol. 1: Back on the Street (Transmetropolitan, #1)
-Addtl. Authors | Darick Robertston, Garth Ennis
 -|-
+Addtl. Authors | Darick Robertston, Garth Ennis
 My Rating | 0
 Avg. Rating | 4.22
 Year Published | 1998
@@ -660,14 +712,13 @@ Read Count | 1
 -|-
 My Rating | 4
 Avg. Rating | 4.33
-    year-published:
 Date Read | 2017/06/24
 Read Count | 1
 
 ## Jez Humble
 ### Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
-Addtl. Authors | David  Farley
 -|-
+Addtl. Authors | David  Farley
 My Rating | 0
 Avg. Rating | 4.15
 Year Published | 2010
@@ -676,8 +727,8 @@ Read Count | 0
 
 ## Thomas Hobbes
 ### Leviathan
-Addtl. Authors | C.B. Macpherson
 -|-
+Addtl. Authors | C.B. Macpherson
 My Rating | 0
 Avg. Rating | 3.68
 Year Published | 1651
@@ -692,6 +743,7 @@ Avg. Rating | 4.13
 Year Published | 1968
 Date Read | 2017/06/19
 Read Count | 1
+
 ### 2010: Odyssey Two (Space Odyssey, #2)
 -|-
 My Rating | 0
@@ -708,6 +760,7 @@ Avg. Rating | 4.23
 Year Published | 2006
 Date Read | 2017/06/14
 Read Count | 1
+
 ### Собачье сердце
 -|-
 My Rating | 5
@@ -718,13 +771,22 @@ Read Count | 1
 
 ## Victor Pelevin
 ### Generation "П". Повести. Рассказы
-Addtl. Authors | Виктор Пелевин
 -|-
+Addtl. Authors | Виктор Пелевин
 My Rating | 4
 Avg. Rating | 4.11
 Year Published | 1999
 Date Read | 2017/06/08
 Read Count | 1
+
+### Чапаев и Пустота
+-|-
+Addtl. Authors | Пелевин Виктор
+My Rating | 0
+Avg. Rating | 4.26
+Year Published | 1996
+Date Read |
+Read Count | 0
 
 ## Francis Spufford
 ### 'Red Plenty: Inside the Fifties'' Soviet Dream'
@@ -732,16 +794,6 @@ Read Count | 1
 My Rating | 0
 Avg. Rating | 4.07
 Year Published | 2007
-Date Read |
-Read Count | 0
-
-## Victor Pelevin
-### Чапаев и Пустота
-Addtl. Authors | Пелевин Виктор
--|-
-My Rating | 0
-Avg. Rating | 4.26
-Year Published | 1996
 Date Read |
 Read Count | 0
 
@@ -765,8 +817,8 @@ Read Count | 0
 
 ## Karl Marx
 ### Basic Writings on Politics and Philosophy
-Addtl. Authors | Friedrich Engels, Lewis Samuel Feuer
 -|-
+Addtl. Authors | Friedrich Engels, Lewis Samuel Feuer
 My Rating | 0
 Avg. Rating | 3.86
 Year Published | 1959
@@ -783,9 +835,9 @@ Date Read |
 Read Count | 0
 
 ## Ron Hahne
-### Black Mask  Up Against the Wall Motherfucker: The Incomplete Works of Ron Hahne, Ben Morea, and the Black Mask Group
-Addtl. Authors | Ben Morea, Stewart Home
+### Black Mask Up Against the Wall Motherfucker: The Incomplete Works of Ron Hahne, Ben Morea, and the Black Mask Group
 -|-
+Addtl. Authors | Ben Morea, Stewart Home
 My Rating | 0
 Avg. Rating | 3.97
 Year Published | 1993
@@ -812,8 +864,8 @@ Read Count | 1
 
 ## Umberto Eco
 ### The Name of the Rose
-Addtl. Authors | William Weaver, Seán Barrett
 -|-
+Addtl. Authors | William Weaver, Seán Barrett
 My Rating | 0
 Avg. Rating | 4.12
 Year Published | 1980
@@ -831,8 +883,8 @@ Read Count | 0
 
 ## Linda  Evans
 ### The Prison-Industrial Complex & the Global Economy
-Addtl. Authors | Eve Goldberg
 -|-
+Addtl. Authors | Eve Goldberg
 My Rating | 4
 Avg. Rating | 3.93
 Year Published | 1998
@@ -841,8 +893,8 @@ Read Count | 1
 
 ## Jalil Muntaqim
 ### The Vancouver Five: Armed Struggle in Canada
-Addtl. Authors | Jim Campbell
 -|-
+Addtl. Authors | Jim Campbell
 My Rating | 5
 Avg. Rating | 3.33
 Year Published | 2002
@@ -851,8 +903,8 @@ Read Count | 1
 
 ## Hunter S. Thompson
 ### The Curse of Lono
-Addtl. Authors | Steve Crist, Ralph Steadman
 -|-
+Addtl. Authors | Steve Crist, Ralph Steadman
 My Rating | 5
 Avg. Rating | 3.95
 Year Published | 1983
@@ -897,8 +949,8 @@ Read Count | 0
 
 ## Benjamin Hoff
 ### Дао Винни-Пуха
-Addtl. Authors | Lev Vysotsky
 -|-
+Addtl. Authors | Lev Vysotsky
 My Rating | 4
 Avg. Rating | 4.01
 Year Published | 1982
@@ -916,8 +968,8 @@ Read Count | 0
 
 ## Benjamin Hoff
 ### The Tao of Pooh
-Addtl. Authors | Ernest H. Shepard
 -|-
+Addtl. Authors | Ernest H. Shepard
 My Rating | 0
 Avg. Rating | 4.01
 Year Published | 1982
@@ -962,8 +1014,8 @@ Read Count | 0
 
 ## Ivan Goncharov
 ### Oblomov
-Addtl. Authors | Stephen Pearl, Galya Diment
 -|-
+Addtl. Authors | Stephen Pearl, Galya Diment
 My Rating | 0
 Avg. Rating | 4.02
 Year Published | 1859
@@ -981,8 +1033,8 @@ Read Count | 0
 
 ## Lao Tzu
 ### Tao Te Ching
-Addtl. Authors | Gia-Fu Feng, Jane English, Toinette Lippe, Jacob Needleman
 -|-
+Addtl. Authors | Gia-Fu Feng, Jane English, Toinette Lippe, Jacob Needleman
 My Rating | 4
 Avg. Rating | 4.31
 Year Published | -300
@@ -991,8 +1043,8 @@ Read Count | 1
 
 ## Ali Almossawi
 ### An Illustrated Book of Bad Arguments
-Addtl. Authors | Alejandro Giraldo
 -|-
+Addtl. Authors | Alejandro Giraldo
 My Rating | 0
 Avg. Rating | 3.77
 Year Published | 2013
@@ -1010,8 +1062,8 @@ Read Count | 0
 
 ## Sun Tzu
 ### The Art of War
-Addtl. Authors | Thomas Cleary, نادر سعیدی
 -|-
+Addtl. Authors | Thomas Cleary, نادر سعیدی
 My Rating | 0
 Avg. Rating | 3.96
 Year Published | -450
@@ -1020,8 +1072,8 @@ Read Count | 0
 
 ## Bandi
 ### The Accusation: Forbidden Stories from Inside North Korea
-Addtl. Authors | Deborah   Smith
 -|-
+Addtl. Authors | Deborah   Smith
 My Rating | 0
 Avg. Rating | 4.02
 Year Published | 2014
@@ -1037,10 +1089,9 @@ Year Published | 1988
 Date Read |
 Read Count | 0
 
-## Vladimir Orlov
 ### Альтист Данилов
-Addtl. Authors | Vladimir Orlov
 -|-
+Addtl. Authors | Vladimir Orlov
 My Rating | 0
 Avg. Rating | 4.11
 Year Published | 1980
@@ -1049,15 +1100,14 @@ Read Count | 0
 
 ## William Blake
 ### The Complete Poetry and Prose
-Addtl. Authors | David V. Erdman, Harold Bloom
 -|-
+Addtl. Authors | David V. Erdman, Harold Bloom
 My Rating | 0
 Avg. Rating | 4.24
 Year Published | 1965
 Date Read |
 Read Count | 0
 
-## William Blake
 ### Songs of Innocence and of Experience
 -|-
 My Rating | 0
@@ -1077,8 +1127,8 @@ Read Count | 0
 
 ## Rainer Maria Rilke
 ### The Selected Poetry of Rainer Maria Rilke
-Addtl. Authors | Stephen Mitchell, Robert Hass
 -|-
+Addtl. Authors | Stephen Mitchell, Robert Hass
 My Rating | 0
 Avg. Rating | 4.40
 Year Published | 1976
@@ -1096,8 +1146,8 @@ Read Count | 0
 
 ## Sylvia Plath
 ### The Bell Jar
-Addtl. Authors | Reinhard Kaiser
 -|-
+Addtl. Authors | Reinhard Kaiser
 My Rating | 0
 Avg. Rating | 3.99
 Year Published | 1963
@@ -1115,18 +1165,17 @@ Read Count | 0
 
 ## Fazil Iskander
 ### Сандро из Чегема
-Addtl. Authors | Фазиль Искандер
 -|-
+Addtl. Authors | Фазиль Искандер
 My Rating | 0
 Avg. Rating | 4.29
 Year Published | 1983
 Date Read |
 Read Count | 0
 
-## Fazil Iskander
 ### Кролики и удавы
-Addtl. Authors | Фазиль Искандер
 -|-
+Addtl. Authors | Фазиль Искандер
 My Rating | 5
 Avg. Rating | 4.17
 Year Published | 1982
@@ -1144,8 +1193,8 @@ Read Count | 1
 
 ## Richard Bach
 ### Чайка по имени Джонатан Ливингстон
-Addtl. Authors | Юни Родман
 -|-
+Addtl. Authors | Юни Родман
 My Rating | 3
 Avg. Rating | 3.81
 Year Published | 1970
@@ -1154,8 +1203,8 @@ Read Count | 1
 
 ## Aleksey Nikolayevich Tolstoy
 ### Гиперболоид инженера Гарина
-Addtl. Authors | Алексей Николаевич Толстой
 -|-
+Addtl. Authors | Алексей Николаевич Толстой
 My Rating | 5
 Avg. Rating | 3.92
 Year Published | 1927
@@ -1173,8 +1222,8 @@ Read Count | 0
 
 ## Roberto Bolaño
 ### The Last Interview and Other Conversations
-Addtl. Authors | Mónica Maristain, Marcela Valdes, Sybil Perez, Tom McCartan
 -|-
+Addtl. Authors | Mónica Maristain, Marcela Valdes, Sybil Perez, Tom McCartan
 My Rating | 0
 Avg. Rating | 3.82
 Year Published | 2009
@@ -1183,8 +1232,8 @@ Read Count | 0
 
 ## Andy Hunt
 ### The Pragmatic Programmer: From Journeyman to Master
-Addtl. Authors | Dave Thomas
 -|-
+Addtl. Authors | Dave Thomas
 My Rating | 4
 Avg. Rating | 4.31
 Year Published | 1999
@@ -1196,14 +1245,13 @@ Read Count | 1
 -|-
 My Rating | 4
 Avg. Rating | 4.00
-    year-published:
 Date Read | 2017/02/07
 Read Count | 1
 
 ## Boris Akunin
 ### Murder on the Leviathan (Erast Fandorin Mysteries, #3)
-Addtl. Authors | Boris Akunin, Andrew Bromfield
 -|-
+Addtl. Authors | Boris Akunin, Andrew Bromfield
 My Rating | 5
 Avg. Rating | 4.00
 Year Published | 1998
@@ -1212,8 +1260,8 @@ Read Count | 1
 
 ## Veniamin Kaverin
 ### Two Captains
-Addtl. Authors | Bernard Isaacs
 -|-
+Addtl. Authors | Bernard Isaacs
 My Rating | 5
 Avg. Rating | 4.32
 Year Published | 1944
@@ -1267,158 +1315,143 @@ Read Count | 0
 
 ## Fazil Iskander
 ### Пиры Валтасара. Кролики и удавы
-Addtl. Authors | Фазиль Искандер
 -|-
+Addtl. Authors | Фазиль Искандер
 My Rating | 5
 Avg. Rating | 5.00
-    year-published:
 Date Read | 2016/12/30
 Read Count | 1
 
 ## Boris Akunin
 ### Dekorater (Erast Fandorin Mysteries #5.2)
-Addtl. Authors | Igor Buljan
 -|-
+Addtl. Authors | Igor Buljan
 My Rating | 0
 Avg. Rating | 4.05
 Year Published | 1999
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Patasotilas (Erast Fandorin Mysteries #5.1)
-Addtl. Authors | Anton Nikkilä
 -|-
+Addtl. Authors | Anton Nikkilä
 My Rating | 0
 Avg. Rating | 4.04
 Year Published | 1999
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Планета вода (Erast Fandorin Mysteries, #14)
-Addtl. Authors | Boris Akunin, Борис Акунин
 -|-
+Addtl. Authors | Boris Akunin, Борис Акунин
 My Rating | 0
 Avg. Rating | 3.62
 Year Published | 2015
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Весь мир театр (Erast Fandorin Mysteries, #12)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 3.67
 Year Published | 2009
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Черный город (Erast Fandorin Mysteries, #13)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 3.97
 Year Published | 2012
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Любовница смерти (Erast Fandorin Mysteries, #8)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 3.86
 Year Published | 2001
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### The Turkish Gambit (Erast Fandorin Mysteries, #2)
-Addtl. Authors | Boris Akunin, Andrew Bromfield
 -|-
+Addtl. Authors | Boris Akunin, Andrew Bromfield
 My Rating | 5
 Avg. Rating | 3.95
 Year Published | 1998
 Date Read | 2017/01/04
 Read Count | 1
 
-## Boris Akunin
 ### Азазель
-Addtl. Authors | Борис Акунин
 -|-
+Addtl. Authors | Борис Акунин
 My Rating | 5
 Avg. Rating | 3.88
 Year Published | 1998
 Date Read | 2016/12/16
 Read Count | 1
 
-## Boris Akunin
 ### Нефритовые четки (Erast Fandorin Mysteries, #11)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 4.17
 Year Published | 2006
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Коронация, или Последний из романов (Erast Fandorin Mysteries, #7)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 4.21
 Year Published | 2000
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Любовник смерти (Erast Fandorin Mysteries, #9)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 4.06
 Year Published | 2001
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Special Assignments (Erast Fandorin Mysteries, #5)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 4.08
 Year Published | 1999
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Алмазная колесница (Erast Fandorin Mysteries, #10)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 4.40
 Year Published | 1999
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### Статский советник (Erast Fandorin Mysteries, #6)
-Addtl. Authors | Boris Akunin
 -|-
+Addtl. Authors | Boris Akunin
 My Rating | 0
 Avg. Rating | 4.19
 Year Published | 1999
 Date Read |
 Read Count | 0
 
-## Boris Akunin
 ### The Death of Achilles (Erast Fandorin Mysteries, #4)
-Addtl. Authors | Boris Akunin, Andrew Bromfield
 -|-
+Addtl. Authors | Boris Akunin, Andrew Bromfield
 My Rating | 0
 Avg. Rating | 4.08
 Year Published | 1998
@@ -1436,8 +1469,8 @@ Read Count | 1
 
 ## Brian Christian
 ### Algorithms to Live By: The Computer Science of Human Decisions
-Addtl. Authors | Tom  Griffiths
 -|-
+Addtl. Authors | Tom  Griffiths
 My Rating | 0
 Avg. Rating | 4.16
 Year Published | 2016
@@ -1446,8 +1479,8 @@ Read Count | 0
 
 ## Gabriel García Márquez
 ### А смерть всегда надежнее любви...
-Addtl. Authors | Габриэль Гарсиа Маркес
 -|-
+Addtl. Authors | Габриэль Гарсиа Маркес
 My Rating | 5
 Avg. Rating | 5.00
     year-published:
@@ -1465,8 +1498,8 @@ Read Count | 0
 
 ## Aleksey Nikolayevich Tolstoy
 ### Аэлита
-Addtl. Authors | Алексей Николаевич Толстой
 -|-
+Addtl. Authors | Алексей Николаевич Толстой
 My Rating | 5
 Avg. Rating | 3.65
 Year Published | 1922
@@ -1502,8 +1535,8 @@ Read Count | 0
 
 ## Keith Richards
 ### Life
-Addtl. Authors | James Fox
 -|-
+Addtl. Authors | James Fox
 My Rating | 4
 Avg. Rating | 3.85
 Year Published | 2010
@@ -1557,8 +1590,8 @@ Read Count | 1
 
 ## Miriam Elia
 ### Diary of Edward the Hamster 1990-1990
-Addtl. Authors | Ezra Elia
 -|-
+Addtl. Authors | Ezra Elia
 My Rating | 5
 Avg. Rating | 3.99
 Year Published | 2012
@@ -1612,8 +1645,8 @@ Read Count | 1
 
 ## Catherine Cowan
 ### My Life with the Wave
-Addtl. Authors | Octavio Paz, Mark Buehner
 -|-
+Addtl. Authors | Octavio Paz, Mark Buehner
 My Rating | 5
 Avg. Rating | 3.93
 Year Published | 1997
@@ -1622,8 +1655,8 @@ Read Count | 1
 
 ## Vasily Aksyonov
 ### Остров Крым
-Addtl. Authors | Василий Аксёнов
 -|-
+Addtl. Authors | Василий Аксёнов
 My Rating | 5
 Avg. Rating | 3.81
 Year Published | 1979
@@ -1659,8 +1692,8 @@ Read Count | 0
 
 ## Gabriel García Márquez
 ### One Hundred Years of Solitude
-Addtl. Authors | Gregory Rabassa
 -|-
+Addtl. Authors | Gregory Rabassa
 My Rating | 5
 Avg. Rating | 4.05
 Year Published | 1967
@@ -1669,17 +1702,14 @@ Read Count | 1
 
 ## Sergei Lukyanenko
 ### Дорога к Марсу
-Addtl. Authors | Сергей Лукьяненко, Александр Зорич, Александр Громов, Alexander Gromov
 -|-
+Addtl. Authors | Сергей Лукьяненко, Александр Зорич, Александр Громов, Alexander Gromov
 My Rating | 0
 Avg. Rating | 2.17
-    year-published:
 Date Read |
 Read Count | 0
 
-## Sergei Lukyanenko
 ### Прозрачные витражи (Лабиринт отражений, #3)
-Addtl. Authors | Сергей Лукьяненко
 -|-
 My Rating | 3
 Avg. Rating | 3.93
@@ -1687,9 +1717,7 @@ Year Published | 1999
 Date Read |
 Read Count | 1
 
-## Sergei Lukyanenko
 ### Лабиринт отражений (Лабиринт отражений, #1)
-Addtl. Authors | Сергей Лукьяненко
 -|-
 My Rating | 5
 Avg. Rating | 4.13
@@ -1697,49 +1725,43 @@ Year Published | 1996
 Date Read |
 Read Count | 1
 
-## Sergei Lukyanenko
 ### The Last Watch (Watch #4)
-Addtl. Authors | Andrew Bromfield
 -|-
+Addtl. Authors | Andrew Bromfield
 My Rating | 5
 Avg. Rating | 4.11
 Year Published | 2006
 Date Read |
 Read Count | 1
 
-## Sergei Lukyanenko
 ### Twilight Watch (Watch #3)
-Addtl. Authors | Andrew Bromfield
 -|-
+Addtl. Authors | Andrew Bromfield
 My Rating | 5
 Avg. Rating | 4.12
 Year Published | 2004
 Date Read |
 Read Count | 1
 
-## Sergei Lukyanenko
 ### Day Watch (Watch #2)
-Addtl. Authors | Andrew Bromfield
 -|-
+Addtl. Authors | Andrew Bromfield
 My Rating | 4
 Avg. Rating | 4.05
 Year Published | 2000
 Date Read |
 Read Count | 1
 
-## Sergei Lukyanenko
 ### Night Watch (Watch #1)
-Addtl. Authors | Andrew Bromfield
 -|-
+Addtl. Authors | Andrew Bromfield
 My Rating | 5
 Avg. Rating | 3.98
 Year Published | 1998
 Date Read |
 Read Count | 1
 
-## Sergei Lukyanenko
 ### Новый Дозор (Дозоры, #5)
-Addtl. Authors | Сергей Лукьяненко
 -|-
 My Rating | 4
 Avg. Rating | 4.00
@@ -1747,19 +1769,16 @@ Year Published | 2012
 Date Read |
 Read Count | 1
 
-## Sergei Lukyanenko
 ### Черновик (Работа над ошибками, #1)
-Addtl. Authors | Сергей Лукьяненко, Александр Андриенко
 -|-
+Addtl. Authors | Сергей Лукьяненко, Александр Андриенко
 My Rating | 0
 Avg. Rating | 3.99
 Year Published | 2005
 Date Read |
 Read Count | 0
 
-## Sergei Lukyanenko
 ### Звёзды - холодные игрушки (Звёздный лабиринт, #1)
-Addtl. Authors | Сергей Лукьяненко
 -|-
 My Rating | 0
 Avg. Rating | 4.10
@@ -1767,19 +1786,16 @@ Year Published | 1997
 Date Read |
 Read Count | 0
 
-## Sergei Lukyanenko
 ### Чистовик (Работа над ошибками, #2)
-Addtl. Authors | Сергей Лукьяненко, Александр Андриенко
 -|-
+Addtl. Authors | Сергей Лукьяненко, Александр Андриенко
 My Rating | 4
 Avg. Rating | 3.69
 Year Published | 2005
 Date Read |
 Read Count | 1
 
-## Sergei Lukyanenko
 ### Фальшивые зеркала (Лабиринт отражений, #2)
-Addtl. Authors | Сергей Лукьяненко
 -|-
 My Rating | 4
 Avg. Rating | 4.18
@@ -1796,30 +1812,27 @@ Year Published | 1926
 Date Read |
 Read Count | 0
 
-## Mikhail Bulgakov
 ### The White Guard
-Addtl. Authors | Michael Glenny
 -|-
+Addtl. Authors | Michael Glenny
 My Rating | 0
 Avg. Rating | 4.05
 Year Published | 1925
 Date Read |
 Read Count | 0
 
-## Mikhail Bulgakov
 ### Heart of a Dog
-Addtl. Authors | Mirra Ginsburg
 -|-
+Addtl. Authors | Mirra Ginsburg
 My Rating | 0
 Avg. Rating | 4.14
 Year Published | 1925
 Date Read |
 Read Count | 0
 
-## Mikhail Bulgakov
 ### The Master and Margarita
-Addtl. Authors | 'Katherine Tiernan O''Connor, Ellendea Proffer, Diana Burgin'
 -|-
+Addtl. Authors | 'Katherine Tiernan O''Connor, Ellendea Proffer, Diana Burgin'
 My Rating | 5
 Avg. Rating | 4.31
 Year Published | 1967
@@ -1835,7 +1848,6 @@ Year Published | 2013
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### A Murder of Quality
 -|-
 My Rating | 0
@@ -1844,7 +1856,6 @@ Year Published | 1962
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### A Most Wanted Man
 -|-
 My Rating | 0
@@ -1853,7 +1864,6 @@ Year Published | 2008
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### The Little Drummer Girl
 -|-
 My Rating | 0
@@ -1862,7 +1872,6 @@ Year Published | 1983
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### The Honourable Schoolboy
 -|-
 My Rating | 0
@@ -1871,7 +1880,6 @@ Year Published | 1977
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### A Perfect Spy
 -|-
 My Rating | 0
@@ -1880,7 +1888,6 @@ Year Published | 1986
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### The Constant Gardener
 -|-
 My Rating | 0
@@ -1889,7 +1896,6 @@ Year Published | 2001
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### The Russia House
 -|-
 My Rating | 0
@@ -1898,7 +1904,6 @@ Year Published | 1989
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### 'Smiley''s People'
 -|-
 My Rating | 0
@@ -1907,7 +1912,6 @@ Year Published | 1979
 Date Read |
 Read Count | 0
 
-## John le Carré
 ### The Spy Who Came In from the Cold
 -|-
 My Rating | 5
@@ -1916,7 +1920,6 @@ Year Published | 1963
 Date Read |
 Read Count | 1
 
-## John le Carré
 ### Tinker, Tailor, Soldier, Spy
 -|-
 My Rating | 0
@@ -1927,17 +1930,16 @@ Read Count | 0
 
 ## Erich Maria Remarque
 ### Three Comrades
-Addtl. Authors | Arthur Wesley Wheen
 -|-
+Addtl. Authors | Arthur Wesley Wheen
 My Rating | 5
 Avg. Rating | 4.48
 Year Published | 1936
 Date Read |
 Read Count | 1
 
-## Arkady Strugatsky
+## Аркадий Стругацкий, Борис Стругацкий
 ### Отель «У Погибшего Альпиниста»
-Addtl. Authors | Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
 -|-
 My Rating | 0
 Avg. Rating | 3.76
@@ -1945,9 +1947,7 @@ Year Published | 1970
 Date Read |
 Read Count | 0
 
-## Arkady Strugatsky
 ### Обитаемый остров
-Addtl. Authors | Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
 -|-
 My Rating | 0
 Avg. Rating | 4.26
@@ -1955,9 +1955,7 @@ Year Published | 1967
 Date Read |
 Read Count | 0
 
-## Arkady Strugatsky
 ### Трудно быть богом
-Addtl. Authors | Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
 -|-
 My Rating | 0
 Avg. Rating | 4.22
@@ -1965,9 +1963,7 @@ Year Published | 1964
 Date Read |
 Read Count | 0
 
-## Arkady Strugatsky
 ### Понедельник начинается в субботу
-Addtl. Authors | Boris Strugatsky, Аркадий Стругацкий, Борис Стругацкий
 -|-
 My Rating | 5
 Avg. Rating | 4.30
@@ -1984,7 +1980,6 @@ Year Published | 1966
 Date Read |
 Read Count | 0
 
-## Hunter S. Thompson
 ### 'Fear and Loathing on the Campaign Trail ''72'
 -|-
 My Rating | 0
@@ -1993,7 +1988,6 @@ Year Published | 1973
 Date Read |
 Read Count | 0
 
-## Hunter S. Thompson
 ### The Rum Diary
 -|-
 My Rating | 5
@@ -2002,10 +1996,9 @@ Year Published | 1998
 Date Read |
 Read Count | 1
 
-## Hunter S. Thompson
 ### Fear and Loathing in Las Vegas
-Addtl. Authors | Ralph Steadman
 -|-
+Addtl. Authors | Ralph Steadman
 My Rating | 5
 Avg. Rating | 4.08
 Year Published | 1971
@@ -2021,27 +2014,21 @@ Year Published | 1996
 Date Read |
 Read Count | 1
 
-## Aleksey Nikolayevich Tolstoy
+## Алексей Николаевич Толстой
 ### Граф Калиостро
-Addtl. Authors | Алексей Николаевич Толстой
 -|-
 My Rating | 0
 Avg. Rating | 3.93
-    year-published:
 Date Read |
 Read Count | 0
 
-## Aleksey Nikolayevich Tolstoy
 ### Терентий Генералов
-Addtl. Authors | Алексей Николаевич Толстой
 -|-
 My Rating | 0
 Avg. Rating | 4.50
-    year-published:
 Date Read |
 Read Count | 0
 
-## Aleksey Nikolayevich Tolstoy
 ### Peter the First
 -|-
 My Rating | 0
@@ -2060,9 +2047,8 @@ Year Published | 1955
 Date Read |
 Read Count | 1
 
-## Veniamin Kaverin
+## Вениамин Каверин
 ### Два капитана
-Addtl. Authors | Вениамин Каверин
 -|-
 My Rating | 5
 Avg. Rating | 4.32
@@ -2080,25 +2066,23 @@ Year Published | 1985
 Date Read |
 Read Count | 1
 
-## Vladimir Voinovich
+## Владимир Войнович
 ### Малое собрание сочинений
-Addtl. Authors | Владимир Войнович
 -|-
 My Rating | 0
 Avg. Rating | 0.0
-    year-published:
 Date Read |
 Read Count | 0
+
 ### Жизнь и необычайные приключения солдата Ивана Чонкина
-Addtl. Authors | Владимир Войнович
 -|-
 My Rating | 3
 Avg. Rating | 3.97
 Year Published | 1969
 Date Read |
 Read Count | 1
+
 ### Москва 2042
-Addtl. Authors | Владимир Войнович
 -|-
 My Rating | 0
 Avg. Rating | 3.90
@@ -2123,6 +2107,7 @@ Avg. Rating | 3.88
 Year Published | 1978
 Date Read |
 Read Count | 1
+
 ### Post Office
 -|-
 My Rating | 5
@@ -2130,6 +2115,7 @@ Avg. Rating | 4.00
 Year Published | 1971
 Date Read |
 Read Count | 1
+
 ### The Bell Tolls for No One
 -|-
 Addtl. Authors | David Stephen Calonne
@@ -2138,6 +2124,7 @@ Avg. Rating | 3.67
 Year Published | 2015
 Date Read |
 Read Count | 1
+
 ### War All the Time
 -|-
 My Rating | 0
@@ -2145,6 +2132,7 @@ Avg. Rating | 4.16
 Year Published | 1984
 Date Read |
 Read Count | 0
+
 ### The Continual Condition: Poems
 -|-
 My Rating | 5
@@ -2170,6 +2158,7 @@ Avg. Rating | 3.76
 Year Published | 1991
 Date Read |
 Read Count | 1
+
 ### Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values
 -|-
 My Rating | 5
@@ -2186,6 +2175,7 @@ Avg. Rating | 4.04
 Year Published | 1998
 Date Read |
 Read Count | 0
+
 ### The Active Side of Infinity
 -|-
 My Rating | 0
@@ -2193,6 +2183,7 @@ Avg. Rating | 4.15
 Year Published | 1998
 Date Read |
 Read Count | 0
+
 ### Power of Silence
 -|-
 My Rating | 0
@@ -2200,6 +2191,7 @@ Avg. Rating | 4.21
 Year Published | 1987
 Date Read |
 Read Count | 0
+
 ### Fire from Within
 -|-
 My Rating | 0
@@ -2207,6 +2199,7 @@ Avg. Rating | 4.13
 Year Published | 1984
 Date Read |
 Read Count | 0
+
 ### Second Ring of Power
 -|-
 My Rating | 0
@@ -2214,6 +2207,7 @@ Avg. Rating | 4.01
 Year Published | 1977
 Date Read |
 Read Count | 0
+
 ### 'Eagle''s Gift'
 -|-
 My Rating | 0
@@ -2221,6 +2215,7 @@ Avg. Rating | 4.06
 Year Published | 1981
 Date Read |
 Read Count | 0
+
 ### The Art of Dreaming
 -|-
 My Rating | 0
@@ -2228,6 +2223,7 @@ Avg. Rating | 4.11
 Year Published | 1993
 Date Read |
 Read Count | 0
+
 ### Tales of Power
 -|-
 My Rating | 0
@@ -2235,6 +2231,7 @@ Avg. Rating | 4.14
 Year Published | 1974
 Date Read |
 Read Count | 0
+
 ### Journey to Ixtlan
 -|-
 My Rating | 0
@@ -2242,6 +2239,7 @@ Avg. Rating | 4.11
 Year Published | 1972
 Date Read |
 Read Count | 0
+
 ### A Separate Reality
 -|-
 My Rating | 0
@@ -2249,6 +2247,7 @@ Avg. Rating | 4.07
 Year Published | 1968
 Date Read |
 Read Count | 0
+
 ### The Teachings of Don Juan: A Yaqui Way of Knowledge
 -|-
 My Rating | 5
