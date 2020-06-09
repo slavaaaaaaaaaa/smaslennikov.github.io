@@ -29,6 +29,10 @@ ul.posts {
   height:40px;
 }
 
+.posts li:first-child, li:last-child {
+  border-radius:5px;
+}
+
 .posts a {
   line-height:1;
   font-size:15px;

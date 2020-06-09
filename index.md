@@ -1,6 +1,6 @@
 # I am Slava [![](https://travis-ci.org/smaslennikov/smaslennikov.github.io.svg?branch=master)](https://travis-ci.org/smaslennikov/smaslennikov.github.io)
 
-Poke me via [email](mailto:me@smaslennikov.com?Subject=beer%20time)
+Best way to reach me is [email](mailto:me@smaslennikov.com?Subject=beer%20time)
 
 Pizza donations are always welcome
 
@@ -27,14 +27,10 @@ Here's my [resume](docs/resume.pdf)
 * At `NordstromRack.com|Hautelook` I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/) with a partner
     * though it's not as useful without our [notes](https://github.com/smaslennikov/cissp-access-mgmt-presentation/blob/master/presentation.md)
 
-## Mentionables
+## [Mentionables](ansible/roles/dotfiles/files/.newsboat/urls)
 
 * John Paul Hayes II and has a pretty cool [personal site and home API](https://jph2.net)
 * Bryce Case makes music and talks shit on the internet like a [boss](https://ytcracker.com)
 * Naftuli Kay is an engineer (not of trains), he does things [right](https://naftuli.wtf)
 * James Khang was taking control of his skillset by building a [game](https://20minutesadayblog.wordpress.com)
     * ...now he's got a [blog](https://medium.com/@jahmezz)
-
-Most of these are in my <a href="https://github.com/smaslennikov/smaslennikov.github.io/blob/master/ansible/roles/dotfiles/files/.newsboat/urls">RSS subscription list</a>
-
-cheers!
