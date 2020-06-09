@@ -22,11 +22,15 @@ ul.posts {
 }
 
 .posts li {
-  width:100px;
+  width:120px;
   float:left;
   border-right:1px solid #e0e0e0;
   border-radius:5px;
   height:30px;
+}
+
+.posts li+li {
+  border-right:none;
 }
 
 .posts a {
@@ -47,15 +51,6 @@ ul.posts {
   background-color:#f0f0f0;
 }
 
-strong {
-  color:#222;
-  font-weight:700;
-}
-
-.posts li + li {
-  width:100px;
-}
-
 .posts a strong {
   font-size:14px;
   display:block;
@@ -71,5 +66,5 @@ ul.images {
 .images li {
   list-style:none;
   float:left;
-  padding: 10px 10px;
+  padding: 5px 5px;
 }
