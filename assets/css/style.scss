@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+ul {
+  margin: 0 0 0;
+}
+
 ul.posts {
   list-style:none;
   height:40px;
