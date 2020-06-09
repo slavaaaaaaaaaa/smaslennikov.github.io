@@ -17,6 +17,7 @@ Here's my [resume](docs/resume.pdf)
 * [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/docs/monoprice-select-v2.md) is a list of fixes for a Monoprice Select v2.1
 * [Here](rhymes) are some haikus and rhymes
 * [Here](beers) are some of my beer and kombucha labels
+* [Here](books) is my ongoing book list
 
 ## Presentations
 
