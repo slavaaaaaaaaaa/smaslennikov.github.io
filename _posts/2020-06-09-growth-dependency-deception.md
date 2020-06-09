@@ -1,9 +1,8 @@
 ---
 type: posts
 layout: post
-title: "Growth and dependence"
+title: "Dependencies"
+author: "Svyatoslav I. Maslennikov"
 ---
-
-# Growth, dependence and you
 
 Does this work?
