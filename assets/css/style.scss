@@ -62,3 +62,15 @@ strong {
   display:block;
   color:#222;
 }
+
+ul.images {
+  list-style:none;
+  padding: 5px 10px;
+  border:0px;
+}
+
+.images li {
+  list-style:none;
+  float:left;
+}
+
