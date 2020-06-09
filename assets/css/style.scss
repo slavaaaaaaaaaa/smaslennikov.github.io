@@ -17,15 +17,8 @@ ul.posts {
   width:100px;
   float:left;
   border-right:1px solid #e0e0e0;
+  border-radius:5px;
   height:40px;
-}
-
-.posts li:first-child a {
-  border-radius:5px 0 0 5px;
-}
-
-.posts li:last-child a {
-  border-radius:0 5px 5px 0;
 }
 
 .posts a {
