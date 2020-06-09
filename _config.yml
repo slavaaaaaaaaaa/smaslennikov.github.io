@@ -12,3 +12,5 @@ defaults:
       path: "_posts"
     values:
       layout: post
+
+permalink: /blog/:year/:month/:day/:title/

@@ -28,11 +28,6 @@
           <a href="https://gitlab.com/smaslennikov"><img src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" width=48 height=48 /></a>
         </p>
 
-      </header>
-      <section>
-
-        {{ content }}
-
         <ul>
           {% for post in site.posts %}
             <li>
@@ -40,6 +35,11 @@
             </li>
           {% endfor %}
         </ul>
+
+      </header>
+      <section>
+
+        {{ content }}
 
       </section>
       <footer>
