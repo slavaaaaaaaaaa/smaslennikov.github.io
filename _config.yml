@@ -1,5 +1,14 @@
 theme: jekyll-theme-minimal
-layout: default
 title: Svyatoslav I. Maslennikov
 logo: logo.png
 description: 'A <a href="https://www.linkedin.com/in/slava-maslennikov-a48b2a20/">Senior Cloud Engineer at SADA Systems, Inc.</a>'
+
+defaults:
+  - scope:
+      path: "/"
+    values:
+      layout: default
+  - scope:
+      path: "_posts"
+    values:
+      layout: post

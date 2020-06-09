@@ -1,4 +1,5 @@
 ---
+type: posts
 layout: post
 title: "Growth and dependence"
 ---
