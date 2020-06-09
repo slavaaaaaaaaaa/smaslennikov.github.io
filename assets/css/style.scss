@@ -14,7 +14,7 @@ ul.posts {
 }
 
 .posts li {
-  width:89px;
+  width:100px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -30,7 +30,7 @@ ul.posts {
 
 .posts a {
   line-height:1;
-  font-size:13px;
+  font-size:15px;
   color:#222;
   display:block;
   text-align:center;
@@ -53,7 +53,7 @@ strong {
 
 .posts li + li {
   border-right:none;
-  width:89px;
+  width:100px;
 }
 
 .posts a strong {
