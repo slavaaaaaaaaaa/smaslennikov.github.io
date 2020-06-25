@@ -1,7 +1,7 @@
 ---
 type: posts
 layout: post
-title: "Dependence"
+title: "Innovation and Dependence"
 author: "Svyatoslav I. Maslennikov"
 ---
 

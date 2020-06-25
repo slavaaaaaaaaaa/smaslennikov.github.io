@@ -1,7 +1,7 @@
 ---
 type: posts
 layout: post
-title: "3D printer woes"
+title: "Monoprice Select v2.1 modifications"
 author: "Svyatoslav I. Maslennikov"
 ---
 
