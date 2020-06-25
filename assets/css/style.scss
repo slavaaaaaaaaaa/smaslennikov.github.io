@@ -21,51 +21,54 @@ ul {
 }
 
 ul.posts {
-  list-style:none;
-  padding:0;
-  background: #f4f4f4;
-  border-radius:0px;
-  border:1px solid #e0e0e0;
-  width:480px;
-  height:30px;
+  list-style:unset;
+  list-style-type:disc;
+  display:block;
+  padding-inline-start: 40px;
+  background:unset;
+  border-radius:unset;
+  border:unset;
+  width:unset;
+  height:unset;
 }
 
 .posts li:first-child {
-  width:100px;
+  width:unset;
 }
 
 .posts li:last-child {
-  width:379px;
+  width:unset;
 }
 
 .posts li {
-  height:30px;
-  float:left;
-  border-right:1px solid #e0e0e0;
-  border-radius:5px;
-  line-height: normal;
+  display:list-item;
+  height:unset;
+  float:unset;
+  border-right:unset;
+  border-radius:unset;
+  line-height:unset;
 }
 
 .posts li+li {
-  border-right:none;
+  border-right:unset;
 }
 
 .posts a {
-  font-size:15px;
-  color:#222;
-  display:block;
-  text-align:center;
+  font-size:unset;
+  color:#267CB9;
+  display:unset;
+  text-align:unset;
 }
 
 .posts a:hover, .posts a:focus {
-  color:#675C5C;
+  color:#069;
   font-weight:bold;
 }
 
 .posts a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
+  font-size:unset;
+  display:unset;
+  color:unset;
 }
 
 ul.images {
