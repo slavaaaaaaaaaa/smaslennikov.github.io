@@ -17,6 +17,16 @@ Here's my [resume](docs/resume.pdf)
 * [Here](beers) are some of my beer and kombucha labels
 * [Here](books) is my ongoing book list
 
+## Blog posts
+
+{% for post in site.posts %}
+  <ul class="posts">
+    <li><a href="{{ post.url }}">{{ post.date | date_to_string }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  </ul>
+{% endfor %}
+
+
 ## Presentations
 
 * Another presentation [about secret storage](https://smaslennikov.com/sada-beer-and-learn-1/) given at SADA
