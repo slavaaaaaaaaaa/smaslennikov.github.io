@@ -13,4 +13,4 @@ defaults:
     values:
       layout: post
 
-permalink: /blog/:year/:month/:day/:title/
+permalink: /posts/:title/
