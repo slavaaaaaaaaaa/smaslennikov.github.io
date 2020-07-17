@@ -42,4 +42,6 @@ Here's my [resume](docs/resume.pdf)
 * Naftuli Kay is an engineer (not of trains), he does things [right](https://naftuli.wtf)
 * James Khang was taking control of his skillset by building a [game](https://20minutesadayblog.wordpress.com)
     * ...now he's got a [blog](https://medium.com/@jahmezz)
+* Jonathan M. Tran [breaks linux and messes with photos](https://blog.jonathanmtran.com/)
+* Vetsin does [infosec stuff](http://0x.c0ffee.me/)
 * [Jave](https://github.com/JaveLLC/) is the future of programming I collaborate on
