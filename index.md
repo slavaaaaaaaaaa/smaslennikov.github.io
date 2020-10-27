@@ -8,6 +8,7 @@ Here's my [resume](docs/resume.pdf)
 
 ## Notable projects
 
+* I [wrote and built](https://litter-controller.smaslennikov.com/) a replacement controller for my Litter Robot 3
 * I [define](https://github.com/smaslennikov/include.mk) frequent commands as `make` target includes
 * A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS
 * [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh) is a not-great script for migrating off PostgreSQL BDR
