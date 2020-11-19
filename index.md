@@ -14,7 +14,7 @@ Here's my [resume](docs/resume.pdf)
 * A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS
 * [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh) is a not-great script for migrating off PostgreSQL BDR
 * [Here's](https://smaslennikov.com/whattimeisitrightmeow/) a devops clock I made. Here's [another](https://smaslennikov.com/whattravisisitrightmeow/)
-* [Here](rhymes) are some haikus and rhymes
+* [Here](haikus) are some haikus and rhymes
 * [Here](beers) are some of my beer and kombucha labels
 * [Here](books) is my ongoing book list
 * [Here](in_emergency) are some images in case of emergency
