@@ -8,16 +8,16 @@ Here's my [resume](docs/resume.pdf)
 
 ## Notable projects
 
-* I [wrote and built](https://litter-controller.smaslennikov.com/) a replacement controller for my Litter Robot 3
-* [Here](https://chessand.beer) is a website I threw together for a chess club I frequent
-* I [define](https://github.com/smaslennikov/include.mk) frequent commands as `make` target includes
-* A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS
-* [Here](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh) is a not-great script for migrating off PostgreSQL BDR
-* [Here's](https://smaslennikov.com/whattimeisitrightmeow/) a devops clock I made. Here's [another](https://smaslennikov.com/whattravisisitrightmeow/)
-* [Here](haikus) are some haikus and rhymes
-* [Here](beers) are some of my beer and kombucha labels
-* [Here](books) is my ongoing book list
-* [Here](in_emergency) are some images in case of emergency
+* A replacement [controller for my Litter Robot 3](https://litter-controller.smaslennikov.com/) written in C
+* A website for a [chess club](https://chessand.beer) I frequent
+* I define frequent commands as [`make` target](https://github.com/smaslennikov/include.mk) includes
+* A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS and Debian
+* Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
+* A [devops clock](https://smaslennikov.com/whattimeisitrightmeow/), and [another](https://smaslennikov.com/whattravisisitrightmeow/)
+* Some [haikus and rhymes](haikus)
+* [Beer and kombucha labels](beers)
+* My ongoing [book list](books)
+* In emergency, [break open](in_emergency)
 
 ## Blog posts
 
