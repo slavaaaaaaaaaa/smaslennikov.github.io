@@ -19,14 +19,25 @@ Here's my [resume](docs/resume.pdf)
 * My ongoing [book list](books)
 * In emergency, [break open](in_emergency)
 
-## Blog posts
+## Opinions
 
 <ul class="posts">
 {% for post in site.posts %}
+  {% if post.tag == "opinion" %}
     <li><a href="{{ post.url }}">{{ post.date | date_to_long_string }}: {{ post.title }}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
 
+## Reference
+
+<ul class="posts">
+{% for post in site.posts %}
+  {% if post.tag == "reference" %}
+    <li><a href="{{ post.url }}">{{ post.date | date_to_long_string }}: {{ post.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 ## Presentations
 

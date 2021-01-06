@@ -1,5 +1,6 @@
 ---
 type: posts
+tag: reference
 layout: post
 title: "Monoprice Select v2.1 modifications"
 author: "Svyatoslav I. Maslennikov"

@@ -1,5 +1,6 @@
 ---
 type: posts
+tag: opinion
 layout: post
 title: "Innovation and Dependence"
 author: "Svyatoslav I. Maslennikov"

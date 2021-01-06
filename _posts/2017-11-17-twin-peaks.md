@@ -1,5 +1,6 @@
 ---
 type: posts
+tag: reference
 layout: post
 title: "Twin Peaks"
 author: "Svyatoslav I. Maslennikov"

@@ -1,5 +1,6 @@
 ---
 type: posts
+tag: opinion
 layout: post
 title: "Industry and workers"
 author: "Svyatoslav I. Maslennikov"

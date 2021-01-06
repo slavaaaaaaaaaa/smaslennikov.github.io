@@ -1,5 +1,6 @@
 ---
 type: posts
+tag: opinion
 layout: post
 title: "Fairness and Law Enforcement"
 author: "Svyatoslav I. Maslennikov"
