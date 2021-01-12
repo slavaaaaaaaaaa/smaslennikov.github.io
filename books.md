@@ -7,6 +7,10 @@ This is my ongoing book tracking list, which gets updated more often than my [Go
 
 <!-- toc -->
 
+- [Brian W. Fitzpatrick & Ben Collins-Sussman](#brian-w-fitzpatrick--ben-collins-sussman)
+    * [Team Geek](#team-geek)
+- [Peter Fleming](#peter-fleming)
+    * [News from Tartary: A Journey from Peking to Kashmir](#news-from-tartary-a-journey-from-peking-to-kashmir)
 - [Leo Tolstoy](#leo-tolstoy)
     * [Война и мир](#%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0-%D0%B8-%D0%BC%D0%B8%D1%80)
     * [Anna Karenina](#anna-karenina)
@@ -432,6 +436,28 @@ This is my ongoing book tracking list, which gets updated more often than my [Go
 
 <!-- tocstop -->
 
+## Brian W. Fitzpatrick & Ben Collins-Sussman
+### Team Geek
+
+Metric | Value
+-|-
+My Rating |
+Avg. Rating |
+Year Published | 2012
+Date Read |
+Read Count |
+
+## Peter Fleming
+### News from Tartary: A Journey from Peking to Kashmir
+
+Metric | Value
+-|-
+My Rating | 5
+Avg. Rating |
+Year Published | 1936
+Date Read | 2021/01/12
+Read Count | 1
+
 ## Leo Tolstoy
 ### Война и мир
 
@@ -448,8 +474,8 @@ Read Count | 1
 Metric | Value
 -|-
 Year Published | 1877
-Date Read |
-Read Count |
+Date Read | 2020
+Read Count | 1
 
 ## Liu Cixin
 ### The Three Body Problem
