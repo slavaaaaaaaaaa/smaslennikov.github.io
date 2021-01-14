@@ -54,3 +54,58 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/smaslennikov
 
 ==================================================================
+https://keybase.io/smaslennikov
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://smaslennikov.com
+  * I am smaslennikov (https://keybase.io/smaslennikov) on keybase.
+  * I have a public key ASDdb4e-Jt9kqY2w_eEAbZBNcZiocG-YvrsnZ4ixA1SZSgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e133d54b7b622c9fd2f7f5dd3f5d2ad60e48d98991e7872a5bf79d0d4ea054610a",
+      "host": "keybase.io",
+      "kid": "0120dd6f87be26df64a98db0fde1006d904d7198a8706f98bebb276788b10354994a0a",
+      "uid": "810c3bf13e9f8bdeaadcca3cb9361d19",
+      "username": "smaslennikov"
+    },
+    "merkle_root": {
+      "ctime": 1610665793,
+      "hash": "37cdcedfd74a5f157c4bc08059f5906e6bd724ecab8726f02a9f104d10be11d488ff63be5182865dc46237744fa150bbd2219634c1fd3592a3c49db37932a0dd",
+      "hash_meta": "0558f81c56eeb1a72a05727283d6cf48343c749cda0241766b434f4e8be10d50",
+      "seqno": 18750862
+    },
+    "service": {
+      "entropy": "G4XpAavcAiPYhWvEWN45SSfO",
+      "hostname": "smaslennikov.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.2"
+  },
+  "ctime": 1610665837,
+  "expire_in": 504576000,
+  "prev": "5f092d55b7be400ac7b474d1dd1cd28205aefbd5d1afbd30442f6d217b823c04",
+  "seqno": 92,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3W+HvibfZKmNsP3hAG2QTXGYqHBvmL67J2eIsQNUmUoKp3BheWxvYWTESpcCXMQgXwktVbe+QArHtHTR3RzSggWu+9XRr70wRC9tIXuCPATEIFtEufZl13hj32a7PAcImAFoB4TgTbN1aDBmdclLSNddAgHCo3NpZ8RA3G4caIwmd2jTzNDWAaMfvgIqebzBNQB+cmSlQeR9IVJWYzqP+GxR2qY9JMYZt5A5/ccqkNprTi7Tc0A01oc0CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHJPzyA2sLCf+1yN8G9VDp4rrRszpsbE8zk2Y6WkE7eQo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/smaslennikov
+
+==================================================================
