@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Svyatoslav I. Maslennikov
 logo: me.png
-description: 'A <a href="https://www.linkedin.com/in/slava-maslennikov-a48b2a20/">Senior Cloud Engineer at SADA</a>'
+description: 'A <a href="https://www.linkedin.com/in/slava-maslennikov-a48b2a20/">Associate Manager, Infrastructure Modernization at SADA</a>'
 
 defaults:
   - scope:
