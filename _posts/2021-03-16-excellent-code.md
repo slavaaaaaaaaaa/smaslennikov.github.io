@@ -2,15 +2,24 @@
 type: posts
 tag: opinion
 layout: post
-title: "Excellent Code"
-author: "Svyatoslav I. Maslennikov"
+title: Excellent Code
+author: Svyatoslav I. Maslennikov
 ---
-
 Once upon a time, as I was starting at NordstromRack.com | Hautelook as a Platform Engineer, I found myself impressed with a requirement stated in our Employee Handbook: a requirement of generating *Excellent Code*. I haven't been able to confirm its existence in the current handbook (not that I tried very hard), nor did I find a similar description of it elsewhere. However, I do feel like I keep seeing references to it in Hacker News literature: at this point I can no longer confirm that it wasn't a hallucination all along; (TODO confirm qoute) "I could smell the blood and sweat of a fight of the night before"[^1].
 
 What follows is my attempt of recreating the tenets of *Excellent Code*, five years later.
 
 <!-- toc -->
+
+- [Design and planning](#design-and-planning)
+- [Compiled, interpreted and scripting languages](#compiled-interpreted-and-scripting-languages)
+- [Documentation](#documentation)
+- [Code versioning](#code-versioning)
+- [Local development environment](#local-development-environment)
+- [Automation](#automation)
+- [Further reading](#further-reading)
+
+<!-- tocstop -->
 
 ## Design and planning
 
