@@ -21,3 +21,9 @@ ansible-%:
 resume:
 	echo "Building your resume..."
 	bin/build_resume.sh
+
+dependencies:
+	bundle install
+
+local-jekyll:
+	bundle exec jekyll serve
