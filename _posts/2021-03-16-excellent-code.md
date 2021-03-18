@@ -3,7 +3,7 @@ type: posts
 tag: opinion
 layout: post
 title: Excellent Code
-author: Svyatoslav I. Maslennikov
+author: "Svyatoslav I. Maslennikov"
 ---
 
 Once upon a time, as I was starting at NordstromRack.com | Hautelook as a Platform Engineer, I found myself impressed with a requirement stated in our Employee Handbook: a requirement of generating *Excellent Code*. I haven't been able to confirm its existence in the current handbook (not that I tried very hard), nor did I find a similar description of it elsewhere. However, I do feel like I keep seeing references to it in Hacker News literature: at this point I can no longer confirm that it wasn't a hallucination all along; "The smell of dry blood, dirty foot prints circling each other, that aroma of old sweat like fried chicken, the feel of a floor still warm the fight the night before"[^1].
