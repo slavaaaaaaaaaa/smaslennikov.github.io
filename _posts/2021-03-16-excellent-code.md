@@ -3,7 +3,7 @@ type: posts
 tag: opinion
 layout: post
 title: Excellent Code
-author: "Svyatoslav I. Maslennikov"
+author: Svyatoslav I. Maslennikov
 ---
 
 Once upon a time, as I was starting at `NordstromRack.com | Hautelook` as a Platform Engineer, I found myself impressed with a requirement stated in our Employee Handbook: a requirement of generating *Excellent Code*. I haven't been able to confirm its existence in the current handbook (not that I tried very hard), nor did I find a similar description of it elsewhere. However, I do feel like I keep seeing references to it in Hacker News literature: at this point I can no longer confirm that it wasn't a hallucination all along; "The smell of dry blood, dirty foot prints circling each other, that aroma of old sweat like fried chicken, the feel of a floor still warm the fight the night before"[^1].
@@ -19,6 +19,7 @@ What follows is my attempt of recreating the tenets of *Excellent Code*, five ye
 - [Local development environment](#local-development-environment)
 - [Automation](#automation)
 - [Further reading](#further-reading)
+- [Annotations](#annotations)
 
 <!-- tocstop -->
 
@@ -73,6 +74,8 @@ A generic pipeline around any codebase includes:
 ## Further reading
 
 This isn't quite meant to replicate the notion of a [12 Factor Application](https://12factor.net/), but that is another good resource for additional, more in-depth knowledge on application life cycles.
+
+## Annotations
 
 [^1]: From Fight Club, the movie (1999)
 [^2]: I recently wrote some code for a [Raspberry Pi litter box controller](https://litter-controller.smaslennikov.com) in C. Initially, I wanted to write it in Golang, but the most popular Golang GPIO library for Raspberry PI had a [bug with potential to brick the device](https://github.com/stianeikeland/go-rpio/issues/38). Since [WiringPi](http://wiringpi.com/) did not have such a bug while having a larger community, I went with C. This shows the importance of researching design constraints before beginning any work.
