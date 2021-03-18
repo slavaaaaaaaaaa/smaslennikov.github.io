@@ -5,7 +5,8 @@ layout: post
 title: Excellent Code
 author: Svyatoslav I. Maslennikov
 ---
-Once upon a time, as I was starting at NordstromRack.com | Hautelook as a Platform Engineer, I found myself impressed with a requirement stated in our Employee Handbook: a requirement of generating *Excellent Code*. I haven't been able to confirm its existence in the current handbook (not that I tried very hard), nor did I find a similar description of it elsewhere. However, I do feel like I keep seeing references to it in Hacker News literature: at this point I can no longer confirm that it wasn't a hallucination all along; (TODO confirm qoute) "I could smell the blood and sweat of a fight of the night before"[^1].
+
+Once upon a time, as I was starting at NordstromRack.com | Hautelook as a Platform Engineer, I found myself impressed with a requirement stated in our Employee Handbook: a requirement of generating *Excellent Code*. I haven't been able to confirm its existence in the current handbook (not that I tried very hard), nor did I find a similar description of it elsewhere. However, I do feel like I keep seeing references to it in Hacker News literature: at this point I can no longer confirm that it wasn't a hallucination all along; "The smell of dry blood, dirty foot prints circling each other, that aroma of old sweat like fried chicken, the feel of a floor still warm the fight the night before"[^1].
 
 What follows is my attempt of recreating the tenets of *Excellent Code*, five years later.
 
@@ -40,7 +41,7 @@ While simplest tasks can be managed with lightweight shell scripts, they tend to
 
 ## Documentation
 
-Aim to write self-documenting, self-descriptive code. When adding inline commentary, describe the _why_ of your code, not the _what_. As for technical documentation, design choices and overall code structure - keep it next to the code, in the repository, ideally ([though not always](TODO)) all in a single `README.md` file[^3]. Previously approved external technical design documents can be linked to directly.
+Aim to write self-documenting, self-descriptive code. When adding inline commentary, describe the _why_ of your code, not the _what_. As for technical documentation, design choices and overall code structure - keep it next to the code, in the repository, ideally ([though not always](https://matklad.github.io//2021/02/06/ARCHITECTURE.md.html)) all in a single `README.md` file[^3]. Previously approved external technical design documents can be linked to directly.
 
 ## Code versioning
 
@@ -54,7 +55,7 @@ Lastly, a largely overlooked Engineering practice is Git commit signing. Without
 
 As difficult as on-boarding usually is, a lack of a push-button local development environment in a code base makes it even harder. Make sure it's easy to deploy the entire application locally:
 
-1. Use [Vagrant](https://www.vagrantup.com/), [`docker-compose`](TODO) or another platform with similar ease of use
+1. Use [Vagrant](https://www.vagrantup.com/), [`docker-compose`](https://docs.docker.com/compose/) or another platform with similar ease of use
 1. Support dummy endpoints, databases, Cloud APIs and similar external entities
 1. Provide sample development database dumps
 1. Document the happy path for the local development environment suite: when an Engineer wants to commit changes, the absolute first thing they'll want to do is spin it up and test the changes locally
@@ -73,6 +74,6 @@ A generic pipeline around any codebase includes:
 
 This isn't quite meant to replicate the notion of a [12 Factor Application](https://12factor.net/), but that is another good resource for additional, more in-depth knowledge on application life cycles.
 
-[^1]: link to fight club quote TODO
-[^2]: I recently wrote some code for a [Raspberry Pi litter box controller](https://litter-controller.smaslennikov.com) in C. Initially, I wanted to write it in Golang, but the most popular Golang GPIO library for Raspberry PI had a [bug with potential to brick the device](TODO). Since [WiringPi](TODO) did not have such a bug while having a larger community, I went with C. This shows the importance of researching design constraints before beginning any work.
+[^1]: From Fight Club, the movie (1999)
+[^2]: I recently wrote some code for a [Raspberry Pi litter box controller](https://litter-controller.smaslennikov.com) in C. Initially, I wanted to write it in Golang, but the most popular Golang GPIO library for Raspberry PI had a [bug with potential to brick the device](https://github.com/stianeikeland/go-rpio/issues/38). Since [WiringPi](http://wiringpi.com/) did not have such a bug while having a larger community, I went with C. This shows the importance of researching design constraints before beginning any work.
 [^3]: It's always easier to Ctrl-F in a web browser on a single page than having to use a local search function or that of a Git repository host. Things like collapsible sections, [tables of contents](https://github.com/smaslennikov/markdown-toc) and inline diagrams help keeping documentation clean and accessible.
