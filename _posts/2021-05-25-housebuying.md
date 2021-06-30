@@ -134,3 +134,7 @@ If you're handyman enough, I guess you could do this yourself.
 ### Pest inspection
 
 Depending on property location, different termites are out and about. In CA, there are all different kinds, while in WA there are only subterranean termites. Still, none are fun. Pest inspections are often free, so get it done if possible. In my case, I neglected to for various reasons, and a week after move-in, we got termites coming in through the vents. The balance of speedy closure with a good purchase is fickle!
+
+## One year later
+
+A year after your loan starts, expect that your payment may change. In my case, the escrow increased due to property taxes, so my monthly payment shot up by 115$.
