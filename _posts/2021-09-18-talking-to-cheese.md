@@ -1,6 +1,6 @@
 ---
 type: posts
-tag: opinion
+tag: reference
 layout: post
 title: "Talking to cheese"
 author: "Svyatoslav I. Maslennikov"
