@@ -6,7 +6,7 @@ cd rhymes/
 indextmpfile=$(mktemp)
 rsstmpfile=$(mktemp)
 
-while read -r file; do
+for file in *; do
     if [[ "$file" == *".txt" ]]; then
         name=$(echo $file | sed -e 's/.txt//' -e 's/_/ /g')
         author=$(git show --format="%aN" $(git blame $file | head -n1 | cut -d" " -f 1) | head -n1)
@@ -23,9 +23,7 @@ while read -r file; do
     <description>$name by $author on $date</description>
   </item>" >> $rsstmpfile
     fi
-done <<< "$(while read file; do \
-        echo $(git log --pretty=format:%ad -n 1 --date=raw -- $file) $file; \
-    done < <(git ls-tree -r --name-only HEAD) | cut -d" " -f 3)"
+done
 
 cat <<EOF > ../_layouts/rhymes.html
 ---
