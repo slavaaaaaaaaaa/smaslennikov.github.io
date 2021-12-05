@@ -22,33 +22,41 @@ Here's my [resume](docs/resume.pdf)
 
 ## Opinions
 
-<ul class="posts">
+<table class="posts">
 {% for post in site.posts %}
+  <tr>
   {% if post.tag == "opinion" %}
-    <li><a href="{{ post.url }}">{{ post.date | date_to_long_string }}: {{ post.title }}</a></li>
+    <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
+    <th>{{ post.date | date: "%m/%d/%Y" }}</th>
   {% endif %}
+  </tr>
 {% endfor %}
-</ul>
+</table>
 
 ## Reference
 
-<ul class="posts">
+<table class="posts">
 {% for post in site.posts %}
+  <tr>
   {% if post.tag == "reference" %}
-    <li><a href="{{ post.url }}">{{ post.date | date_to_long_string }}: {{ post.title }}</a></li>
+    <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
+    <th>{{ post.date | date: "%m/%d/%Y" }}</th>
   {% endif %}
+  </tr>
 {% endfor %}
-</ul>
+</table>
 
 ## City guides
 
-<ul class="posts">
+<table class="posts">
 {% for post in site.posts %}
+  <tr>
   {% if post.tag == "guide" %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
   {% endif %}
+  </tr>
 {% endfor %}
-</ul>
+</table>
 
 ## Presentations
 

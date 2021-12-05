@@ -24,37 +24,22 @@ p {
   margin: 20px 0 20px;
 }
 
-ul.posts {
-  list-style:unset;
-  list-style-type:disc;
-  display:block;
-  padding-inline-start: 40px;
-  background:unset;
-  border-radius:unset;
-  border:unset;
-  width:unset;
-  height:unset;
+table.posts {
 }
 
-.posts li:first-child {
-  width:unset;
+.posts th:first-child {
+  width: 300px;
 }
 
-.posts li:last-child {
-  width:unset;
+.posts th {
+  color: inherit;
+  border-bottom: none;
+  padding: 0px 0px;
+  font-weight: normal;
 }
 
 .posts li {
-  display:list-item;
-  height:unset;
-  float:unset;
-  border-right:unset;
-  border-radius:unset;
-  line-height:unset;
-}
-
-.posts li+li {
-  border-right:unset;
+  padding-left: 23px;
 }
 
 .posts a {

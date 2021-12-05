@@ -11,3 +11,4 @@ ansible/roles/geerlingguy.homebrew/
 # jekyll stuff
 Gemfile.lock
 _site
+vendor/
