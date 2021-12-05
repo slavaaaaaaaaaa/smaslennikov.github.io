@@ -40,6 +40,16 @@ Here's my [resume](docs/resume.pdf)
 {% endfor %}
 </ul>
 
+## City guides
+
+<ul class="posts">
+{% for post in site.posts %}
+  {% if post.tag == "guide" %}
+    <li><a href="{{ post.url }}">{{ post.date | date_to_long_string }}: {{ post.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 ## Presentations
 
 * Another presentation [about secret storage](https://smaslennikov.com/sada-beer-and-learn-1/) given at SADA

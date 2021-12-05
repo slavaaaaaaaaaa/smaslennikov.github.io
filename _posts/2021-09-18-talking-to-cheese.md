@@ -14,7 +14,6 @@ Cheese sentience being such a hot topic recently, I figured I'd present some ice
 * We've got black and earl gray, would you like to Havarti?
 * Hit the road, Jack!
 * So you're telling me Frankenstein made a Muenster out of you?
-* Switzerland has some of the holiest of cheeses, doesn't it?
 
 More to come!
 
