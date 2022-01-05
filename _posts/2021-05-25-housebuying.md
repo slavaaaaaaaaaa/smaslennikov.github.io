@@ -94,7 +94,7 @@ Ideally by the time you submit an offer for a house, you will have solidified yo
 * The closing costs that your bank controls
 * Any points applied to your rate
 
-When we submitted an offer, we found out that the rate we were promised [included a *point*](#loan-terms), so I went out to frantically look for another bank with better terms. In the end, we did have success here but it was a stressful time because [retracting an offer is apparently a dangerous game](#submitting-an-offer).
+When I submitted an offer, I found out that the rate I was promised [included a *point*](#loan-terms), so I went out to frantically look for another bank with better terms. In the end, I did have success here but it was a stressful time because [retracting an offer is apparently a dangerous game](#submitting-an-offer).
 
 ### Loan terms
 
@@ -133,7 +133,7 @@ If you're handyman enough, I guess you could do this yourself.
 
 ### Pest inspection
 
-Depending on property location, different termites are out and about. In CA, there are all different kinds, while in WA there are only subterranean termites. Still, none are fun. Pest inspections are often free, so get it done if possible. In my case, I neglected to for various reasons, and a week after move-in, we got termites coming in through the vents. The balance of speedy closure with a good purchase is fickle!
+Depending on property location, different termites are out and about. In CA, there are all different kinds, while in WA there are only subterranean termites. Still, none are fun. Pest inspections are often free, so get it done if possible. In my case, I neglected to for various reasons, and a week after move-in, I got termites coming in through the vents. The balance of speedy closure with a good purchase is fickle!
 
 ## One year later
 
