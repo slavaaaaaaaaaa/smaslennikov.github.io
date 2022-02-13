@@ -19,6 +19,7 @@ Here's my [resume](docs/resume.pdf)
 * Some [haikus and rhymes](haikus)
 * [Beer and kombucha labels](beers)
 * My ongoing [book list](books)
+* Some [cat pictures](https://devopscat.com/selfies)
 * In emergency, [break open](in_emergency)
 
 ## Opinions
