@@ -11,6 +11,7 @@ Here's my [resume](docs/resume.pdf)
 * A replacement [controller for my Litter Robot 3](https://litter-controller.smaslennikov.com/) written in C
 * A website for a [chess club](https://chessand.beer) I frequent
 * A website for [the Rainier fan club](https://rainier.beer)
+* A website for [my cat](https://devopscat.com)
 * I define frequent commands as [`make` target](https://github.com/smaslennikov/include.mk) includes
 * A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS and Debian
 * Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
