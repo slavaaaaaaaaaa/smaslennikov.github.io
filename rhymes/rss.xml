@@ -73,12 +73,6 @@
   </item>
 
   <item>
-    <title>chess</title>
-    <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/chess.txt</link>
-    <description>chess by Slava Maslennikov @ slon on 2017-11-23T08:22:12</description>
-  </item>
-
-  <item>
     <title>chess with bryce</title>
     <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/chess_with_bryce.txt</link>
     <description>chess with bryce by Slava Maslennikov on 2017-11-15T08:57:21</description>
@@ -100,6 +94,12 @@
     <title>cloud choice</title>
     <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/cloud_choice.txt</link>
     <description>cloud choice by Svyatoslav I. Maslennikov on 2022-01-04T19:59:35</description>
+  </item>
+
+  <item>
+    <title>clusterfuck</title>
+    <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/clusterfuck.txt</link>
+    <description>clusterfuck by Svyatoslav I. Maslennikov on 2022-05-26T15:15:02</description>
   </item>
 
   <item>
@@ -325,12 +325,6 @@
   </item>
 
   <item>
-    <title>packer</title>
-    <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/packer.txt</link>
-    <description>packer by Slava Maslennikov on 2017-05-08T13:45:52</description>
-  </item>
-
-  <item>
     <title>pasta</title>
     <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/pasta.txt</link>
     <description>pasta by Slava Maslennikov on 2017-08-29T16:00:43</description>
@@ -436,12 +430,6 @@
     <title>rust</title>
     <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/rust.txt</link>
     <description>rust by Slava Maslennikov on 2017-05-08T14:33:15</description>
-  </item>
-
-  <item>
-    <title>sada</title>
-    <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/sada.txt</link>
-    <description>sada by Slava Maslennikov on 2018-07-11T09:08:43</description>
   </item>
 
   <item>
