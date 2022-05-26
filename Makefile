@@ -10,7 +10,7 @@ ENCRYPTABLE=$(VAULT_PASSWORD_FILE) #rhymes/cigarettes rhymes/slavery
 include $(shell test -d $(GITROOT)/include.mk/ || git clone git@github.com:smaslennikov/include.mk.git && echo $(GITROOT))/include.mk/*.mk
 
 define RECIPIENTS
--r me@smaslennikov.com
+-r me@slava.lol
 endef
 
 TEST_ARGS?=-C

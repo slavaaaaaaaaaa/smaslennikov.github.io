@@ -30,7 +30,7 @@ cat <<EOF > ../_layouts/rhymes.html
 layout: default
 ---
 
-<a href="https://smaslennikov.com/rhymes/rss.xml"><img src="https://smaslennikov.com/rss.png" width=16 height=16 /></a> Rhymes and Haikus
+<a href="https://slava.lol/rhymes/rss.xml"><img src="https://slava.lol/rss.png" width=16 height=16 /></a> Rhymes and Haikus
 EOF
 
 cat <<EOF > rss.xml
@@ -38,7 +38,7 @@ cat <<EOF > rss.xml
 <rss version="2.0">
 <channel>
   <title>Slava Maslennikov - Haikus and Rhymes</title>
-  <link>https://smaslennikov.com/rhymes</link>
+  <link>https://slava.lol/rhymes</link>
   <description>I was a poet and I didn't even know I was one</description>
   <copyright>2017-2020 Slava Maslennikov. All rights reserved.</copyright>
 EOF
