@@ -1,21 +1,23 @@
-# I am Slava [![](https://travis-ci.org/smaslennikov/smaslennikov.github.io.svg?branch=master)](https://travis-ci.org/smaslennikov/smaslennikov.github.io)
+# [I am Slava](mailto:me@slava.lol?Subject=beer%20time) [![](https://travis-ci.org/smaslennikov/smaslennikov.github.io.svg?branch=master)](https://travis-ci.org/smaslennikov/smaslennikov.github.io)
 
-Best way to reach me is [email](mailto:me@slava.lol?Subject=beer%20time)
-
-Pizza donations are always welcome
-
-Here's my [resume](docs/resume.pdf)
+Check out my [resume](docs/resume.pdf)!
 
 ## Notable projects
 
 * A replacement [controller for my Litter Robot 3](https://litter-controller.slava.lol/) written in C
-* A website for a [chess club](https://chessand.beer) I frequent
-* A website for [the Rainier fan club](https://rainier.beer)
-* A website for [my cat](https://devopscat.com)
 * I define frequent commands as [`make` target](https://github.com/smaslennikov/include.mk) includes
 * A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS and Debian
 * Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
 * A [devops clock](https://slava.lol/whattimeisitrightmeow/), and [another](https://slava.lol/whattravisisitrightmeow/)
+
+## Websites
+
+* A website for [a chess club](https://chessand.beer) I frequent
+* A website for [the Rainier fan club](https://rainier.beer)
+* A website for [my cat](https://devopscat.com)
+
+## Resources
+
 * Some [haikus and rhymes](haikus)
 * [Beer and kombucha labels](beers)
 * My ongoing [book list](books)
