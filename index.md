@@ -1,4 +1,4 @@
-# [I am Slava](mailto:me@slava.lol?Subject=beer%20time) [![](https://travis-ci.org/smaslennikov/smaslennikov.github.io.svg?branch=master)](https://travis-ci.org/smaslennikov/smaslennikov.github.io)
+# [I am Slava](mailto:me@slava.lol?Subject=beer%20time) ![](https://github.com/smaslennikov/smaslennikov.github.io/actions/workflows/pages-build-deployment/badge.svg)
 
 Check out my [resume](docs/resume.pdf)!
 
