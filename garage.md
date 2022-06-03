@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Garage list
+title: Garage
 permalink: /garage
 ---
 
