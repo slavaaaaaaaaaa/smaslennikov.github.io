@@ -21,6 +21,7 @@ Check out my [resume](docs/resume.pdf)!
 * Some [haikus and rhymes](haikus)
 * [Beer and kombucha labels](beers)
 * My ongoing [book list](books)
+* My [garage listing](garage)
 * Some [cat pictures](https://devopscat.com/selfies)
 * In emergency, [break open](in_emergency)
 
