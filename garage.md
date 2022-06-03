@@ -4,10 +4,6 @@ title: Garage list
 permalink: /garage
 ---
 
-This is my cars and motorcycles list, sorted by the date of acquisition.
-
-<!-- toc -->
-
 # Cars
 
 | Year | Make | Model | Trans | State |
