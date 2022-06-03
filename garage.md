@@ -18,7 +18,7 @@ This is my cars and motorcycles list, sorted by the date of acquisition.
 | 1982 | BMW | E21 320i | 5spd | sold |
 | 2000 | BMW | E46 328i | 5spd | sold |
 | 1976 | MG | Midget 1500 | 4spd | |
-| 1984 | Mercedes | W201 | 190e | 5spd | |
+| 1984 | Mercedes | W201 190e | 5spd | |
 | 1993 | Ford | Ranger | 5spd | sold |
 | 1989 | Ford | Ranger | 5spd | |
 | 1997 | Ford | Explorer Limited | auto | sold |
