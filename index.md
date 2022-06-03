@@ -12,9 +12,9 @@ Check out my [resume](docs/resume.pdf)!
 
 ## Websites
 
-* A website for [a chess club](https://chessand.beer) I frequent
-* A website for [the Rainier fan club](https://rainier.beer)
-* A website for [my cat](https://devopscat.com)
+* [A chess club](https://chessand.beer) I frequent
+* [The Rainier fan club](https://rainier.beer)
+* [My cat](https://devopscat.com)
 
 ## Resources
 
