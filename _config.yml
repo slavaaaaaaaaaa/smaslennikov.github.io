@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Svyatoslav I. Maslennikov
 logo: me.jpg
-description: '<a href="https://www.linkedin.com/in/slava-maslennikov/">Manager, Infrastructure Modernization at SADA</a>'
+description: '<a href="https://www.linkedin.com/in/slava-maslennikov/">Sr. Manager, Infrastructure Modernization at SADA</a>'
 
 defaults:
   - scope:
