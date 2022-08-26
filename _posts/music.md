@@ -1,0 +1,3 @@
+TODO
+
+piracy, accessibility, copyright
