@@ -17,16 +17,17 @@ permalink: /garage
 | 1986 | Mazda | RX7 | 5spd | | pending |
 | 1988 | Mazda | [B2200](assets/vehicles/b2200.jpg) | 5spd | | sold |
 | 1989 | Ford | Ranger | 4spd + OD | | |
-| 1989 | Ford | [F150 XLT Lariat 4x4](assets/vehicles/f150.jpg) | 4spd + OD | | |
-| 1989 | Nissan | D21 | 5spd | | selling |
+| 1989 | Ford | [F150 XLT Lariat 4x4](assets/vehicles/f150.jpg) | 4spd + OD | November 2021 | |
+| 1989 | Nissan | D21 | 5spd | | sold |
 | 1993 | Ford | Ranger | 4spd + OD | | sold |
 | 1993 | Mazda | [Miata](assets/vehicles/miata.jpg) | 5spd | | |
-| 1993 | Saab | [900s](assets/vehicles/saab.jpg) | 5spd | | |
+| 1993 | Saab | [900s](assets/vehicles/saab.jpg) | 5spd | August 2022 | |
 | 1994 | BMW | [E34 530i](assets/vehicles/e34.jpg) | 5spd | | sold |
 | 1997 | Ford | Explorer Limited | auto | | sold |
 | 1999 | Hyundai | [Accent](assets/vehicles/hyundai.jpg) | 5spd | | sold |
 | 2000 | BMW | [E46 328i](assets/vehicles/e46.jpg) | 5spd | | sold |
-| 2003 | BMW | [E46 325xi](assets/vehicles/e46xi.jpg) | 5spd | | |
+| 2001 | Ford | Crown Victoria | auto | November 2022 | |
+| 2003 | BMW | [E46 325xi](assets/vehicles/e46xi.jpg) | 5spd | August 2022 | |
 
 # Motorcycles
 
@@ -44,7 +45,7 @@ permalink: /garage
 | 2005 (?) | Suzuki | GS500 | 6spd | | sold |
 | 2005 | Suzuki | SV650 | 6spd | | |
 | 2008 | Genuine Scooter | Stella 150 | 4spd | | |
-| 2008 | Suzuki | SV650s | 6spd | | pending |
+| 2008 | Suzuki | SV650s | 6spd | September 2022 | |
 | 2011 | Kawasaki | [KLR650](assets/vehicles/klr.jpg) | 5spd | | sold |
 
 # Boats
