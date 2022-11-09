@@ -12,7 +12,7 @@ permalink: /garage
 | 1973 | Volkswagen | [Beetle](assets/vehicles/beetle.jpg) | 5spd | | sold |
 | 1976 | MG | Midget 1500 | 4spd | | |
 | 1982 | BMW | [E21 320i](assets/vehicles/e21.jpg) | 5spd | | sold |
-| 1984 | AM General | [DJ5-L Postal Jeep](assets/vehicles/dj5l.jpg) | 3spd auto | | |
+| 1982 | AM General | [DJ5-L Postal Jeep](assets/vehicles/dj5l.jpg) | 3spd auto | | |
 | 1984 | Mercedes | [W201 190e](assets/vehicles/190e.jpg) | 5spd | | |
 | 1986 | Mazda | RX7 | 5spd | | pending |
 | 1988 | Mazda | [B2200](assets/vehicles/b2200.jpg) | 5spd | | sold |
