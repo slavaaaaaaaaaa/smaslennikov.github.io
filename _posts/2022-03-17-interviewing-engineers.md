@@ -63,7 +63,7 @@ On the other hand, if the candidate excels and is an obvious fit, we may also en
 
 ## Take-home tests
 
-We’ve tried them, but we don't do them. I have mixed feelings about their efficacy but did build out [some concepts](https://github.com/smaslennikov/devops-homework).
+We’ve tried them, but we don't do them. I have mixed feelings about their efficacy but did build out [some concepts](https://github.com/slavaaaaaaaaaa/devops-homework).
 
 ## The interview rounds
 

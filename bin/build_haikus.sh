@@ -14,12 +14,12 @@ for file in *; do
         lines=$(cat $file | wc -l)
         height=$(printf %.$2f $(echo "-12.88393+28.79464*$lines-0.8779762*$lines^2+0.01488095*$lines^3" | bc))
 
-        echo -e "hello the pizza is ready $date<h4><a href=\"https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/$file\">$name</a> by $author on $date</h4><embed src=\"rhymes/$file\" height="$height" width=470>" >> $indextmpfile
+        echo -e "hello the pizza is ready $date<h4><a href=\"https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/rhymes/$file\">$name</a> by $author on $date</h4><embed src=\"rhymes/$file\" height="$height" width=470>" >> $indextmpfile
 
         echo "
   <item>
     <title>$name</title>
-    <link>https://github.com/smaslennikov/smaslennikov.github.io/blob/master/rhymes/$file</link>
+    <link>https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/rhymes/$file</link>
     <description>$name by $author on $date</description>
   </item>" >> $rsstmpfile
     fi

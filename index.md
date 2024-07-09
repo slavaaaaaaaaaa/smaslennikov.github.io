@@ -1,13 +1,13 @@
-# [I am Slava](mailto:me@slava.lol?Subject=beer%20time) ![](https://github.com/smaslennikov/smaslennikov.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+# [I am Slava](mailto:me@slava.lol?Subject=beer%20time) ![](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 Check out my [resume](docs/resume.pdf)!
 
 ## Notable projects
 
 * A replacement [controller for my Litter Robot 3](https://litter-controller.slava.lol/) written in C
-* I define frequent commands as [`make` target](https://github.com/smaslennikov/include.mk) includes
-* A recent [GnuPG](https://github.com/smaslennikov/packages) version packaged for CentOS and Debian
-* Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
+* I define frequent commands as [`make` target](https://github.com/slavaaaaaaaaaa/include.mk) includes
+* A recent [GnuPG](https://github.com/slavaaaaaaaaaa/packages) version packaged for CentOS and Debian
+* Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
 * A [devops clock](https://slava.lol/whattimeisitrightmeow/), and [another](https://slava.lol/whattravisisitrightmeow/)
 
 ## Websites
@@ -70,9 +70,9 @@ Check out my [resume](docs/resume.pdf)!
     * a presentation [about secret storage](grindr-demo-day-1) as well as
     * one about a [failed POC of GoCD](grindr-demo-day-2)
 * At `NordstromRack.com|Hautelook` I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/) with a partner
-    * though it's not as useful without our [notes](https://github.com/smaslennikov/cissp-access-mgmt-presentation/blob/master/presentation.md)
+    * though it's not as useful without our [notes](https://github.com/slavaaaaaaaaaa/cissp-access-mgmt-presentation/blob/master/presentation.md)
 
-## [Folks](https://github.com/smaslennikov/smaslennikov.github.io/blob/master/ansible/roles/dotfiles/files/.newsboat/urls)
+## [Folks](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/ansible/roles/dotfiles/files/.newsboat/urls)
 
 * John Paul Hayes II and has a pretty cool [personal site and home API](https://jph2.net)
 * Bryce Case makes music and talks shit on the internet like a [boss](https://ytcracker.com)

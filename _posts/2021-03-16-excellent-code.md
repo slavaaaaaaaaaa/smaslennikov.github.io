@@ -53,7 +53,7 @@ Ask yourself:
 
 While lightweight shell scripts can manage simple tasks, they tend to be brittle and difficult to unit-test properly. On the other hand, highly critical production elements with a high risk of loss due to malfunction may deserve stricter compiled languages, with specific tests against undefined behaviors and other dangerous circumstances.
 
-For example, I once wrote some code for a [Raspberry Pi cat litter box controller in C](https://litter-controller.smaslennikov.com/). Initially, I wanted to write it in Golang, but the most popular Golang GPIO library for Raspberry PI had [a bug with potential to brick the device](https://github.com/stianeikeland/go-rpio/issues/39). Since WiringPi did not have such a bug while having a larger community, I went with C. This shows the importance of researching design constraints before beginning any work.
+For example, I once wrote some code for a [Raspberry Pi cat litter box controller in C](https://litter-controller.slava.lol/). Initially, I wanted to write it in Golang, but the most popular Golang GPIO library for Raspberry PI had [a bug with potential to brick the device](https://github.com/stianeikeland/go-rpio/issues/39). Since WiringPi did not have such a bug while having a larger community, I went with C. This shows the importance of researching design constraints before beginning any work.
 
 ## Documentation
 
@@ -67,7 +67,7 @@ Absolutely all code should be hosted under version control, such as Git. Without
 
 Whether you use others’ Git refs or not, it’s important to realize their potential and necessity. When you [show iterative progress](https://chris.beams.io/posts/git-commit/), you not only allow for reverting of specific changes in time, but also provide developers (yourself included) documentation on the change.
 
-Lastly, a largely overlooked engineering practice is [Git commit signing](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits), which verifies that it is actually you that is committing the code. Without this, it’s [trivial to impersonate Git commits](https://github.com/smaslennikov/impersonate-git-commits) on many popular platforms.
+Lastly, a largely overlooked engineering practice is [Git commit signing](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits), which verifies that it is actually you that is committing the code. Without this, it’s [trivial to impersonate Git commits](https://github.com/slavaaaaaaaaaa/impersonate-git-commits) on many popular platforms.
 
 ## Local development environment
 

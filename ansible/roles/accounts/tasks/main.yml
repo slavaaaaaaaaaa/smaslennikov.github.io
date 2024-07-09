@@ -21,7 +21,7 @@
   authorized_key:
     user: slava
     state: present
-    key: https://github.com/smaslennikov.keys
+    key: https://github.com/slavaaaaaaaaaa.keys
 
 - name: Allow %wheel sudo
   lineinfile:
