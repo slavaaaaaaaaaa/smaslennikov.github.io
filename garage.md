@@ -15,8 +15,9 @@ permalink: /garage
 | 1971 | M35A2 | 2 1/2-ton 6x6 Jeep | 5spd x 2-range TC | 2023 | |
 | 1976 | MG | Midget 1500 | 4spd | 2018 | selling |
 | 1984 | AM General | [DJ5-L Postal Jeep](assets/vehicles/dj5l.jpg) | 3spd auto | 2021 | |
-| 1989 | Ford | Ranger | 4spd + OD | 2019 | |
-| 1989 | Ford | [F150 XLT Lariat 4x4](assets/vehicles/f150.jpg) | 4spd + OD | 2021 | |
+| 1985 | Ford | Bronco II | 4spd+OD 4wd | 2023 | scrapping |
+| 1989 | Ford | Ranger | 4spd+OD | 2019 | |
+| 1989 | Ford | [F150 XLT Lariat 4x4](assets/vehicles/f150.jpg) | 4spd+OD | 2021 | |
 | 1993 | Mazda | [Miata](assets/vehicles/miata.jpg) | 5spd | 2021 | |
 | 1995 | Toyota | 4Runner | 5spd | 2023 | selling |
 | 1999 | Chevrolet | Express G3 | auto | 2023 | selling |
@@ -33,9 +34,9 @@ permalink: /garage
 | 1984 | Mercedes | [W201 190e](assets/vehicles/190e.jpg) | 5spd | 2019-2024 | sold |
 | 1985 1/2 | Porsche | 944 | 5spd | 2023-2024 | sold |
 | 1988 | Mazda | [B2200](assets/vehicles/b2200.jpg) | 5spd | 2020-2021 | sold |
-| 1990 | Ford | F150 XLT Lariat 4x4 | 4spd + OD | 2022-2023 | scrapped |
+| 1990 | Ford | F150 XLT Lariat 4x4 | 4spd+OD | 2022-2023 | scrapped |
 | 1989 | Nissan | D21 | 5spd | 2021-2022 | sold |
-| 1993 | Ford | Ranger | 4spd + OD | 2019-2019 | sold |
+| 1993 | Ford | Ranger | 4spd+OD | 2019-2019 | sold |
 | 1993 | Saab | [900s](assets/vehicles/saab.jpg) | 5spd | 2022-2024 | sold |
 | 1994 | BMW | [E34 530i](assets/vehicles/e34.jpg) | 5spd | | sold |
 | 1997 | Ford | Explorer Limited | auto | 2020-2021 | sold |
