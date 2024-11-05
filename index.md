@@ -74,7 +74,8 @@ Check out my [resume](docs/resume.pdf)!
 
 ## [Folks](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/ansible/roles/dotfiles/files/.newsboat/urls)
 
-* John Paul Hayes II and has a pretty cool [personal site and home API](https://jph2.net)
+* Ian Eusebio is kicking off his containerization knowledge through a [regular blog](https://iangge.github.io/)
+* John Paul Hayes II has a pretty cool [personal site and home API](https://jph2.net)
 * Bryce Case makes music and talks shit on the internet like a [boss](https://ytcracker.com)
 * Naftuli Kay is an engineer (not of trains), he does things [right](https://naftuli.wtf)
 * James Khang was taking control of his skillset by building a [game](https://20minutesadayblog.wordpress.com)
