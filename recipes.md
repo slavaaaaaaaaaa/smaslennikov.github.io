@@ -4,14 +4,6 @@ title: Recipes
 permalink: /recipes
 ---
 
-
-<!-- toc -->
-
-- [Drinks](#drinks)
-    * [Glühwein (Mulled Wine)](#gluhwein-mulled-wine)
-
-<!-- tocstop -->
-
 # Drinks
 
 ## Glühwein (Mulled Wine)
