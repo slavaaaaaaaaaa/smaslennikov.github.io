@@ -18,31 +18,31 @@ permalink: /recipes
 
 **Tools:**
 
-* Sauce pan or pot with a lid
-* Strainer
-* Thermometer
+- Sauce pan or pot with a lid
+- Strainer
+- Thermometer
 
 **Ingredients:**
 
--[] 3l wine (Costco boxed Cabernet Sauvignon or Pinot Grigio)
--[] 1/2 cup Grand Marnier
--[] 2 whole oranges
--[] 12 whole cloves
--[] 3 cinnamon sticks
--[] 3 star anise
--[] 4 tbsp maple syrup or honey or agave
+* 3l wine (Costco boxed Cabernet Sauvignon or Pinot Grigio)
+* 1/2 cup Grand Marnier
+* 2 whole oranges
+* 12 whole cloves
+* 3 cinnamon sticks
+* 3 star anise
+* 4 tbsp maple syrup or honey or agave
 
 **Quantity adjustments:**
 
 If you base this off less or more wine, the rest of the ingredients don't scale the same. For example, here is the list for 750ml:
 
--[] 750ml wine (Costco boxed Cabernet Sauvignon or Pinot Grigio)
--[] 1/4 cup Grand Marnier
--[] 1 whole orange
--[] 8 whole cloves
--[] 2 cinnamon sticks
--[] 2 star anise
--[] 2-4 tbsp maple syrup or honey or agave
+* 750ml wine (Costco boxed Cabernet Sauvignon or Pinot Grigio)
+* 1/4 cup Grand Marnier
+* 1 whole orange
+* 8 whole cloves
+* 2 cinnamon sticks
+* 2 star anise
+* 2-4 tbsp maple syrup or honey or agave
 
 **Cooking:**
 
