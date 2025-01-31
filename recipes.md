@@ -8,6 +8,8 @@ permalink: /recipes
 
 ## Glühwein (Mulled Wine)
 
+Sort of based off [another recipe](https://www.gimmesomeoven.com/mulled-wine-recipe/).
+
 **Tools:**
 
 - Sauce pan or pot with a lid
