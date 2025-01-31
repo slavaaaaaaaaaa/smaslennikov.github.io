@@ -18,6 +18,7 @@ Check out my [resume](docs/resume.pdf)!
 
 ## Resources
 
+* [Recipes](recipes)
 * Some [haikus and rhymes](haikus)
 * [Beer and kombucha labels](beers)
 * My ongoing [book list](books)
