@@ -24,7 +24,7 @@ Sort of based off [another recipe](https://www.gimmesomeoven.com/mulled-wine-rec
 * 12 whole cloves
 * 3 cinnamon sticks
 * 3 star anise
-* 4 tbsp maple syrup or honey or agave
+* 8 tbsp maple syrup (or agave or honey, but then it's a different amount)
 
 **Quantity adjustments:**
 
@@ -36,7 +36,7 @@ If you base this off less or more wine, the rest of the ingredients don't scale 
 * 8 whole cloves
 * 2 cinnamon sticks
 * 2 star anise
-* 2-4 tbsp maple syrup or honey or agave
+* 2 tbsp maple syrup
 
 **Cooking:**
 
