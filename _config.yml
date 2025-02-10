@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Svyatoslav I. Maslennikov
 logo: me.jpg
-description: '<a href="https://www.linkedin.com/in/slava-maslennikov/">Owner, Cool Consulting, LLC</a>'
+description: Owner, Cool Consulting, LLC
 
 defaults:
   - scope:
