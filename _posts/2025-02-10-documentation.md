@@ -6,20 +6,7 @@ title: READABLE documentation
 author: Svyatoslav I. Maslennikov
 ---
 
-Documentation is only as powerful as its reader. Bring your writing closer to your audience with a few extra steps. Make it READABLE:
-
-**R**eadable,\
-**E**njoyable,\
-**A**ccessible,\
-**D**ocumentation\
-is\
-**A**lways\
-**B**etter\
-than\
-**L**azy\
-**E**ntertainment
-
-Ok, yeah, that's silly, but more about that later.
+Documentation is only as powerful as its reader. Bring your writing closer to your audience with a few extra steps. Make it READABLE: **R**eadable, **E**njoyable, **A**ccessible, **D**ocumentation is **A**lways **B**etter than **L**azy **E**ntertainment. Ok, yeah, that's silly, but more about that later.
 
 <!-- toc -->
 

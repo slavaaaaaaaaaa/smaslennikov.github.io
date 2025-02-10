@@ -2,14 +2,6 @@
 
 Check out my [resume](docs/resume.pdf)!
 
-## Notable projects
-
-* A replacement [controller for my Litter Robot 3](https://litter-controller.slava.lol/) written in C
-* I define frequent commands as [`make` target](https://github.com/slavaaaaaaaaaa/include.mk) includes
-* A recent [GnuPG](https://github.com/slavaaaaaaaaaa/packages) version packaged for CentOS and Debian
-* Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
-* A [devops clock](https://slava.lol/whattimeisitrightmeow/), and [another](https://slava.lol/whattravisisitrightmeow/)
-
 ## Blog posts
 
 <table class="posts">
@@ -22,6 +14,14 @@ Check out my [resume](docs/resume.pdf)!
   </tr>
 {% endfor %}
 </table>
+
+## Notable projects
+
+* A replacement [controller for my Litter Robot 3](https://litter-controller.slava.lol/) written in C
+* I define frequent commands as [`make` target](https://github.com/slavaaaaaaaaaa/include.mk) includes
+* A recent [GnuPG](https://github.com/slavaaaaaaaaaa/packages) version packaged for CentOS and Debian
+* Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
+* A [devops clock](https://slava.lol/whattimeisitrightmeow/), and [another](https://slava.lol/whattravisisitrightmeow/)
 
 ## Websites
 
