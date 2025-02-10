@@ -1,6 +1,6 @@
 ---
 type: posts
-tag: opinion
+tag: reference
 layout: post
 title: Excellent Code
 author: Svyatoslav I. Maslennikov

@@ -10,6 +10,19 @@ Check out my [resume](docs/resume.pdf)!
 * Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
 * A [devops clock](https://slava.lol/whattimeisitrightmeow/), and [another](https://slava.lol/whattravisisitrightmeow/)
 
+## Blog posts
+
+<table class="posts">
+{% for post in site.posts %}
+  <tr>
+  {% if post.tag == "reference" %}
+    <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
+    <th>{{ post.date | date: "%m/%d/%Y" }}</th>
+  {% endif %}
+  </tr>
+{% endfor %}
+</table>
+
 ## Websites
 
 * [A chess club](https://chessand.beer) I frequent
@@ -26,6 +39,18 @@ Check out my [resume](docs/resume.pdf)!
 * Some [cat pictures](https://devopscat.com/selfies)
 * In emergency, [break open](in_emergency)
 
+## City guides
+
+<table class="posts">
+{% for post in site.posts %}
+  <tr>
+  {% if post.tag == "guide" %}
+    <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
+  {% endif %}
+  </tr>
+{% endfor %}
+</table>
+
 ## Opinions
 
 <table class="posts">
@@ -34,31 +59,6 @@ Check out my [resume](docs/resume.pdf)!
   {% if post.tag == "opinion" %}
     <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
     <th>{{ post.date | date: "%m/%d/%Y" }}</th>
-  {% endif %}
-  </tr>
-{% endfor %}
-</table>
-
-## Reference
-
-<table class="posts">
-{% for post in site.posts %}
-  <tr>
-  {% if post.tag == "reference" %}
-    <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
-    <th>{{ post.date | date: "%m/%d/%Y" }}</th>
-  {% endif %}
-  </tr>
-{% endfor %}
-</table>
-
-## City guides
-
-<table class="posts">
-{% for post in site.posts %}
-  <tr>
-  {% if post.tag == "guide" %}
-    <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
   {% endif %}
   </tr>
 {% endfor %}
