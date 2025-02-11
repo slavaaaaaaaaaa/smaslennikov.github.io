@@ -3,7 +3,6 @@ type: posts
 tag: reference
 layout: post
 title: "Monoprice Select v2.1 modifications"
-author: "Svyatoslav I. Maslennikov"
 ---
 
 I made a terrible choice of buying a [Monoprice Select v2](https://www.amazon.com/gp/product/B018GZBC3Y) for $229.99+tax

@@ -3,7 +3,6 @@ type: posts
 tag: reference
 layout: post
 title: "Twin Peaks"
-author: "Svyatoslav I. Maslennikov"
 ---
 
 These lyrics were damn hard to find, so I bought a physical CD and managed to decipher the artsy handwriting.

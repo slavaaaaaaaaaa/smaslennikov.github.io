@@ -3,7 +3,6 @@ type: posts
 tag: opinion
 layout: post
 title: "Fairness and Law Enforcement"
-author: "Svyatoslav I. Maslennikov"
 ---
 
 Law enforcement happens to be a hot subject in this time, but ideas I mention here are older than dirt. While it's fairly obvious that race affects the subject's perception in the eyes of a police officer, I think there's merit for a deeper discussion on the subject.

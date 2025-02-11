@@ -3,7 +3,6 @@ type: posts
 tag: reference
 layout: post
 title: Excellent Code
-author: Svyatoslav I. Maslennikov
 ---
 
 *This post was cross-published on the [SADA Engineering Blog](https://engineering.sada.com/write-excellent-code-70b66381d625).*

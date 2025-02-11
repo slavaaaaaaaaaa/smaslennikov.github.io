@@ -3,7 +3,6 @@ type: posts
 tag: opinion
 layout: post
 title: "Industry and workers"
-author: "Svyatoslav I. Maslennikov"
 ---
 
 In a [previous post](https://slava.lol/posts/innovation-and-dependence/) I mentioned the Industrial Revolution as a good early example of exploitation of workers for the benefit of industry owners. Naturally, this wasn't the first or only time this happened[^1]. The Industrial Revolution, however, is specifically an example of technologies driving out the workers, while their marketing suggested otherwise. The hope was that technological improvements were supposed to make life easier, to decrease manufacturing costs, therefore increasing resources for the people. Of course, that never happened: the income flowed to the owners and founders, then due to competition and product pricing adjustments - into the ether, though we can speculate that theoretically the better price point did help the people in the end.

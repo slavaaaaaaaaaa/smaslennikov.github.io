@@ -3,7 +3,6 @@ type: posts
 tag: reference
 layout: post
 title: Interviewing engineers
-author: Svyatoslav I. Maslennikov
 ---
 
 *This post was originally published on the [SADA Engineering Blog](https://engineering.sada.com/interviewing-engineers-at-sada-b5b3c67d396f).*

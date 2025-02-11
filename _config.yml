@@ -2,6 +2,7 @@ theme: jekyll-theme-minimal
 title: Slava I. Maslennikov
 logo: me.jpg
 description: Owner, Cool Consulting, LLC
+author: Slava I. Maslennikov
 
 defaults:
   - scope:

@@ -3,7 +3,6 @@ type: posts
 tag: reference
 layout: post
 title: "Talking to cheese"
-author: "Svyatoslav I. Maslennikov"
 ---
 
 Cheese sentience being such a hot topic recently, I figured I'd present some ice-breakers for these unavoidable meetings.
