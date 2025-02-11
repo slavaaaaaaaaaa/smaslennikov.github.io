@@ -22,12 +22,10 @@ Check out my [resume](docs/resume.pdf)!
 * A recent [GnuPG](https://github.com/slavaaaaaaaaaa/packages) version packaged for CentOS and Debian
 * Not that great of a script for [migrating off PostgreSQL BDR](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/bin/migrate_bdr_to_postgres.sh)
 * A [devops clock](https://slava.lol/whattimeisitrightmeow/), and [another](https://slava.lol/whattravisisitrightmeow/)
-
-## Websites
-
-* [A chess club](https://chessand.beer) I frequent
-* [The Rainier fan club](https://rainier.beer)
-* [My cat](https://devopscat.com)
+* Websites
+    * [A chess club](https://chessand.beer) I frequent
+    * [The Rainier fan club](https://rainier.beer)
+    * [My cat](https://devopscat.com)
 
 ## Resources
 
