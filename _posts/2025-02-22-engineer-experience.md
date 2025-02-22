@@ -6,7 +6,6 @@ title: Engineer Experience
 subtitle: Are you *maximizing* a *fulfilling* environment for your engineers?
 haiku: null
 ---
-
 Are you **maximizing** a **fulfilling** environment for your engineers?
 
 **This isn't DevEx (Developer Experience)**: a discipline of maximizing engineer performance through quality tooling, automations, and Technical Operations support. This is an expansion on the DevEx philosophy focusing on what both managers and engineers can do to have the best experience working in an engineering department.
@@ -18,11 +17,11 @@ Are you **maximizing** a **fulfilling** environment for your engineers?
     * [Daily routine](#daily-routine)
         + [Ease of engineering](#ease-of-engineering)
         + [Bureaucracies](#bureaucracies)
-        + [Time management](#time-management)
+        + [Projects](#projects)
     * [Growth](#growth)
     * [Compensation](#compensation)
-- [Developer Experience](#developer-experience)
-- [Conclusion and further reading](#conclusion-and-further-reading)
+- [Conclusion](#conclusion)
+    * [Further reading](#further-reading)
 
 <!-- tocstop -->
 
@@ -42,7 +41,7 @@ In the next sections, we'll break down what each section implies and examples of
 
 ### Communication
 
-<img align="right" src="/assets/posts/engex-communication.png">
+<img align="right" style="margin: 3px" src="/assets/posts/engex-communication.png">
 
 Communication is the most crucial component of engineer experience: it's the good and bad of every day that affects us most. This includes interactions with peers, with leadership, with the immediate manager. This is also a question of whether managers, peers, and leadership have the back of their reports and peers: in client interactions, conversations around merit, raises, promotions. **Engineers and their manager and peers don't have to like each other: but there must be mutual, equal respect and clarity of value**. Most importantly, purpose of every action has to be clear.
 
@@ -56,7 +55,7 @@ Some of the questions you may ask yourself on this topic include:
 
 ### Daily routine
 
-<img align="right" src="/assets/posts/engex-daily-routine.png">
+<img align="right" style="margin: 3px" src="/assets/posts/engex-daily-routine.png">
 
 Daily routine refers to largely three categories:
 
@@ -93,7 +92,7 @@ Some ways you kind find your pain points in this section are asking yourself:
 
 ### Growth
 
-<img align="right" src="/assets/posts/engex-growth.png">
+<img align="right" style="margin: 3px" src="/assets/posts/engex-growth.png">
 
 When we talk about growth, we're referring to personal and professional growth an engineer can take home and use in the future. All members of an organization must always be motivated to grow their skills: social, business, and technical. It's understandable that this may not happen every single moment of a given time period, but when one looks back at a time frame of quarters and years, **growth should be obvious** to both the leadership and the subject.
 
@@ -122,7 +121,7 @@ Some questions around this section are:
 
 ### Compensation
 
-<img align="right" src="/assets/posts/engex-compensation.png">
+<img align="right" style="margin: 3px" src="/assets/posts/engex-compensation.png">
 
 At the top of the pyramid is compensation. When we're talking about increasing or decreasing it from a set target, that target is market value. What are comparable levels earning at different companies, including base, bonus, and stock? What could this exact engineer, with their skill level and social skills, be earning elsewhere?
 
