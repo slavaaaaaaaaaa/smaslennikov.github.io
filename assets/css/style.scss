@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+body {
+  background-color: #fff;
+  padding: 50px;
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #727272;
+  font-weight: 400;
+}
+
 img.front_profile {
   max-width: 50%;
 }
