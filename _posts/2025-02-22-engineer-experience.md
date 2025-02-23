@@ -48,7 +48,7 @@ In the following sections, we'll break down what each part of the pyramid implie
 
 <img align="right" style="margin: 3px" src="/assets/posts/engex-communication.png">
 
-Communication is a crucial component of engineer experience: it's the good and bad of every day that affects people most. This includes interactions with peers, leadership, and the immediate manager. This is also a question of whether managers, peers, and leadership have your back: in client interactions, leadership decisions, even tooling selection. **Engineers and their leaders don't have to like each other or vibe together: but there must be mutual, equal respect and clarity of value.** In fact, maintaining a staff of most likeable people is a major bias, reducing diversity of thought.
+Communication is a crucial component of engineer experience: it's the good and bad of every day that affects people most. This includes interactions with peers, leadership, and the immediate manager. This is also a question of whether managers, peers, and leadership have your back: in client interactions, leadership decisions, even tooling selection. **Engineers and their leaders don't have to like each other or vibe together: but there must be mutual, equal respect and clarity of value.** In fact, maintaining a staff of most likeable people is a major bias, as it reduces diversity of thought.
 
 Clear communication between levels is another basic necessity: purpose of every action has to be clear. **Translating business needs in clear terms to engineers is the most important ability every people manager should have.**
 
