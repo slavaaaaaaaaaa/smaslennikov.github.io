@@ -1,6 +1,6 @@
 ---
 type: posts
-tag: opinion
+tag: reference
 layout: post
 title: "Industry and workers"
 ---

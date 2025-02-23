@@ -1,9 +1,6 @@
----
-type: posts
-tag: opinion
-layout: post
-title: Social updates
----
+## February 22nd, 2025
+
+Deal with this page later.
 
 ## March 11th, 2022
 

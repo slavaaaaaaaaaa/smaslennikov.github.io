@@ -49,19 +49,6 @@ Check out my [resume](docs/resume.pdf)!
 {% endfor %}
 </table>
 
-## Opinions
-
-<table class="posts">
-{% for post in site.posts %}
-  <tr>
-  {% if post.tag == "opinion" %}
-    <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
-    <th>{{ post.date | date: "%m/%d/%Y" }}</th>
-  {% endif %}
-  </tr>
-{% endfor %}
-</table>
-
 ## Presentations
 
 * Another presentation [about secret storage](https://slava.lol/sada-beer-and-learn-1/) given at SADA
