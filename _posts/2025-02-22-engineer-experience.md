@@ -7,12 +7,11 @@ title: Engineer Experience
 
 Are you **maximizing** a **fulfilling** environment for your engineers?
 
-**This isn't DevEx (Developer Experience):** a discipline of maximizing engineer performance through quality tooling, automations, and Technical Operations support. This is an expansion on the DevEx philosophy focusing on what leaders and engineers can do to have the best experience working in an engineering department.
-
 If you're reading this, you probably care about your organization's engineering culture. I'm available on a full-time and contract basis to help you: [shoot me an email](mailto:slava@coolconsulting.lol?Subject=I want to maximize my Engineer Experience)!
 
 <!-- toc -->
 
+- [Introduction and DevEx](#introduction-and-devex)
 - [An engineer's needs](#an-engineers-needs)
     * [Communication](#communication)
     * [Daily routine](#daily-routine)
@@ -26,6 +25,10 @@ If you're reading this, you probably care about your organization's engineering 
 - [Conclusion](#conclusion)
 
 <!-- tocstop -->
+
+## Introduction and DevEx
+
+**This isn't DevEx (Developer Experience):** a discipline of maximizing engineer performance through quality tooling, automations, and Technical Operations support. This is an expansion on the DevEx philosophy focusing on what leaders and engineers can do to have the best experience working in an engineering department.
 
 ## An engineer's needs
 
