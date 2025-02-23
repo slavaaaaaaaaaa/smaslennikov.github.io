@@ -71,14 +71,14 @@ Check out my [resume](docs/resume.pdf)!
 * At `NordstromRack.com|Hautelook` I produced [a presentation on a few CISSP chapters](cissp-access-mgmt-presentation/) with a partner
     * though it's not as useful without our [notes](https://github.com/slavaaaaaaaaaa/cissp-access-mgmt-presentation/blob/master/presentation.md)
 
-## [Folks](https://github.com/slavaaaaaaaaaa/smaslennikov.github.io/blob/master/ansible/roles/dotfiles/files/.newsboat/urls)
+## [Folks and friends](https://github.com/slavaaaaaaaaaa/slavaaaaaaaaaa.github.io/blob/master/ansible/roles/dotfiles/files/.newsboat/urls)
 
-* Ian Eusebio is kicking off his containerization knowledge through a [regular blog](https://iangge.github.io/)
+* Ian Eusebio is documenting his knowledge in [regular blog posts](https://iangge.github.io/)
 * John Paul Hayes II has a pretty cool [personal site and home API](https://jph2.net)
-* Bryce Case makes music and talks shit on the internet like a [boss](https://ytcracker.com)
-* Naftuli Kay is an engineer (not of trains), he does things [right](https://naftuli.wtf)
-* James Khang was taking control of his skillset by building a [game](https://20minutesadayblog.wordpress.com)
+* Bryce Case the [musician](https://ytcracker.com)
+* Naftuli Kay writes about [engineering](https://naftuli.wtf)
+* James Khang builds a [game](https://20minutesadayblog.wordpress.com)
     * ...now he's got a [blog](https://medium.com/@jahmezz)
-* Jonathan M. Tran [breaks linux and messes with photos](https://blog.jonathanmtran.com/)
+* Jonathan M. Tran writes about [linux and photography](https://blog.jonathanmtran.com/)
 * Vetsin does [infosec stuff](http://0x.c0ffee.me/)
-* [Jave](https://github.com/JaveLLC/) is the future of programming I collaborate on
+* [Javelang](https://javelang.com/) is the future of programming
