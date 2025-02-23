@@ -1,8 +1,8 @@
 ---
 type: posts
-tag: reference
+tag: blag
 layout: post
-title: "Monoprice Select v2.1 modifications"
+title: "Upgrading a Monoprice Select v2.1"
 ---
 
 I made a terrible choice of buying a [Monoprice Select v2](https://www.amazon.com/gp/product/B018GZBC3Y) for $229.99+tax

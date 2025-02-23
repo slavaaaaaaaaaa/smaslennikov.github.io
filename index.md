@@ -7,7 +7,7 @@ Check out my [resume](docs/resume.pdf)!
 <table class="posts">
 {% for post in site.posts %}
   <tr>
-  {% if post.tag == "reference" %}
+  {% if post.tag == "blag" %}
     <th><li><a href="{{ post.url }}">{{ post.title }}</a></li></th>
     <th>{{ post.date | date: "%m/%d/%Y" }}</th>
   {% endif %}

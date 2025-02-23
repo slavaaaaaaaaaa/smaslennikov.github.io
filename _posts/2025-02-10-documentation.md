@@ -1,6 +1,6 @@
 ---
 type: posts
-tag: reference
+tag: blag
 layout: post
 title: READABLE documentation
 haiku: |
@@ -57,9 +57,9 @@ As an example, this took me ten minutes to come up with:
 
 ## Simple structure and flow
 
-Make sure your writing is easy to follow: 
+Make sure your writing is easy to follow:
 
-- Are you providing examples? 
+- Are you providing examples?
 - Are you using bullet points instead of large paragraphs?
 - Do you prioritize most frequently-used information on top?
 - Do you have a table of contents that shows flow?
@@ -71,5 +71,5 @@ Make sure your writing is easy to follow:
 Lastly, instead of going through the trouble of documenting a process well, consider two forms of automation:
 
 * [Do-nothing code](https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/) is an excellent alternative to **some** process documentation.
-* [Zapier](https://zapier.com/) is a great way to automate some or all steps of certain processes, but functionality is is very limited. I was able to automate numerous manual tasks through a mixed use of Zapier and home-brewn microservices at my last company. 
+* [Zapier](https://zapier.com/) is a great way to automate some or all steps of certain processes, but functionality is is very limited. I was able to automate numerous manual tasks through a mixed use of Zapier and home-brewn microservices at my last company.
 * Simplification: time sheets at my previous company were too much effort to automate, but I did write a [time calculator](https://github.com/slavaaaaaaaaaa/cal-calc) that pulled meetings data out of Google Calendar and spit out the time use for the previous week.
