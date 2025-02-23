@@ -85,7 +85,7 @@ Bureaucracies are the daily processes that are a business necessity, such as fil
 
 Hands-on engineering work is the kind that requires periods of unbroken focus time. Every instance of broken focus or workflow is a danger to job satisfaction and progress. Pain points for time management not only include meetings, and queries from coworkers, but also context switching between tasks: both long and short term. Consider the kinds of tasks that one can switch between every few hours, days, weeks. The most ideal project allocations are 100%: every combination of smaller allocations will decrease productivity and toil. **Two 50% project allocations don't add up to 100%: rather, 120%**.
 
-*Some ways you kind find your pain points in this section are asking yourself:*
+*You can identify some of your pain points in this section by asking yourself:*
 
 1. How difficult is it for an engineer to create a fresh environment and deploy infrastructure? How long does it take and how many people does she have to talk to?
 1. Do you use engineer-friendly systems? How do you know?
