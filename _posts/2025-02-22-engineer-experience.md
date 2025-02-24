@@ -4,14 +4,12 @@ tag: blag
 layout: post
 title: Engineer Experience
 ---
-
 Are you **maximizing** a **fulfilling** environment for your engineers?
 
 If you're reading this, you probably care about your organization's engineering culture. I'm available on a full-time and contract basis to help you: [shoot me an email](mailto:slava@coolconsulting.lol?Subject=I want to maximize my Engineer Experience)!
 
 <!-- toc -->
 
-- [Introduction and DevEx](#introduction-and-devex)
 - [An engineer's needs](#an-engineers-needs)
     * [Communication](#communication)
     * [Daily routine](#daily-routine)
@@ -21,14 +19,11 @@ If you're reading this, you probably care about your organization's engineering 
     * [Growth](#growth)
     * [Compensation](#compensation)
     * [Feedback process](#feedback-process)
+    * [DevEx](#devex)
 - [Further reading](#further-reading)
 - [Conclusion](#conclusion)
 
 <!-- tocstop -->
-
-## Introduction and DevEx
-
-**This isn't DevEx (Developer Experience):** a discipline of maximizing engineer performance through quality tooling, automations, and Technical Operations support. This is an expansion on the DevEx philosophy focusing on what leaders and engineers can do to have the best experience working in an engineering department.
 
 ## An engineer's needs
 
@@ -158,6 +153,10 @@ You'll notice how often I've used the word feedback in this proposal. Three of t
 1. Repeat regularly, depending on severity.
 
 **Finally, everything in this proposal depends on all levels of the company hierarchy: Engineers, People Managers, Upper Leadership. All three groups, all individuals have to be on-board.**
+
+### DevEx
+
+This isn't DevEx (Developer Experience): a discipline of maximizing engineer performance through quality tooling, automations, and Technical Operations support. This is an expansion on the DevEx philosophy focusing on what leaders and engineers can do to have the best experience working in an engineering department.
 
 ## Further reading
 
