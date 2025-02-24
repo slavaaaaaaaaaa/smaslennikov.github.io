@@ -46,7 +46,7 @@ In the following sections, we'll break down what each part of the pyramid implie
 
 ### Communication
 
-<img align="right" style="margin: 3px" src="/assets/posts/engex-communication.png">
+<img align="right" style="margin: 3px; max-width: 40vw" src="/assets/posts/engex-communication.png">
 
 Communication is a crucial component of engineer experience: it's the good and bad of every day that affects people most. This includes interactions with peers, leadership, and the immediate manager. This is also a question of whether managers, peers, and leadership have your back: in client interactions, leadership decisions, even tooling selection. **Engineers and their leaders don't have to like each other or vibe together: but there must be mutual, equal respect and clarity of value.** In fact, maintaining a staff of most likeable people is a major bias, as it reduces diversity of thought.
 
@@ -63,7 +63,7 @@ Clear communication between levels is another basic necessity: purpose of every 
 
 ### Daily routine
 
-<img align="right" style="margin: 3px" src="/assets/posts/engex-daily-routine.png">
+<img align="right" style="margin: 3px; max-width: 40vw" src="/assets/posts/engex-daily-routine.png">
 
 Daily routine refers to three categories:
 
@@ -100,7 +100,7 @@ Hands-on engineering work is the kind that requires periods of unbroken focus ti
 
 ### Growth
 
-<img align="right" style="margin: 3px" src="/assets/posts/engex-growth.png">
+<img align="right" style="margin: 3px; max-width: 40vw" src="/assets/posts/engex-growth.png">
 
 When we talk about growth, we're referring to personal and professional growth an engineer can take home and use in the future. All members of an organization should always be motivated to grow their skills: social, business, and technical. It's understandable that this may not happen every single moment of a given time period, but when one looks back **at a time frame of quarters and years, growth should be obvious to both the leadership and the subject.**
 
@@ -130,7 +130,7 @@ All parts of an organization are responsible for engineer growth: **Engineer Man
 
 ### Compensation
 
-<img align="right" style="margin: 3px" src="/assets/posts/engex-compensation.png">
+<img align="right" style="margin: 3px; max-width: 40vw" src="/assets/posts/engex-compensation.png">
 
 At the top of the pyramid is compensation. When we're talking about increasing or decreasing it from a set target, that target is market value. While this is the factor simplest for leadership to provide, it's also the least impactful attribute for an engineer's long term commitment to the role. Consider an engineer whose other needs in the pyramids are unfulfilled: their communications are lacking or toxic, their day-to-day is full of tedious manual processes and repetitive tasks, they don't feel like they're growing skills. This causes **stagnation, ignorance, lower quality work, which ideally causes the engineer to leave before they lose too much of themselves.**
 
