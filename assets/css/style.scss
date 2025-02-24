@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 body {
+  word-wrap: normal;
   background-color: #fff;
   padding: 50px;
   font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
